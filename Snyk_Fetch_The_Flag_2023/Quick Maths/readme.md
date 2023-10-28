@@ -1,0 +1,4 @@
+# Quick Maths - Warmups - easy - points 155
+
+
+ <small>Author: @soups71</small><br><br>To try and get better grades in math, I made a program that gave me timed quizzes. Funny thing is that as I got better at the questions in this test, I got worse grades on my math tests. <br><br> <b> NOTE: Float answers are rounded to 1 decimal points.</b> <br><br> <br>NOTE: And here's another twist... the answers to division questions depend on <i>integer division</i> or <i>double division</i>. I.e.,</b><br> <code>3/5 = 0</code><br> <code>3/5.0 = .6</code></br> <br><br> <b>Press the <code>Start</code> button in the top-right to begin this challenge.</b>
