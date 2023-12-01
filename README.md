@@ -3,6 +3,12 @@
 
 ## 2023
 
+### Huntress CTF 2023
+![Huntress CTF 2023](HuntressCTF2023/cert.png)
+
+* [writeup](HuntressCTF2023/readme.md)
+
+
 ### snyk Fetch the Flag
 ![Fetch the Flag](Snyk_Fetch_The_Flag_2023/certificate.png)
 
