@@ -2,7 +2,7 @@
 
 | Yeah | Event Name     | Team Name | Ranking |
 | ---- | ----------     | --------- | ------- |
-| 2024 | [SANS Offensive Operations CTF](SANS_Offensive_Operations_CTF2024/image.png) | N/A | 170th  |
+| 2024 | [SANS Offensive Operations CTF](SANS_Offensive_Operations_CTF2024/readme.md) | N/A | 170th  |
 | 2023 | [Huntress CTF](HuntressCTF2023/)   | Redravens | 306/4219 |
 | 2023 | [snyk Fetch the Flag](Snyk_Fetch_The_Flag_2023/readme.md) | Redravens | 676/1969 |
 | 2023 | [NhamCon CTF 2023](https://github.com/OxT7723/NahamCon2023CTF) | RedRavens | 280/2518 |
@@ -16,7 +16,7 @@
 
 ![SANS Offensive Operations CTF](SANS_Offensive_Operations_CTF2024/image.png)
 
-* [writeup](HuntressCTF2023/readme.md)
+* [writeup](SANS_Offensive_Operations_CTF2024/readme.md)
 
 ## 2023
 
