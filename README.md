@@ -1,5 +1,20 @@
 # CTFs I have participated In
 
+| Yeah | Event Name     | Team Name | Ranking |
+| ---- | ----------     | --------- | ------- |
+| 2024 | SANS Offensive Operations CTF       |  | 170th  |
+| 2023 | [Huntress CTF](HuntressCTF2023/)   | Redravens | 306/4219 |
+| 2023 | [snyk Fetch the Flag](Snyk_Fetch_The_Flag_2023/readme.md) | Redravens | 676/1969 |
+| 2023 | [NhamCon CTF 2023](https://github.com/OxT7723/NahamCon2023CTF) | RedRavens | 280/2518 |
+| 2022 | [NahamCon EU CTF 2022](https://github.com/OxT7723/NahamConCTF2022/blob/master/README.md)  | Dancing Giraffes | 234/1973 |
+| 2022 | Dark Wolf Solutions Hirining CTF Challenge |  |  |
+
+
+## 2024 
+
+### SANS Offensive Operations CTF
+
+![SANS Offensive Operations CTF](SANS_Offensive_Operations_CTF2024/readme.md)
 
 ## 2023
 
