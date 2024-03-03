@@ -11,7 +11,7 @@ New challenges released every day!
 | --------------------------    |-----------| ------------- | ----------------- | ------------------- |
 | [Traffic](Traffic/readme.md)  | Forensics | medium        | :heavy_check_mark: | :heavy_check_mark: |
 | [Notepad](Notepad/readme.md)  | Forensics | medium        | :heavy_check_mark: | :heavy_check_mark: |
-| | | | | |
+| [Backdoored_Splunk](Backdoored_Splunk/readme.md) | Forensics  | meduim |  :heavy_check_mark: | :heavy_check_mark: |
  
 
 
