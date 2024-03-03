@@ -26,14 +26,14 @@ Don’t miss this special opportunity for a FREE CTF!
 
 ## Challenges
 
-| Title                         | Category  | Difficulty    | Solved            | Writeup             |
-| --------------------------    |-----------| ------------- | ----------------- | ------------------- |
-|   |  |         |  |  |
+| Title                         | Solved            | Writeup             |
+| --------------------------    | ----------------- | ------------------- |
+| [Ghibli Store 001](GhibliStore001/readme.md) | :heavy_check_mark: | :heavy_check_mark: |
+| [JavsScript Stage 001](JavaScript-Stage001/readme.md)  | :heavy_check_mark: | :heavy_check_mark: |
+| [JavsScript Stage 002](JavaScript-Stage002/readme.md)  | :heavy_check_mark: | :heavy_check_mark: |
+| [JavsScript Stage 003](JavaScript-Stage003/readme.md)  | :heavy_check_mark: | :heavy_check_mark: |
+| [Taskist 001](Taskist001/readme.md) | :heavy_check_mark: | :heavy_check_mark:  |
+| Taskist 002 | :heavy_check_mark: |  |
 
-
- 
-
-
- 
 
 ![finished 170th](image.png)
