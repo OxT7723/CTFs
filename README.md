@@ -2,7 +2,7 @@
 
 | Yeah | Event Name     | Team Name | Ranking |
 | ---- | ----------     | --------- | ------- |
-| 2024 | [Cyber Apocalyse2024](CyberApocalyse2024/readme.md) |  |   |
+| 2024 | [Cyber Apocalypse 2024](CyberApocalypse2024/readme.md) | RedRavens | 1385/5694 |
 | 2024 | [SANS Offensive Operations CTF](SANS_Offensive_Operations_CTF2024/readme.md) | N/A | 170th  |
 | 2023 | [Huntress CTF](HuntressCTF2023/)   | Redravens | 306/4219 |
 | 2023 | [snyk Fetch the Flag](Snyk_Fetch_The_Flag_2023/readme.md) | Redravens | 676/1969 |
@@ -12,6 +12,10 @@
 
 
 ## 2024 
+
+### HTB Cyber Apocalypse CTF 2024 
+![HTB Cyber Apocalypse CTF 2024](CyberApocalypse2024/cert.png)
+* [writeup](CyberApocalypse/readme.md)
 
 ### SANS Offensive Operations CTF
 
