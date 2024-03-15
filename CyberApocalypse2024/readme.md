@@ -3,7 +3,7 @@
 9th - 13th March, 2024
 Cyber Apocalypse returns with a vengeance! Join the biggest hacking competition of the year
 
-![alt text](cert.png)
+
 
 | Title | Category | Difficulty | Solved | Writeup |
 | --- | --- | --- | --- | --- |
@@ -31,9 +31,9 @@ Cyber Apocalypse returns with a vengeance! Join the biggest hacking competition 
 | [Phreaky](Forensics/Phreaky/readme.md) | Forensics | medium |  |  |
 | [Pursue The Tracks](Forensics/Pursue%20The%20Tracks/readme.md) | Forensics | easy |  |  |
 | [Urgent](Forensics/Urgent/readme.md) | Forensics | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [BunnyPass](Hardware/BunnyPass/readme.md) | Hardware | very easy | :heavy_check_mark: |  |
+| [BunnyPass](Hardware/BunnyPass/readme.md) | Hardware | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Flash-ing Logs](Hardware/Flash-ing%20Logs/readme.md) | Hardware | hard |  |  |
-| [Maze](Hardware/Maze/readme.md) | Hardware | very easy | :heavy_check_mark: |  |
+| [Maze](Hardware/Maze/readme.md) | Hardware | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Rids](Hardware/Rids/readme.md) | Hardware | easy |  |  |
 | [The PROM](Hardware/The%20PROM/readme.md) | Hardware | medium |  |  |
 | [Character](Misc/Character/readme.md) | Misc | very easy | :heavy_check_mark: |  |
@@ -66,11 +66,13 @@ Cyber Apocalypse returns with a vengeance! Join the biggest hacking competition 
 | [PackedAway](Reversing/PackedAway/readme.md) | Reversing | very easy |  |  |
 | [QuickScan](Reversing/QuickScan/readme.md) | Reversing | medium |  |  |
 | [Apexsurvive](Web/Apexsurvive/readme.md) | Web | insane |  |  |
-| [Flag Command](Web/Flag%20Command/readme.md) | Web | very easy | :heavy_check_mark: |  |
+| [Flag Command](Web/Flag%20Command/readme.md) | Web | very easy | :heavy_check_mark: | :heavy_check_mark:  |
 | [KORP Terminal](Web/KORP%20Terminal/readme.md) | Web | very easy |  |  |
 | [Labyrinth Linguist](Web/Labyrinth%20Linguist/readme.md) | Web | easy |  |  |
 | [LockTalk](Web/LockTalk/readme.md) | Web | medium |  |  |
 | [Percetron](Web/Percetron/readme.md) | Web | hard |  |  |
 | [SerialFlow](Web/SerialFlow/readme.md) | Web | medium |  |  |
 | [Testimonial](Web/Testimonial/readme.md) | Web | easy |  |  |
-| [TimeKORP](Web/TimeKORP/readme.md) | Web | very easy |  |  |
+| [TimeKORP](Web/TimeKORP/readme.md) | Web | very easy | :heavy_check_mark: |  |
+  
+  ![alt text](cert.png)
