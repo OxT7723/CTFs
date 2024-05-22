@@ -17,3 +17,4 @@ https://ctf.hackthebox.com/event/details/htb-business-ctf-2024-the-vault-of-hope
 | [It's Oops PM](Hardware/Its%20Oops%20PM/README.md) | Hardware | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Shush Protocol](ICS/Shush%20Protocol/README.md) | ICS | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Aptitude Test](Misc/Aptitude%20Test/README.md) | Misc | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Jailbreak](Web/Jailbreak/README.md) | Web | very easy | :heavy_check_mark: | :heavy_check_mark: |
