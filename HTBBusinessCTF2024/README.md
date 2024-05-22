@@ -14,3 +14,4 @@ https://ctf.hackthebox.com/event/details/htb-business-ctf-2024-the-vault-of-hope
 | --- | --- | --- | --- | --- |
 | [Computational Recruiting](Coding/Computational%20Recruiting/README.md) | Coding | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Dynamic Paths](Coding/Dynamic%20Paths/README.md) | Coding | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [It's Oops PM](Its%20Oops%20PM/README.md) | Hardware | very easy | :heavy_check_mark: | :heavy_check_mark: |
