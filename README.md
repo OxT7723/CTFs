@@ -2,6 +2,7 @@
 
 | Yeah | Event Name     | Team Name | Ranking |
 | ---- | ----------     | --------- | ------- |
+| 2024 | [HTB Business CTF 2024: The Vault of Hope](HTBBusinessCTF2024/readme.md) | TIAG | 424/943 |
 | 2024 | [Cyber Apocalypse 2024](CyberApocalypse2024/readme.md) | RedRavens | 1385/5694 |
 | 2024 | [SANS Offensive Operations CTF](SANS_Offensive_Operations_CTF2024/readme.md) | N/A | 170th  |
 | 2023 | [Huntress CTF](HuntressCTF2023/)   | Redravens | 306/4219 |
@@ -12,6 +13,10 @@
 
 
 ## 2024 
+
+### HTB Business CTF 2024: The Vault of Hope
+![HTB Business CTF 2024](HTBBusinessCTF2024/Certificate.png))
+* [writeup](HTBBusinessCTF2024/README.md)
 
 ### HTB Cyber Apocalypse CTF 2024 
 ![HTB Cyber Apocalypse CTF 2024](CyberApocalypse2024/cert.png)
