@@ -7,7 +7,7 @@ Stage 003: http://js.pwn.site:1995/stage3
 Retrieve the following page
 ![alt text](image.png)
 
-```
+```JavaScript
 router.post('/api/stages/3', async (req, res) => {
     const { password } = req.body;
 
@@ -33,7 +33,7 @@ Upon inspection, the secret variable resolves to `octocat`.
 
 Utilizing the following JavaScript 
 
-```
+```JavaScript
 async function retrieveFlag() {
     const url = 'http://js.pwn.site:1995/api/stages/3';
     const password = 'octocat'; 

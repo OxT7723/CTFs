@@ -9,7 +9,7 @@ Retrieve the following page
 ![alt text](image.png)
 
 Much like JavaScript 001 created a request with the password to receive the flag
-```
+```JavaScript
 async function retrieveFlag() {
     const url = 'http://js.pwn.site:1995/api/stages/2';
     const password = 0.1 + 0.2; // Password to be sent in the request body

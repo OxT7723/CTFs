@@ -15,7 +15,7 @@
 ## 2024 
 
 ### HTB Business CTF 2024: The Vault of Hope
-![HTB Business CTF 2024](HTBBusinessCTF2024/Certificate.png))
+![HTB Business CTF 2024](HTBBusinessCTF2024/Certificate.png)
 * [writeup](HTBBusinessCTF2024/README.md)
 
 ### HTB Cyber Apocalypse CTF 2024 

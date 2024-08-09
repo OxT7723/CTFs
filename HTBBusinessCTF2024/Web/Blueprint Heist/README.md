@@ -8,4 +8,4 @@
 
 **Difficulty:** medium
 
-**File:** (web_blueprint_heist.zip)[web_blueprint_heist.zip]
+**File:** [web_blueprint_heist.zip](web_blueprint_heist.zip)

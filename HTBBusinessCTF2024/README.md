@@ -68,3 +68,6 @@ https://ctf.hackthebox.com/event/details/htb-business-ctf-2024-the-vault-of-hope
 | [Recruitment](Blockchain/Recruitment/README.md) | Blockchain | very easy |  |  |
 | Six Five O Two | Hardware | medium |  |  |
 | [Say Cheese!](Hardware/Say%20Cheese/README.md) | Hardware | easy |  |  |
+
+## Certificate
+![HTB Business CTF 2024 Certificate](Certificate.png)

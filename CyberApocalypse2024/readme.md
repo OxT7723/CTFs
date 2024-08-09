@@ -13,9 +13,9 @@ Cyber Apocalypse returns with a vengeance! Join the biggest hacking competition 
 | [Russian Roulette](Blockchain/Russian%20Roulette/readme.md) | Blockchain | very easy |  |  |
 | [Arranged](Crypto/Arranged/readme.md) | Crypto | medium |  |  |
 | [Blunt](Crypto/Blunt/readme.md) | Crypto | easy |  |  |
-| [Dynastic](Crypto/Dynastic/readme.md) | Crypto | very easy | :heavy_check_mark: |  |
+| [Dynastic](Crypto/Dynastic/readme.md) | Crypto | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Iced TEA](Crypto/Iced%20TEA/readme.md) | Crypto | easy |  |  |
-| [Makeshift](Crypto/Makeshift/readme.md) | Crypto | very easy | :heavy_check_mark: |  |
+| [Makeshift](Crypto/Makeshift/readme.md) | Crypto | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Partial Tenacity](Crypto/Partial%20Tenacity/readme.md) | Crypto | medium |  |  |
 | [Permuted](Crypto/Permuted/readme.md) | Crypto | hard |  |  |
 | [Primary Knowledge](Crypto/Primary%20Knowledge/readme.md) | Crypto | very easy | :heavy_check_mark: |  |
@@ -26,7 +26,7 @@ Cyber Apocalypse returns with a vengeance! Join the biggest hacking competition 
 | [Data Siege](Forensics/Data%20Siege/readme.md) | Forensics | medium |  |  |
 | [Fake Boost](Forensics/Fake%20Boost/readme.md) | Forensics | easy |  |  |
 | [Game Invitation](Forensics/Game%20Invitation/readme.md) | Forensics | hard |  |  |
-| [It Has Begun](Forensics/It%20Has%20Begun/readme.md) | Forensics | very easy |  |  |
+| [It Has Begun](Forensics/It_Has_Begun/readme.md) | Forensics | very easy |  |  |
 | [Oblique Final](Forensics/Oblique%20Final/readme.md) | Forensics | insane |  |  |
 | [Phreaky](Forensics/Phreaky/readme.md) | Forensics | medium |  |  |
 | [Pursue The Tracks](Forensics/Pursue%20The%20Tracks/readme.md) | Forensics | easy |  |  |

@@ -10,7 +10,7 @@ Retrieve the following page
 ![alt text](image.png)
 
 Created a request with the password to receive the flag
-```
+```JavaScript
 async function retrieveFlag() {
     const url = 'http://js.pwn.site:1995/api/stages/1';
     const password = 'baNaNa'; // Password to be sent in the request body

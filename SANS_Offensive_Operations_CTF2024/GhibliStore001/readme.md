@@ -16,7 +16,7 @@ Utilizing browser development tools, identify a POST request for the products wi
 
 Copy the request as a fetch and modify the filter to be 'false'
 
-```
+```JavaScript
 fetch("http://ghibli.pwn.site:8035/api/products", {
   "headers": {
     "accept": "*/*",
