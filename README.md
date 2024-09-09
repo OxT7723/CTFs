@@ -1,7 +1,8 @@
 # CTFs I have participated In
 
-| Yeah | Event Name     | Team Name | Ranking |
-| ---- | ----------     | --------- | ------- |
+| Yeah | Event Name | Team Name | Ranking |
+| ---- | ---------- | --------- | ------- |
+| 2024 | [BlockHarbor CTF Season 2 2024](BlockHarbor_CTF_Season2_2024/README.md) | RedRavens | 164th |
 | 2024 | [HTB Business CTF 2024: The Vault of Hope](HTBBusinessCTF2024/README.md) | TIAG | 424/943 |
 | 2024 | [Cyber Apocalypse 2024](CyberApocalypse2024/readme.md) | RedRavens | 1385/5694 |
 | 2024 | [SANS Offensive Operations CTF](SANS_Offensive_Operations_CTF2024/readme.md) | N/A | 170th  |
@@ -13,6 +14,10 @@
 
 
 ## 2024 
+
+### BlockHarbor CTF Season 2 
+![BlockHarbor CTF Season 2 ](BlockHarbor_CTF_Season2_2024/image.png)
+* [writeup](BlockHarbor_CTF_Season2_2024/README.md)
 
 ### HTB Business CTF 2024: The Vault of Hope
 ![HTB Business CTF 2024](HTBBusinessCTF2024/Certificate.png)
