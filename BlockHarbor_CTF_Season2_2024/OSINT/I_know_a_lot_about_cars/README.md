@@ -13,4 +13,4 @@ You say you know your cars. Let’s check how well you know them. What is the ma
 
 ## Solution
 
-Revirse image search to find that it is a Lamborghini Cheetah `bh{Lamborghini_Cheetah}`
+Reverse image search to find that it is a Lamborghini Cheetah `bh{Lamborghini_Cheetah}`
