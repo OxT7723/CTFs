@@ -16,6 +16,18 @@ New challenges released every day!
 | [BaseFFFF+1](BaseFFFF+1/readme.md) | Warmup | easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Book By Its Cover](Book_By_Its_Cover/readme.md) | Warmups | easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Chicken Wings](Chicken_Wings/readme.md) | Warmups | easy |  :heavy_check_mark: | :heavy_check_mark: |
+| [Where Am I ](Where_am_I/readme.md) | OSITN | medium | :heavy_check_mark: | :heavy_check_mark: |
+| [Comprezz](Comprezz/readme.md) | Warmups | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Opposable Thumbs](OpposableThumbs/readme.md) | Forensics | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [I Wont Let You Down](I_Wont_Let_You_Down/readme.md) | Miscellaneous | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Dialtone](Dialtone/readme.md) | Warmups | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Tragedy](Tragedy/readme.md) | Forensics | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Land Before Time](LandBeforeTime/readme.md) | Miscellaneous | easy | :heavy_check_mark: | :heavy_check_mark: |
+| Batchfuscation | Malware | medium | :heavy_check_mark: |  |
+| Zerion | Malware | medium | :heavy_check_mark: |  |
+| Wimble | Forensics | easy | :heavy_check_mark: |  |
+| Who Is Real | Miscellaneous | easy | :heavy_check_mark: |  |
+| F12 | Warmups | easy | :heavy_check_mark: |  |
 
 
  
