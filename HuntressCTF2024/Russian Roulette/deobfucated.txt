@@ -1,0 +1,512 @@
+cls
+@echo off
+set x=set
+set s=
+setzz==
+setp=/
+setma=a
+setgm=c
+setqf=m
+seth=d
+setax=e
+setds=x
+setrb=i
+setcu=t
+setqd=
+set/az=8639305 %% 8639208
+cmd/cexit(8639305 %% 8639208)
+[CHILD CMD]
+	exit(8639305 %% 8639208)
+[END OF CHILD CMD]
+setwp=
+set/aab=3403246 %% 3403148
+cmd/cexit(3403246 %% 3403148)
+[CHILD CMD]
+	exit(3403246 %% 3403148)
+[END OF CHILD CMD]
+setv=
+set/acy=5276898 %% 5276799
+cmd/cexit(5276898 %% 5276799)
+[CHILD CMD]
+	exit(5276898 %% 5276799)
+[END OF CHILD CMD]
+sete=
+set/aeu=5631300 %% 5631200
+cmd/cexit(5631300 %% 5631200)
+[CHILD CMD]
+	exit(5631300 %% 5631200)
+[END OF CHILD CMD]
+setc=
+set/al=3697206 %% 3697105
+cmd/cexit(3697206 %% 3697105)
+[CHILD CMD]
+	exit(3697206 %% 3697105)
+[END OF CHILD CMD]
+seteg=
+set/any=8795664 %% 8795562
+cmd/cexit(8795664 %% 8795562)
+[CHILD CMD]
+	exit(8795664 %% 8795562)
+[END OF CHILD CMD]
+seto=
+set/abm=5116731 %% 5116628
+cmd/cexit(5116731 %% 5116628)
+[CHILD CMD]
+	exit(5116731 %% 5116628)
+[END OF CHILD CMD]
+setqg=
+set/amj=7110480 %% 7110376
+cmd/cexit(7110480 %% 7110376)
+[CHILD CMD]
+	exit(7110480 %% 7110376)
+[END OF CHILD CMD]
+setg=
+set/asx=1639575 %% 1639470
+cmd/cexit(1639575 %% 1639470)
+[CHILD CMD]
+	exit(1639575 %% 1639470)
+[END OF CHILD CMD]
+setmc=
+set/ab=6236510 %% 6236404
+cmd/cexit(6236510 %% 6236404)
+[CHILD CMD]
+	exit(6236510 %% 6236404)
+[END OF CHILD CMD]
+setta=
+set/art=7257703 %% 7257596
+cmd/cexit(7257703 %% 7257596)
+[CHILD CMD]
+	exit(7257703 %% 7257596)
+[END OF CHILD CMD]
+sethv=
+set/ajh=2694924 %% 2694816
+cmd/cexit(2694924 %% 2694816)
+[CHILD CMD]
+	exit(2694924 %% 2694816)
+[END OF CHILD CMD]
+setxc=
+set/ar=7655506 %% 7655397
+cmd/cexit(7655506 %% 7655397)
+[CHILD CMD]
+	exit(7655506 %% 7655397)
+[END OF CHILD CMD]
+setmf=
+set/an=9371670 %% 9371560
+cmd/cexit(9371670 %% 9371560)
+[CHILD CMD]
+	exit(9371670 %% 9371560)
+[END OF CHILD CMD]
+setul=
+set/aw=9562650 %% 9562539
+cmd/cexit(9562650 %% 9562539)
+[CHILD CMD]
+	exit(9562650 %% 9562539)
+[END OF CHILD CMD]
+setec=
+set/af=1413776 %% 1413664
+cmd/cexit(1413776 %% 1413664)
+[CHILD CMD]
+	exit(1413776 %% 1413664)
+[END OF CHILD CMD]
+setxk=
+set/ay=8615911 %% 8615798
+cmd/cexit(8615911 %% 8615798)
+[CHILD CMD]
+	exit(8615911 %% 8615798)
+[END OF CHILD CMD]
+sett=
+set/awz=5862222 %% 5862108
+cmd/cexit(5862222 %% 5862108)
+[CHILD CMD]
+	exit(5862222 %% 5862108)
+[END OF CHILD CMD]
+setu=
+set/ait=7884745 %% 7884630
+cmd/cexit(7884745 %% 7884630)
+[CHILD CMD]
+	exit(7884745 %% 7884630)
+[END OF CHILD CMD]
+seteb=
+set/avs=10925460 %% 10925344
+cmd/cexit(10925460 %% 10925344)
+[CHILD CMD]
+	exit(10925460 %% 10925344)
+[END OF CHILD CMD]
+setji=
+set/ad=6874218 %% 6874101
+cmd/cexit(6874218 %% 6874101)
+[CHILD CMD]
+	exit(6874218 %% 6874101)
+[END OF CHILD CMD]
+setba=
+set/aom=7008138 %% 7008020
+cmd/cexit(7008138 %% 7008020)
+[CHILD CMD]
+	exit(7008138 %% 7008020)
+[END OF CHILD CMD]
+setnv=
+set/air=2934421 %% 2934302
+cmd/cexit(2934421 %% 2934302)
+[CHILD CMD]
+	exit(2934421 %% 2934302)
+[END OF CHILD CMD]
+setdc=
+set/aqi=7984320 %% 7984200
+cmd/cexit(7984320 %% 7984200)
+[CHILD CMD]
+	exit(7984320 %% 7984200)
+[END OF CHILD CMD]
+setqb=
+set/aag=5195135 %% 5195014
+cmd/cexit(5195135 %% 5195014)
+[CHILD CMD]
+	exit(5195135 %% 5195014)
+[END OF CHILD CMD]
+setwa=
+set/anw=5556124 %% 5556002
+cmd/cexit(5556124 %% 5556002)
+[CHILD CMD]
+	exit(5556124 %% 5556002)
+[END OF CHILD CMD]
+setcr=
+set/ale=1716650 %% 1716585
+cmd/cexit(1716650 %% 1716585)
+[CHILD CMD]
+	exit(1716650 %% 1716585)
+[END OF CHILD CMD]
+setj=
+set/azl=4928484 %% 4928418
+cmd/cexit(4928484 %% 4928418)
+[CHILD CMD]
+	exit(4928484 %% 4928418)
+[END OF CHILD CMD]
+setsg=
+set/ahc=2844083 %% 2844016
+cmd/cexit(2844083 %% 2844016)
+[CHILD CMD]
+	exit(2844083 %% 2844016)
+[END OF CHILD CMD]
+setyi=
+set/ari=1691636 %% 1691568
+cmd/cexit(1691636 %% 1691568)
+[CHILD CMD]
+	exit(1691636 %% 1691568)
+[END OF CHILD CMD]
+setxm=
+set/aa=5708025 %% 5707956
+cmd/cexit(5708025 %% 5707956)
+[CHILD CMD]
+	exit(5708025 %% 5707956)
+[END OF CHILD CMD]
+setyk=
+set/aq=4043550 %% 4043480
+cmd/cexit(4043550 %% 4043480)
+[CHILD CMD]
+	exit(4043550 %% 4043480)
+[END OF CHILD CMD]
+setm=
+set/axz=1378110 %% 1378039
+cmd/cexit(1378110 %% 1378039)
+[CHILD CMD]
+	exit(1378110 %% 1378039)
+[END OF CHILD CMD]
+setmk=
+set/ade=2757888 %% 2757816
+cmd/cexit(2757888 %% 2757816)
+[CHILD CMD]
+	exit(2757888 %% 2757816)
+[END OF CHILD CMD]
+setdw=
+set/azc=6634386 %% 6634313
+cmd/cexit(6634386 %% 6634313)
+[CHILD CMD]
+	exit(6634386 %% 6634313)
+[END OF CHILD CMD]
+setlf=
+set/alp=2432824 %% 2432750
+cmd/cexit(2432824 %% 2432750)
+[CHILD CMD]
+	exit(2432824 %% 2432750)
+[END OF CHILD CMD]
+setfm=
+set/aev=2596725 %% 2596650
+cmd/cexit(2596725 %% 2596650)
+[CHILD CMD]
+	exit(2596725 %% 2596650)
+[END OF CHILD CMD]
+setsz=
+set/acj=1437768 %% 1437692
+cmd/cexit(1437768 %% 1437692)
+[CHILD CMD]
+	exit(1437768 %% 1437692)
+[END OF CHILD CMD]
+setet=
+set/aht=7553007 %% 7552930
+cmd/cexit(7553007 %% 7552930)
+[CHILD CMD]
+	exit(7553007 %% 7552930)
+[END OF CHILD CMD]
+setsr=
+set/aaj=3620604 %% 3620526
+cmd/cexit(3620604 %% 3620526)
+[CHILD CMD]
+	exit(3620604 %% 3620526)
+[END OF CHILD CMD]
+setxu=
+set/asa=7727306 %% 7727227
+cmd/cexit(7727306 %% 7727227)
+[CHILD CMD]
+	exit(7727306 %% 7727227)
+[END OF CHILD CMD]
+setki=
+set/azj=7481760 %% 7481680
+cmd/cexit(7481760 %% 7481680)
+[CHILD CMD]
+	exit(7481760 %% 7481680)
+[END OF CHILD CMD]
+setcw=
+set/axs=3158838 %% 3158757
+cmd/cexit(3158838 %% 3158757)
+[CHILD CMD]
+	exit(3158838 %% 3158757)
+[END OF CHILD CMD]
+setgt=
+set/ako=5605274 %% 5605192
+cmd/cexit(5605274 %% 5605192)
+[CHILD CMD]
+	exit(5605274 %% 5605192)
+[END OF CHILD CMD]
+setyq=
+set/avh=4564502 %% 4564419
+cmd/cexit(4564502 %% 4564419)
+[CHILD CMD]
+	exit(4564502 %% 4564419)
+[END OF CHILD CMD]
+setfu=
+set/awy=2213820 %% 2213736
+cmd/cexit(2213820 %% 2213736)
+[CHILD CMD]
+	exit(2213820 %% 2213736)
+[END OF CHILD CMD]
+setzw=
+set/ana=5707325 %% 5707240
+cmd/cexit(5707325 %% 5707240)
+[CHILD CMD]
+	exit(5707325 %% 5707240)
+[END OF CHILD CMD]
+setda=
+set/aap=2523756 %% 2523670
+cmd/cexit(2523756 %% 2523670)
+[CHILD CMD]
+	exit(2523756 %% 2523670)
+[END OF CHILD CMD]
+setvm=
+set/ai=8245425 %% 8245338
+cmd/cexit(8245425 %% 8245338)
+[CHILD CMD]
+	exit(8245425 %% 8245338)
+[END OF CHILD CMD]
+setk=
+set/azd=3000888 %% 3000800
+cmd/cexit(3000888 %% 3000800)
+[CHILD CMD]
+	exit(3000888 %% 3000800)
+[END OF CHILD CMD]
+setoq=
+set/awk=8050673 %% 8050584
+cmd/cexit(8050673 %% 8050584)
+[CHILD CMD]
+	exit(8050673 %% 8050584)
+[END OF CHILD CMD]
+setqk=
+set/asy=3797730 %% 3797640
+cmd/cexit(3797730 %% 3797640)
+[CHILD CMD]
+	exit(3797730 %% 3797640)
+[END OF CHILD CMD]
+setcm=
+set/ajm=911376 %% 911328
+cmd/cexit(911376 %% 911328)
+[CHILD CMD]
+	exit(911376 %% 911328)
+[END OF CHILD CMD]
+setpz=
+set/aes=1590246 %% 1590197
+cmd/cexit(1590246 %% 1590197)
+[CHILD CMD]
+	exit(1590246 %% 1590197)
+[END OF CHILD CMD]
+setzp=
+set/alv=2220300 %% 2220250
+cmd/cexit(2220300 %% 2220250)
+[CHILD CMD]
+	exit(2220300 %% 2220250)
+[END OF CHILD CMD]
+setpo=
+set/asb=3053013 %% 3052962
+cmd/cexit(3053013 %% 3052962)
+[CHILD CMD]
+	exit(3053013 %% 3052962)
+[END OF CHILD CMD]
+setrs=
+set/awd=4105660 %% 4105608
+cmd/cexit(4105660 %% 4105608)
+[CHILD CMD]
+	exit(4105660 %% 4105608)
+[END OF CHILD CMD]
+setdb=
+set/amp=4509823 %% 4509770
+cmd/cexit(4509823 %% 4509770)
+[CHILD CMD]
+	exit(4509823 %% 4509770)
+[END OF CHILD CMD]
+setae=
+set/alc=843588 %% 843534
+cmd/cexit(843588 %% 843534)
+[CHILD CMD]
+	exit(843588 %% 843534)
+[END OF CHILD CMD]
+setgh=
+set/ajk=3816175 %% 3816120
+cmd/cexit(3816175 %% 3816120)
+[CHILD CMD]
+	exit(3816175 %% 3816120)
+[END OF CHILD CMD]
+setce=
+set/ahw=3728368 %% 3728312
+cmd/cexit(3728368 %% 3728312)
+[CHILD CMD]
+	exit(3728368 %% 3728312)
+[END OF CHILD CMD]
+setpi=
+set/avc=1980465 %% 1980408
+cmd/cexit(1980465 %% 1980408)
+[CHILD CMD]
+	exit(1980465 %% 1980408)
+[END OF CHILD CMD]
+setwi=
+set/azn=4509426 %% 4509303
+cmd/cexit(4509426 %% 4509303)
+[CHILD CMD]
+	exit(4509426 %% 4509303)
+[END OF CHILD CMD]
+setui=
+set/aas=8521750 %% 8521625
+cmd/cexit(8521750 %% 8521625)
+[CHILD CMD]
+	exit(8521750 %% 8521625)
+[END OF CHILD CMD]
+setdt=
+set/auf=1830465 %% 1830402
+cmd/cexit(1830465 %% 1830402)
+[CHILD CMD]
+	exit(1830465 %% 1830402)
+[END OF CHILD CMD]
+setqm=
+set/awg=5234674 %% 5234616
+cmd/cexit(5234674 %% 5234616)
+[CHILD CMD]
+	exit(5234674 %% 5234616)
+[END OF CHILD CMD]
+setqu=
+set/akx=4010050 %% 4010004
+cmd/cexit(4010050 %% 4010004)
+[CHILD CMD]
+	exit(4010050 %% 4010004)
+[END OF CHILD CMD]
+setlq=
+set/ane=2767448 %% 2767387
+cmd/cexit(2767448 %% 2767387)
+[CHILD CMD]
+	exit(2767448 %% 2767387)
+[END OF CHILD CMD]
+setpv=
+set/ahm=4223824 %% 4223780
+cmd/cexit(4223824 %% 4223780)
+[CHILD CMD]
+	exit(4223824 %% 4223780)
+[END OF CHILD CMD]
+setef=
+set/aee=4891835 %% 4891740
+cmd/cexit(4891835 %% 4891740)
+[CHILD CMD]
+	exit(4891835 %% 4891740)
+[END OF CHILD CMD]
+setbl=
+set/aam=981990 %% 981945
+cmd/cexit(981990 %% 981945)
+[CHILD CMD]
+	exit(981990 %% 981945)
+[END OF CHILD CMD]
+setoi=
+etxaccctexeexdmxcixmii
+emetdmmiiecacdacieedcdaiedxaxxetimmm
+etxciamaixtxddcadacettcecc
+emetddemditdaaexxadcdmitemcieteaexxeicx
+etadctixciateixtactic
+ettiixdeeximdmtcaxdtcmtxam
+etttaecemxtcdeaieixcmxcdicxtiacia
+etcatdmtmcdtxxetttcemtcm
+emetctadaetixadcmmtiidmcdiie
+etitctaiadtextciecaccddtdiexx
+etdmctccadmdmxdddcdtexdee
+etecmextximmtectcaaddxdcieaea
+etdmeactaxceixxdddadcmami
+emetteaeddxeattciddactcxd
+emetdcxxemixtacaxttaxixcaiteieidedcidmx
+emetmdimaddtaaamddcadicaatetaitd
+etamxdaeeatttid
+emetcxcteemtiecxxcmccxmcdxacaccieaxc
+emeteemttdctiimmdxmxxemxtixtddtt
+etemtiecmiaae
+etccmaxxetdmdtxdeaixcadxtt
+etmdxmeiiattaitixatxmtxmd
+emeteatiicdacaixecaecmd
+ettdxidmdic
+eeea
+etemtiecmiaae
+etxaccctexeexdmxcixmii
+etmdxmeiiattaitixatxmtxmd
+etdmeactaxceixxdddadcmami
+etcatdmtmcdtxxetttcemtcm
+emetcxcteemtiecxxcmccxmcdxacaccieaxc
+ettdxidmdic
+ettiixdeeximdmtcaxdtcmtxam
+emetmdimaddtaaamddcadicaatetaitd
+etecmextximmtectcaaddxdcieaea
+emetteaeddxeattciddactcxd
+etttaecemxtcdeaieixcmxcdicxtiacia
+etccmaxxetdmdtxdeaixcadxtt
+etitctaiadtextciecaccddtdiexx
+emeteemttdctiimmdxmxxemxtixtddtt
+etamxdaeeatttid
+emetctadaetixadcmmtiidmcdiie
+etadctixciateixtactic
+etdmctccadmdmxdddcdtexdee
+emetdmmiiecacdacieedcdaiedxaxxetimmm
+emeteatiicdacaixecaecmd
+emetddemditdaaexxadcdmitemcieteaexxeicx
+etxciamaixtxddcadacettcecc
+emetdcxxemixtacaxttaxixcaiteieidedcidmx
+cls
+@echo off
+set x=set
+set s=
+setzz==
+setp=/
+setma=a
+setgm=c
+setqf=m
+seth=d
+setax=e
+setds=x
+setrb=i
+setcu=t
+setqd=
+set/az=8639305 %% 8639208
+cmd/cexit(8639305 %% 8639208)
+[CHILD CMD]
+	exit(8639305 %% 8639208)
+[END OF CHILD CMD]
+setwp=
+set/aab=3403246 %% 3403148
