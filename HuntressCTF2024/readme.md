@@ -28,3 +28,12 @@ New challenges released every day!
 | [1200 Transmissions](1200%20Transmissions/readme.md) | Miscellaneous | easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Ancient Fossil](Ancient%20Fossil/readme.md) | Forensics | easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Finders Fee](Finders%20Fee/readme.md) | Warmups | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Whamazon](Whamazon/readme.md) | Warmups | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Y2J](Y2J/readme.md) | Web | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Strive Marish Leadman TypeCDR](Strive%20Marish%20Leadman%20TypeCDR/readme.md) | Cryptography | easy |:heavy_check_mark: | :heavy_check_mark: |
+| [Mimi](Mimi/readme.md) | Malware | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [I Can't SSH](I%20Cant%20SSH/readme.md) | Warmups | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [PillowFight](PillowFight/readme.md) | Web | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Obfuscation Station](Obfuscation%20Station/readme.md) | Forensics | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Time will tell](Time%20will%20tell/readme.md) | Miscellaneous | medium | :heavy_check_mark: | :heavy_check_mark: |
+| [Plantopia](Plantopia/readme.md) | Web | medium | :heavy_check_mark: | :heavy_check_mark: |
