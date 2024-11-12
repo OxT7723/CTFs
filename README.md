@@ -1,8 +1,8 @@
 # CTFs I have participated In
 
-| Yeah | Event Name | Team Name | Ranking |
+| Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
-| 2023 | [Huntress CTF](HuntressCTF2024/readme.md)   | Redravens | 184th of 2629 |
+| 2024 | [Huntress CTF](HuntressCTF2024/readme.md)   | Redravens | 184th of 2629 |
 | 2024 | [BlockHarbor CTF Season 2 2024](BlockHarbor_CTF_Season2_2024/README.md) | RedRavens | 164th |
 | 2024 | [HTB Business CTF 2024: The Vault of Hope](HTBBusinessCTF2024/README.md) | TIAG | 424/943 |
 | 2024 | [Cyber Apocalypse 2024](CyberApocalypse2024/readme.md) | RedRavens | 1385/5694 |
