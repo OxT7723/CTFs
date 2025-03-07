@@ -1,0 +1,17 @@
+<!-- app/views/time_off_requests/show.html.erb -->
+<h1>Time Off Request <%= @time_off_request.id %></h1>
+
+<p><strong>Dates:</strong> <%= @time_off_request.start_date %> to <%= @time_off_request.end_date %></p>
+<p><strong>Reason:</strong> <%= @time_off_request.reason %></p>
+<p><strong>Status:</strong> <%= @time_off_request.status %></p>
+
+<% if @time_off_request.document %>
+  <h2>Attached Document</h2>
+  <p>
+    <strong>Name:</strong> <%= @time_off_request.document.file_path %><br/>
+    <%= link_to "Download Document", download_document_path(@time_off_request.document) %><br/>
+    <em>Stored Name: <%= @time_off_request.document.name %></em>
+  </p>
+<% else %>
+  <p>No document attached.</p>
+<% end %>

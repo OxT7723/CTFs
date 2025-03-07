@@ -1,0 +1,31 @@
+<!-- app/views/time_off_requests/index.html.erb -->
+<h1>My Time Off Requests</h1>
+
+<%= link_to "Request Time Off", new_time_off_request_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Start Date</th>
+      <th>End Date</th>
+      <th>Status</th>
+      <th>Reason</th>
+      <th>Submitted On</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @time_off_requests.each do |req| %>
+      <tr>
+        <td><%= req.start_date %></td>
+        <td><%= req.end_date %></td>
+        <td><%= req.status %></td>
+        <td><%= req.reason %></td>
+        <td><%= req.created_at.to_date %></td>
+        <td>
+          <%= link_to "View", time_off_request_path(req) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the CTF</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>CTF 101</h1>
+        </div>
+        <div class="hero-image">
+            <img src="/static/images/CTF_Web_Hero_25.svg" alt="CTF Hero Image">
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to the Snyk Fetch the Flag 2025 CTF 101 Challenge!</h1>
+
+        <p>Enter your name below to get started:</p>
+
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+        <div class="flash-container">
+            {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endwith %}
+
+        <!-- Input Form -->
+        <form action="/" method="POST">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

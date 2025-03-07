@@ -1,0 +1,44 @@
+<!-- app/views/time_off_requests/manager_index.html.erb -->
+<h1>All Time Off Requests</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Employee</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Status</th>
+      <th>Actions</th>
+      <th>Reason</th>
+      <th>Requested On</th>
+      <th>Document</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @time_off_requests.each do |req| %>
+      <tr>
+        <td><%= req.employee.first_name %> <%= req.employee.last_name %></td>
+        <td><%= req.start_date %></td>
+        <td><%= req.end_date %></td>
+        <td><%= req.status %></td>
+        <td>
+          <% if req.status == 'pending' %>
+            <%= button_to "Approve", approve_time_off_request_path(req), method: :patch %>
+            <%= button_to "Deny", deny_time_off_request_path(req), method: :patch %>
+          <% else %>
+            (No action)
+          <% end %>
+        </td>
+        <td><%= req.reason %></td>
+        <td><%= req.created_at.to_date %></td>
+        <td>
+          <% if req.document %>
+            <%= link_to req.document.name, download_document_path(req.document) %>
+          <% else %>
+            (No document)
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

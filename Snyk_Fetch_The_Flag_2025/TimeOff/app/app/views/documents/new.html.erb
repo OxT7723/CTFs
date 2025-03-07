@@ -1,0 +1,14 @@
+<!-- app/views/documents/new.html.erb -->
+<h1>New Document</h1>
+
+<%= form_with model: @document, local: true do |f| %>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div>
+    <%= f.label :file_path, "File Path (vulnerable)" %>
+    <%= f.text_field :file_path %>
+  </div>
+  <%= f.submit "Create Document" %>
+<% end %>

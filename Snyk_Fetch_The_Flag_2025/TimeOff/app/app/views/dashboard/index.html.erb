@@ -1,0 +1,12 @@
+<h1>Dashboard</h1>
+
+<p>Employee Count: <%= @employee_count %></p>
+<p>Department Count: <%= @department_count %></p>
+
+<% if current_user.role == "manager" || current_user.role == "admin" %>
+  <p>Pending Time Off Requests: <%= @pending_requests %></p>
+  <%= link_to "View All Requests", manager_time_off_requests_path %>
+<% else %>
+  <p>You have <%= @my_approved_requests %> approved time off requests.</p>
+  <%= link_to "My Requests", time_off_requests_path %>
+<% end %>

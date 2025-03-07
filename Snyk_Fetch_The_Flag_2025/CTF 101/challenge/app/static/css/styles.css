@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+.hero {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181846;
+    /* RGB(24, 24, 70) */
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Prevent children from rendering outside the container */
+}
+
+.hero-text {
+    flex: 1;
+    color: white;
+}
+
+.hero-text h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    line-height: 4rem;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent black background for contrast */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 70%;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-height: 100%;
+    /* Ensure the SVG fits within the hero container */
+    overflow: hidden;
+    /* Prevent SVG overflow */
+    padding: 0 10px;
+    /* Add some spacing between the text and the image */
+}
+
+.hero-image img {
+    max-height: 50%;
+    max-width: 50%;
+    object-fit: contain;
+    /* Ensures the image scales proportionally within the container */
+}
+
+.intro {
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #181846;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9bcfff;
+}
+
+.flash-container {
+    margin-bottom: 20px;
+}
+
+.flash {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.flash.success {
+    background-color: #4caf50;
+    /* Green for success */
+    color: white;
+}
+
+.flash.error {
+    background-color: #f44336;
+    /* Red for errors */
+    color: white;
+}

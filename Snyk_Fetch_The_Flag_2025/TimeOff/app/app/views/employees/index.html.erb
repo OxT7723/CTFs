@@ -1,0 +1,33 @@
+<!-- app/views/employees/index.html.erb -->
+<h1>All Employees</h1>
+
+<% if @employees.present? %>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Title</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @employees.each do |employee| %>
+        <tr>
+          <td><%= employee.id %></td>
+          <td><%= employee.first_name %></td>
+          <td><%= employee.last_name %></td>
+          <td><%= employee.title %></td>
+          <td>
+            <%= link_to "Show", employee_path(employee) %> |
+            <%= link_to "Edit", edit_employee_path(employee) %> |
+            <%= link_to "Delete", employee_path(employee), method: :delete, data: { confirm: "Are you sure?" } %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>No employees found.</p>
+<% end %>

@@ -1,0 +1,40 @@
+<!-- app/views/layouts/application.html.erb -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time Off Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <%= link_to "Dashboard", root_path %> |
+        <%= link_to "My Requests", time_off_requests_path %> |
+        <% if current_user&.role == 'manager' || current_user&.role == 'admin' %>
+          <%= link_to "All Requests", manager_time_off_requests_path %> |
+        <% end %>
+        <%= link_to "Employees", employees_path %> |
+        <%= link_to "Departments", departments_path %> |
+        <%= link_to "Logout", logout_path, method: :delete %>
+      </nav>
+    </header>
+
+    <% if flash[:notice] %>
+      <p class="flash-notice"><%= flash[:notice] %></p>
+    <% end %>
+    <% if flash[:alert] %>
+      <p class="flash-alert"><%= flash[:alert] %></p>
+    <% end %>
+
+    <%= yield %>
+
+    <footer>
+      <small>&copy; <%= Time.now.year %> Time Off Management</small>
+    </footer>
+  </body>
+</html>

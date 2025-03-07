@@ -1,0 +1,36 @@
+<!-- app/views/time_off_requests/new.html.erb -->
+<h1>New Time Off Request</h1>
+
+<%= form_with(model: @time_off_request, url: time_off_requests_path, local: true, html: { multipart: true }) do |f| %>
+  <div>
+    <%= f.label :start_date %>
+    <%= f.date_field :start_date %>
+  </div>
+
+  <div>
+    <%= f.label :end_date %>
+    <%= f.date_field :end_date %>
+  </div>
+
+  <div>
+    <%= f.label :reason %>
+    <%= f.text_area :reason %>
+  </div>
+
+  <fieldset>
+    <legend>Attach Document</legend>
+    <div>
+      <label for="doc_file">Upload File</label>
+      <%= file_field_tag "doc[file]" %>
+    </div>
+
+    <div>
+      <label for="doc_file_name">File Name</label>
+      <%= text_field_tag "doc[file_name]" %>
+    </div>
+  </fieldset>
+
+  <div>
+    <%= f.submit "Submit Request" %>
+  </div>
+<% end %>

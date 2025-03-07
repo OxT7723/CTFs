@@ -1,0 +1,139 @@
+/*
+  /* app/assets/stylesheets/application.css */
+*/
+
+/* -------- RESET SOME DEFAULTS -------- */
+html,
+body,
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f6f8fa;
+    color: #333;
+}
+
+/* -------- HEADER & NAV -------- */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* -------- MAIN CONTENT -------- */
+main,
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* -------- FLASH MESSAGES -------- */
+p[style*="color: green;"] {
+    background-color: #d4edda;
+    color: #155724 !important;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+}
+
+p[style*="color: red;"] {
+    background-color: #f8d7da;
+    color: #721c24 !important;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+
+/* -------- TABLES -------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #fff;
+}
+
+table thead {
+    background-color: #dee2e6;
+}
+
+table th,
+table td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+/* -------- FORMS -------- */
+form {
+    margin-top: 1rem;
+}
+
+form div {
+    margin-bottom: 0.75rem;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"],
+form input[type="password"],
+form textArea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"],
+form input[type="button"],
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover,
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* -------- FOOTER -------- */
+footer {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    color: #666;
+}

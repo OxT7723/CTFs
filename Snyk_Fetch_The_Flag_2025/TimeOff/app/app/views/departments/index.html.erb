@@ -1,0 +1,25 @@
+<!-- app/views/departments/index.html.erb -->
+<h1>All Departments</h1>
+
+<% if @departments.present? %>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Manager ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @departments.each do |dept| %>
+        <tr>
+          <td><%= dept.id %></td>
+          <td><%= dept.name %></td>
+          <td><%= dept.manager_id %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>No departments found.</p>
+<% end %>
