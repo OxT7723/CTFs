@@ -1,0 +1,154 @@
+/* General Styling */
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #000;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #003300, #000000);
+    border-bottom: 3px solid #00ff00;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #00ff00;
+    text-shadow: 2px 2px 5px #00cc00;
+}
+
+/* Content */
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #111;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+/* Intro Paragraph */
+.intro {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Three-Column Layout */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background: #222;
+    border: 2px solid #00cc00;
+    box-shadow: 0 0 10px #00ff00;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    border: 3px solid #00ff00;
+    margin-bottom: 10px;
+}
+
+.column h2 {
+    color: #00cc00;
+    font-size: 1.5em;
+}
+
+.column p {
+    color: #99ff99;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    border-top: 2px solid #00ff00;
+    padding-top: 10px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #111;
+    border-bottom: 2px solid #00ff00;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #00ff00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+.navbar a:hover {
+    color: #00cc00;
+    text-shadow: 0 0 10px #00cc00;
+    text-decoration: underline;
+}
+
+/* Scrolling Text Bar */
+.marquee {
+    background: linear-gradient(to right, #003300, #000);
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    padding: 5px 0;
+    text-align: center;
+    border-bottom: 2px solid #00ff00;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee p {
+    display: inline-block;
+    animation: scroll-left 10s linear infinite;
+    white-space: nowrap;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Scrolling animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

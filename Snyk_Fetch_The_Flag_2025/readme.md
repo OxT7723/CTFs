@@ -18,8 +18,9 @@ New challenges released every day!
 | [String Me Along](String%20Me%20Along/readme.md) | Reverse Engineering | easy | :heavy_check_mark: | :heavy_check_mark: |
 | [TimeOff](TimeOff/readme.md) | Web | easy | :heavy_check_mark: | :heavy_check_mark: |
 | [Free Range Packets](Free%20Range%20Packets/readme.md) | Forensics | easy | :heavy_check_mark: | :heavy_check_mark: |
-| [ClickityClack](ClickityClack/readme.md) | Forensics | medium | :heavy_check_mark: | |
-| [Coding Mountains](Coding%20Mountains/readme.md) | Scripting | easy | :heavy_check_mark: | |
+| [ClickityClack](ClickityClack/readme.md) | Forensics | medium | :heavy_check_mark: | :heavy_check_mark: |
+| [WHO IS JH](WHO%20IS%20JH/readme.md) | Web | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Coding Mountains](Coding%20Mountains/readme.md) | Scripting | easy |  | |
 | [VulnScanner](VulnScanner/readme.md) | Web | medium |  | |
 | [An Offset Amongst Friends](An%20Offset%20Amongst%20Friends/readme.md) | Reverse Engineering | easy |  | |
 | [Calculator](Calculator/readme.md) | Binary Exploitation | medium |  | |
@@ -36,5 +37,4 @@ New challenges released every day!
 | [Padding Gambit](Padding%20Gambit/readme.md) | Cryptography | medium |  | |
 | [IdiOTic](IdiOTic/readme.md) | Web | medium |  | |
 | [Additional Information Needed](Additional%20Information%20Needed/readme.md) | Binary Exploitation | medium |  | |
-| [WHO IS JH](WHO%20IS%20JH/readme.md) | Web | easy |  | |
 | [Weblog](Weblog/readme.md) | Web | medium |  | |
