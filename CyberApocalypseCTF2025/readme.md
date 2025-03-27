@@ -81,4 +81,3 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 
 ## Certificate
 ![HTB CTF 2025 Certificate](Certificate.png)
-![alt text](image.png)

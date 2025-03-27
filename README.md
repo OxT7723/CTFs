@@ -29,7 +29,7 @@
 
 ### Huntress CTF 2024
 ![Huntress CTF 2024](HuntressCTF2024/cert.png)
-* [writeup](HuntressCTF2024/readme.md)
+* [writeup](HuntressCTF2024/README.md)
 
 ### BlockHarbor CTF Season 2 
 ![BlockHarbor CTF Season 2 ](BlockHarbor_CTF_Season2_2024/image.png)
