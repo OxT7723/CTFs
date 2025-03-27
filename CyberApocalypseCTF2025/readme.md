@@ -16,17 +16,17 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 
 | Title | Category | Difficulty | Solved | Writeup |
 | --- | --- | --- | --- | --- |
-| [SealedRune](Reversing/SealedRune/readme.md) | Reversing | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [Mirror Witch](AI/Mirror%20Witch/readme.md) | AI | easy | :heavy_check_mark: | :heavy_check_mark: |
-| [Lunar Orb](AI/Lunar%20Orb/readme.md) | AI | easy | :heavy_check_mark: | :heavy_check_mark: |
-| [Trial by Fire](Web/Trial%20by%20Fire/readme.md) | Web | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [Whispers of the Moonbeam](Web/Whispers%20of%20the%20Moonbeam/readme.md) | Web | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [A new Hire](Forensics/A%20new%20Hire/readme.md) | Forensics | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [Thorin’s Amulet](Forensics/Thorins%20Amulet/readme.md) | Forensics | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [Summoners Incantation](Coding/Summoners%20Incantation/readme.md) | Coding | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [Echoes in Stone](OSINT/Echoes%20in%20Stone/readme.md) | OSINT | very easy | :heavy_check_mark: | :heavy_check_mark: |
-| [The Mechanical Bird's Nest](OSINT/The%20Mechanical%20Birds%20Nest/readme.md) | OSINT | easy | :heavy_check_mark: | :heavy_check_mark: |
-| [The Stone That Whispers](OSINT/The%20Stone%20That%20Whispers/readme.md) | OSINT | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [SealedRune](Reversing/SealedRune/README.md) | Reversing | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Mirror Witch](AI/Mirror%20Witch/README.md) | AI | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Lunar Orb](AI/Lunar%20Orb/README.md) | AI | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Trial by Fire](Web/Trial%20by%20Fire/README.md) | Web | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Whispers of the Moonbeam](Web/Whispers%20of%20the%20Moonbeam/README.md) | Web | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [A new Hire](Forensics/A%20new%20Hire/README.md) | Forensics | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Thorin’s Amulet](Forensics/Thorins%20Amulet/README.md) | Forensics | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Summoners Incantation](Coding/Summoners%20Incantation/README.md) | Coding | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [Echoes in Stone](OSINT/Echoes%20in%20Stone/README.md) | OSINT | very easy | :heavy_check_mark: | :heavy_check_mark: |
+| [The Mechanical Bird's Nest](OSINT/The%20Mechanical%20Birds%20Nest/README.md) | OSINT | easy | :heavy_check_mark: | :heavy_check_mark: |
+| [The Stone That Whispers](OSINT/The%20Stone%20That%20Whispers/README.md) | OSINT | very easy | :heavy_check_mark: | :heavy_check_mark: |
 | Cursed GateKeeper | AI | easy |  |  |
 | Elixir Emporium | AI | easy |  |  |
 | Embassy | AI | easy |  |  |
@@ -54,10 +54,10 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 | Malakar's Deception | ML | hard |  |  |
 | Reverse Prompt | ML | hard |  |  |
 | Wasteland | ML | medium |  |  |
-| [The Ancient Citadel](OSINT/The%20Ancient%20Citadel/readme.md) | OSINT | medium |  |  |
-| [The Hillside Haven](OSINT/The%20Hillside%20Haven/readme.md) | OSINT | easy |  |  |
-| [The Poisoned Scroll](OSINT/The%20Poisoned%20Scroll/readme.md) | OSINT | medium |  |  |
-| [The Shadowed Sigil](OSINT/The%20Shadowed%20Sigil/readme.md) | OSINT | medium |  |  |
+| [The Ancient Citadel](OSINT/The%20Ancient%20Citadel/README.md) | OSINT | medium |  |  |
+| [The Hillside Haven](OSINT/The%20Hillside%20Haven/README.md) | OSINT | easy |  |  |
+| [The Poisoned Scroll](OSINT/The%20Poisoned%20Scroll/README.md) | OSINT | medium |  |  |
+| [The Shadowed Sigil](OSINT/The%20Shadowed%20Sigil/README.md) | OSINT | medium |  |  |
 | Blessing | Pwn | very easy |  |  |
 | Contractor | Pwn | medium |  |  |
 | Crossbow | Pwn | easy |  |  |
