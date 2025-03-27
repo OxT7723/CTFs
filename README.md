@@ -2,7 +2,8 @@
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
-| 2025 | [Snyk Fetch The Flag 2025](Snyk_Fetch_The_Flag_2025/readme.md) | Redravens | 278th or 1201 |
+| 2025 | [Cyber Apocalypse CTF 2025](CyberApocalypseCTF2025/readme.md) | Redravens | 1794th of 8130 |
+| 2025 | [Snyk Fetch The Flag 2025](Snyk_Fetch_The_Flag_2025/readme.md) | Redravens | 278th of 1201 |
 | 2024 | [Huntress CTF](HuntressCTF2024/readme.md)   | Redravens | 184th of 2629 |
 | 2024 | [BlockHarbor CTF Season 2 2024](BlockHarbor_CTF_Season2_2024/README.md) | RedRavens | 164th |
 | 2024 | [HTB Business CTF 2024: The Vault of Hope](HTBBusinessCTF2024/README.md) | TIAG | 424/943 |
@@ -16,6 +17,10 @@
 
 ## 2025 
 
+## HTB Cyber Apocalypse CTF 2025
+![HTB Cyber Apocalypse CTF 2025](CyberApocalypseCTF2025/Certificate.png)
+* [writeup](CyberApocalypseCTF2025/readme.md)
+
 ### Snyk Fetch The Flag 2025
 ![Snyk Fetch The Flag 2025](Snyk_Fetch_The_Flag_2025/cert.png)
 * [writeup](Snyk_Fetch_The_Flag_2025/readme.md)
@@ -24,7 +29,7 @@
 
 ### Huntress CTF 2024
 ![Huntress CTF 2024](HuntressCTF2024/cert.png)
-* [writeup](HuntressCTF2024/README.md)
+* [writeup](HuntressCTF2024/readme.md)
 
 ### BlockHarbor CTF Season 2 
 ![BlockHarbor CTF Season 2 ](BlockHarbor_CTF_Season2_2024/image.png)
@@ -36,7 +41,7 @@
 
 ### HTB Cyber Apocalypse CTF 2024 
 ![HTB Cyber Apocalypse CTF 2024](CyberApocalypse2024/cert.png)
-* [writeup](CyberApocalypse/readme.md)
+* [writeup](CyberApocalypse2024/readme.md)
 
 ### SANS Offensive Operations CTF
 

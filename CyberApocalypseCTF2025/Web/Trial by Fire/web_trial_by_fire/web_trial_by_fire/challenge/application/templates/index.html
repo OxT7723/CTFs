@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Flame Peaks</title>
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+  <!-- Import NES.css from a CDN -->
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <!-- Import your custom styles AFTER NES.css -->
+  <link rel="stylesheet" href="/static/css/style.css">
+  <!-- Additional inline overrides for this page -->
+</head>
+<body>
+  <div class="home-container nes-container is-rounded">
+    <h1 class="nes-text is-error">Welcome to the Flame Peaks</h1>
+    <p class="nes-text">
+      In a land of burning rivers and searing heat, the Fire Drake stands guard over the Emberstone. Many have sought its power; none have prevailed.
+      <br><br>
+      Legends speak of ancient template scrolls—arcane writings that twist fate when exploited. Hidden symbols may change everything.
+      <br><br>
+      Can you read the runes? Perhaps {{ 7 * 7 }} is the key.
+    </p>
+    
+    <form action="/begin" method="POST" class="warrior-form nes-container is-rounded">
+      <div class="form-group">
+        <label for="warrior_name" class="nes-text is-error">What is your name, brave warrior?</label>
+        <input type="text" id="warrior_name" name="warrior_name" class="nes-input" required placeholder="Enter your name..." maxlength="30" style="background-color: rgba(17, 24, 39, 0.95);">
+      </div>
+      <button type="submit" class="nes-btn is-error challenge-button">
+        ⚔️ Challenge the Fire Drake
+      </button>
+    </form>
+  </div>
+</body>
+</html>

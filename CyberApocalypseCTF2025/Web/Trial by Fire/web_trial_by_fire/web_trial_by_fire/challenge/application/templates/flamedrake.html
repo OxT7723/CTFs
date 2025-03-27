@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flame Peaks</title>
+  <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+  <!-- Import NES.css from a CDN -->
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <!-- Import your custom styles AFTER NES.css -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="dragon-emoji">🐉</div>
+    
+    <div class="status-container">
+      <!-- Player Status -->
+      <div class="character-info">
+        <span class="character-icon">⚔️</span>
+        <span class="character-name">{{ warrior_name }}</span>
+      </div>
+      <div class="status-group">
+        <div class="status-label">
+          <span>Health</span>
+          <span class="player-hp-text">HP: 100/100</span>
+        </div>
+        <div class="status-bar">
+          <div class="status-bar-fill health player-health"></div>
+        </div>
+        
+        <div class="status-label">
+          <span>Mana</span>
+          <span class="player-mp-text">MP: 50/50</span>
+        </div>
+        <div class="status-bar">
+          <div class="status-bar-fill mana player-mana"></div>
+        </div>
+      </div>
+
+      <!-- Dragon Status -->
+      <div class="character-info" style="margin-top: 1.5rem;">
+        <span class="character-icon">🐉</span>
+        <span class="character-name">Fire Drake</span>
+      </div>
+      <div class="status-group">
+        <div class="status-label">
+          <span>Health</span>
+          <span class="dragon-hp-text">HP: 1337/1337</span>
+        </div>
+        <div class="status-bar">
+          <div class="status-bar-fill dragon-health"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="battle-log"></div>
+
+    <div class="button-grid">
+      <button class="button attack" data-action="attack">⚔️ Sword Strike</button>
+      <button class="button fireball" data-action="fireball">🔥 Fireball (20 MP)</button>
+      <button class="button lightning" data-action="lightning">⚡ Lightning Strike (30 MP)</button>
+      <button class="button leet hidden" data-action="leet">🕹️ Ancient Capture Device</button>
+      <button class="button song" data-action="rickroll">🎵 Ancient Dragon Song</button>
+    </div>
+  </div>
+
+  <script type="module">
+    import { DragonGame } from '/static/js/game.js';
+    import { addVisualEffects } from '/static/js/effects.js';
+
+    const game = new DragonGame();
+    game.init();
+    addVisualEffects(game);
+
+    // Konami code sequence to reveal the leet (Ancient Capture Device) button
+    // const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+    const konamiCode = ['ArrowUp'];
+    let konamiIndex = 0;
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === konamiCode[konamiIndex]) {
+        konamiIndex++;
+        if (konamiIndex === konamiCode.length) {
+          document.querySelector('.leet').classList.remove('hidden');
+          konamiIndex = 0;
+        }
+      } else {
+        konamiIndex = 0;
+      }
+    });
+  </script>
+</body>
+</html>

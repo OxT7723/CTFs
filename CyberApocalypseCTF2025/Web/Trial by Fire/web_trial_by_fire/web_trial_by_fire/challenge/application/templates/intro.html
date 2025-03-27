@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flame Peaks</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+</head>
+<body>
+    <div class="intro-overlay"></div>
+
+    <audio id="introMusic" src="/static/music/dragon.mp3"></audio>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const overlay = document.querySelector('.intro-overlay');
+            const music = document.getElementById('introMusic');
+            
+            // Fade in the overlay
+            overlay.style.opacity = '1';
+            
+            // Play intro music
+            music.volume = 0.4;
+            music.play().catch(console.error);
+            
+            // After animation completes, redirect to battle
+            setTimeout(() => {
+                overlay.classList.add('fade-out');
+                setTimeout(() => {
+                    window.location.href = '/flamedrake';
+                }, 1000);
+            }, 7000);
+        });
+    </script>
+</body>
+</html>
