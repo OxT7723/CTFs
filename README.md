@@ -12,7 +12,7 @@
 | 2023 | [Huntress CTF](HuntressCTF2023/)   | Redravens | 306/4219 |
 | 2023 | [Snyk Fetch the Flag](Snyk_Fetch_The_Flag_2023/readme.md) | Redravens | 676/1969 |
 | 2023 | [NhamCon CTF 2023](https://github.com/OxT7723/NahamCon2023CTF) | RedRavens | 280/2518 |
-| 2022 | [NahamCon EU CTF 2022](https://github.com/OxT7723/NahamConCTF2022/blob/master/README.md)  | Dancing Giraffes | 234/1973 |
+| 2022 | [NahamCon EU CTF 2022](NahamConCTF2022/README.md)  | Dancing Giraffes | 234/1973 |
 | 2022 | Dark Wolf Solutions Hirining CTF Challenge |  |  |
 
 ## 2025 
@@ -75,9 +75,9 @@ The JustHacking team is ecstatic to host the next rendition of the NahamCon virt
 
 Official URL: https://ctf.nahamcon.com/
 
-* [writeup](https://github.com/OxT7723/NahamConCTF2022/blob/master/README.md)
+* [writeup](NahamConCTF2022/README.md)
 
-![image](https://github.com/OxT7723/NahamConCTF2022/blob/master/images/NahamConCTF2022.png)
+![image](NahamConCTF2022/images/NahamConCTF2022.png)
 
 
 ## Dark Wolf Solutions (DWS)
