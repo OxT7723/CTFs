@@ -34,7 +34,7 @@
 
 ### Huntress CTF 2024
 ![Huntress CTF 2024](2024/HuntressCTF/cert.png)
-* [writeup](2024/HuntressCTF/README.md)
+* [writeup](2024/HuntressCTF/readme.md)
 
 ### BlockHarbor CTF Season 2 
 ![BlockHarbor CTF Season 2 ](2024/BlockHarbor_CTF_Season2/image.png)
@@ -59,7 +59,7 @@
 ### Huntress CTF 2023
 ![Huntress CTF 2023](2023/HuntressCTF/cert.png)
 
-* [writeup](2023/HuntressCTF/readme.md)
+* [writeup](2023/HuntressCTF/README.md)
 
 
 ### snyk Fetch the Flag 2023
