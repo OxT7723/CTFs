@@ -2,6 +2,7 @@
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
+| 2025 | [Ghost in the source](2025/Ghost_in_the_source/readme.md) | N/A | N/A |
 | 2025 | [NahamCon CTF 2025](2025/NahamConCTF/readme.md) | OwlSec | 17th of 2994 |
 | 2025 | [Cyber Apocalypse CTF 2025](2025/CyberApocalypseCTF/readme.md) | Redravens | 1794th of 8130 |
 | 2025 | [Snyk Fetch The Flag 2025](2025/Snyk_Fetch_The_Flag/readme.md) | Redravens | 278th of 1201 |
@@ -17,6 +18,9 @@
 | 2022 | Dark Wolf Solutions Hirining CTF Challenge |  |  |
 
 ## 2025 
+
+### Ghost in the source (CTF)
+* [writeup](2025/Ghost_in_the_source/readme.md)
 
 ### NahamCon CTF 2025
 ![NahamCon CTF 2025](2025/NahamConCTF/NahamConCTF2025Cert.png)
