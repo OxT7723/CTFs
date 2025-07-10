@@ -58,5 +58,30 @@ To ensure fairness, only one submission per participant will be accepted.
 
 ## ✍️ Writeup Section
 
+The CTF challenge provided the hint: "pay attention to JavaScript and its contents."
+This led me to inspect the website's source code, where I discovered the following encrypted string on the podcast page  
+```
+const encrypted = "U2FsdGVkX1+ASV9EBO5yBQwFFXLaKRB4SgWAZ6SKRKSy5iuQ7tGq1/tUuRm6e+TZp1Z5C9t1kUV22biCtLId/0j50x3IPcqjJqtFTOJnRNdWhxg40HXbVSXRc9ioURoW";
+```
 
+One of the clues referenced a YouTube video discussing the importance of robots.txt. Based on this, I explored the site's robots.txt file and found a path to a hidden tool at:
+```
+/tools/ciphertool.html
+```
 
+I used the CipherTool page and enabled the Harvest feature to generate a wordlist based on content from the psysecure.com website. 
+
+CipherTool Configuration:
+- Mode: AES Cracking
+- Wordlist Options:
+  - Combine two words
+  - All combinations
+  - Mixed case
+  - Use a separator
+
+- Encrypted Message: `U2FsdGVkX1+ASV9EBO5yBQwFFXLaKRB4SgWAZ6SKRKSy5iuQ7tGq1/tUuRm6e+TZp1Z5C9t1kUV22biCtLId/0j50x3IPcqjJqtFTOJnRNdWhxg40HXbVSXRc9ioURoW`
+
+Password: `GhostSecret`
+
+Decrypted Output: `https://matrix.to/#/#psysecure:matrix.org?code=GiveMeThePrize101`  
+![alt text](image.png)
