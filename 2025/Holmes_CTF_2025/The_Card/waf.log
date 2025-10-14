@@ -1,0 +1,41 @@
+2025-05-01 08:23:12 [INFO] waf.scanner - IP 121.36.37.224 - Rule: RECONNAISSANCE_DETECTION - Action: MONITOR - Sequential resource enumeration pattern detected
+2025-05-01 08:24:12 [WARN] waf.scanner - IP 121.36.37.224 - Rule: ADMIN_PATH_ACCESS - Action: BLOCK - Attempt to access administrative endpoints
+2025-05-01 08:25:34 [WARN] waf.scanner - IP 121.36.37.224 - Rule: DIRECTORY_TRAVERSAL - Action: BLOCK - Path traversal attempt detected
+2025-05-03 14:12:43 [INFO] waf.api - IP 121.36.37.224 - Rule: API_ENUMERATION - Action: MONITOR - API endpoint enumeration detected
+2025-05-03 14:13:12 [WARN] waf.api - IP 121.36.37.224 - Rule: USER_ENUMERATION - Action: MONITOR - User enumeration pattern detected
+2025-05-03 14:13:34 [WARN] waf.api - IP 121.36.37.224 - Rule: PRIVILEGED_ACCESS - Action: MONITOR - Privileged user access attempt
+2025-05-05 09:45:12 [WARN] waf.auth - IP 121.36.37.224 - Rule: BRUTE_FORCE_LOGIN - Action: MONITOR - Multiple failed login attempts
+2025-05-05 09:45:23 [WARN] waf.auth - IP 121.36.37.224 - Rule: BRUTE_FORCE_LOGIN - Action: MONITOR - Continued brute force attempt
+2025-05-05 09:45:34 [WARN] waf.auth - IP 121.36.37.224 - Rule: BRUTE_FORCE_LOGIN - Action: MONITOR - Brute force escalation detected
+2025-05-05 09:45:45 [HIGH] waf.auth - IP 121.36.37.224 - Rule: BRUTE_FORCE_LOGIN - Action: RATE_LIMIT - Rate limiting activated
+2025-05-05 09:45:56 [HIGH] waf.auth - IP 121.36.37.224 - Rule: BRUTE_FORCE_LOGIN - Action: BLOCK - IP blocked for 1 hour
+2025-05-12 16:32:11 [INFO] waf.api - IP 121.36.37.224 - Rule: DEBUG_ENDPOINT_ACCESS - Action: MONITOR - Debug endpoint accessed
+2025-05-12 16:32:22 [WARN] waf.api - IP 121.36.37.224 - Rule: CONFIG_DATA_ACCESS - Action: MONITOR - Configuration data requested
+2025-05-12 16:32:33 [WARN] waf.api - IP 121.36.37.224 - Rule: LOG_DATA_ACCESS - Action: MONITOR - Log data access detected
+2025-05-12 16:32:44 [HIGH] waf.api - IP 121.36.37.224 - Rule: ENV_VAR_EXPOSURE - Action: ALERT - Environment variable exposure detected
+2025-05-15 11:23:45 [ERROR] H�D$81���� - IP 121.36.37.224 - Rule: COMMAND_INJECTION - Action: �H�k�H�-�,H�L�I���� - Unknown error
+2025-05-15 11:24:12 [ERROR] H�D$81���� - IP 121.36.37.224 - Rule: COMMAND_INJECTION - Action: �H�k�H�-�,H�L�I���� - Unknown error
+2025-05-15 11:24:23 [ERROR] H�D$81���� - IP 121.36.37.224 - Rule: FILE_SYSTEM_ACCESS - Action: �H�k�H�-�,H�L�I���� - Unknown error
+2025-05-15 11:24:34 [ERROR] H�D$81���� - IP 121.36.37.224 - Rule: DATA_EXFILTRATION - Action: �H�k�H�-�,H�L�I���� - Unknown error
+2025-05-15 11:25:01 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: WEBSHELL_DEPLOYMENT - Action: BYPASS - Web shell creation detected
+2025-05-15 11:25:12 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: WEBSHELL_DEPLOYMENT - Action: BYPASS - PHP web shell temp_4A4D.php created
+2025-05-15 11:25:23 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: SSH_BACKDOOR - Action: BYPASS - SSH key generation for backdoor access
+2025-05-15 11:25:34 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: SSH_BACKDOOR - Action: BYPASS - SSH authorized_keys modification detected
+2025-05-15 11:25:45 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: CRON_BACKDOOR - Action: BYPASS - Malicious cron job installation
+2025-05-15 11:25:56 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: SUID_BACKDOOR - Action: BYPASS - SUID binary backdoor creation
+2025-05-18 14:56:12 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: LARGE_FILE_DOWNLOAD - Action: BYPASS - Large file download detected: backup_2025_4A4D.tar.gz
+2025-05-18 14:58:23 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: DATABASE_DOWNLOAD - Action: BYPASS - Database file download: database_dump_4A4D.sql
+2025-05-18 15:01:34 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: CONFIG_FILE_DOWNLOAD - Action: BYPASS - Configuration file download: config_4A4D.json
+2025-05-18 15:02:12 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: WEBSHELL_EXECUTION - Action: BYPASS - Web shell access via temp_4A4D.php
+2025-05-18 15:02:23 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: WEBSHELL_EXECUTION - Action: BYPASS - Command execution through web shell
+2025-05-18 15:02:34 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: DATA_STAGING - Action: BYPASS - Data staging via web shell
+2025-05-19 07:15:23 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: SSH_BACKDOOR_ACTIVATION - Action: BYPASS - SSH backdoor used for system access
+2025-05-19 07:15:34 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: PRIVILEGE_ESCALATION - Action: BYPASS - SUID backdoor execution detected
+2025-05-19 07:15:45 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: TUNNEL_ESTABLISHMENT - Action: BYPASS - SSH tunnel to internal services
+2025-05-19 07:16:01 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: DATABASE_TUNNEL - Action: BYPASS - Database access via SSH tunnel
+2025-05-19 08:30:12 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: BEACON_ACTIVITY - Action: BYPASS - Periodic beacon callbacks with ID 4A4D
+2025-05-19 09:45:23 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: LATERAL_MOVEMENT - Action: BYPASS - Internal network scanning from compromised host
+2025-05-19 10:12:45 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: REVERSE_SHELL - Action: BYPASS - Reverse shell listener deployment
+2025-05-19 11:23:12 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: LOG_TAMPERING - Action: BYPASS - System log modification attempt
+2025-05-19 12:34:56 [CRITICAL] waf.exec - IP 121.36.37.224 - Rule: ROOTKIT_INSTALLATION - Action: BYPASS - System binary modification detected
+

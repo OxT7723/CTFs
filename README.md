@@ -2,6 +2,7 @@
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
+| 2025 | [Holmes CTF 2025](2025/Holmes_CTF_2025/readme.md) | RedRavens | 2608th of 7085 |
 | 2025 | [Ghost in the source](2025/Ghost_in_the_source/readme.md) | N/A | N/A |
 | 2025 | [NahamCon CTF 2025](2025/NahamConCTF/readme.md) | OwlSec | 17th of 2994 |
 | 2025 | [Cyber Apocalypse CTF 2025](2025/CyberApocalypseCTF/readme.md) | Redravens | 1794th of 8130 |
@@ -18,6 +19,10 @@
 | 2022 | Dark Wolf Solutions Hirining CTF Challenge |  |  |
 
 ## 2025 
+
+## Holmes CTF 2025 - HTB's first all-blue CTF
+![Holmes CTF 2025](2025/Holmes_CTF_2025/HolmesCert.png)
+* [writeup](2025/Holmes_CTF_2025/readme.md)
 
 ### Ghost in the source (CTF)
 * [writeup](2025/Ghost_in_the_source/readme.md)
