@@ -2,23 +2,28 @@
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
-| 2025 | [Holmes CTF 2025](2025/Holmes_CTF_2025/readme.md) | RedRavens | 2608th of 7085 |
+| 2025 | [Huntress CTF 2025](2025/Huntress_CTF_2025/readme.md) | Kurogen | 30th of 6,869 |
+| 2025 | [Holmes CTF 2025](2025/Holmes_CTF_2025/readme.md) | RedRavens | 2608th of 7,085 |
 | 2025 | [Ghost in the source](2025/Ghost_in_the_source/readme.md) | N/A | N/A |
-| 2025 | [NahamCon CTF 2025](2025/NahamConCTF/readme.md) | OwlSec | 17th of 2994 |
-| 2025 | [Cyber Apocalypse CTF 2025](2025/CyberApocalypseCTF/readme.md) | Redravens | 1794th of 8130 |
-| 2025 | [Snyk Fetch The Flag 2025](2025/Snyk_Fetch_The_Flag/readme.md) | Redravens | 278th of 1201 |
-| 2024 | [Huntress CTF](2024/HuntressCTF/readme.md)   | Redravens | 184th of 2629 |
+| 2025 | [NahamCon CTF 2025](2025/NahamConCTF/readme.md) | OwlSec | 17th of 2,994 |
+| 2025 | [Cyber Apocalypse CTF 2025](2025/CyberApocalypseCTF/readme.md) | Redravens | 1794th of 8,130 |
+| 2025 | [Snyk Fetch The Flag 2025](2025/Snyk_Fetch_The_Flag/readme.md) | Redravens | 278th of 1,201 |
+| 2024 | [Huntress CTF](2024/HuntressCTF/readme.md)   | Redravens | 184th of 2,629 |
 | 2024 | [BlockHarbor CTF Season 2 2024](2024/BlockHarbor_CTF_Season2/README.md) | RedRavens | 164th |
 | 2024 | [HTB Business CTF 2024: The Vault of Hope](2024/HTBBusinessCTF/README.md) | TIAG | 424/943 |
 | 2024 | [Cyber Apocalypse 2024](2024/CyberApocalypse/readme.md) | RedRavens | 1385/5694 |
 | 2024 | [SANS Offensive Operations CTF](2024/SANS_Offensive_Operations_CTF/readme.md) | N/A | 170th  |
 | 2023 | [Huntress CTF 2025](2023/HuntressCTF/README.md)  | Redravens | 306/4219 |
-| 2023 | [Snyk Fetch the Flag](2023/Snyk_Fetch_The_Flag/readme.md) | Redravens | 676/1969 |
-| 2023 | [NahamCon CTF 2023](https://github.com/OxT7723/NahamCon2023CTF) | RedRavens | 280/2518 |
-| 2022 | [NahamCon EU CTF 2022](2022/NahamConCTF/README.md)  | Dancing Giraffes | 234/1973 |
+| 2023 | [Snyk Fetch the Flag](2023/Snyk_Fetch_The_Flag/readme.md) | Redravens | 676/1,969 |
+| 2023 | [NahamCon CTF 2023](https://github.com/OxT7723/NahamCon2023CTF) | RedRavens | 280/2,518 |
+| 2022 | [NahamCon EU CTF 2022](2022/NahamConCTF/README.md)  | Dancing Giraffes | 234/1,973 |
 | 2022 | Dark Wolf Solutions Hirining CTF Challenge |  |  |
 
 ## 2025 
+
+## Huntress CTF 2025 
+![Huntress CTF 2025](2025/Huntress_CTF_2025/Huntress_CTF_Certificate.png)
+* [writeup](2025/Huntress_CTF_2025/readme.md) 
 
 ## Holmes CTF 2025 - HTB's first all-blue CTF
 ![Holmes CTF 2025](2025/Holmes_CTF_2025/HolmesCert.png)
