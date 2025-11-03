@@ -14,7 +14,7 @@ New challenges released every day!
 | Day 01 | [Just A Little Bit](01-Just_a_Little_Bit/readme.md) | Warmups | :heavy_check_mark: |
 | Day 01 | [QRception](01-QRception/readme.md) | Warmups | :heavy_check_mark: |
 | Day 01 | [RFC 9390](01-RFC_9309/readme.md) | Warmups | :heavy_check_mark: |
-| Day 01 | [Verify You Are Human](01-Verify_You_Are_Human) | Malware | :heavy_check_mark: |
+| Day 01 | [Verify You Are Human](01-Verify_You_Are_Human/readme.md) | Malware | :heavy_check_mark: |
 | Day 02 | OFA | Warmups |  |
 | Day 02 | Spaghetti | Malware |  |
 | Day 03 | Maximum Sound | Warmups |  |
