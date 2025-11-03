@@ -36,7 +36,7 @@ New challenges released every day!
 | Day 18 | Bussing Around | Forensics |  |
 | Day 19 | [XMDR](19-XMDR/readme.md) | Miscellaneous | :heavy_check_mark: |
 | Day 20 | [Darcy](20-Darcy/readme.md) | Forensics | :heavy_check_mark: |
-| Day 21 | Follow The Money | OSINT |  |
+| Day 21 | [Follow The Money](21-Follow_The_Money/readme.md) | OSINT | :heavy_check_mark: |
 | Day 22 | Webshellz | Forensics |  |
 | Day 22 | NimCrackMe1 | Reverse Engineering |  |
 | Day 23 | Rust Tickler | Reverse Engineering |  |
