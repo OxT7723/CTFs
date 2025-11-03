@@ -1,0 +1,17 @@
+# Just a Little Bit - Day 01
+**Category:** Warmups
+**Author:**  [John Hammond](https://www.youtube.com/@_JohnHammond) 
+
+
+## Challenge Prompt 
+If just a little bit were to go missing... would it really even matter?
+```
+11001101101100110000111001111111011011001011000110110011011001111000110110001011011001110011100001
+11001011100010110010011001100110010110010111001010110011011000111001010110011011100001110010110101
+1100100011010101110010110110011011011001000111001011001111001101111101
+```
+
+## Solution
+
+Used CyberChef From Binary with a Byte Length of 7. 
+![alt text](image.png)
