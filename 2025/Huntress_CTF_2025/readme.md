@@ -16,7 +16,7 @@ New challenges released every day!
 | Day 01 | [RFC 9390](01-RFC_9309/readme.md) | Warmups | :heavy_check_mark: |
 | Day 01 | [Verify You Are Human](01-Verify_You_Are_Human/readme.md) | Malware | :heavy_check_mark: |
 | Day 02 | OFA | Warmups |  |
-| Day 02 | Spaghetti | Malware |  |
+| Day 02 | [Spaghetti](02-Spaghetti/readme.md) | Malware | :heavy_check_mark: |
 | Day 03 | Maximum Sound | Warmups |  |
 | Day 03 | SANDY | Malware |  |
 | Day 04 | ARIKA | Web |  |
