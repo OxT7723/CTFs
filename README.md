@@ -2,7 +2,7 @@
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
-| 2025 | [Huntress CTF 2025](2025/Huntress_CTF_2025/readme.md) | Kurogen | 30th of 6,869 |
+| 2025 | [Huntress CTF 2025](2025/Huntress_CTF_2025/readme.md) | Kurogen | 27th of 6,869 |
 | 2025 | [Holmes CTF 2025](2025/Holmes_CTF_2025/readme.md) | RedRavens | 2608th of 7,085 |
 | 2025 | [Ghost in the source](2025/Ghost_in_the_source/readme.md) | N/A | N/A |
 | 2025 | [NahamCon CTF 2025](2025/NahamConCTF/readme.md) | OwlSec | 17th of 2,994 |
