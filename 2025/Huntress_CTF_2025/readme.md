@@ -10,12 +10,13 @@ New challenges released every day!
 | Day 01 | [Read The Rules](01-Read_The_Rules/readme.md) | Information | :heavy_check_mark: |
 | Day 01 | [Technical Support](01-Technical_Support/readme.md) | Information | :heavy_check_mark: |
 | Day 01 | [Spam Test](01-Spam_Test/readme.md) | Warmups | :heavy_check_mark: | 
-| Day 01 | Just A Little Bit | Warmups |  |
-| Day 01 | QRception | Warmups |  |
-| Day 01 | RFC 9390 | Warmups |  |
-| Day 01 | Verify You Are Human | Malware |  |
+| Day 01 | [Cover All Your Bases](01-Cover_All_Your_Bases/readme.md) | Warmups | :heavy_check_mark: | 
+| Day 01 | [Just A Little Bit](01-Just_a_Little_Bit/readme.md) | Warmups | :heavy_check_mark: |
+| Day 01 | [QRception](01-QRception/readme.md) | Warmups | :heavy_check_mark: |
+| Day 01 | [RFC 9390](01-RFC_9309/readme.md) | Warmups | :heavy_check_mark: |
+| Day 01 | [Verify You Are Human](01-Verify_You_Are_Human/readme.md) | Malware | :heavy_check_mark: |
 | Day 02 | OFA | Warmups |  |
-| Day 02 | Spaghetti | Malware |  |
+| Day 02 | [Spaghetti](02-Spaghetti/readme.md) | Malware | :heavy_check_mark: |
 | Day 03 | Maximum Sound | Warmups |  |
 | Day 03 | SANDY | Malware |  |
 | Day 04 | ARIKA | Web |  |
