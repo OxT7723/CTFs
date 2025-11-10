@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ARIKA</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="stage">
+    <div class="term-window">
+      <div class="titlebar">
+        <div class="win-buttons">
+          <span class="btn"></span>
+          <span class="btn"></span>
+        </div>
+        <div class="title">[ ARIKA ]</div>
+        <div class="spacer"></div>
+      </div>
+
+      <div class="screen" id="screen" role="log" aria-live="polite">
+        <pre class="banner" aria-hidden="false">
+
+─█▀▀█ ░█▀▀█ ▀█▀ ░█─▄▀ ─█▀▀█
+░█▄▄█ ░█▄▄▀ ░█─ ░█▀▄─ ░█▄▄█
+░█─░█ ░█─░█ ▄█▄ ░█─░█ ░█─░█
+      </pre>
+        <pre class="line">
+Well, you are here. It means that you're suffering from cyber incident right now. Think of our actio
+ns as an unscheduled forced audit of your network for vulnerabilities. Keep in mind that there is a
+fair price to make it all go away.
+
+Do not rush to assess what is happening - we did it to you. The best thing you can do is to follow o
+ur instructions to get back to your daily routine, by cooperating with us you will minimize the dama
+ge that might be done.
+
+Those who choose different path will be shamed here publicly. The functionality of this blog is extr
+emely simple - enter the desired command in the input line and enjoy the juiciest information that c
+orporations around the world wanted to stay confidential.
+
+Remember. You are unable to recover without our help. Your data is already gone and cannot be traced
+to the place of final storage nor deleted by anyone besides us.
+
+guest@arika:~$ help
+
+List of all commands:
+ leaks      — hacked companies
+ news       — news about upcoming data releases
+ contact    — send us a message and we will contact you
+ help       — available commands
+ clear      — clear screen
+
+        </pre>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.PROMPT = "guest@arika:~$ ";
+  </script>
+  <script src="{{ url_for('static', filename='terminal.js') }}"></script>
+</body>
+</html>

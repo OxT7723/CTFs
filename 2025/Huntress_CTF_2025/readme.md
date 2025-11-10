@@ -15,12 +15,12 @@ New challenges released every day!
 | Day 01 | [QRception](01-QRception/readme.md) | Warmups | :heavy_check_mark: |
 | Day 01 | [RFC 9390](01-RFC_9309/readme.md) | Warmups | :heavy_check_mark: |
 | Day 01 | [Verify You Are Human](01-Verify_You_Are_Human/readme.md) | Malware | :heavy_check_mark: |
-| Day 02 | OFA | Warmups |  |
+| Day 02 | [OFA](02-OFA/readme.md) | Warmups | :heavy_check_mark: |
 | Day 02 | [Spaghetti](02-Spaghetti/readme.md) | Malware | :heavy_check_mark: |
 | Day 03 | Maximum Sound | Warmups |  |
 | Day 03 | SANDY | Malware |  |
-| Day 04 | ARIKA | Web |  |
-| Day 04 | Snooze | Warmups |  |
+| Day 04 | [ARIKA](03-ARIKA/readme.md) | Web | :heavy_check_mark: |
+| Day 04 | [Snooze](04-Snooze/readme.md) | Warmups | :heavy_check_mark: |
 | Day 05 | Sigma Linter | Web |  |
 | Day 06 | Emotional | Web |  |
 | Day 07 | Trust Me | Miscellaneous |  |
@@ -43,9 +43,9 @@ New challenges released every day!
 | Day 23 | Rust Tickler | Reverse Engineering |  |
 | Day 23 | NetSupport | Malware |  |
 | Day 24 | Lizard | Malware |  |
-| Day 25 | My Hawaii Vacation | Malware |  |
+| Day 25 | [My Hawaii Vacation](25-My_Hawaii_Vacation/readme.md) | Malware | :heavy_check_mark: |
 | Day 26 | Puzzle Pieces Redux | Forensics |  |
-| Day 27 | [Follow The Money: The Sequel](27-Follow_The_money_The_Sequel/readme.md) | OSINT | :heavy_check_mark: |  |
+| Day 27 | [Follow The Money: The Sequel](27-Follow_The_money_The_Sequel/readme.md) | OSINT | :heavy_check_mark: | 
 | Day 28 | Rust Tickler 2 | Reverse Engineering | | |
 | Day 28 | Telestealer | Malware | | |
 | Day 29 | Trapped | Binary Exploitation |  |  |

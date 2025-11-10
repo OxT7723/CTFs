@@ -1,0 +1,124 @@
+:root{
+  --green:#12DE12;
+  --bg:#000000;
+}
+*{ box-sizing:border-box; }
+html,body{ height:100%; margin:0; }
+body{
+  background:var(--bg);
+  color:var(--green);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  letter-spacing: 0.2px;
+  font-size:14px;
+}
+
+#stage{
+  height:100%;
+  display:grid;
+  place-items:center;
+}
+
+.term-window{
+  width:min(1000px, 92vw);
+  height:min(620px, 80vh);
+  border:2px solid var(--green);
+  display:flex;
+  flex-direction:column;
+  box-shadow: 0 0 0 2px rgba(18,222,18,0.25) inset;
+}
+
+.titlebar{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  align-items:center;
+  background:var(--green);
+  color:#000;
+  height:34px;
+  border-bottom:2px solid var(--green);
+}
+
+.win-buttons{
+  display:flex; gap:6px; padding:0 10px;
+}
+.win-buttons .btn{
+  display:inline-block;
+  width:14px; height:14px;
+  border:2px solid #000;
+  background:#12DE12;
+}
+
+.title{
+  text-align:center;
+  font-weight:700;
+}
+
+.banner {
+  margin: 0 0 8px 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  line-height: 0.86;          
+  letter-spacing: -2px;      
+  white-space: pre;          
+  color: var(--green);
+  text-shadow:
+    0 0 8px rgba(18,222,18,0.35),
+    0 0 18px rgba(18,222,18,0.12);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: auto;
+}
+
+@media (max-width: 700px) {
+  .banner { font-size: 18px; letter-spacing: -1px; line-height: 0.9; }
+}
+
+.screen{
+  flex:1;
+  overflow:auto;
+  padding:10px 12px 0 12px;
+  color:var(--green);
+}
+.screen .line{
+  margin:0;
+  white-space:pre-wrap;
+}
+
+
+.prompt-line {
+  margin: 0;
+  white-space: pre;
+  display: block;
+  outline: none;
+}
+
+.prompt-text {
+  display: inline-block;
+  color: var(--green);
+  user-select: none;
+}
+
+.prompt-editable {
+  display: inline-block;
+  min-width: 12px; 
+  outline: none;
+  color: var(--green);
+  caret-color: var(--green);
+  font: inherit;
+  white-space: pre;
+}
+
+.prompt-editable:empty:before {
+  content: "";
+}
+
+.screen {
+  padding-bottom: 12px;
+}
+
+.cmd{
+  flex:1;
+  background:transparent;
+  border:none;
+  outline:none;
+  color:var(--green);
+  caret-color:var(--green);
+  font: inherit;
+}
