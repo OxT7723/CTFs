@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Admin-Only Forum{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <div class="app-container">
+        {% if user %}
+        <nav class="navbar">
+            <div class="nav-brand">Admin-Only Forum</div>
+            <div class="nav-links">
+                <span class="nav-user">{{ user.username }}</span>
+                {% if user.is_admin %}
+                <a href="{{ url_for('admin_panel') }}" class="nav-link">Admin Panel</a>
+                <a href="{{ url_for('admin_chat') }}" class="nav-link">Admin Chat</a>
+                {% else %}
+                <a href="{{ url_for('dm') }}" class="nav-link">Send Message</a>
+                {% endif %}
+                <a href="{{ url_for('logout') }}" class="nav-link">Logout</a>
+            </div>
+        </nav>
+        {% endif %}
+        
+        <div class="content-wrapper">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="flash-container">
+                        {% for category, message in messages %}
+                            <div class="flash flash-{{ category }}">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+            
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>

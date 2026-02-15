@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Admin Panel - Admin-Only Forum{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div class="content-box">
+        <div class="content-header">
+            <h1>Admin Panel</h1>
+            <p class="content-subtitle">Administrator Control Center</p>
+        </div>
+        
+        <div class="admin-welcome">
+            <p>Welcome to the Admin-Only Forum. This is an exclusive community where administrators discuss moderation strategies, community management best practices, and share experiences.</p>
+        </div>
+        
+        <div class="flag-section">
+            <h2>System Flag</h2>
+            <div class="flag-box">
+                <code>{{ flag }}</code>
+            </div>
+        </div>
+        
+        <div class="admin-links">
+            <a href="{{ url_for('admin_chat') }}" class="btn btn-secondary">Go to Admin Chat</a>
+            <a href="{{ url_for('dm') }}" class="btn btn-secondary">Send Message</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

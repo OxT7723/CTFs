@@ -2,6 +2,7 @@
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
+| 2026 | [Snyk Fetch The Flag 2026](2026/Snyk_Fetch_The_Flag/README.md) | Redravens | 472 of 1,539 | 
 | 2025 | [Huntress CTF 2025](2025/Huntress_CTF_2025/readme.md) | Kurogen | 27th of 6,869 |
 | 2025 | [Holmes CTF 2025](2025/Holmes_CTF_2025/readme.md) | RedRavens | 2608th of 7,085 |
 | 2025 | [Ghost in the source](2025/Ghost_in_the_source/readme.md) | N/A | N/A |
@@ -19,6 +20,9 @@
 | 2022 | [NahamCon EU CTF 2022](2022/NahamConCTF/README.md)  | Dancing Giraffes | 234/1,973 |
 | 2022 | Dark Wolf Solutions Hirining CTF Challenge |  |  |
 
+## 2026
+![Snyk Fetch The Flag 2026](2026/Snyk_Fetch_The_Flag/snyk-certificate2026.png)
+* [writeup](2026/Snyk_Fetch_The_Flag/README.md)
 ## 2025 
 
 ## Huntress CTF 2025 

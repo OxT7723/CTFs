@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Register - Admin-Only Forum{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <div class="auth-box">
+        <div class="auth-header">
+            <h1>Register</h1>
+            <p class="auth-subtitle">Create an account to request access</p>
+        </div>
+        
+        <div id="client-error" class="flash-container" style="display: none;">
+            <div class="flash flash-error" id="error-message"></div>
+        </div>
+        
+        <form method="post" class="auth-form" id="register-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" maxlength="25" required autofocus>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" maxlength="25" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+        
+        <div class="auth-footer">
+            Already have an account? <a href="{{ url_for('login') }}">Login here</a>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('register-form').addEventListener('submit', function(e) {
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value;
+    const errorDiv = document.getElementById('client-error');
+    const errorMsg = document.getElementById('error-message');
+    
+    if (username.length < 4 || password.length < 4) {
+        e.preventDefault();
+        errorMsg.textContent = 'Username and password must be at least 4 characters';
+        errorDiv.style.display = 'block';
+        return false;
+    }
+    
+    errorDiv.style.display = 'none';
+});
+</script>
+{% endblock %}

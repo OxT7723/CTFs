@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}Admin Chat - Admin-Only Forum{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div class="content-box">
+        <div class="content-header">
+            <h1>Admin Chat</h1>
+            <p class="content-subtitle">AI Assistant for Forum Management</p>
+        </div>
+        
+        {% if processing %}
+        <div class="status-box">
+            <div class="status-icon">⏳</div>
+            <div class="status-text">Assistant is processing your message...</div>
+        </div>
+        {% endif %}
+        
+        {% if messages %}
+        <div class="chat-messages">
+            {% for msg in messages %}
+            <div class="chat-message chat-{{ msg.role }}">
+                <div class="chat-role">{{ 'You' if msg.role == 'user' else 'Assistant' }}</div>
+                <div class="chat-content">{{ msg.content }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        
+        <form method="post" action="{{ url_for('admin_chat_send') }}" class="admin-chat-form">
+            <div class="form-group">
+                <label for="content">Message to Assistant</label>
+                <textarea 
+                    id="content" 
+                    name="content" 
+                    rows="5" 
+                    maxlength="1000" 
+                    placeholder="Type your message to the AI assistant..."
+                    required
+                    {% if processing %}disabled{% endif %}
+                ></textarea>
+                <div class="char-counter">
+                    <div class="char-bar">
+                        <div id="char-fill" class="char-fill"></div>
+                    </div>
+                    <span id="char-count" class="char-count">0 / 1000</span>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" {% if processing %}disabled{% endif %}>
+                Send Message
+            </button>
+        </form>
+        
+        <div class="admin-links" style="margin-top: 20px;">
+            <a href="{{ url_for('admin_panel') }}" class="btn btn-secondary">Back to Admin Panel</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% if processing %}
+<script>
+    setTimeout(function() {
+        window.location.reload();
+    }, 3000);
+</script>
+{% endif %}
+<script>
+    const contentInput = document.getElementById('content');
+    const charFill = document.getElementById('char-fill');
+    const charCount = document.getElementById('char-count');
+    const MAX_LENGTH = 1000;
+    
+    function updateCharCounter() {
+        const length = contentInput.value.length;
+        const percent = (length / MAX_LENGTH) * 100;
+        charFill.style.width = percent + '%';
+        charCount.textContent = length + ' / ' + MAX_LENGTH;
+        
+        if (length > 900) {
+            charFill.classList.add('char-warning');
+        } else {
+            charFill.classList.remove('char-warning');
+        }
+    }
+    
+    if (contentInput) {
+        contentInput.addEventListener('input', updateCharCounter);
+        updateCharCounter();
+    }
+</script>
+{% endblock %}

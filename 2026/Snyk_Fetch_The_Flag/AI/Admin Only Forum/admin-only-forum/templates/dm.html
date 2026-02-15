@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+{% block title %}Send Message - Admin-Only Forum{% endblock %}
+
+{% block content %}
+<div id="info-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>Request Admin Access</h2>
+        </div>
+        <div class="modal-body">
+            <p><strong>Welcome to the Admin-Only Forum.</strong></p>
+            <p>This is an exclusive community for administrators to discuss moderation strategies, community management, and admin best practices.</p>
+            <p><strong>How to Request Access:</strong></p>
+            <ul>
+                <li>Use the form below to send a direct message to the forum administrator</li>
+                <li>Explain why you want to become an admin and your relevant experience</li>
+                <li>Be patient - the admin reviews messages when available</li>
+            </ul>
+            <p class="modal-warning"><strong>Important:</strong> Admin access is <em>highly selective</em>. The vast majority of requests are declined. Even having your message reviewed is fortunate - many messages go unread.</p>
+        </div>
+        <div class="modal-footer">
+            <label class="modal-checkbox">
+                <input type="checkbox" id="dont-show-again">
+                <span>Don't show this again</span>
+            </label>
+            <button class="btn btn-primary" id="modal-ok">Got it</button>
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="content-box">
+        <div class="content-header">
+            <h1>Request Admin Access</h1>
+            <p class="content-subtitle">Send a message to request administrator privileges</p>
+        </div>
+        
+        <div id="status-processing" class="status-box hidden">
+            <div class="spinner"></div>
+            <div class="status-text">Processing... Your message is being reviewed by the admin.</div>
+        </div>
+        
+        <div id="status-completed" class="status-box status-info hidden">
+            <div class="status-icon">✓</div>
+            <div class="status-text">Your message has been reviewed. You can send another message if needed.</div>
+        </div>
+        
+        <div id="status-admin" class="status-box status-success hidden">
+            <div class="status-icon">✓</div>
+            <div class="status-text">
+                <strong>You have been granted admin access!</strong><br>
+                <a href="{{ url_for('admin_panel') }}" class="status-link">Go to Admin Panel</a>
+            </div>
+        </div>
+        
+        <form method="post" action="{{ url_for('send_dm') }}" class="dm-form" id="dm-form">
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    rows="8" 
+                    maxlength="2000" 
+                    placeholder="Write your message to the admin here..."
+                    required
+                ></textarea>
+                <div class="char-counter">
+                    <div class="char-bar">
+                        <div id="char-fill" class="char-fill"></div>
+                    </div>
+                    <span id="char-count" class="char-count">0 / 2000</span>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" id="send-btn">Send Message</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    const messageInput = document.getElementById('message');
+    const charFill = document.getElementById('char-fill');
+    const charCount = document.getElementById('char-count');
+    const statusProcessing = document.getElementById('status-processing');
+    const statusCompleted = document.getElementById('status-completed');
+    const statusAdmin = document.getElementById('status-admin');
+    const dmForm = document.getElementById('dm-form');
+    const sendBtn = document.getElementById('send-btn');
+    const infoModal = document.getElementById('info-modal');
+    const modalOk = document.getElementById('modal-ok');
+    const dontShowAgain = document.getElementById('dont-show-again');
+    const MAX_LENGTH = 2000;
+    let polling = {{ 'true' if processing else 'false' }};
+    
+    if (!localStorage.getItem('hideAdminInfo')) {
+        infoModal.style.display = 'flex';
+    }
+    
+    modalOk.addEventListener('click', function() {
+        if (dontShowAgain.checked) {
+            localStorage.setItem('hideAdminInfo', 'true');
+        }
+        infoModal.style.display = 'none';
+    });
+    
+    function updateCharCounter() {
+        const length = messageInput.value.length;
+        const percent = (length / MAX_LENGTH) * 100;
+        charFill.style.width = percent + '%';
+        charCount.textContent = length + ' / ' + MAX_LENGTH;
+        
+        if (length > 1800) {
+            charFill.classList.add('char-warning');
+        } else {
+            charFill.classList.remove('char-warning');
+        }
+    }
+    
+    function hideAllStatus() {
+        statusProcessing.classList.add('hidden');
+        statusCompleted.classList.add('hidden');
+        statusAdmin.classList.add('hidden');
+        const flashContainer = document.querySelector('.flash-container');
+        if (flashContainer) {
+            flashContainer.style.display = 'none';
+        }
+    }
+    
+    messageInput.addEventListener('input', updateCharCounter);
+    updateCharCounter();
+    
+    async function checkStatus() {
+        try {
+            const response = await fetch('/api/dm/status');
+            const data = await response.json();
+            
+            if (data.is_admin) {
+                polling = false;
+                hideAllStatus();
+                statusAdmin.classList.remove('hidden');
+                sendBtn.disabled = true;
+                messageInput.disabled = true;
+            } else if (data.processing) {
+                hideAllStatus();
+                statusProcessing.classList.remove('hidden');
+                sendBtn.disabled = true;
+            } else if (data.completed) {
+                polling = false;
+                hideAllStatus();
+                statusCompleted.classList.remove('hidden');
+                sendBtn.disabled = false;
+                messageInput.value = '';
+                updateCharCounter();
+            }
+        } catch (error) {
+            console.error('Status check failed:', error);
+        }
+        
+        if (polling) {
+            setTimeout(checkStatus, 2000);
+        }
+    }
+    
+    if (polling) {
+        hideAllStatus();
+        statusProcessing.classList.remove('hidden');
+        sendBtn.disabled = true;
+        checkStatus();
+    }
+    
+    dmForm.addEventListener('submit', function() {
+        polling = true;
+        setTimeout(() => {
+            hideAllStatus();
+            statusProcessing.classList.remove('hidden');
+            sendBtn.disabled = true;
+            checkStatus();
+        }, 500);
+    });
+</script>
+{% endblock %}
