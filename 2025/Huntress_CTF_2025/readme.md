@@ -45,7 +45,7 @@ New challenges released every day!
 | Day 24 | Lizard | Malware |  |
 | Day 25 | [My Hawaii Vacation](25-My_Hawaii_Vacation/readme.md) | Malware | :heavy_check_mark: |
 | Day 26 | Puzzle Pieces Redux | Forensics |  |
-| Day 27 | [Follow The Money: The Sequel](27-Follow_The_money_The_Sequel/readme.md) | OSINT | :heavy_check_mark: | 
+| Day 27 | [Follow The Money: The Sequel](27-Follow_The_Money_The_Sequel/readme.md) | OSINT | :heavy_check_mark: | 
 | Day 28 | Rust Tickler 2 | Reverse Engineering | | |
 | Day 28 | Telestealer | Malware | | |
 | Day 29 | Trapped | Binary Exploitation |  |  |
