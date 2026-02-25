@@ -1,5 +1,5 @@
 # FurHire - Weekly Challenge
-**Date:** 2026-02-23
+**Date:** 2026-02-23  
 **Hint:** "Your window is small, you might have to try multiple times."
 
 ---
@@ -265,7 +265,7 @@ Found valid PIN of: `5362`
 Successfully redirected to: `/admin`
 
 Flag obtained 
-![alt text](image.png)  
+![alt text](image-3.png)  
 
 ---
 
