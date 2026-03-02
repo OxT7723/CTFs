@@ -70,7 +70,7 @@ This confirms the server trusted the role parameter supplied in the URL, allowin
 
 ## MFA Bypass Attempt
 
-After logging in as administrator, I was prompted for a 4-digit MFA PIN.
+After logging in as administrator, I was prompted for a 4-digit MFA PIN.  
 ![alt text](image.png)  
 The page indicated:
 > PIN range: 0000–9999
