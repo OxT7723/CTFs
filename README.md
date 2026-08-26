@@ -2,6 +2,7 @@
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
+| 2026 | [Cyber Apocalypse 2026](2026/CyberApocalypse/README.md) | RedRavens | 885th of 6,744  | 
 | 2026 | [Snyk Fetch The Flag 2026](2026/Snyk_Fetch_The_Flag/README.md) | Redravens | 472 of 1,539 | 
 | 2025 | [Huntress CTF 2025](2025/Huntress_CTF_2025/readme.md) | Kurogen | 27th of 6,869 |
 | 2025 | [Holmes CTF 2025](2025/Holmes_CTF_2025/readme.md) | RedRavens | 2608th of 7,085 |
@@ -21,15 +22,21 @@
 | 2022 | Dark Wolf Solutions Hirining CTF Challenge |  |  |
 
 ## 2026
+
+### [Cyber Apocalypse](2026/CyberApocalypse/README.md) 
+![Cyber Apocalypse 2025](2026/CyberApocalypse/htb-cyberApocalypse-certificate.png)
+
+
+### Synk Fetch The Flag 
 ![Snyk Fetch The Flag 2026](2026/Snyk_Fetch_The_Flag/snyk-certificate2026.png)
 * [writeup](2026/Snyk_Fetch_The_Flag/README.md)
 ## 2025 
 
-## Huntress CTF 2025 
+### Huntress CTF 2025 
 ![Huntress CTF 2025](2025/Huntress_CTF_2025/Huntress_CTF_Certificate.png)
 * [writeup](2025/Huntress_CTF_2025/readme.md) 
 
-## Holmes CTF 2025 - HTB's first all-blue CTF
+### Holmes CTF 2025 - HTB's first all-blue CTF
 ![Holmes CTF 2025](2025/Holmes_CTF_2025/HolmesCert.png)
 * [writeup](2025/Holmes_CTF_2025/readme.md)
 
