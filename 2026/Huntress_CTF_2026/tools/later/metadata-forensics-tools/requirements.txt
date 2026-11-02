@@ -1,0 +1,6 @@
+pefile>=2024.8.26
+pyzipper>=0.3.6
+pylnk3>=0.4.2
+python-evtx>=0.8.1
+dissect.util>=3.24
+cryptography>=41.0.7

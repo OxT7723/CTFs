@@ -1,0 +1,520 @@
+release_day,challenge_title,mode,recorded_clock_utc,question_id,scoreboard_scored_at_utc,note
+29,Fraternal Twins,Single Solve,13:01:28,binary_reverse_engineering_day_29_variant_diffing_investigation,2026-10-29T13:01:28.928Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Fraternal Twins,Time Trial,13:01:57,binary_reverse_engineering_day_29_variant_diffing_sprint,2026-10-29T13:01:58.321Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Fraternal Twins,Mastery,13:03:50,binary_reverse_engineering_day_29_variant_diffing_mastery,2026-10-29T13:03:51.315Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Internal Affairs,Single Solve,13:02:05,web_exploitation_day_27_internal_affairs_investigation,2026-10-29T13:02:05.752Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Internal Affairs,Time Trial,13:03:09,web_exploitation_day_27_internal_affairs_sprint,2026-10-29T13:03:09.530Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Internal Affairs,Mastery,13:04:43,web_exploitation_day_27_internal_affairs_mastery,2026-10-29T13:04:44.101Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Trust the Build,Single Solve,13:01:19,web_exploitation_day_26_trust_the_build_investigation,2026-10-29T13:01:20.035Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Trust the Build,Time Trial,13:03:08,web_exploitation_day_26_trust_the_build_sprint,2026-10-29T13:03:09.197Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Trust the Build,Mastery,13:04:43,web_exploitation_day_26_trust_the_build_mastery,2026-10-29T13:04:44.190Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Rotten Base,Single Solve,13:00:43,warmups_day_29_investigation,2026-10-29T13:00:43.930Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Rotten Base,Time Trial,13:00:52,warmups_day_29_sprint,2026-10-29T13:00:52.465Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Rotten Base,Mastery,13:06:31,warmups_day_29_mastery,2026-10-29T13:06:32.044Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Make It Make Sense,Single Solve,13:00:27,script_analysis_day_29_makefile_variant_diff_investigation,2026-10-29T13:00:28.537Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Make It Make Sense,Time Trial,13:00:38,script_analysis_day_29_makefile_variant_diff_sprint,2026-10-29T13:00:38.675Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Make It Make Sense,Mastery,13:01:05,script_analysis_day_29_makefile_variant_diff_mastery,2026-10-29T13:01:06.792Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,White Box Key Recovery,Single Solve,13:02:07,mobile_android_day_29_white_box_key_recovery_investigation,2026-10-29T13:02:08.152Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,White Box Key Recovery,Time Trial,13:02:39,mobile_android_day_29_white_box_key_recovery_sprint,2026-10-29T13:02:39.569Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,White Box Key Recovery,Mastery,13:03:33,mobile_android_day_29_white_box_key_recovery_mastery,2026-10-29T13:03:34.159Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Trust Issues,Single Solve,13:00:31,metadata_forensics_day_29_trust_issues_investigation,2026-10-29T13:00:31.872Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Trust Issues,Time Trial,13:00:42,metadata_forensics_day_29_trust_issues_sprint,2026-10-29T13:00:42.489Z,Clock only; full solve date and elapsed duration unavailable in this note.
+29,Trust Issues,Mastery,13:01:18,metadata_forensics_day_29_trust_issues_mastery,2026-10-29T13:01:18.607Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Family Resemblance,Single Solve,13:10:41,binary_reverse_engineering_day_28_family_clustering_investigation,2026-10-28T13:10:41.866Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Family Resemblance,Time Trial,13:10:55,binary_reverse_engineering_day_28_family_clustering_sprint,2026-10-28T13:10:56.168Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Family Resemblance,Mastery,13:12:19,binary_reverse_engineering_day_28_family_clustering_mastery,2026-10-28T13:12:19.887Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Fail Open Friday,Single Solve,13:01:44,web_exploitation_day_24_fail_open_friday_investigation,2026-10-28T13:01:44.825Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Fail Open Friday,Time Trial,13:03:00,web_exploitation_day_24_fail_open_friday_sprint,2026-10-28T13:03:01.336Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Fail Open Friday,Mastery,13:05:38,web_exploitation_day_24_fail_open_friday_mastery,2026-10-28T13:05:38.776Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,If a Breach Falls in a Log,Single Solve,13:01:44,web_exploitation_day_25_if_a_breach_falls_in_a_log_investigation,2026-10-28T13:01:44.937Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,If a Breach Falls in a Log,Time Trial,13:03:01,web_exploitation_day_25_if_a_breach_falls_in_a_log_sprint,2026-10-28T13:03:01.489Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,If a Breach Falls in a Log,Mastery,13:05:38,web_exploitation_day_25_if_a_breach_falls_in_a_log_mastery,2026-10-28T13:05:38.967Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Back in Sixteen,Single Solve,13:00:45,warmups_day_28_investigation,2026-10-28T13:00:45.843Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Back in Sixteen,Time Trial,13:01:00,warmups_day_28_sprint,2026-10-28T13:01:00.968Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Back in Sixteen,Mastery,13:07:19,warmups_day_28_mastery,2026-10-28T13:07:19.814Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Out of Order,Single Solve,13:00:08,script_analysis_day_28_terraform_cloud_timeline_investigation,2026-10-28T13:00:09.379Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Out of Order,Time Trial,13:00:33,script_analysis_day_28_terraform_cloud_timeline_sprint,2026-10-28T13:00:34.264Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Out of Order,Mastery,13:00:52,script_analysis_day_28_terraform_cloud_timeline_mastery,2026-10-28T13:00:52.724Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Protocol Reconstruction,Single Solve,13:00:52,mobile_android_day_28_protocol_reconstruction_investigation,2026-10-28T13:00:53.125Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Protocol Reconstruction,Time Trial,13:00:59,mobile_android_day_28_protocol_reconstruction_sprint,2026-10-28T13:00:59.851Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Protocol Reconstruction,Mastery,13:01:26,mobile_android_day_28_protocol_reconstruction_mastery,2026-10-28T13:01:26.757Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Where It All Began,Single Solve,13:01:20,metadata_forensics_day_28_where_it_all_began_investigation,2026-10-28T13:01:21.070Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Where It All Began,Time Trial,13:01:31,metadata_forensics_day_28_where_it_all_began_sprint,2026-10-28T13:01:31.681Z,Clock only; full solve date and elapsed duration unavailable in this note.
+28,Where It All Began,Mastery,13:01:43,metadata_forensics_day_28_where_it_all_began_mastery,2026-10-28T13:01:44.157Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Compiler Says What,Single Solve,13:05:00,binary_reverse_engineering_day_27_compiler_attribution_investigation,2026-10-27T13:05:01.964Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Compiler Says What,Time Trial,13:05:31,binary_reverse_engineering_day_27_compiler_attribution_sprint,2026-10-27T13:05:31.579Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Compiler Says What,Mastery,13:07:39,binary_reverse_engineering_day_27_compiler_attribution_mastery,2026-10-27T13:07:39.538Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Double Spent,Single Solve,13:01:19,web_exploitation_day_21_double_spent_investigation,2026-10-27T13:01:20.011Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Double Spent,Time Trial,13:04:41,web_exploitation_day_21_double_spent_sprint,2026-10-27T13:04:41.651Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Double Spent,Mastery,13:05:56,web_exploitation_day_21_double_spent_mastery,2026-10-27T13:05:57.542Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Forwarded Misgivings,Single Solve,13:03:50,web_exploitation_day_23_forwarded_misgivings_investigation,2026-10-27T13:03:51.248Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Forwarded Misgivings,Time Trial,13:07:37,web_exploitation_day_23_forwarded_misgivings_sprint,2026-10-27T13:07:37.568Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Forwarded Misgivings,Mastery,13:08:24,web_exploitation_day_23_forwarded_misgivings_mastery,2026-10-27T13:08:25.001Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Socket to Me,Single Solve,13:02:39,web_exploitation_day_22_socket_to_me_investigation,2026-10-27T13:02:39.767Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Socket to Me,Time Trial,13:06:38,web_exploitation_day_22_socket_to_me_sprint,2026-10-27T13:06:39.031Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Socket to Me,Mastery,13:07:14,web_exploitation_day_22_socket_to_me_mastery,2026-10-27T13:07:14.398Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Monkey Business,Single Solve,13:04:10,warmups_day_27_investigation,2026-10-27T13:04:10.426Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Monkey Business,Time Trial,13:04:18,warmups_day_27_sprint,2026-10-27T13:04:19.241Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Monkey Business,Mastery,13:08:35,warmups_day_27_mastery,2026-10-27T13:08:36.143Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,FROM Whence It Came,Single Solve,13:00:35,script_analysis_day_27_docker_build_attribution_investigation,2026-10-27T13:00:36.861Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,FROM Whence It Came,Time Trial,13:00:45,script_analysis_day_27_docker_build_attribution_sprint,2026-10-27T13:00:45.378Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,FROM Whence It Came,Mastery,13:01:15,script_analysis_day_27_docker_build_attribution_mastery,2026-10-27T13:01:15.947Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Dependency Surface,Single Solve,13:00:33,mobile_android_day_27_dependency_surface_investigation,2026-10-27T13:00:34.208Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Dependency Surface,Time Trial,13:00:41,mobile_android_day_27_dependency_surface_sprint,2026-10-27T13:00:41.932Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Dependency Surface,Mastery,13:00:54,mobile_android_day_27_dependency_surface_mastery,2026-10-27T13:00:55.026Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Packet Loss Prevention,Single Solve,13:00:41,metadata_forensics_day_27_packet_loss_prevention_investigation,2026-10-27T13:00:43.125Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Packet Loss Prevention,Time Trial,13:01:37,metadata_forensics_day_27_packet_loss_prevention_sprint,2026-10-27T13:01:38.555Z,Clock only; full solve date and elapsed duration unavailable in this note.
+27,Packet Loss Prevention,Mastery,13:01:53,metadata_forensics_day_27_packet_loss_prevention_mastery,2026-10-27T13:01:53.739Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Crash Course,Single Solve,13:01:35,binary_reverse_engineering_day_26_crash_triage_investigation,2026-10-26T13:01:35.624Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Crash Course,Time Trial,13:02:14,binary_reverse_engineering_day_26_crash_triage_sprint,2026-10-26T13:02:15.335Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Crash Course,Mastery,13:05:14,binary_reverse_engineering_day_26_crash_triage_mastery,2026-10-26T13:05:15.149Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Serialized Offender,Single Solve,13:03:00,web_exploitation_day_20_serialized_offender_investigation,2026-10-26T13:03:01.048Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Serialized Offender,Time Trial,13:05:00,web_exploitation_day_20_serialized_offender_sprint,2026-10-26T13:05:00.952Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Serialized Offender,Mastery,13:05:34,web_exploitation_day_20_serialized_offender_mastery,2026-10-26T13:05:34.601Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Trust the Webhook,Single Solve,13:01:51,web_exploitation_day_19_trust_the_webhook_investigation,2026-10-26T13:01:52.306Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Trust the Webhook,Time Trial,13:03:45,web_exploitation_day_19_trust_the_webhook_sprint,2026-10-26T13:03:45.387Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Trust the Webhook,Mastery,13:04:39,web_exploitation_day_19_trust_the_webhook_mastery,2026-10-26T13:04:39.624Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Food for Thought,Single Solve,13:00:36,warmups_day_26_investigation,2026-10-26T13:00:36.663Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Food for Thought,Time Trial,13:00:43,warmups_day_26_sprint,2026-10-26T13:00:43.483Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Food for Thought,Mastery,13:04:46,warmups_day_26_mastery,2026-10-26T13:04:46.812Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Mixed Signals,Single Solve,13:00:58,script_analysis_day_26_beam_message_flow_investigation,2026-10-26T13:00:58.900Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Mixed Signals,Time Trial,13:01:06,script_analysis_day_26_beam_message_flow_sprint,2026-10-26T13:01:07.130Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Mixed Signals,Mastery,13:01:28,script_analysis_day_26_beam_message_flow_mastery,2026-10-26T13:01:29.021Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Split Decision,Single Solve,13:01:01,mobile_android_day_26_split_decision_investigation,2026-10-26T13:01:02.322Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Split Decision,Time Trial,13:03:53,mobile_android_day_26_split_decision_sprint,2026-10-26T13:03:53.471Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Split Decision,Mastery,13:04:17,mobile_android_day_26_split_decision_mastery,2026-10-26T13:04:17.897Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Before You Go,Single Solve,13:02:13,metadata_forensics_day_26_before_you_go_investigation,2026-10-26T13:02:13.461Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Before You Go,Time Trial,13:02:24,metadata_forensics_day_26_before_you_go_sprint,2026-10-26T13:02:25.363Z,Clock only; full solve date and elapsed duration unavailable in this note.
+26,Before You Go,Mastery,13:02:36,metadata_forensics_day_26_before_you_go_mastery,2026-10-26T13:02:36.954Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Out of Bounds,Single Solve,13:01:06,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause_investigation,2026-10-25T13:01:07.251Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Out of Bounds,Time Trial,13:01:31,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause_sprint,2026-10-25T13:01:31.992Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Out of Bounds,Mastery,13:04:20,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause_mastery,2026-10-25T13:04:21.208Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Reset Expectations,Single Solve,13:01:32,web_exploitation_day_17_reset_expectations_investigation,2026-10-25T13:01:33.000Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Reset Expectations,Time Trial,13:02:30,web_exploitation_day_17_reset_expectations_sprint,2026-10-25T13:02:30.366Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Reset Expectations,Mastery,13:04:13,web_exploitation_day_17_reset_expectations_mastery,2026-10-25T13:04:13.650Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Resolver Revolt,Single Solve,13:01:32,web_exploitation_day_18_resolver_revolt_investigation,2026-10-25T13:01:33.147Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Resolver Revolt,Time Trial,13:02:30,web_exploitation_day_18_resolver_revolt_sprint,2026-10-25T13:02:30.288Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Resolver Revolt,Mastery,13:04:13,web_exploitation_day_18_resolver_revolt_mastery,2026-10-25T13:04:13.394Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Shell Company,Single Solve,13:01:32,web_exploitation_day_16_shell_company_investigation,2026-10-25T13:01:32.991Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Shell Company,Time Trial,13:02:30,web_exploitation_day_16_shell_company_sprint,2026-10-25T13:02:30.386Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Shell Company,Mastery,13:04:13,web_exploitation_day_16_shell_company_mastery,2026-10-25T13:04:13.638Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,You Have a Point,Single Solve,13:00:35,warmups_day_25_investigation,2026-10-25T13:00:35.498Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,You Have a Point,Time Trial,13:00:47,warmups_day_25_sprint,2026-10-25T13:00:47.656Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,You Have a Point,Mastery,13:02:17,warmups_day_25_mastery,2026-10-25T13:02:17.780Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Ashes to Assets,Single Solve,13:00:16,script_analysis_day_25_phoenix_stage_chain_investigation,2026-10-25T13:00:17.298Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Ashes to Assets,Time Trial,13:00:33,script_analysis_day_25_phoenix_stage_chain_sprint,2026-10-25T13:00:33.812Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Ashes to Assets,Mastery,13:00:46,script_analysis_day_25_phoenix_stage_chain_mastery,2026-10-25T13:00:46.588Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Integrity Signals,Single Solve,13:00:39,mobile_android_day_25_integrity_signals_investigation,2026-10-25T13:00:40.138Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Integrity Signals,Time Trial,13:01:47,mobile_android_day_25_integrity_signals_sprint,2026-10-25T13:01:48.141Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Integrity Signals,Mastery,13:04:59,mobile_android_day_25_integrity_signals_mastery,2026-10-25T13:04:59.838Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Hive Mind,Single Solve,13:00:50,metadata_forensics_day_25_hive_mind_investigation,2026-10-25T13:00:50.366Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Hive Mind,Time Trial,13:01:37,metadata_forensics_day_25_hive_mind_sprint,2026-10-25T13:01:37.540Z,Clock only; full solve date and elapsed duration unavailable in this note.
+25,Hive Mind,Mastery,13:01:44,metadata_forensics_day_25_hive_mind_mastery,2026-10-25T13:01:44.946Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Spot the Difference,Single Solve,13:03:06,binary_reverse_engineering_day_24_patch_diffing_investigation,2026-10-24T13:03:07.076Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Spot the Difference,Time Trial,13:03:39,binary_reverse_engineering_day_24_patch_diffing_sprint,2026-10-24T13:03:39.532Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Spot the Difference,Mastery,13:07:22,binary_reverse_engineering_day_24_patch_diffing_mastery,2026-10-24T13:07:22.796Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Fetch Quest,Single Solve,13:03:17,web_exploitation_day_15_fetch_quest_investigation,2026-10-24T13:03:18.409Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Fetch Quest,Time Trial,13:04:22,web_exploitation_day_15_fetch_quest_sprint,2026-10-24T13:04:22.608Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Fetch Quest,Mastery,13:07:05,web_exploitation_day_15_fetch_quest_mastery,2026-10-24T13:07:06.161Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,The API Has Opinions,Single Solve,13:03:17,web_exploitation_day_14_the_api_has_opinions_investigation,2026-10-24T13:03:18.454Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,The API Has Opinions,Time Trial,13:04:22,web_exploitation_day_14_the_api_has_opinions_sprint,2026-10-24T13:04:22.602Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,The API Has Opinions,Mastery,13:07:05,web_exploitation_day_14_the_api_has_opinions_mastery,2026-10-24T13:07:06.189Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,String Theory,Single Solve,13:02:31,warmups_day_24_investigation,2026-10-24T13:02:31.750Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,String Theory,Time Trial,13:02:36,warmups_day_24_sprint,2026-10-24T13:02:36.797Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,String Theory,Mastery,13:07:08,warmups_day_24_mastery,2026-10-24T13:07:09.027Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Web of Lies,Single Solve,13:01:47,script_analysis_day_24_jsp_webshell_source_investigation,2026-10-24T13:01:48.008Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Web of Lies,Time Trial,13:01:58,script_analysis_day_24_jsp_webshell_source_sprint,2026-10-24T13:01:59.297Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Web of Lies,Mastery,13:02:14,script_analysis_day_24_jsp_webshell_source_mastery,2026-10-24T13:02:15.131Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Emulator Alibi,Single Solve,13:01:49,mobile_android_day_24_emulator_alibi_investigation,2026-10-24T13:01:49.404Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Emulator Alibi,Time Trial,13:02:47,mobile_android_day_24_emulator_alibi_sprint,2026-10-24T13:02:47.714Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Emulator Alibi,Mastery,13:04:20,mobile_android_day_24_emulator_alibi_mastery,2026-10-24T13:04:20.726Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Event Horizon,Single Solve,13:02:15,metadata_forensics_day_24_event_horizon_investigation,2026-10-24T13:02:16.189Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Event Horizon,Time Trial,13:02:24,metadata_forensics_day_24_event_horizon_sprint,2026-10-24T13:02:24.428Z,Clock only; full solve date and elapsed duration unavailable in this note.
+24,Event Horizon,Mastery,13:02:42,metadata_forensics_day_24_event_horizon_mastery,2026-10-24T13:02:42.784Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Trust Issues,Single Solve,13:00:44,binary_reverse_engineering_day_23_anti_analysis_recognition_investigation,2026-10-23T13:00:45.057Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Trust Issues,Time Trial,13:01:10,binary_reverse_engineering_day_23_anti_analysis_recognition_sprint,2026-10-23T13:01:10.591Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Trust Issues,Mastery,13:03:34,binary_reverse_engineering_day_23_anti_analysis_recognition_mastery,2026-10-23T13:03:34.319Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Ask Again Later,Single Solve,13:09:54,web_exploitation_day_12_ask_again_later_investigation,2026-10-23T13:09:55.063Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Ask Again Later,Time Trial,13:10:14,web_exploitation_day_12_ask_again_later_sprint,2026-10-23T13:10:15.446Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Ask Again Later,Mastery,13:11:06,web_exploitation_day_12_ask_again_later_mastery,2026-10-23T13:11:06.358Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Posted Too Much,Single Solve,13:12:21,web_exploitation_day_13_posted_too_much_investigation,2026-10-23T13:12:23.526Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Posted Too Much,Time Trial,13:12:47,web_exploitation_day_13_posted_too_much_sprint,2026-10-23T13:12:48.184Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Posted Too Much,Mastery,13:13:22,web_exploitation_day_13_posted_too_much_mastery,2026-10-23T13:13:22.776Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Template Temper,Single Solve,13:14:49,web_exploitation_day_11_template_temper_investigation,2026-10-23T13:14:49.721Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Template Temper,Time Trial,13:15:11,web_exploitation_day_11_template_temper_sprint,2026-10-23T13:15:11.939Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Template Temper,Mastery,13:15:42,web_exploitation_day_11_template_temper_mastery,2026-10-23T13:15:42.259Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Eighty-Five Alive,Single Solve,13:01:06,warmups_day_23_investigation,2026-10-23T13:01:06.873Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Eighty-Five Alive,Time Trial,13:01:15,warmups_day_23_sprint,2026-10-23T13:01:16.005Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Eighty-Five Alive,Mastery,13:10:48,warmups_day_23_mastery,2026-10-23T13:10:49.480Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Press Start to Decode,Single Solve,13:00:56,script_analysis_day_23_game_resource_loader_investigation,2026-10-23T13:00:57.111Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Press Start to Decode,Time Trial,13:13:45,script_analysis_day_23_game_resource_loader_sprint,2026-10-23T13:13:45.401Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Press Start to Decode,Mastery,13:18:11,script_analysis_day_23_game_resource_loader_mastery,2026-10-23T13:18:12.284Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Hook Line and Signal,Single Solve,13:00:35,mobile_android_day_23_hook_line_and_signal_investigation,2026-10-23T13:00:35.490Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Hook Line and Signal,Time Trial,13:04:28,mobile_android_day_23_hook_line_and_signal_sprint,2026-10-23T13:04:29.189Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Hook Line and Signal,Mastery,13:08:16,mobile_android_day_23_hook_line_and_signal_mastery,2026-10-23T13:08:17.025Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Page Me Maybe,Single Solve,13:01:01,metadata_forensics_day_23_page_me_maybe_investigation,2026-10-23T13:01:02.131Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Page Me Maybe,Time Trial,13:03:25,metadata_forensics_day_23_page_me_maybe_sprint,2026-10-23T13:03:26.169Z,Clock only; full solve date and elapsed duration unavailable in this note.
+23,Page Me Maybe,Mastery,13:03:42,metadata_forensics_day_23_page_me_maybe_mastery,2026-10-23T13:03:43.430Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Bridge Troll,Single Solve,13:01:53,binary_reverse_engineering_day_22_managed_native_bridge_investigation,2026-10-22T13:01:53.758Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Bridge Troll,Time Trial,13:03:37,binary_reverse_engineering_day_22_managed_native_bridge_sprint,2026-10-22T13:03:37.471Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Bridge Troll,Mastery,13:05:15,binary_reverse_engineering_day_22_managed_native_bridge_mastery,2026-10-22T13:05:15.794Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Forged With Care,Single Solve,13:00:51,web_exploitation_day_09_forged_with_care_investigation,2026-10-22T13:00:51.954Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Forged With Care,Time Trial,13:01:25,web_exploitation_day_09_forged_with_care_sprint,2026-10-22T13:01:25.987Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Forged With Care,Mastery,13:01:59,web_exploitation_day_09_forged_with_care_mastery,2026-10-22T13:01:59.741Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Uploading Expectations,Single Solve,13:03:11,web_exploitation_day_10_uploading_expectations_investigation,2026-10-22T13:03:11.469Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Uploading Expectations,Time Trial,13:03:35,web_exploitation_day_10_uploading_expectations_sprint,2026-10-22T13:03:36.296Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Uploading Expectations,Mastery,13:03:59,web_exploitation_day_10_uploading_expectations_mastery,2026-10-22T13:04:00.631Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Deflated Ego,Single Solve,13:00:29,warmups_day_22_investigation,2026-10-22T13:00:30.648Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Deflated Ego,Time Trial,13:00:36,warmups_day_22_sprint,2026-10-22T13:00:37.063Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Deflated Ego,Mastery,13:06:08,warmups_day_22_mastery,2026-10-22T13:06:08.964Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,"Next, Next, Finish",Single Solve,13:00:21,script_analysis_day_22_installer_script_chain_investigation,2026-10-22T13:00:22.582Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,"Next, Next, Finish",Time Trial,13:00:31,script_analysis_day_22_installer_script_chain_sprint,2026-10-22T13:00:31.684Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,"Next, Next, Finish",Mastery,13:02:43,script_analysis_day_22_installer_script_chain_mastery,2026-10-22T13:02:43.845Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Root of Trust,Single Solve,13:00:41,mobile_android_day_22_root_of_trust_investigation,2026-10-22T13:00:47.292Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Root of Trust,Time Trial,13:00:56,mobile_android_day_22_root_of_trust_sprint,2026-10-22T13:00:56.713Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Root of Trust,Mastery,13:01:20,mobile_android_day_22_root_of_trust_mastery,2026-10-22T13:01:20.604Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Main Character Energy,Single Solve,13:00:38,metadata_forensics_day_22_main_character_energy_investigation,2026-10-22T13:00:40.041Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Main Character Energy,Time Trial,13:01:31,metadata_forensics_day_22_main_character_energy_sprint,2026-10-22T13:01:31.652Z,Clock only; full solve date and elapsed duration unavailable in this note.
+22,Main Character Energy,Mastery,13:01:40,metadata_forensics_day_22_main_character_energy_mastery,2026-10-22T13:01:40.884Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Shared Custody,Single Solve,13:05:13,binary_reverse_engineering_day_21_shared_library_boundaries_investigation,2026-10-21T13:05:14.273Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Shared Custody,Time Trial,13:05:26,binary_reverse_engineering_day_21_shared_library_boundaries_sprint,2026-10-21T13:05:26.557Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Shared Custody,Mastery,13:06:31,binary_reverse_engineering_day_21_shared_library_boundaries_mastery,2026-10-21T13:06:32.496Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Reflect Upon This,Single Solve,13:01:11,web_exploitation_day_06_reflect_upon_this_investigation,2026-10-21T13:01:11.366Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Reflect Upon This,Time Trial,13:01:51,web_exploitation_day_06_reflect_upon_this_sprint,2026-10-21T13:01:51.954Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Reflect Upon This,Mastery,13:02:21,web_exploitation_day_06_reflect_upon_this_mastery,2026-10-21T13:02:21.473Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Session Impression,Single Solve,13:06:16,web_exploitation_day_08_session_impression_investigation,2026-10-21T13:06:16.738Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Session Impression,Time Trial,13:06:41,web_exploitation_day_08_session_impression_sprint,2026-10-21T13:06:41.639Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Session Impression,Mastery,13:07:01,web_exploitation_day_08_session_impression_mastery,2026-10-21T13:07:01.855Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Stored for Later,Single Solve,13:03:31,web_exploitation_day_07_stored_xss_investigation,2026-10-21T13:03:32.096Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Stored for Later,Time Trial,13:04:34,web_exploitation_day_07_stored_xss_sprint,2026-10-21T13:04:34.527Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Stored for Later,Mastery,13:04:52,web_exploitation_day_07_stored_xss_mastery,2026-10-21T13:04:52.412Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Under Pressure,Single Solve,13:00:18,warmups_day_21_investigation,2026-10-21T13:00:19.251Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Under Pressure,Time Trial,13:00:25,warmups_day_21_sprint,2026-10-21T13:00:25.633Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Under Pressure,Mastery,13:02:37,warmups_day_21_mastery,2026-10-21T13:02:37.464Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Actions Speak Louder,Single Solve,13:00:15,script_analysis_day_21_github_actions_persistence_investigation,2026-10-21T13:00:15.836Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Actions Speak Louder,Time Trial,13:00:25,script_analysis_day_21_github_actions_persistence_sprint,2026-10-21T13:00:26.102Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Actions Speak Louder,Mastery,13:01:06,script_analysis_day_21_github_actions_persistence_mastery,2026-10-21T13:01:07.330Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Debug Me If You Can,Single Solve,13:00:17,mobile_android_day_21_debug_me_if_you_can_investigation,2026-10-21T13:00:18.209Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Debug Me If You Can,Time Trial,13:00:22,mobile_android_day_21_debug_me_if_you_can_sprint,2026-10-21T13:00:22.532Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Debug Me If You Can,Mastery,13:00:29,mobile_android_day_21_debug_me_if_you_can_mastery,2026-10-21T13:00:30.507Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Package Deal,Single Solve,13:00:41,metadata_forensics_day_21_package_deal_investigation,2026-10-21T13:00:41.902Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Package Deal,Time Trial,13:00:53,metadata_forensics_day_21_package_deal_sprint,2026-10-21T13:00:53.602Z,Clock only; full solve date and elapsed duration unavailable in this note.
+21,Package Deal,Mastery,13:01:00,metadata_forensics_day_21_package_deal_mastery,2026-10-21T13:01:01.057Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Resourceful,Single Solve,13:00:44,binary_reverse_engineering_day_20_resources_and_overlays_investigation,2026-10-20T13:00:44.934Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Resourceful,Time Trial,13:01:02,binary_reverse_engineering_day_20_resources_and_overlays_sprint,2026-10-20T13:01:02.984Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Resourceful,Mastery,13:01:44,binary_reverse_engineering_day_20_resources_and_overlays_mastery,2026-10-20T13:01:45.046Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Administratively Speaking,Single Solve,13:01:46,web_exploitation_day_05_administratively_speaking_investigation,2026-10-20T13:01:47.337Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Administratively Speaking,Time Trial,13:02:02,web_exploitation_day_05_administratively_speaking_sprint,2026-10-20T13:02:02.560Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Administratively Speaking,Mastery,13:02:47,web_exploitation_day_05_administratively_speaking_mastery,2026-10-20T13:02:47.894Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Stay in Your Directory,Single Solve,13:00:43,web_exploitation_day_04_lfi_investigation,2026-10-20T13:00:44.216Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Stay in Your Directory,Time Trial,13:02:01,web_exploitation_day_04_lfi_sprint,2026-10-20T13:02:02.197Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Stay in Your Directory,Mastery,13:02:47,web_exploitation_day_04_lfi_mastery,2026-10-20T13:02:48.110Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Big Entrance,Single Solve,13:00:14,warmups_day_20_investigation,2026-10-20T13:00:14.864Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Big Entrance,Time Trial,13:00:19,warmups_day_20_sprint,2026-10-20T13:00:19.907Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Big Entrance,Mastery,13:00:24,warmups_day_20_mastery,2026-10-20T13:00:24.721Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,The Butler Did It,Single Solve,13:00:12,script_analysis_day_20_jenkins_pipeline_intrusion_investigation,2026-10-20T13:00:13.624Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,The Butler Did It,Time Trial,13:00:22,script_analysis_day_20_jenkins_pipeline_intrusion_sprint,2026-10-20T13:00:22.487Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,The Butler Did It,Mastery,13:00:46,script_analysis_day_20_jenkins_pipeline_intrusion_mastery,2026-10-20T13:00:46.974Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Loaded Later,Single Solve,13:01:08,mobile_android_day_20_loaded_later_investigation,2026-10-20T13:01:08.408Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Loaded Later,Time Trial,13:01:14,mobile_android_day_20_loaded_later_sprint,2026-10-20T13:01:15.701Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Loaded Later,Mastery,13:01:25,mobile_android_day_20_loaded_later_mastery,2026-10-20T13:01:26.177Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Universal Appeal,Single Solve,13:01:40,metadata_forensics_day_20_universal_appeal_investigation,2026-10-20T13:01:40.472Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Universal Appeal,Time Trial,13:01:54,metadata_forensics_day_20_universal_appeal_sprint,2026-10-20T13:01:55.034Z,Clock only; full solve date and elapsed duration unavailable in this note.
+20,Universal Appeal,Mastery,13:02:01,metadata_forensics_day_20_universal_appeal_mastery,2026-10-20T13:02:02.758Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Jack in the Box,Single Solve,13:02:26,binary_reverse_engineering_day_19_static_unpacking_investigation,2026-10-19T13:02:26.801Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Jack in the Box,Time Trial,13:02:38,binary_reverse_engineering_day_19_static_unpacking_sprint,2026-10-19T13:02:39.334Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Jack in the Box,Mastery,13:03:31,binary_reverse_engineering_day_19_static_unpacking_mastery,2026-10-19T13:03:32.393Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Back Up a Minute,Single Solve,13:06:37,web_exploitation_day_01_backup_exposure_investigation,2026-10-19T13:06:38.271Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Back Up a Minute,Time Trial,13:07:05,web_exploitation_day_01_backup_exposure_sprint,2026-10-19T13:07:05.276Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Back Up a Minute,Mastery,13:17:57,web_exploitation_day_01_backup_exposure_mastery,2026-10-19T13:17:58.090Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Permission to Slip,Single Solve,13:11:35,web_exploitation_day_02_idor_investigation,2026-10-19T13:11:35.873Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Permission to Slip,Time Trial,13:12:21,web_exploitation_day_02_idor_sprint,2026-10-19T13:12:21.524Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Permission to Slip,Mastery,13:18:28,web_exploitation_day_02_idor_mastery,2026-10-19T13:18:28.900Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Query Me This,Single Solve,13:14:51,web_exploitation_day_03_sqli_investigation,2026-10-19T13:14:52.260Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Query Me This,Time Trial,13:15:26,web_exploitation_day_03_sqli_sprint,2026-10-19T13:15:26.525Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Query Me This,Mastery,13:16:05,web_exploitation_day_03_sqli_mastery,2026-10-19T13:16:05.885Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Little Things,Single Solve,13:00:37,warmups_day_19_investigation,2026-10-19T13:00:37.970Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Little Things,Time Trial,13:00:45,warmups_day_19_sprint,2026-10-19T13:00:46.113Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Little Things,Mastery,13:04:55,warmups_day_19_mastery,2026-10-19T13:04:55.797Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Sharp Practice,Single Solve,13:00:37,script_analysis_day_19_managed_assembly_bridge_investigation,2026-10-19T13:00:37.753Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Sharp Practice,Time Trial,13:00:49,script_analysis_day_19_managed_assembly_bridge_sprint,2026-10-19T13:00:50.695Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Sharp Practice,Mastery,13:01:26,script_analysis_day_19_managed_assembly_bridge_mastery,2026-10-19T13:01:27.911Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Reflection Maze,Single Solve,13:01:06,mobile_android_day_19_reflection_maze_investigation,2026-10-19T13:01:06.907Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Reflection Maze,Time Trial,13:01:13,mobile_android_day_19_reflection_maze_sprint,2026-10-19T13:01:14.263Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Reflection Maze,Mastery,13:01:20,mobile_android_day_19_reflection_maze_mastery,2026-10-19T13:01:21.654Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Little Endian on the Prairie,Single Solve,13:00:37,metadata_forensics_day_19_little_endian_on_the_prairie_investigation,2026-10-19T13:00:37.844Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Little Endian on the Prairie,Time Trial,13:00:46,metadata_forensics_day_19_little_endian_on_the_prairie_sprint,2026-10-19T13:00:47.483Z,Clock only; full solve date and elapsed duration unavailable in this note.
+19,Little Endian on the Prairie,Mastery,13:00:56,metadata_forensics_day_19_little_endian_on_the_prairie_mastery,2026-10-19T13:00:56.508Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Flow State,Single Solve,14:24:23,binary_reverse_engineering_day_18_control_flow_reconstruction_investigation,2026-10-18T14:24:23.525Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Flow State,Time Trial,14:24:40,binary_reverse_engineering_day_18_control_flow_reconstruction_sprint,2026-10-18T14:24:40.611Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Flow State,Mastery,14:25:29,binary_reverse_engineering_day_18_control_flow_reconstruction_mastery,2026-10-18T14:25:29.749Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Off the Rails,Single Solve,14:23:28,warmups_day_18_investigation,2026-10-18T14:23:28.603Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Off the Rails,Time Trial,14:23:32,warmups_day_18_sprint,2026-10-18T14:23:33.093Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Off the Rails,Mastery,14:24:32,warmups_day_18_mastery,2026-10-18T14:24:32.765Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Orphan Process,Single Solve,14:33:48,script_analysis_day_18_process_story_investigation,2026-10-18T14:33:49.418Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Orphan Process,Time Trial,14:34:12,script_analysis_day_18_process_story_sprint,2026-10-18T14:34:13.232Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Orphan Process,Mastery,14:34:38,script_analysis_day_18_process_story_mastery,2026-10-18T14:34:38.779Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Encrypted Strings,Single Solve,14:23:48,mobile_android_day_18_encrypted_strings_investigation,2026-10-18T14:23:48.847Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Encrypted Strings,Time Trial,14:23:53,mobile_android_day_18_encrypted_strings_sprint,2026-10-18T14:23:53.735Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Encrypted Strings,Mastery,14:23:58,mobile_android_day_18_encrypted_strings_mastery,2026-10-18T14:23:58.962Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Frame of Reference,Single Solve,14:23:36,metadata_forensics_day_18_frame_of_reference_investigation,2026-10-18T14:23:37.238Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Frame of Reference,Time Trial,14:23:42,metadata_forensics_day_18_frame_of_reference_sprint,2026-10-18T14:23:42.538Z,Clock only; full solve date and elapsed duration unavailable in this note.
+18,Frame of Reference,Mastery,14:23:49,metadata_forensics_day_18_frame_of_reference_mastery,2026-10-18T14:23:49.630Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Decoder Ring,Single Solve,16:16:51,binary_reverse_engineering_day_17_encoded_configuration_recovery_investigation,2026-10-17T16:16:51.699Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Decoder Ring,Time Trial,16:19:07,binary_reverse_engineering_day_17_encoded_configuration_recovery_sprint,2026-10-17T16:19:07.445Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Decoder Ring,Mastery,16:29:05,binary_reverse_engineering_day_17_encoded_configuration_recovery_mastery,2026-10-17T16:29:06.327Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Bacon Bits,Single Solve,13:02:20,warmups_day_17_investigation,2026-10-17T13:02:20.420Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Bacon Bits,Time Trial,13:02:24,warmups_day_17_sprint,2026-10-17T13:02:25.393Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Bacon Bits,Mastery,13:03:12,warmups_day_17_mastery,2026-10-17T13:03:12.792Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Fetch Quest,Single Solve,13:01:32,script_analysis_day_17_download_graph_investigation,2026-10-17T13:01:32.866Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Fetch Quest,Time Trial,13:01:39,script_analysis_day_17_download_graph_sprint,2026-10-17T13:01:40.546Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Fetch Quest,Mastery,13:02:05,script_analysis_day_17_download_graph_mastery,2026-10-17T13:02:05.896Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Name Collapse,Single Solve,13:02:01,mobile_android_day_17_name_collapse_investigation,2026-10-17T13:02:01.619Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Name Collapse,Time Trial,13:02:06,mobile_android_day_17_name_collapse_sprint,2026-10-17T13:02:07.318Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Name Collapse,Mastery,13:02:29,mobile_android_day_17_name_collapse_mastery,2026-10-17T13:02:29.253Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Hear Me Out,Single Solve,13:02:38,metadata_forensics_day_17_hear_me_out_investigation,2026-10-17T13:02:38.745Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Hear Me Out,Time Trial,13:02:43,metadata_forensics_day_17_hear_me_out_sprint,2026-10-17T13:02:44.163Z,Clock only; full solve date and elapsed duration unavailable in this note.
+17,Hear Me Out,Mastery,13:02:49,metadata_forensics_day_17_hear_me_out_mastery,2026-10-17T13:02:50.258Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Wasm Up,Single Solve,13:01:20,binary_reverse_engineering_day_16_webassembly_optimization_equivalence_investigation,2026-10-16T13:01:20.775Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Wasm Up,Time Trial,13:01:50,binary_reverse_engineering_day_16_webassembly_optimization_equivalence_sprint,2026-10-16T13:01:51.242Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Wasm Up,Mastery,13:03:04,binary_reverse_engineering_day_16_webassembly_optimization_equivalence_mastery,2026-10-16T13:03:05.254Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Dot Com,Single Solve,13:00:32,warmups_day_16_investigation,2026-10-16T13:00:32.489Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Dot Com,Time Trial,13:00:56,warmups_day_16_sprint,2026-10-16T13:00:56.462Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Dot Com,Mastery,13:02:35,warmups_day_16_mastery,2026-10-16T13:02:35.951Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,"Same Same, But Different",Single Solve,13:00:53,script_analysis_day_16_obfuscation_equivalence_investigation,2026-10-16T13:00:55.044Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,"Same Same, But Different",Time Trial,13:01:05,script_analysis_day_16_obfuscation_equivalence_sprint,2026-10-16T13:01:05.436Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,"Same Same, But Different",Mastery,13:01:33,script_analysis_day_16_obfuscation_equivalence_mastery,2026-10-16T13:01:34.504Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,JNI Boundary,Single Solve,13:00:19,mobile_android_day_16_jni_boundary_investigation,2026-10-16T13:00:19.913Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,JNI Boundary,Time Trial,13:00:26,mobile_android_day_16_jni_boundary_sprint,2026-10-16T13:00:26.920Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,JNI Boundary,Mastery,13:00:35,mobile_android_day_16_jni_boundary_mastery,2026-10-16T13:00:36.138Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Return to Sender,Single Solve,13:00:32,metadata_forensics_day_16_return_to_sender_investigation,2026-10-16T13:00:32.543Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Return to Sender,Time Trial,13:01:36,metadata_forensics_day_16_return_to_sender_sprint,2026-10-16T13:01:37.111Z,Clock only; full solve date and elapsed duration unavailable in this note.
+16,Return to Sender,Mastery,13:02:20,metadata_forensics_day_16_return_to_sender_mastery,2026-10-16T13:02:21.067Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Stripped,Single Solve,13:04:59,binary_reverse_engineering_day_15_assembly_and_symbol_loss_investigation,2026-10-15T13:04:59.520Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Stripped,Time Trial,13:05:15,binary_reverse_engineering_day_15_assembly_and_symbol_loss_sprint,2026-10-15T13:05:15.728Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Stripped,Mastery,13:06:16,binary_reverse_engineering_day_15_assembly_and_symbol_loss_mastery,2026-10-15T13:06:17.358Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Room Forty-Seven,Single Solve,13:03:00,warmups_day_15_investigation,2026-10-15T13:03:00.568Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Room Forty-Seven,Time Trial,13:03:09,warmups_day_15_sprint,2026-10-15T13:03:10.094Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Room Forty-Seven,Mastery,13:04:01,warmups_day_15_mastery,2026-10-15T13:04:02.246Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Crumb Trail,Single Solve,13:02:05,script_analysis_day_15_credential_store_clues_investigation,2026-10-15T13:02:05.978Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Crumb Trail,Time Trial,13:04:39,script_analysis_day_15_credential_store_clues_sprint,2026-10-15T13:04:39.587Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Crumb Trail,Mastery,13:05:12,script_analysis_day_15_credential_store_clues_mastery,2026-10-15T13:05:13.020Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Native Library Secrets,Single Solve,13:02:27,mobile_android_day_15_native_library_secrets_investigation,2026-10-15T13:02:27.611Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Native Library Secrets,Time Trial,13:03:29,mobile_android_day_15_native_library_secrets_sprint,2026-10-15T13:03:29.931Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,Native Library Secrets,Mastery,13:04:37,mobile_android_day_15_native_library_secrets_mastery,2026-10-15T13:04:37.927Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,A Word to the Wise,Single Solve,13:03:04,metadata_forensics_day_15_word_to_the_wise_investigation,2026-10-15T13:03:04.501Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,A Word to the Wise,Time Trial,13:04:32,metadata_forensics_day_15_word_to_the_wise_sprint,2026-10-15T13:04:33.582Z,Clock only; full solve date and elapsed duration unavailable in this note.
+15,A Word to the Wise,Mastery,13:05:43,metadata_forensics_day_15_word_to_the_wise_mastery,2026-10-15T13:05:43.555Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Selective Memory,Single Solve,13:05:25,binary_reverse_engineering_day_14_objective_c_persistence_descriptor_investigation,2026-10-14T13:05:25.909Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Selective Memory,Time Trial,13:05:43,binary_reverse_engineering_day_14_objective_c_persistence_descriptor_sprint,2026-10-14T13:05:44.069Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Selective Memory,Mastery,13:06:58,binary_reverse_engineering_day_14_objective_c_persistence_descriptor_mastery,2026-10-14T13:06:58.566Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Seven Steps,Single Solve,13:05:04,warmups_day_14_investigation,2026-10-14T13:05:04.592Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Seven Steps,Time Trial,13:05:10,warmups_day_14_sprint,2026-10-14T13:05:11.162Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Seven Steps,Mastery,13:08:29,warmups_day_14_mastery,2026-10-14T13:08:29.860Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Trust the Process,Single Solve,13:01:18,script_analysis_day_14_msbuild_trusted_project_abuse_investigation,2026-10-14T13:01:18.593Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Trust the Process,Time Trial,13:01:42,script_analysis_day_14_msbuild_trusted_project_abuse_sprint,2026-10-14T13:01:43.055Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Trust the Process,Mastery,13:01:58,script_analysis_day_14_msbuild_trusted_project_abuse_mastery,2026-10-14T13:01:58.800Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Predictable Crypto,Single Solve,13:02:17,mobile_android_day_14_predictable_crypto_investigation,2026-10-14T13:02:17.739Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Predictable Crypto,Time Trial,13:02:24,mobile_android_day_14_predictable_crypto_sprint,2026-10-14T13:02:25.584Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,Predictable Crypto,Mastery,13:02:29,mobile_android_day_14_predictable_crypto_mastery,2026-10-14T13:02:30.327Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,The Shortcut Home,Single Solve,13:01:06,metadata_forensics_day_14_shortcut_home_investigation,2026-10-14T13:01:07.034Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,The Shortcut Home,Time Trial,13:01:19,metadata_forensics_day_14_shortcut_home_sprint,2026-10-14T13:01:19.605Z,Clock only; full solve date and elapsed duration unavailable in this note.
+14,The Shortcut Home,Mastery,13:01:25,metadata_forensics_day_14_shortcut_home_mastery,2026-10-14T13:01:26.235Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Crystal Clear,Single Solve,13:08:19,binary_reverse_engineering_day_13_crystal_dns_configuration_investigation,2026-10-13T13:08:19.441Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Crystal Clear,Time Trial,13:08:50,binary_reverse_engineering_day_13_crystal_dns_configuration_sprint,2026-10-13T13:08:50.367Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Crystal Clear,Mastery,13:09:36,binary_reverse_engineering_day_13_crystal_dns_configuration_mastery,2026-10-13T13:09:36.622Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Opposite Day,Single Solve,13:01:53,warmups_day_13_investigation,2026-10-13T13:01:53.713Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Opposite Day,Time Trial,13:02:07,warmups_day_13_sprint,2026-10-13T13:02:07.289Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Opposite Day,Mastery,13:03:08,warmups_day_13_mastery,2026-10-13T13:03:09.193Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Zip Code,Single Solve,13:02:16,script_analysis_day_13_archive_delivery_chain_investigation,2026-10-13T13:02:16.793Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Zip Code,Time Trial,13:02:53,script_analysis_day_13_archive_delivery_chain_sprint,2026-10-13T13:02:54.190Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Zip Code,Mastery,13:03:29,script_analysis_day_13_archive_delivery_chain_mastery,2026-10-13T13:03:29.918Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Keystore Misuse,Single Solve,13:01:11,mobile_android_day_13_keystore_misuse_investigation,2026-10-13T13:01:11.494Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Keystore Misuse,Time Trial,13:01:18,mobile_android_day_13_keystore_misuse_sprint,2026-10-13T13:01:18.443Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Keystore Misuse,Mastery,13:01:26,mobile_android_day_13_keystore_misuse_mastery,2026-10-13T13:01:27.264Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Product Placement,Single Solve,13:01:27,metadata_forensics_day_13_product_placement_investigation,2026-10-13T13:01:28.220Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Product Placement,Time Trial,13:02:36,metadata_forensics_day_13_product_placement_sprint,2026-10-13T13:02:37.006Z,Clock only; full solve date and elapsed duration unavailable in this note.
+13,Product Placement,Mastery,13:02:45,metadata_forensics_day_13_product_placement_mastery,2026-10-13T13:02:46.267Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Pascal’s Wager,Single Solve,13:55:20,binary_reverse_engineering_day_12_pascal_archive_stager_investigation,2026-10-12T13:55:21.399Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Pascal’s Wager,Time Trial,21:01:19,binary_reverse_engineering_day_12_pascal_archive_stager_sprint,2026-10-12T21:01:19.520Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Pascal’s Wager,Mastery,21:04:56,binary_reverse_engineering_day_12_pascal_archive_stager_mastery,2026-10-12T21:04:57.037Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Back at You,Single Solve,13:00:30,warmups_day_12_investigation,2026-10-12T13:00:30.750Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Back at You,Time Trial,13:00:45,warmups_day_12_sprint,2026-10-12T13:00:46.316Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Back at You,Mastery,21:00:56,warmups_day_12_mastery,2026-10-12T21:00:56.755Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,AutoIt Takes Two,Single Solve,13:04:18,script_analysis_day_12_autoit_workflow_pair_investigation,2026-10-12T13:04:19.156Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,AutoIt Takes Two,Time Trial,13:04:30,script_analysis_day_12_autoit_workflow_pair_sprint,2026-10-12T13:04:30.842Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,AutoIt Takes Two,Mastery,13:04:37,script_analysis_day_12_autoit_workflow_pair_mastery,2026-10-12T13:04:37.716Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,SQLite Assumptions,Single Solve,13:09:34,mobile_android_day_12_sqlite_assumptions_investigation,2026-10-12T13:09:35.163Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,SQLite Assumptions,Time Trial,13:09:39,mobile_android_day_12_sqlite_assumptions_sprint,2026-10-12T13:09:39.532Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,SQLite Assumptions,Mastery,13:09:46,mobile_android_day_12_sqlite_assumptions_mastery,2026-10-12T13:09:47.098Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Managed Expectations,Single Solve,13:02:16,metadata_forensics_day_12_managed_expectations_investigation,2026-10-12T13:02:16.408Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Managed Expectations,Time Trial,13:02:28,metadata_forensics_day_12_managed_expectations_sprint,2026-10-12T13:02:28.559Z,Clock only; full solve date and elapsed duration unavailable in this note.
+12,Managed Expectations,Mastery,13:02:46,metadata_forensics_day_12_managed_expectations_mastery,2026-10-12T13:02:46.858Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,D-Day,Single Solve,14:50:48,binary_reverse_engineering_day_11_d_collection_planner_investigation,2026-10-11T14:50:48.887Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,D-Day,Time Trial,14:59:27,binary_reverse_engineering_day_11_d_collection_planner_sprint,2026-10-11T14:59:28.171Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,D-Day,Mastery,21:13:07,binary_reverse_engineering_day_11_d_collection_planner_mastery,2026-10-12T21:13:07.816Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,Safe Travels,Single Solve,14:45:30,warmups_day_11_investigation,2026-10-11T14:45:31.128Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,Safe Travels,Time Trial,14:54:46,warmups_day_11_sprint,2026-10-11T14:54:46.476Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,Safe Travels,Mastery,14:56:10,warmups_day_11_mastery,2026-10-11T14:56:10.486Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,By Any Other Name,Single Solve,14:48:41,script_analysis_day_11_native_api_semantics_investigation,2026-10-11T14:48:41.887Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,By Any Other Name,Time Trial,14:58:32,script_analysis_day_11_native_api_semantics_sprint,2026-10-11T14:58:32.647Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,By Any Other Name,Mastery,14:59:16,script_analysis_day_11_native_api_semantics_mastery,2026-10-11T14:59:17.297Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,Local Secrets,Single Solve,14:51:49,mobile_android_day_11_local_secrets_investigation,2026-10-11T14:51:50.315Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,Local Secrets,Time Trial,15:01:26,mobile_android_day_11_local_secrets_sprint,2026-10-11T15:01:26.991Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,Local Secrets,Mastery,15:02:00,mobile_android_day_11_local_secrets_mastery,2026-10-11T15:02:00.927Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,What’s My Name Again?,Single Solve,14:47:26,metadata_forensics_day_11_whats_my_name_again_investigation,2026-10-11T14:47:27.146Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,What’s My Name Again?,Time Trial,14:56:14,metadata_forensics_day_11_whats_my_name_again_sprint,2026-10-11T14:56:15.163Z,Clock only; full solve date and elapsed duration unavailable in this note.
+11,What’s My Name Again?,Mastery,14:56:21,metadata_forensics_day_11_whats_my_name_again_mastery,2026-10-11T14:56:21.572Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Zig Zag,Single Solve,19:45:59,binary_reverse_engineering_day_10_zig_cross_platform_services_investigation,2026-10-10T19:46:00.102Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Zig Zag,Time Trial,19:49:28,binary_reverse_engineering_day_10_zig_cross_platform_services_sprint,2026-10-10T19:49:29.257Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Zig Zag,Mastery,19:59:49,binary_reverse_engineering_day_10_zig_cross_platform_services_mastery,2026-10-10T19:59:50.042Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Thirty-Two Below,Single Solve,19:29:12,warmups_day_10_investigation,2026-10-10T19:29:16.898Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Thirty-Two Below,Time Trial,19:34:04,warmups_day_10_sprint,2026-10-10T19:34:04.957Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Thirty-Two Below,Mastery,19:35:45,warmups_day_10_mastery,2026-10-10T19:35:45.560Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Bind Over Matter,Single Solve,22:22:07,script_analysis_day_10_wmi_persistence_reconstruction_investigation,2026-10-10T22:22:07.572Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Bind Over Matter,Time Trial,22:24:41,script_analysis_day_10_wmi_persistence_reconstruction_sprint,2026-10-10T22:24:41.853Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Bind Over Matter,Mastery,22:25:04,script_analysis_day_10_wmi_persistence_reconstruction_mastery,2026-10-10T22:25:04.876Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Network Config Split,Single Solve,19:29:17,mobile_android_day_10_network_config_split_investigation,2026-10-10T19:29:17.707Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Network Config Split,Time Trial,19:38:14,mobile_android_day_10_network_config_split_sprint,2026-10-10T19:38:15.026Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Network Config Split,Mastery,19:42:50,mobile_android_day_10_network_config_split_mastery,2026-10-10T19:42:51.284Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Where Do We Begin?,Single Solve,19:36:37,metadata_forensics_day_10_where_do_we_begin_investigation,2026-10-10T19:36:38.128Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Where Do We Begin?,Time Trial,19:37:14,metadata_forensics_day_10_where_do_we_begin_sprint,2026-10-10T19:37:15.097Z,Clock only; full solve date and elapsed duration unavailable in this note.
+10,Where Do We Begin?,Mastery,19:37:47,metadata_forensics_day_10_where_do_we_begin_mastery,2026-10-10T19:37:47.928Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Nimble,Single Solve,17:08:28,binary_reverse_engineering_day_09_nim_generated_runtime_investigation,2026-10-09T17:08:29.289Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Nimble,Time Trial,17:27:19,binary_reverse_engineering_day_09_nim_generated_runtime_sprint,2026-10-09T17:27:20.331Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Nimble,Mastery,17:29:50,binary_reverse_engineering_day_09_nim_generated_runtime_mastery,2026-10-09T17:29:51.280Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Escape Room,Single Solve,13:43:33,warmups_day_09_investigation,2026-10-09T13:43:34.114Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Escape Room,Time Trial,13:44:15,warmups_day_09_sprint,2026-10-09T13:44:15.719Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Escape Room,Mastery,13:45:03,warmups_day_09_mastery,2026-10-09T13:45:03.774Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,All the World’s a Stager,Single Solve,17:05:39,script_analysis_day_09_stager_relationships_investigation,2026-10-09T17:05:40.445Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,All the World’s a Stager,Time Trial,17:12:53,script_analysis_day_09_stager_relationships_sprint,2026-10-09T17:12:53.633Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,All the World’s a Stager,Mastery,17:20:51,script_analysis_day_09_stager_relationships_mastery,2026-10-09T17:20:51.916Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Trust Everyone,Single Solve,14:04:51,mobile_android_day_09_trust_everyone_investigation,2026-10-09T14:04:51.521Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Trust Everyone,Time Trial,14:05:12,mobile_android_day_09_trust_everyone_sprint,2026-10-09T14:05:15.937Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Trust Everyone,Mastery,14:05:34,mobile_android_day_09_trust_everyone_mastery,2026-10-09T14:05:34.423Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Built Different,Single Solve,13:44:08,metadata_forensics_day_09_built_different_investigation,2026-10-09T13:44:08.397Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Built Different,Time Trial,13:45:38,metadata_forensics_day_09_built_different_sprint,2026-10-09T13:45:38.399Z,Clock only; full solve date and elapsed duration unavailable in this note.
+9,Built Different,Mastery,13:45:56,metadata_forensics_day_09_built_different_mastery,2026-10-09T13:45:56.882Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Swift Justice,Single Solve,14:10:26,binary_reverse_engineering_day_08_swift_network_configuration_investigation,2026-10-09T14:10:26.862Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Swift Justice,Time Trial,14:11:50,binary_reverse_engineering_day_08_swift_network_configuration_sprint,2026-10-09T14:11:50.793Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Swift Justice,Mastery,14:12:10,binary_reverse_engineering_day_08_swift_network_configuration_mastery,2026-10-09T14:12:10.311Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Entity Relations,Single Solve,19:06:14,warmups_day_08_investigation,2026-10-08T19:06:15.335Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Entity Relations,Time Trial,19:06:25,warmups_day_08_sprint,2026-10-08T19:06:25.552Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Entity Relations,Mastery,19:06:56,warmups_day_08_mastery,2026-10-08T19:06:56.728Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Lost in Translation,Single Solve,22:06:34,script_analysis_day_08_cross_language_iocs_investigation,2026-10-09T22:06:35.357Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Lost in Translation,Time Trial,22:35:27,script_analysis_day_08_cross_language_iocs_sprint,2026-10-09T22:35:27.717Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Lost in Translation,Mastery,22:33:43,script_analysis_day_08_cross_language_iocs_mastery,2026-10-10T22:33:44.094Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Cleartext Session,Single Solve,19:24:53,mobile_android_day_08_cleartext_session_investigation,2026-10-08T19:24:53.653Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Cleartext Session,Time Trial,19:25:26,mobile_android_day_08_cleartext_session_sprint,2026-10-08T19:25:26.373Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,Cleartext Session,Mastery,19:26:09,mobile_android_day_08_cleartext_session_mastery,2026-10-08T19:26:10.152Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,What’s in the Box?,Single Solve,19:07:13,metadata_forensics_day_08_whats_in_the_box_investigation,2026-10-08T19:07:13.981Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,What’s in the Box?,Time Trial,19:07:30,metadata_forensics_day_08_whats_in_the_box_sprint,2026-10-08T19:07:31.216Z,Clock only; full solve date and elapsed duration unavailable in this note.
+8,What’s in the Box?,Mastery,19:07:51,metadata_forensics_day_08_whats_in_the_box_mastery,2026-10-08T19:07:52.308Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Routine Check,Single Solve,13:24:40,binary_reverse_engineering_day_07_kotlin_staging_logic_investigation,2026-10-07T13:24:40.781Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Routine Check,Time Trial,,binary_reverse_engineering_day_07_kotlin_staging_logic_sprint,2026-10-07T13:32:56.141Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Routine Check,Mastery,,binary_reverse_engineering_day_07_kotlin_staging_logic_mastery,2026-10-07T13:37:22.774Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Percent Chance,Single Solve,14:03:59,warmups_day_07_investigation,2026-10-07T14:03:59.916Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Percent Chance,Time Trial,,warmups_day_07_sprint,2026-10-07T14:04:26.430Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Percent Chance,Mastery,,warmups_day_07_mastery,2026-10-07T14:08:18.681Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Node by Node,Single Solve,18:15:49,script_analysis_day_07_node_operation_graphs_investigation,2026-10-10T18:15:50.401Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Node by Node,Time Trial,18:21:33,script_analysis_day_07_node_operation_graphs_sprint,2026-10-10T18:21:33.962Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,Node by Node,Mastery,18:25:41,script_analysis_day_07_node_operation_graphs_mastery,2026-10-10T18:25:42.074Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,WebView Bridge,Single Solve,13:07:54,mobile_android_day_07_webview_bridge_investigation,2026-10-07T13:07:54.554Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,WebView Bridge,Time Trial,,mobile_android_day_07_webview_bridge_sprint,2026-10-07T13:11:48.796Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,WebView Bridge,Mastery,,mobile_android_day_07_webview_bridge_mastery,2026-10-07T13:13:34.982Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,"Seven-Zip, No Relation",Single Solve,22:39:28,metadata_forensics_day_07_seven_zip_no_relation_investigation,2026-10-10T22:39:28.988Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,"Seven-Zip, No Relation",Time Trial,22:40:26,metadata_forensics_day_07_seven_zip_no_relation_sprint,2026-10-10T22:40:27.239Z,Clock only; full solve date and elapsed duration unavailable in this note.
+7,"Seven-Zip, No Relation",Mastery,22:40:53,metadata_forensics_day_07_seven_zip_no_relation_mastery,2026-10-10T22:40:53.447Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Pool Party,Single Solve,13:51:34,binary_reverse_engineering_day_06_java_bytecode_loader_investigation,2026-10-08T13:51:38.358Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Pool Party,Time Trial,13:53:36,binary_reverse_engineering_day_06_java_bytecode_loader_sprint,2026-10-08T13:53:36.916Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Pool Party,Mastery,13:54:41,binary_reverse_engineering_day_06_java_bytecode_loader_mastery,2026-10-08T13:54:41.452Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Eight Is Enough,Single Solve,13:04:52,warmups_day_06_investigation,2026-10-06T13:04:53.216Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Eight Is Enough,Time Trial,,warmups_day_06_sprint,2026-10-06T13:11:34.933Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Eight Is Enough,Mastery,,warmups_day_06_mastery,2026-10-06T13:20:47.995Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Shell We Begin,Single Solve,21:09:41,script_analysis_day_06_bash_behavior_graphs_investigation,2026-10-09T21:09:41.803Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Shell We Begin,Time Trial,21:23:56,script_analysis_day_06_bash_behavior_graphs_sprint,2026-10-09T21:23:56.718Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Shell We Begin,Mastery,19:38:16,script_analysis_day_06_bash_behavior_graphs_mastery,2026-10-10T19:38:16.928Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Provider Paths,Single Solve,16:11:26,mobile_android_day_06_provider_paths_investigation,2026-10-07T16:11:26.986Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Provider Paths,Time Trial,,mobile_android_day_06_provider_paths_sprint,2026-10-07T16:12:15.702Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Provider Paths,Mastery,16:14:36,mobile_android_day_06_provider_paths_mastery,2026-10-07T16:14:36.518Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Portable Deception,Single Solve,13:26:58,metadata_forensics_day_06_portable_deception_investigation,2026-10-06T13:26:58.792Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Portable Deception,Time Trial,,metadata_forensics_day_06_portable_deception_sprint,2026-10-06T13:31:59.362Z,Clock only; full solve date and elapsed duration unavailable in this note.
+6,Portable Deception,Mastery,,metadata_forensics_day_06_portable_deception_mastery,2026-10-06T13:37:02.354Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Rust Belt,Single Solve,13:02:10,binary_reverse_engineering_day_05_rust_runtime_shapes_investigation,2026-10-06T13:02:10.977Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Rust Belt,Time Trial,,binary_reverse_engineering_day_05_rust_runtime_shapes_sprint,2026-10-06T13:06:39.548Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Rust Belt,Mastery,,binary_reverse_engineering_day_05_rust_runtime_shapes_mastery,2026-10-06T13:13:21.951Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,By the Numbers,Single Solve,18:33:07,warmups_day_05_investigation,2026-10-05T18:33:07.939Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,By the Numbers,Time Trial,,warmups_day_05_sprint,2026-10-05T18:34:46.572Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,By the Numbers,Mastery,,warmups_day_05_mastery,2026-10-05T18:37:06.406Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Hatch Careful,Single Solve,21:31:32,script_analysis_day_05_python_carrier_lab_investigation,2026-10-05T21:31:33.133Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Hatch Careful,Time Trial,,script_analysis_day_05_python_carrier_lab_sprint,2026-10-06T14:02:36.163Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Hatch Careful,Mastery,,script_analysis_day_05_python_carrier_lab_mastery,2026-10-06T14:11:18.231Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Backup Spill,Single Solve,13:29:18,mobile_android_day_05_backup_spill_investigation,2026-10-06T13:29:18.402Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Backup Spill,Time Trial,,mobile_android_day_05_backup_spill_sprint,2026-10-06T13:32:07.463Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Backup Spill,Mastery,,mobile_android_day_05_backup_spill_mastery,2026-10-06T13:35:08.291Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Chunk Norris,Single Solve,18:40:25,metadata_forensics_day_05_chunk_norris_investigation,2026-10-05T18:40:25.415Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Chunk Norris,Time Trial,,metadata_forensics_day_05_chunk_norris_sprint,2026-10-05T18:41:28.093Z,Clock only; full solve date and elapsed duration unavailable in this note.
+5,Chunk Norris,Mastery,,metadata_forensics_day_05_chunk_norris_mastery,2026-10-05T18:47:53.046Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Go Fish,Single Solve,14:24:18,binary_reverse_engineering_day_04_go_runtime_fingerprints_investigation,2026-10-07T14:24:19.037Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Go Fish,Time Trial,14:28:26,binary_reverse_engineering_day_04_go_runtime_fingerprints_sprint,2026-10-07T14:28:27.334Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Go Fish,Mastery,14:35:00,binary_reverse_engineering_day_04_go_runtime_fingerprints_mastery,2026-10-07T14:35:00.840Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Two of a Kind,Single Solve,17:19:11,warmups_day_04_investigation,2026-10-04T17:19:12.245Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Two of a Kind,Time Trial,,warmups_day_04_sprint,2026-10-04T17:50:00.460Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Two of a Kind,Mastery,,warmups_day_04_mastery,2026-10-04T17:53:07.388Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Dim and Dimmer,Single Solve,23:43:48,script_analysis_day_04_shell_contrast_investigation,2026-10-04T23:43:48.541Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Dim and Dimmer,Time Trial,,script_analysis_day_04_shell_contrast_sprint,2026-10-07T14:56:05.166Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Dim and Dimmer,Mastery,,script_analysis_day_04_shell_contrast_mastery,2026-10-07T15:11:11.135Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Pending Intent Relay,Single Solve,17:29:00,mobile_android_day_04_pending_intent_relay_investigation,2026-10-04T17:29:00.412Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Pending Intent Relay,Time Trial,,mobile_android_day_04_pending_intent_relay_sprint,2026-10-04T17:55:53.908Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Pending Intent Relay,Mastery,,mobile_android_day_04_pending_intent_relay_mastery,2026-10-04T17:56:44.556Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Picture This,Single Solve,17:19:36,metadata_forensics_day_04_picture_this_investigation,2026-10-04T17:19:36.854Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Picture This,Time Trial,,metadata_forensics_day_04_picture_this_sprint,2026-10-04T17:53:59.443Z,Clock only; full solve date and elapsed duration unavailable in this note.
+4,Picture This,Mastery,,metadata_forensics_day_04_picture_this_mastery,2026-10-04T17:55:15.993Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Table Manners,Single Solve,01:43:41,binary_reverse_engineering_day_03_managed_configuration_investigation,2026-10-04T01:43:41.470Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Table Manners,Time Trial,,binary_reverse_engineering_day_03_managed_configuration_sprint,2026-10-04T01:51:04.435Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Table Manners,Mastery,,binary_reverse_engineering_day_03_managed_configuration_mastery,2026-10-04T01:56:24.229Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Hex Appeal,Single Solve,17:43:11,warmups_day_03_investigation,2026-10-03T17:43:12.200Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Hex Appeal,Time Trial,,warmups_day_03_sprint,2026-10-03T17:44:10.423Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Hex Appeal,Mastery,,warmups_day_03_mastery,2026-10-03T17:49:10.157Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Expansion Pack,Single Solve,13:03:10,script_analysis_day_03_batch_expansion_investigation,2026-10-07T13:03:10.968Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Expansion Pack,Time Trial,,script_analysis_day_03_batch_expansion_sprint,2026-10-07T13:27:10.172Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Expansion Pack,Mastery,,script_analysis_day_03_batch_expansion_mastery,2026-10-07T13:40:00.363Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Intent Injection,Single Solve,18:04:41,mobile_android_day_03_intent_injection_investigation,2026-10-03T18:04:42.269Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Intent Injection,Time Trial,,mobile_android_day_03_intent_injection_sprint,2026-10-03T18:05:27.195Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,Intent Injection,Mastery,,mobile_android_day_03_intent_injection_mastery,2026-10-03T18:05:53.637Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,BOM Voyage,Single Solve,17:51:19,metadata_forensics_day_03_bom_voyage_investigation,2026-10-03T17:51:20.201Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,BOM Voyage,Time Trial,,metadata_forensics_day_03_bom_voyage_sprint,2026-10-03T17:52:34.812Z,Clock only; full solve date and elapsed duration unavailable in this note.
+3,BOM Voyage,Mastery,,metadata_forensics_day_03_bom_voyage_mastery,2026-10-03T17:59:40.720Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Mangled,Single Solve,17:22:39,binary_reverse_engineering_day_02_cpp_and_pe_orientation_investigation,2026-10-03T17:22:39.629Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Mangled,Time Trial,,binary_reverse_engineering_day_02_cpp_and_pe_orientation_sprint,2026-10-03T19:58:50.247Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Mangled,Mastery,,binary_reverse_engineering_day_02_cpp_and_pe_orientation_mastery,2026-10-03T20:04:42.153Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Half a Turn,Single Solve,14:49:14,warmups_day_02_investigation,2026-10-02T14:49:15.185Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Half a Turn,Time Trial,,warmups_day_02_sprint,2026-10-03T16:38:48.373Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Half a Turn,Mastery,,warmups_day_02_mastery,2026-10-03T16:40:23.078Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Host With the Most,Single Solve,23:58:38,script_analysis_day_02_encoded_intent_investigation,2026-10-02T23:58:38.320Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Host With the Most,Time Trial,,script_analysis_day_02_encoded_intent_sprint,2026-10-03T17:09:33.680Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Host With the Most,Mastery,,script_analysis_day_02_encoded_intent_mastery,2026-10-03T17:13:22.363Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Deep Link Drift,Single Solve,19:51:06,mobile_android_day_02_deep_link_drift_investigation,2026-10-03T19:51:06.573Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Deep Link Drift,Time Trial,,mobile_android_day_02_deep_link_drift_sprint,2026-10-03T20:00:14.741Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Deep Link Drift,Mastery,,mobile_android_day_02_deep_link_drift_mastery,2026-10-03T20:01:07.594Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Looks Can Be Deceiving,Single Solve,19:18:11,metadata_forensics_day_02_looks_can_be_deceiving_investigation,2026-10-02T19:18:11.934Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Looks Can Be Deceiving,Time Trial,,metadata_forensics_day_02_looks_can_be_deceiving_sprint,2026-10-03T16:44:09.149Z,Clock only; full solve date and elapsed duration unavailable in this note.
+2,Looks Can Be Deceiving,Mastery,,metadata_forensics_day_02_looks_can_be_deceiving_mastery,2026-10-03T16:48:31.966Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Welcome Robots,Single Solve,19:41:58,welcome_robots,2026-10-01T14:11:41.749Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Welcome Robots,Time Trial,,,,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Welcome Robots,Mastery,,,,Clock only; full solve date and elapsed duration unavailable in this note.
+1,ELF Aware,Single Solve,02:59:16,binary_reverse_engineering_day_01_c_elf_orientation_investigation,2026-10-02T02:59:16.973Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,ELF Aware,Time Trial,,binary_reverse_engineering_day_01_c_elf_orientation_sprint,2026-10-03T16:25:11.621Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,ELF Aware,Mastery,,binary_reverse_engineering_day_01_c_elf_orientation_mastery,2026-10-03T16:34:43.545Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,A Little Based,Single Solve,13:52:49,warmups_day_01_investigation,2026-10-01T13:52:49.358Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,A Little Based,Time Trial,,warmups_day_01_sprint,2026-10-03T15:55:17.589Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,A Little Based,Mastery,,warmups_day_01_mastery,2026-10-03T15:55:32.036Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Power Play,Single Solve,02:30:54,script_analysis_day_01_native_signals_investigation,2026-10-02T02:30:55.320Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Power Play,Time Trial,,script_analysis_day_01_native_signals_sprint,2026-10-03T16:04:41.358Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Power Play,Mastery,,script_analysis_day_01_native_signals_mastery,2026-10-03T16:05:03.122Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Exported Trust,Single Solve,02:50:07,mobile_android_day_01_exported_trust_investigation,2026-10-02T02:50:08.248Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Exported Trust,Time Trial,,mobile_android_day_01_exported_trust_sprint,2026-10-03T20:01:12.473Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,Exported Trust,Mastery,,mobile_android_day_01_exported_trust_mastery,2026-10-03T20:01:45.172Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,You Must Be This Hash to Ride,Single Solve,14:30:54,metadata_forensics_day_01_hash_to_ride_investigation,2026-10-01T14:30:54.995Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,You Must Be This Hash to Ride,Time Trial,,metadata_forensics_day_01_hash_to_ride_sprint,2026-10-03T15:57:42.308Z,Clock only; full solve date and elapsed duration unavailable in this note.
+1,You Must Be This Hash to Ride,Mastery,,metadata_forensics_day_01_hash_to_ride_mastery,2026-10-03T15:57:52.991Z,Clock only; full solve date and elapsed duration unavailable in this note.

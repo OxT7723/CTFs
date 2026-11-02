@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "challenge_id": "mobile-android-day-05-backup-spill",
+  "day": 5,
+  "lane": "mobile-android",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "mobile-android-day-05-backup-spill",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "e032d12d-bb2e-4ec9-8954-7c4296d2b6e7",
+        "mode": "single_solve",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-05-9E90479049 in package com.huntress.mobile.d05.v9e904790496a: Extract synthetic application state admitted by a flawed backup boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "backup_spill.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "e032d12d-bb2e-4ec9-8954-7c4296d2b6e7",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "mobile-android-day-05-backup-spill/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-06T13:32:12.091Z",
+        "attempt_id": "7943714f-6886-4ae0-ba80-ef00f7c24b85",
+        "mode": "time_trial",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-05-54D127541A in package com.huntress.mobile.d05.v54d127541a3a: Extract synthetic application state admitted by a flawed backup boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "backup_spill_time_trial.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "7943714f-6886-4ae0-ba80-ef00f7c24b85",
+          "deadline": "2026-10-06T13:32:12.091Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "mobile-android-day-05-backup-spill/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-06T13:35:12.871Z",
+        "attempt_id": "5701c120-3645-416d-b75a-9b15407af11f",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.answer",
+          "set2.answer",
+          "set3.answer"
+        ],
+        "questions": [
+          {
+            "id": "set1.answer",
+            "question": "For case MOB-05-DFFBEAF93A in package com.huntress.mobile.d05.vdffbeaf93a68: Extract synthetic application state admitted by a flawed backup boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 1: backup_spill_mastery_01.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.answer",
+            "question": "For case MOB-05-9229AB2583 in package com.huntress.mobile.d05.v9229ab258374: Extract synthetic application state admitted by a flawed backup boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 2: backup_spill_mastery_02.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set3.answer",
+            "question": "For case MOB-05-50CB5CDC9F in package com.huntress.mobile.d05.v50cb5cdc9fe7: Extract synthetic application state admitted by a flawed backup boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 3: backup_spill_mastery_03.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.answer",
+        "set2.answer",
+        "set3.answer"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "5701c120-3645-416d-b75a-9b15407af11f",
+          "deadline": "2026-10-06T13:35:12.871Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.answer",
+            "set2.answer",
+            "set3.answer"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "📱 Backup Spill"
+}

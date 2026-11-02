@@ -1,0 +1,1023 @@
+{
+  "version": 1,
+  "challenge_id": "binary-reverse-engineering-day-02-cpp-and-pe-orientation",
+  "day": 2,
+  "lane": "binary-reverse-engineering",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "binary-reverse-engineering-day-02-cpp-and-pe-orientation",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "4ef237a8-c4e8-4e9d-9187-d60a1457e566",
+        "mode": "single_solve",
+        "answer_ids": [
+          "c_sha256",
+          "c_marker",
+          "c_has_symtab",
+          "c_recover_code",
+          "c_machine",
+          "cpp_sha256",
+          "cpp_format",
+          "cpp_xor_key",
+          "cpp_config_crc32",
+          "campaign",
+          "domain",
+          "url",
+          "mutex",
+          "has_cpp_vtable",
+          "has_cpp_typeinfo",
+          "mangled_score_symbol",
+          "vtable_symbol"
+        ],
+        "questions": [
+          {
+            "id": "c_sha256",
+            "question": "What is the exact c sha256 value for field c_sha256 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_marker",
+            "question": "What is the exact c marker value for field c_marker in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_has_symtab",
+            "question": "What is the exact c has symtab value for field c_has_symtab in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_recover_code",
+            "question": "What is the exact c recover code value for field c_recover_code in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_machine",
+            "question": "What is the exact c machine value for field c_machine in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_sha256",
+            "question": "What is the exact cpp sha256 value for field cpp_sha256 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_format",
+            "question": "What is the exact cpp format value for field cpp_format in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_xor_key",
+            "question": "What is the exact cpp xor key value for field cpp_xor_key in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_config_crc32",
+            "question": "What is the exact cpp config crc32 value for field cpp_config_crc32 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "campaign",
+            "question": "What is the exact campaign value for field campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "domain",
+            "question": "What is the exact domain value for field domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "url",
+            "question": "What is the exact url value for field url in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "mutex",
+            "question": "What is the exact mutex value for field mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "has_cpp_vtable",
+            "question": "What is the exact has cpp vtable value for field has_cpp_vtable in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "has_cpp_typeinfo",
+            "question": "What is the exact has cpp typeinfo value for field has_cpp_typeinfo in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "mangled_score_symbol",
+            "question": "What is the exact mangled score symbol value for field mangled_score_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "vtable_symbol",
+            "question": "What is the exact vtable symbol value for field vtable_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "c_sha256",
+        "c_marker",
+        "c_has_symtab",
+        "c_recover_code",
+        "c_machine",
+        "cpp_sha256",
+        "cpp_format",
+        "cpp_xor_key",
+        "cpp_config_crc32",
+        "campaign",
+        "domain",
+        "url",
+        "mutex",
+        "has_cpp_vtable",
+        "has_cpp_typeinfo",
+        "mangled_score_symbol",
+        "vtable_symbol"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "4ef237a8-c4e8-4e9d-9187-d60a1457e566",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "c_sha256",
+            "c_marker",
+            "c_has_symtab",
+            "c_recover_code",
+            "c_machine",
+            "cpp_sha256",
+            "cpp_format",
+            "cpp_xor_key",
+            "cpp_config_crc32",
+            "campaign",
+            "domain",
+            "url",
+            "mutex",
+            "has_cpp_vtable",
+            "has_cpp_typeinfo",
+            "mangled_score_symbol",
+            "vtable_symbol"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "binary-reverse-engineering-day-02-cpp-and-pe-orientation/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T19:58:54.241Z",
+        "attempt_id": "9acedadc-d35c-46a6-8c0e-19dab2893268",
+        "mode": "time_trial",
+        "answer_ids": [
+          "c_sha256",
+          "c_marker",
+          "c_has_symtab",
+          "c_recover_code",
+          "c_machine",
+          "cpp_sha256",
+          "cpp_format",
+          "cpp_xor_key",
+          "cpp_config_crc32",
+          "campaign",
+          "domain",
+          "url",
+          "mutex",
+          "has_cpp_vtable",
+          "has_cpp_typeinfo",
+          "mangled_score_symbol",
+          "vtable_symbol"
+        ],
+        "questions": [
+          {
+            "id": "c_sha256",
+            "question": "What is the exact c sha256 value for field c_sha256 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_marker",
+            "question": "What is the exact c marker value for field c_marker in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_has_symtab",
+            "question": "What is the exact c has symtab value for field c_has_symtab in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_recover_code",
+            "question": "What is the exact c recover code value for field c_recover_code in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "c_machine",
+            "question": "What is the exact c machine value for field c_machine in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_sha256",
+            "question": "What is the exact cpp sha256 value for field cpp_sha256 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_format",
+            "question": "What is the exact cpp format value for field cpp_format in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_xor_key",
+            "question": "What is the exact cpp xor key value for field cpp_xor_key in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "cpp_config_crc32",
+            "question": "What is the exact cpp config crc32 value for field cpp_config_crc32 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "campaign",
+            "question": "What is the exact campaign value for field campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "domain",
+            "question": "What is the exact domain value for field domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "url",
+            "question": "What is the exact url value for field url in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "mutex",
+            "question": "What is the exact mutex value for field mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "has_cpp_vtable",
+            "question": "What is the exact has cpp vtable value for field has_cpp_vtable in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "has_cpp_typeinfo",
+            "question": "What is the exact has cpp typeinfo value for field has_cpp_typeinfo in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "mangled_score_symbol",
+            "question": "What is the exact mangled score symbol value for field mangled_score_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "vtable_symbol",
+            "question": "What is the exact vtable symbol value for field vtable_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "c_sha256",
+        "c_marker",
+        "c_has_symtab",
+        "c_recover_code",
+        "c_machine",
+        "cpp_sha256",
+        "cpp_format",
+        "cpp_xor_key",
+        "cpp_config_crc32",
+        "campaign",
+        "domain",
+        "url",
+        "mutex",
+        "has_cpp_vtable",
+        "has_cpp_typeinfo",
+        "mangled_score_symbol",
+        "vtable_symbol"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "9acedadc-d35c-46a6-8c0e-19dab2893268",
+          "deadline": "2026-10-03T19:58:54.241Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "c_sha256",
+            "c_marker",
+            "c_has_symtab",
+            "c_recover_code",
+            "c_machine",
+            "cpp_sha256",
+            "cpp_format",
+            "cpp_xor_key",
+            "cpp_config_crc32",
+            "campaign",
+            "domain",
+            "url",
+            "mutex",
+            "has_cpp_vtable",
+            "has_cpp_typeinfo",
+            "mangled_score_symbol",
+            "vtable_symbol"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "binary-reverse-engineering-day-02-cpp-and-pe-orientation/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T20:04:53.199Z",
+        "attempt_id": "ce161191-bdac-4920-bf04-0928067c81b2",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.c_sha256",
+          "set1.c_marker",
+          "set1.c_has_symtab",
+          "set1.c_recover_code",
+          "set1.c_machine",
+          "set1.cpp_sha256",
+          "set1.cpp_format",
+          "set1.cpp_xor_key",
+          "set1.cpp_config_crc32",
+          "set1.campaign",
+          "set1.domain",
+          "set1.url",
+          "set1.mutex",
+          "set1.has_cpp_vtable",
+          "set1.has_cpp_typeinfo",
+          "set1.mangled_score_symbol",
+          "set1.vtable_symbol",
+          "set2.c_sha256",
+          "set2.c_marker",
+          "set2.c_has_symtab",
+          "set2.c_recover_code",
+          "set2.c_machine",
+          "set2.cpp_sha256",
+          "set2.cpp_format",
+          "set2.cpp_xor_key",
+          "set2.cpp_config_crc32",
+          "set2.campaign",
+          "set2.domain",
+          "set2.url",
+          "set2.mutex",
+          "set2.has_cpp_vtable",
+          "set2.has_cpp_typeinfo",
+          "set2.mangled_score_symbol",
+          "set2.vtable_symbol"
+        ],
+        "questions": [
+          {
+            "id": "set1.c_sha256",
+            "question": "What is the exact c sha256 value for field c_sha256 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.c_marker",
+            "question": "What is the exact c marker value for field c_marker in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.c_has_symtab",
+            "question": "What is the exact c has symtab value for field c_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.c_recover_code",
+            "question": "What is the exact c recover code value for field c_recover_code in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.c_machine",
+            "question": "What is the exact c machine value for field c_machine in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.cpp_sha256",
+            "question": "What is the exact cpp sha256 value for field cpp_sha256 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.cpp_format",
+            "question": "What is the exact cpp format value for field cpp_format in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.cpp_xor_key",
+            "question": "What is the exact cpp xor key value for field cpp_xor_key in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.cpp_config_crc32",
+            "question": "What is the exact cpp config crc32 value for field cpp_config_crc32 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.campaign",
+            "question": "What is the exact campaign value for field campaign in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.domain",
+            "question": "What is the exact domain value for field domain in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.url",
+            "question": "What is the exact url value for field url in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.mutex",
+            "question": "What is the exact mutex value for field mutex in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.has_cpp_vtable",
+            "question": "What is the exact has cpp vtable value for field has_cpp_vtable in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.has_cpp_typeinfo",
+            "question": "What is the exact has cpp typeinfo value for field has_cpp_typeinfo in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.mangled_score_symbol",
+            "question": "What is the exact mangled score symbol value for field mangled_score_symbol in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.vtable_symbol",
+            "question": "What is the exact vtable symbol value for field vtable_symbol in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.c_sha256",
+            "question": "What is the exact c sha256 value for field c_sha256 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.c_marker",
+            "question": "What is the exact c marker value for field c_marker in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.c_has_symtab",
+            "question": "What is the exact c has symtab value for field c_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.c_recover_code",
+            "question": "What is the exact c recover code value for field c_recover_code in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.c_machine",
+            "question": "What is the exact c machine value for field c_machine in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.cpp_sha256",
+            "question": "What is the exact cpp sha256 value for field cpp_sha256 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.cpp_format",
+            "question": "What is the exact cpp format value for field cpp_format in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.cpp_xor_key",
+            "question": "What is the exact cpp xor key value for field cpp_xor_key in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.cpp_config_crc32",
+            "question": "What is the exact cpp config crc32 value for field cpp_config_crc32 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.campaign",
+            "question": "What is the exact campaign value for field campaign in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.domain",
+            "question": "What is the exact domain value for field domain in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.url",
+            "question": "What is the exact url value for field url in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.mutex",
+            "question": "What is the exact mutex value for field mutex in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.has_cpp_vtable",
+            "question": "What is the exact has cpp vtable value for field has_cpp_vtable in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.has_cpp_typeinfo",
+            "question": "What is the exact has cpp typeinfo value for field has_cpp_typeinfo in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.mangled_score_symbol",
+            "question": "What is the exact mangled score symbol value for field mangled_score_symbol in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.vtable_symbol",
+            "question": "What is the exact vtable symbol value for field vtable_symbol in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.c_sha256",
+        "set1.c_marker",
+        "set1.c_has_symtab",
+        "set1.c_recover_code",
+        "set1.c_machine",
+        "set1.cpp_sha256",
+        "set1.cpp_format",
+        "set1.cpp_xor_key",
+        "set1.cpp_config_crc32",
+        "set1.campaign",
+        "set1.domain",
+        "set1.url",
+        "set1.mutex",
+        "set1.has_cpp_vtable",
+        "set1.has_cpp_typeinfo",
+        "set1.mangled_score_symbol",
+        "set1.vtable_symbol",
+        "set2.c_sha256",
+        "set2.c_marker",
+        "set2.c_has_symtab",
+        "set2.c_recover_code",
+        "set2.c_machine",
+        "set2.cpp_sha256",
+        "set2.cpp_format",
+        "set2.cpp_xor_key",
+        "set2.cpp_config_crc32",
+        "set2.campaign",
+        "set2.domain",
+        "set2.url",
+        "set2.mutex",
+        "set2.has_cpp_vtable",
+        "set2.has_cpp_typeinfo",
+        "set2.mangled_score_symbol",
+        "set2.vtable_symbol"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "ce161191-bdac-4920-bf04-0928067c81b2",
+          "deadline": "2026-10-03T20:04:53.199Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.c_sha256",
+            "set1.c_marker",
+            "set1.c_has_symtab",
+            "set1.c_recover_code",
+            "set1.c_machine",
+            "set1.cpp_sha256",
+            "set1.cpp_format",
+            "set1.cpp_xor_key",
+            "set1.cpp_config_crc32",
+            "set1.campaign",
+            "set1.domain",
+            "set1.url",
+            "set1.mutex",
+            "set1.has_cpp_vtable",
+            "set1.has_cpp_typeinfo",
+            "set1.mangled_score_symbol",
+            "set1.vtable_symbol",
+            "set2.c_sha256",
+            "set2.c_marker",
+            "set2.c_has_symtab",
+            "set2.c_recover_code",
+            "set2.c_machine",
+            "set2.cpp_sha256",
+            "set2.cpp_format",
+            "set2.cpp_xor_key",
+            "set2.cpp_config_crc32",
+            "set2.campaign",
+            "set2.domain",
+            "set2.url",
+            "set2.mutex",
+            "set2.has_cpp_vtable",
+            "set2.has_cpp_typeinfo",
+            "set2.mangled_score_symbol",
+            "set2.vtable_symbol"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "⚙️ Mangled",
+  "last_synced": "2026-10-04T21:45:48.480285+00:00",
+  "coursestack": {
+    "key": "5a6e0957f998abb46e2b",
+    "identity": "24843a48-f0c6-4d05-8d89-7f83adf84516",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

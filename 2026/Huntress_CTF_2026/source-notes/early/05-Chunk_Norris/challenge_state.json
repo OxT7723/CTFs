@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-05-chunk-norris",
+  "day": 5,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-05-chunk-norris",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "0a3624c1-571a-4785-a801-ec4871d4a813",
+        "mode": "single_solve",
+        "answer_ids": [
+          "d05-png-001-png-ihdr-dimensions-pixels"
+        ],
+        "questions": [
+          {
+            "id": "d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-05-evidence.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d05-png-001-png-ihdr-dimensions-pixels"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "0a3624c1-571a-4785-a801-ec4871d4a813",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d05-png-001-png-ihdr-dimensions-pixels"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-05-chunk-norris/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-05T18:41:32.999Z",
+        "attempt_id": "5c5351f4-45a3-4442-a510-99d120a759ae",
+        "mode": "time_trial",
+        "answer_ids": [
+          "d05-png-002-png-ihdr-dimensions-pixels"
+        ],
+        "questions": [
+          {
+            "id": "d05-png-002-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-002.png.",
+            "artifact": "metadata-day-05-evidence.zip -> panel-002.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d05-png-002-png-ihdr-dimensions-pixels"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "5c5351f4-45a3-4442-a510-99d120a759ae",
+          "deadline": "2026-10-05T18:41:32.999Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d05-png-002-png-ihdr-dimensions-pixels"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-05-chunk-norris/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-05T18:47:57.409Z",
+        "attempt_id": "9cd091a4-f0a4-4b9a-8fc6-ffa27e0b48be",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.d05-png-003-png-ihdr-dimensions-pixels",
+          "set2.d05-png-004-png-ihdr-dimensions-pixels"
+        ],
+        "questions": [
+          {
+            "id": "set1.d05-png-003-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-003.png.",
+            "artifact": "metadata-day-05-evidence-01.zip -> panel-003.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d05-png-004-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-004.png.",
+            "artifact": "metadata-day-05-evidence-02.zip -> panel-004.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.d05-png-003-png-ihdr-dimensions-pixels",
+        "set2.d05-png-004-png-ihdr-dimensions-pixels"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "9cd091a4-f0a4-4b9a-8fc6-ffa27e0b48be",
+          "deadline": "2026-10-05T18:47:57.409Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.d05-png-003-png-ihdr-dimensions-pixels",
+            "set2.d05-png-004-png-ihdr-dimensions-pixels"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 Chunk Norris"
+}

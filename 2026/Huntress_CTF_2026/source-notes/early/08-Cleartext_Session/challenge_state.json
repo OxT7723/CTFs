@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "challenge_id": "mobile-android-day-08-cleartext-session",
+  "day": 8,
+  "lane": "mobile-android",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "mobile-android-day-08-cleartext-session",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "e03a95a3-4996-44f3-ae11-ef2848c9b033",
+        "mode": "single_solve",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-08-9DC6C997E6 in package com.huntress.mobile.d08.v9dc6c997e65d: Recover a synthetic session from allowed cleartext traffic and replay it against the backend. Submit only the exact backend answer code returned for this case.",
+            "artifact": "cleartext_session.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "e03a95a3-4996-44f3-ae11-ef2848c9b033",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "mobile-android-day-08-cleartext-session/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-08T19:25:27.061Z",
+        "attempt_id": "9f1a15ec-b8e2-4bb3-ae4e-42b1f57bb78c",
+        "mode": "time_trial",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-08-23BC0A8CA5 in package com.huntress.mobile.d08.v23bc0a8ca569: Recover a synthetic session from allowed cleartext traffic and replay it against the backend. Submit only the exact backend answer code returned for this case.",
+            "artifact": "cleartext_session_time_trial.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "9f1a15ec-b8e2-4bb3-ae4e-42b1f57bb78c",
+          "deadline": "2026-10-08T19:25:27.061Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "mobile-android-day-08-cleartext-session/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "3a4d8559-228b-4271-9339-89a54f3c880e",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.answer",
+          "set2.answer",
+          "set3.answer",
+          "set4.answer",
+          "set5.answer"
+        ],
+        "questions": [
+          {
+            "id": "set1.answer",
+            "question": "For case MOB-08-A2BE9105FC in package com.huntress.mobile.d08.va2be9105fc9b: Recover a synthetic session from allowed cleartext traffic and replay it against the backend. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 1: cleartext_session_mastery_01.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.answer",
+            "question": "For case MOB-08-7F9263EEC9 in package com.huntress.mobile.d08.v7f9263eec958: Recover a synthetic session from allowed cleartext traffic and replay it against the backend. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 2: cleartext_session_mastery_02.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set3.answer",
+            "question": "For case MOB-08-9EC7D48013 in package com.huntress.mobile.d08.v9ec7d480137e: Recover a synthetic session from allowed cleartext traffic and replay it against the backend. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 3: cleartext_session_mastery_03.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set4.answer",
+            "question": "For case MOB-08-D019FFA005 in package com.huntress.mobile.d08.vd019ffa005ae: Recover a synthetic session from allowed cleartext traffic and replay it against the backend. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 4: cleartext_session_mastery_04.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set5.answer",
+            "question": "For case MOB-08-0B3927390F in package com.huntress.mobile.d08.v0b3927390f60: Recover a synthetic session from allowed cleartext traffic and replay it against the backend. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 5: cleartext_session_mastery_05.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.answer",
+        "set2.answer",
+        "set3.answer",
+        "set4.answer",
+        "set5.answer"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "3a4d8559-228b-4271-9339-89a54f3c880e",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.answer",
+            "set2.answer",
+            "set3.answer",
+            "set4.answer",
+            "set5.answer"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "📱 Cleartext Session"
+}

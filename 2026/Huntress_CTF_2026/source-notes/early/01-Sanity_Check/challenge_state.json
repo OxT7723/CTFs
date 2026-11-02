@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "challenge_id": "local:01-Sanity_Check",
+  "source_system": "coursestack",
+  "source_record_id": "f39d2745-c337-40f5-8cd0-9d5d7387e53c",
+  "day": 1,
+  "lane": "Unknown",
+  "title": "Sanity Check",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": null,
+      "listed_solved": null,
+      "status": null,
+      "answer_ids": [],
+      "attempts": []
+    },
+    "time_trial": {
+      "challenge_id": null,
+      "listed_solved": null,
+      "status": null,
+      "answer_ids": [],
+      "attempts": []
+    },
+    "mastery": {
+      "challenge_id": null,
+      "listed_solved": null,
+      "status": null,
+      "answer_ids": [],
+      "attempts": []
+    }
+  },
+  "coursestack": {
+    "key": "3952792d095906a89205",
+    "identity": "f39d2745-c337-40f5-8cd0-9d5d7387e53c",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

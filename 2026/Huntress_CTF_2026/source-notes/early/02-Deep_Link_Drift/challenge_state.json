@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "challenge_id": "mobile-android-day-02-deep-link-drift",
+  "day": 2,
+  "lane": "mobile-android",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "mobile-android-day-02-deep-link-drift",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "00bdb223-e33e-4e37-a093-f20f831adec7",
+        "mode": "single_solve",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-02-15B6E1B835 in package com.huntress.mobile.d02.v15b6e1b8356f: Day 1 taught you the roads. Now learn which ones are actually guarded — tell verified routing apart from a scheme and host that wave everybody through. Submit only the exact backend answer code returned for this case.",
+            "artifact": "deep_link_drift.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "00bdb223-e33e-4e37-a093-f20f831adec7",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "mobile-android-day-02-deep-link-drift/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T20:00:20.033Z",
+        "attempt_id": "e388385f-ef81-4ba8-b7ec-9b2f638084c2",
+        "mode": "time_trial",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-02-7961FE2922 in package com.huntress.mobile.d02.v7961fe2922d9: Day 1 taught you the roads. Now learn which ones are actually guarded — tell verified routing apart from a scheme and host that wave everybody through. Submit only the exact backend answer code returned for this case.",
+            "artifact": "deep_link_drift_time_trial.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "e388385f-ef81-4ba8-b7ec-9b2f638084c2",
+          "deadline": "2026-10-03T20:00:20.033Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "mobile-android-day-02-deep-link-drift/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T20:01:12.499Z",
+        "attempt_id": "390879f9-57ee-48d9-be1c-08d09fe2c429",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.answer",
+          "set2.answer",
+          "set3.answer"
+        ],
+        "questions": [
+          {
+            "id": "set1.answer",
+            "question": "For case MOB-02-1601E4CE90 in package com.huntress.mobile.d02.v1601e4ce905c: Day 1 taught you the roads. Now learn which ones are actually guarded — tell verified routing apart from a scheme and host that wave everybody through. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 1: deep_link_drift_mastery_01.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.answer",
+            "question": "For case MOB-02-93CF95A29C in package com.huntress.mobile.d02.v93cf95a29c03: Day 1 taught you the roads. Now learn which ones are actually guarded — tell verified routing apart from a scheme and host that wave everybody through. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 2: deep_link_drift_mastery_02.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set3.answer",
+            "question": "For case MOB-02-BA5E39EC95 in package com.huntress.mobile.d02.vba5e39ec951d: Day 1 taught you the roads. Now learn which ones are actually guarded — tell verified routing apart from a scheme and host that wave everybody through. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 3: deep_link_drift_mastery_03.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.answer",
+        "set2.answer",
+        "set3.answer"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "390879f9-57ee-48d9-be1c-08d09fe2c429",
+          "deadline": "2026-10-03T20:01:12.499Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.answer",
+            "set2.answer",
+            "set3.answer"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "📱 Deep Link Drift",
+  "last_synced": "2026-10-04T21:45:48.487696+00:00",
+  "coursestack": {
+    "key": "8ba49c8c652f71d169d2",
+    "identity": "6a51b66f-b905-423c-a9d4-4cfa2c6cc619",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

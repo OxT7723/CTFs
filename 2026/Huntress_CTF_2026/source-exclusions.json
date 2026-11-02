@@ -1,0 +1,1010 @@
+[
+  {
+    "source": "early/.coursestack-backups/20261002T135334698152Z/.coursestack-sync.json",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261002T135334698152Z/README.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T152822455763Z/.coursestack-sync.json",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T152822455763Z/02-Deep_Link_Drift/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T152822455763Z/02-Host_With_the_Most/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T152822455763Z/02-Looks_Can_Be_Deceiving/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T152822455763Z/02-Mangled/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T152822455763Z/README.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T153042179742Z/.coursestack-sync.json",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T153042179742Z/02-Deep_Link_Drift/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T153042179742Z/02-Half_a_Turn/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T153042179742Z/02-Host_With_the_Most/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T153042179742Z/02-Looks_Can_Be_Deceiving/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T153042179742Z/02-Mangled/readme.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-backups/20261003T153042179742Z/README.md",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-gm-map.json",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.coursestack-sync.json",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/.gitignore",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/01-ELF_Aware/elf-aware-evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/01-Exported_Trust/exported_trust.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/01-Exported_Trust/image.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/01-Power_Play/power-play-evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Deep_Link_Drift/deep_link_drift.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Half_a_Turn/half_a_turn.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/collection-sample.ps1",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/embedded-write.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/host-context.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/impact-plan.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/impact-sample.ps1",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/local-dispatch.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/memory-stage.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/outbound-transfer.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/relay-handoff.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/remote-write.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/resource-sample.ps1",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most/staged-handoff.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most-no-pw.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Host_With_the_Most/host_with_the_most.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Looks_Can_Be_Deceiving/looks_can_be_deceiving.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/02-Mangled/mangled.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-BOM_Voyage/bom_voyage.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Expansion_Pack/artifacts/time_trial/18527ea4-98fa-4f43-9cc9-91dd9d7f105d/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Expansion_Pack/artifacts/time_trial/18527ea4-98fa-4f43-9cc9-91dd9d7f105d/outcomes.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/03-Expansion_Pack/artifacts/time_trial/9837e2d1-6e03-4a0d-b9f9-3eabc1e3a225/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Expansion_Pack/artifacts/time_trial/9837e2d1-6e03-4a0d-b9f9-3eabc1e3a225/outcomes.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/03-Expansion_Pack/expansion_pack.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Hex_Appeal/hex_appeal.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Intent_Injection/intent_injection.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/d01--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/d02--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/d03--variant-000.dll",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/d03--variant-000.runtimeconfig.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/03-Table_Manners/table-manners-answers-status.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/03-Table_Manners/table_manners/d01--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/table_manners/d02--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/table_manners/d03--variant-000.dll",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/table_manners/d03--variant-000.runtimeconfig.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/03-Table_Manners/table_manners-nopassword.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/03-Table_Manners/table_manners.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/mastery/attempt-76590075-e7f0-457b-be90-8864fa47d409/evidence-01.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/mastery/attempt-76590075-e7f0-457b-be90-8864fa47d409/evidence-02.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/mastery/attempt-cefa74bd-7865-41e0-8789-3ae9ffe3cfde/evidence-01.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/mastery/attempt-cefa74bd-7865-41e0-8789-3ae9ffe3cfde/evidence-02.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/single_solve/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/single_solve/headers.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/single_solve/status.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-0db834c8-912a-4e93-8465-25f18497ca67/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-20ddb36c-273b-402b-84d5-1997145f33bc/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-2a735b9f-10c6-4304-8ec5-e56cf120bcc7/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-4e9b4af3-c51f-44c6-8065-e5e85bee5514/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-522c2464-f69c-4416-9c87-79a3d3cda490/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-71d3fbc6-0591-4531-a04e-6464475b267d/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-80a1b438-cda6-45d2-9f0c-273143c54c27/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-8b0f778a-9080-4132-b217-5487ff81dfb7/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-8bbed1e6-de0d-481c-a2ce-886786ecc1ac/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-97f712d9-df95-49af-882b-e2c3dc4ca7ab/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-c2d97f33-e954-43da-ba61-bea7151bb422/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-c55d31f4-dc7e-4b21-8599-e97f2c69a664/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-c98fcccb-2e25-4c7d-ae18-fcb698123570/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-f6bc0867-22e9-48b2-b14a-1ff91baa8182/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-f71a5b35-4ada-4b21-b515-470b3527e1e7/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-ff53adc8-21cd-4088-8c56-37dfd7e04a56/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/artifacts/time_trial/attempt-unidentified-70f98c5020d3f8fd/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Dim_and_Dimmer/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Go_Fish/artifacts/single_solve/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Go_Fish/artifacts/single_solve/headers.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/04-Go_Fish/artifacts/single_solve/status.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Backup_Spill/backup_spill.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Backup_Spill/backup_spill_mastery_01.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Backup_Spill/backup_spill_mastery_02.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Backup_Spill/backup_spill_mastery_03.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Backup_Spill/backup_spill_time_trial.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/mastery/275c007c-9153-4055-8701-3eaaa9eee629/answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/mastery/275c007c-9153-4055-8701-3eaaa9eee629/bundle/evidence-01.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/mastery/275c007c-9153-4055-8701-3eaaa9eee629/bundle/evidence-02.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/mastery/275c007c-9153-4055-8701-3eaaa9eee629/challenge.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/mastery/275c007c-9153-4055-8701-3eaaa9eee629/result.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/collection-sample.ps1",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/current-pyc-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/cxfreeze-msi-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/cxfreeze-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/embedded-runtime-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/embedded-write.cmd",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/embedded-write.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/embedded-write.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/host-context.cmd",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/host-context.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/host-context.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/impact-plan.cmd",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/impact-plan.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/impact-plan.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/impact-sample.ps1",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/invoke-python-stage.ps1",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/local-dispatch.bat",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/local-dispatch.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/local-dispatch.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/memory-stage.bat",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/memory-stage.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/memory-stage.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/outbound-transfer.cmd",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/outbound-transfer.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/outbound-transfer.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/py2exe-console-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/py2exe-service-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/pyarmor-pyinstaller-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/pyarmor-source-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/pyc38-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/pyinstaller-onedir-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/pyinstaller-onefile-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/relay-handoff.cmd",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/relay-handoff.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/relay-handoff.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/remote-write.bat",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/remote-write.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/remote-write.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/resource-sample.ps1",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/source-context.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/staged-handoff.bat",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/staged-handoff.js",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/staged-handoff.vbs",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/wheel-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/single_solve/extracted/zipapp-recovered.py",
+    "reason": "Recovered challenge program, not reusable solver tooling"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/time_trial/ac0d73f6-ff32-4fe3-b1b3-73d4d0c78d5d/answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/time_trial/ac0d73f6-ff32-4fe3-b1b3-73d4d0c78d5d/challenge.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/time_trial/ac0d73f6-ff32-4fe3-b1b3-73d4d0c78d5d/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Hatch_Careful/artifacts/time_trial/ac0d73f6-ff32-4fe3-b1b3-73d4d0c78d5d/result.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/mastery/attempt-9bf7f790-4620-421e-978a-bfa017ce7cd4/set1-evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/mastery/attempt-9bf7f790-4620-421e-978a-bfa017ce7cd4/set2-evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/mastery/attempt-cd1d3d67-7f74-47b6-81b2-22731815e8a9/set1-evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/mastery/attempt-cd1d3d67-7f74-47b6-81b2-22731815e8a9/set2-evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/single_solve/d01--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/single_solve/d02--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/single_solve/d03--variant-000.dll",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/single_solve/d03--variant-000.runtimeconfig.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/single_solve/d04--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/single_solve/d05--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/artifacts/time_trial/attempt-fb3d857c-67b4-454b-b928-f28c95bb5d9c/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/05-Rust_Belt/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/mastery_answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/mastery_result.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/mastery_set1_evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/mastery_set2_evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/mastery_start.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/single_answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_evidence_retry.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_latest_answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_latest_evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_latest_result.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_result.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_extracted/d01--variant-000.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_extracted/d02--variant-000.exe",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_extracted/d03--variant-000.dll",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_extracted/d03--variant-000.runtimeconfig.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_extracted/d04--variant-002.exe",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_extracted/d05--variant-002.elf",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_retry_extracted/d06--variant-007.jar",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Pool_Party/time_trial_start.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/06-Provider_Paths/provider_paths.apk",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Shell_We_Begin/artifacts/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/06-Shell_We_Begin/artifacts/time_trial.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/07-Percent_Chance/artifacts/single_solve/blob.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/08-Swift_Justice/.evidence.zip.f64SRX",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "early/08-Swift_Justice/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/08-Swift_Justice/single_answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/08-Swift_Justice/timed_runs/mastery/903820af-5f75-4791-ad56-dd0dfad68d59/answers.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/09-All_the_Worlds_a_Stager/evidence.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/09-All_the_Worlds_a_Stager/game_ai/progress.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/Day1/A little based/008-https___050baca90.proxy.coursestac-Huntress CTF 2026_ AI Arena_-2026-10-01-09-55-29.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/A little based/a_little_based.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/A little based/image-1.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/A little based/image.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/Read the rules/image.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/Sanity Check/image.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/Welcome Robots/image.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/you must be this hash to ride/image.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Day1/you must be this hash to ride/you_must_be_this_hash_to_ride.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/Welcome/01-Welcome to the AI Arena.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/02-New Changes for 2026.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/03-The AI Homebase.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/04-The Game Master.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/05-VPN Connectivity.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/06-Getting Started.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/07-Join Us In Discord.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/08-In-Game FAQ.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/09-Recommended Gameplay.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/10-Time Trial and Mastery Mode.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/Welcome/11-Automating Your Solves.md",
+    "reason": "Organizer onboarding copy; summarized in workflow guide"
+  },
+  {
+    "source": "early/__pycache__/gm.cpython-314.pyc",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/game_master/day_03/challenges.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/game_master/day_03/details/binary-reverse-engineering-day-03-managed-configuration.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/game_master/day_03/details/metadata-forensics-day-03-bom-voyage.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/game_master/day_03/details/mobile-android-day-03-intent-injection.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/game_master/day_03/details/script-analysis-day-03-batch-expansion.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/game_master/day_03/details/warmups-day-03.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/image-1.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/image.png",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "early/maybeChallenges.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "early/my manaul README.md",
+    "reason": "Connection credentials or obsolete manual index"
+  },
+  {
+    "source": "early/ssh connection.md",
+    "reason": "Connection credentials or obsolete manual index"
+  },
+  {
+    "source": "later/.gitconfig",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "later/.gitignore",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/_RDATA.bin",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/full_main_a.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/full_main_b.txt",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/gm-download/sha1-hulud.exe",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/gm-download/sha1_hulud.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/local-comparison-capture.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/partial-no-wrapper-capture.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/tls.bin",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/analysis/xsobf.bin",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/artifact/sha1_hulud.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/evidence-01.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/extracted/.archive-members.json",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/extracted/sha1-hulud.exe",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/sha1_hulud.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/speakeasy-memory.zip",
+    "reason": "Challenge specimen, image, or raw analysis output; inventoried only"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/speakeasy-report.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/start-response.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/submission-mapped-image-sha1.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/submission-name-correction.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/submission-plaintext-name.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/submission-self-code-sha1.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/submission-sha1-archive.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/submission-sha1.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/day-30/binary/fresh-sha1-hulud/submission-title-literal.json",
+    "reason": "Operational/intermediate record; not selected for public source package"
+  },
+  {
+    "source": "later/metadata-forensics-tools/.gitignore",
+    "reason": "Local configuration, cache, or backup"
+  },
+  {
+    "source": "later/web-tools/.gitignore",
+    "reason": "Local configuration, cache, or backup"
+  }
+]

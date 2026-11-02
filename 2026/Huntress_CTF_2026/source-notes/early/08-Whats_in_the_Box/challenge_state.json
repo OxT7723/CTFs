@@ -1,0 +1,1210 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-08-whats-in-the-box",
+  "day": 8,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-08-whats-in-the-box",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "ba27a0c9-aeff-404a-a080-d842c0ec5a91",
+        "mode": "single_solve",
+        "answer_ids": [
+          "evidence-note-filename",
+          "evidence-note-size-bytes",
+          "evidence-note-md5",
+          "evidence-note-sha1",
+          "evidence-note-sha256",
+          "evidence-note-magic-prefix-hex-16",
+          "evidence-note-text-utf8-bom-present",
+          "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+          "d05-png-001-png-ihdr-dimensions-pixels",
+          "d06-pdf-001-pdf-header-version",
+          "d07-zip-001-zip-eocd-total-entries",
+          "d07-zip-001-zip-central-directory-member-names"
+        ],
+        "questions": [
+          {
+            "id": "evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-08-evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-08-evidence.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-08-evidence.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-08-evidence.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d07-zip-001-zip-central-directory-member-names",
+            "question": "Determine zip.central_directory_member_names for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "evidence-note-filename",
+        "evidence-note-size-bytes",
+        "evidence-note-md5",
+        "evidence-note-sha1",
+        "evidence-note-sha256",
+        "evidence-note-magic-prefix-hex-16",
+        "evidence-note-text-utf8-bom-present",
+        "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+        "d05-png-001-png-ihdr-dimensions-pixels",
+        "d06-pdf-001-pdf-header-version",
+        "d07-zip-001-zip-eocd-total-entries",
+        "d07-zip-001-zip-central-directory-member-names"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "ba27a0c9-aeff-404a-a080-d842c0ec5a91",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "evidence-note-filename",
+            "evidence-note-size-bytes",
+            "evidence-note-md5",
+            "evidence-note-sha1",
+            "evidence-note-sha256",
+            "evidence-note-magic-prefix-hex-16",
+            "evidence-note-text-utf8-bom-present",
+            "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "d05-png-001-png-ihdr-dimensions-pixels",
+            "d06-pdf-001-pdf-header-version",
+            "d07-zip-001-zip-eocd-total-entries",
+            "d07-zip-001-zip-central-directory-member-names"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-08-whats-in-the-box/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-08T19:07:38.267Z",
+        "attempt_id": "20d435c4-3fa9-4134-a0c5-c36ef328f012",
+        "mode": "time_trial",
+        "answer_ids": [
+          "evidence-note-filename",
+          "evidence-note-size-bytes",
+          "evidence-note-md5",
+          "evidence-note-sha1",
+          "evidence-note-sha256",
+          "evidence-note-magic-prefix-hex-16",
+          "evidence-note-text-utf8-bom-present",
+          "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+          "d05-png-001-png-ihdr-dimensions-pixels",
+          "d06-pdf-001-pdf-header-version",
+          "d07-zip-001-zip-eocd-total-entries",
+          "d07-zip-001-zip-central-directory-member-names"
+        ],
+        "questions": [
+          {
+            "id": "evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-08-evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-08-evidence.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-08-evidence.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-08-evidence.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "d07-zip-001-zip-central-directory-member-names",
+            "question": "Determine zip.central_directory_member_names for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "evidence-note-filename",
+        "evidence-note-size-bytes",
+        "evidence-note-md5",
+        "evidence-note-sha1",
+        "evidence-note-sha256",
+        "evidence-note-magic-prefix-hex-16",
+        "evidence-note-text-utf8-bom-present",
+        "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+        "d05-png-001-png-ihdr-dimensions-pixels",
+        "d06-pdf-001-pdf-header-version",
+        "d07-zip-001-zip-eocd-total-entries",
+        "d07-zip-001-zip-central-directory-member-names"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "20d435c4-3fa9-4134-a0c5-c36ef328f012",
+          "deadline": "2026-10-08T19:07:38.267Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "evidence-note-filename",
+            "evidence-note-size-bytes",
+            "evidence-note-md5",
+            "evidence-note-sha1",
+            "evidence-note-sha256",
+            "evidence-note-magic-prefix-hex-16",
+            "evidence-note-text-utf8-bom-present",
+            "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "d05-png-001-png-ihdr-dimensions-pixels",
+            "d06-pdf-001-pdf-header-version",
+            "d07-zip-001-zip-eocd-total-entries",
+            "d07-zip-001-zip-central-directory-member-names"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-08-whats-in-the-box/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-08T19:08:01.266Z",
+        "attempt_id": "4d3044ba-1020-4866-b683-d9dc5c5f0c91",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.evidence-note-filename",
+          "set1.evidence-note-size-bytes",
+          "set1.evidence-note-md5",
+          "set1.evidence-note-sha1",
+          "set1.evidence-note-sha256",
+          "set1.evidence-note-magic-prefix-hex-16",
+          "set1.evidence-note-text-utf8-bom-present",
+          "set1.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+          "set1.d05-png-001-png-ihdr-dimensions-pixels",
+          "set1.d06-pdf-001-pdf-header-version",
+          "set1.d07-zip-001-zip-eocd-total-entries",
+          "set1.d07-zip-001-zip-central-directory-member-names",
+          "set2.evidence-note-filename",
+          "set2.evidence-note-size-bytes",
+          "set2.evidence-note-md5",
+          "set2.evidence-note-sha1",
+          "set2.evidence-note-sha256",
+          "set2.evidence-note-magic-prefix-hex-16",
+          "set2.evidence-note-text-utf8-bom-present",
+          "set2.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+          "set2.d05-png-001-png-ihdr-dimensions-pixels",
+          "set2.d06-pdf-001-pdf-header-version",
+          "set2.d07-zip-001-zip-eocd-total-entries",
+          "set2.d07-zip-001-zip-central-directory-member-names",
+          "set3.evidence-note-filename",
+          "set3.evidence-note-size-bytes",
+          "set3.evidence-note-md5",
+          "set3.evidence-note-sha1",
+          "set3.evidence-note-sha256",
+          "set3.evidence-note-magic-prefix-hex-16",
+          "set3.evidence-note-text-utf8-bom-present",
+          "set3.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+          "set3.d05-png-001-png-ihdr-dimensions-pixels",
+          "set3.d06-pdf-001-pdf-header-version",
+          "set3.d07-zip-001-zip-eocd-total-entries",
+          "set3.d07-zip-001-zip-central-directory-member-names",
+          "set4.evidence-note-filename",
+          "set4.evidence-note-size-bytes",
+          "set4.evidence-note-md5",
+          "set4.evidence-note-sha1",
+          "set4.evidence-note-sha256",
+          "set4.evidence-note-magic-prefix-hex-16",
+          "set4.evidence-note-text-utf8-bom-present",
+          "set4.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+          "set4.d05-png-001-png-ihdr-dimensions-pixels",
+          "set4.d06-pdf-001-pdf-header-version",
+          "set4.d07-zip-001-zip-eocd-total-entries",
+          "set4.d07-zip-001-zip-central-directory-member-names",
+          "set5.evidence-note-filename",
+          "set5.evidence-note-size-bytes",
+          "set5.evidence-note-md5",
+          "set5.evidence-note-sha1",
+          "set5.evidence-note-sha256",
+          "set5.evidence-note-magic-prefix-hex-16",
+          "set5.evidence-note-text-utf8-bom-present",
+          "set5.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+          "set5.d05-png-001-png-ihdr-dimensions-pixels",
+          "set5.d06-pdf-001-pdf-header-version",
+          "set5.d07-zip-001-zip-eocd-total-entries",
+          "set5.d07-zip-001-zip-central-directory-member-names"
+        ],
+        "questions": [
+          {
+            "id": "set1.evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-08-evidence-01.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set1.evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set1.evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set1.evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-08-evidence-01.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-08-evidence-01.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-08-evidence-01.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.d07-zip-001-zip-central-directory-member-names",
+            "question": "Determine zip.central_directory_member_names for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-01.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-08-evidence-02.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set2.evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set2.evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set2.evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-08-evidence-02.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-08-evidence-02.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-08-evidence-02.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d07-zip-001-zip-central-directory-member-names",
+            "question": "Determine zip.central_directory_member_names for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-02.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-08-evidence-03.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set3.evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set3.evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set3.evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-08-evidence-03.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-08-evidence-03.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-08-evidence-03.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.d07-zip-001-zip-central-directory-member-names",
+            "question": "Determine zip.central_directory_member_names for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-03.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-08-evidence-04.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set4.evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set4.evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set4.evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-08-evidence-04.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-08-evidence-04.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-08-evidence-04.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.d07-zip-001-zip-central-directory-member-names",
+            "question": "Determine zip.central_directory_member_names for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-04.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-08-evidence-05.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set5.evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set5.evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set5.evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-08-evidence-05.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.d05-png-001-png-ihdr-dimensions-pixels",
+            "question": "Determine png.ihdr_dimensions_pixels for panel-001.png.",
+            "artifact": "metadata-day-08-evidence-05.zip -> panel-001.png",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-08-evidence-05.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.d07-zip-001-zip-central-directory-member-names",
+            "question": "Determine zip.central_directory_member_names for evidence-drop-001.zip.",
+            "artifact": "metadata-day-08-evidence-05.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.evidence-note-filename",
+        "set1.evidence-note-size-bytes",
+        "set1.evidence-note-md5",
+        "set1.evidence-note-sha1",
+        "set1.evidence-note-sha256",
+        "set1.evidence-note-magic-prefix-hex-16",
+        "set1.evidence-note-text-utf8-bom-present",
+        "set1.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+        "set1.d05-png-001-png-ihdr-dimensions-pixels",
+        "set1.d06-pdf-001-pdf-header-version",
+        "set1.d07-zip-001-zip-eocd-total-entries",
+        "set1.d07-zip-001-zip-central-directory-member-names",
+        "set2.evidence-note-filename",
+        "set2.evidence-note-size-bytes",
+        "set2.evidence-note-md5",
+        "set2.evidence-note-sha1",
+        "set2.evidence-note-sha256",
+        "set2.evidence-note-magic-prefix-hex-16",
+        "set2.evidence-note-text-utf8-bom-present",
+        "set2.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+        "set2.d05-png-001-png-ihdr-dimensions-pixels",
+        "set2.d06-pdf-001-pdf-header-version",
+        "set2.d07-zip-001-zip-eocd-total-entries",
+        "set2.d07-zip-001-zip-central-directory-member-names",
+        "set3.evidence-note-filename",
+        "set3.evidence-note-size-bytes",
+        "set3.evidence-note-md5",
+        "set3.evidence-note-sha1",
+        "set3.evidence-note-sha256",
+        "set3.evidence-note-magic-prefix-hex-16",
+        "set3.evidence-note-text-utf8-bom-present",
+        "set3.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+        "set3.d05-png-001-png-ihdr-dimensions-pixels",
+        "set3.d06-pdf-001-pdf-header-version",
+        "set3.d07-zip-001-zip-eocd-total-entries",
+        "set3.d07-zip-001-zip-central-directory-member-names",
+        "set4.evidence-note-filename",
+        "set4.evidence-note-size-bytes",
+        "set4.evidence-note-md5",
+        "set4.evidence-note-sha1",
+        "set4.evidence-note-sha256",
+        "set4.evidence-note-magic-prefix-hex-16",
+        "set4.evidence-note-text-utf8-bom-present",
+        "set4.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+        "set4.d05-png-001-png-ihdr-dimensions-pixels",
+        "set4.d06-pdf-001-pdf-header-version",
+        "set4.d07-zip-001-zip-eocd-total-entries",
+        "set4.d07-zip-001-zip-central-directory-member-names",
+        "set5.evidence-note-filename",
+        "set5.evidence-note-size-bytes",
+        "set5.evidence-note-md5",
+        "set5.evidence-note-sha1",
+        "set5.evidence-note-sha256",
+        "set5.evidence-note-magic-prefix-hex-16",
+        "set5.evidence-note-text-utf8-bom-present",
+        "set5.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+        "set5.d05-png-001-png-ihdr-dimensions-pixels",
+        "set5.d06-pdf-001-pdf-header-version",
+        "set5.d07-zip-001-zip-eocd-total-entries",
+        "set5.d07-zip-001-zip-central-directory-member-names"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "4d3044ba-1020-4866-b683-d9dc5c5f0c91",
+          "deadline": "2026-10-08T19:08:01.266Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.evidence-note-filename",
+            "set1.evidence-note-size-bytes",
+            "set1.evidence-note-md5",
+            "set1.evidence-note-sha1",
+            "set1.evidence-note-sha256",
+            "set1.evidence-note-magic-prefix-hex-16",
+            "set1.evidence-note-text-utf8-bom-present",
+            "set1.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "set1.d05-png-001-png-ihdr-dimensions-pixels",
+            "set1.d06-pdf-001-pdf-header-version",
+            "set1.d07-zip-001-zip-eocd-total-entries",
+            "set1.d07-zip-001-zip-central-directory-member-names",
+            "set2.evidence-note-filename",
+            "set2.evidence-note-size-bytes",
+            "set2.evidence-note-md5",
+            "set2.evidence-note-sha1",
+            "set2.evidence-note-sha256",
+            "set2.evidence-note-magic-prefix-hex-16",
+            "set2.evidence-note-text-utf8-bom-present",
+            "set2.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "set2.d05-png-001-png-ihdr-dimensions-pixels",
+            "set2.d06-pdf-001-pdf-header-version",
+            "set2.d07-zip-001-zip-eocd-total-entries",
+            "set2.d07-zip-001-zip-central-directory-member-names",
+            "set3.evidence-note-filename",
+            "set3.evidence-note-size-bytes",
+            "set3.evidence-note-md5",
+            "set3.evidence-note-sha1",
+            "set3.evidence-note-sha256",
+            "set3.evidence-note-magic-prefix-hex-16",
+            "set3.evidence-note-text-utf8-bom-present",
+            "set3.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "set3.d05-png-001-png-ihdr-dimensions-pixels",
+            "set3.d06-pdf-001-pdf-header-version",
+            "set3.d07-zip-001-zip-eocd-total-entries",
+            "set3.d07-zip-001-zip-central-directory-member-names",
+            "set4.evidence-note-filename",
+            "set4.evidence-note-size-bytes",
+            "set4.evidence-note-md5",
+            "set4.evidence-note-sha1",
+            "set4.evidence-note-sha256",
+            "set4.evidence-note-magic-prefix-hex-16",
+            "set4.evidence-note-text-utf8-bom-present",
+            "set4.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "set4.d05-png-001-png-ihdr-dimensions-pixels",
+            "set4.d06-pdf-001-pdf-header-version",
+            "set4.d07-zip-001-zip-eocd-total-entries",
+            "set4.d07-zip-001-zip-central-directory-member-names",
+            "set5.evidence-note-filename",
+            "set5.evidence-note-size-bytes",
+            "set5.evidence-note-md5",
+            "set5.evidence-note-sha1",
+            "set5.evidence-note-sha256",
+            "set5.evidence-note-magic-prefix-hex-16",
+            "set5.evidence-note-text-utf8-bom-present",
+            "set5.d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "set5.d05-png-001-png-ihdr-dimensions-pixels",
+            "set5.d06-pdf-001-pdf-header-version",
+            "set5.d07-zip-001-zip-eocd-total-entries",
+            "set5.d07-zip-001-zip-central-directory-member-names"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 What’s in the Box?"
+}

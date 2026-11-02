@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "challenge_id": "read-the-rules",
+  "day": 1,
+  "lane": "welcome",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "read-the-rules",
+      "listed_solved": null,
+      "status": {
+        "http_status": 409,
+        "status": "start_required"
+      },
+      "answer_ids": [],
+      "attempts": []
+    },
+    "time_trial": {
+      "challenge_id": null,
+      "listed_solved": null,
+      "status": null,
+      "answer_ids": [],
+      "attempts": []
+    },
+    "mastery": {
+      "challenge_id": null,
+      "listed_solved": null,
+      "status": null,
+      "answer_ids": [],
+      "attempts": []
+    }
+  },
+  "title": "Read the Rules",
+  "last_synced": "2026-10-04T21:45:48.476399+00:00",
+  "coursestack": {
+    "key": "aae074eb7ded4f86b779",
+    "identity": "6a7404af-c16a-436c-9b71-c8846faa9218",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

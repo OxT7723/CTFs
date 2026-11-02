@@ -1,0 +1,29 @@
+> **Preserved source note.** This is a historical, AI-assisted working document. It may contain provisional findings, old completion states, and references to files that did not survive the original workspace. Editorial summaries elsewhere in this collection distinguish those limits. Private lab addresses and retired artifact download links have been removed or replaced; see the source manifest.
+
+# Day 11 Binary: D-Day
+
+- Challenge ID: `binary-reverse-engineering-day-11-d-collection-planner`
+- Mode: Single Solve
+- Evidence archive SHA-256: `4dd58e769c65b28fe7c25e63ce94005cb181e3e552f9f80c295024bcb2d744ad`
+- Questions: 110
+
+The archive uses WinZip AES and the event password `infected`. Its samples
+include ELF, PE/CLI and JAR files. The reusable analyzer recovers binary
+metadata and HCFG configuration records from the extracted bytes, validates
+HCFG CRCs, and builds answers directly from the current API response. Single
+Solve and Time Trial each accepted all 110 answers.
+
+The Mastery assignment contains three 110-question sets. Its timed attempt
+expired during analysis before submission. The Game Master reports
+`next_op: practice`, but both `op=practice` and `op=retry` return
+`retry_variants_unavailable`; an explicit answer submission returns
+`expired`, and the untimed start form returns HTTP 409
+`timed_intent_not_available`. The live list does not advertise
+`run_for_time_supported`, so this is an older timed-by-default route. Status
+still says `next_op: practice` with zero fresh attempts, despite retry
+returning `retry_variants_unavailable`. The analyzer now handles the assigned
+PE C++ RTTI and vtable symbols and built all 330 candidate answers from the
+saved evidence. They are preserved with the attempt record under
+`work/day-11/binary/`. A fresh offline pass reproduced all 330 candidates
+with no changes; no per-question correctness feedback is available because
+the Game Master still rejects practice continuation.

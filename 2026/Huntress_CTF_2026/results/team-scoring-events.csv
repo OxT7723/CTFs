@@ -1,0 +1,562 @@
+scored_at_utc,challenge_id,challenge_title,lane,lane_day,release_day,mode,question_id,points_awarded,cumulative_points
+2026-10-01T13:02:12.077Z,read_the_rules,ℹ️ 📖 Read the Rules,orientation,,1,One-off award,read_the_rules,10,10
+2026-10-01T13:52:49.358Z,warmups_day_01,A Little Based,warmups,1,1,Single Solve,warmups_day_01_investigation,2,12
+2026-10-01T14:11:41.749Z,welcome_robots,Welcome Robots,orientation,,1,One-off award,welcome_robots,10,22
+2026-10-01T14:30:54.995Z,metadata_forensics_day_01_hash_to_ride,You Must Be This Hash to Ride,metadata_forensics,1,1,Single Solve,metadata_forensics_day_01_hash_to_ride_investigation,2,24
+2026-10-02T02:30:55.320Z,script_analysis_day_01_native_signals,Power Play,script_analysis,1,1,Single Solve,script_analysis_day_01_native_signals_investigation,2,26
+2026-10-02T02:50:08.248Z,mobile_android_day_01_exported_trust,Exported Trust,mobile_android,1,1,Single Solve,mobile_android_day_01_exported_trust_investigation,2,28
+2026-10-02T02:59:16.973Z,binary_reverse_engineering_day_01_c_elf_orientation,ELF Aware,binary_reverse_engineering,1,1,Single Solve,binary_reverse_engineering_day_01_c_elf_orientation_investigation,2,30
+2026-10-02T14:49:15.185Z,warmups_day_02,Half a Turn,warmups,2,2,Single Solve,warmups_day_02_investigation,2,32
+2026-10-02T19:18:11.934Z,metadata_forensics_day_02_looks_can_be_deceiving,Looks Can Be Deceiving,metadata_forensics,2,2,Single Solve,metadata_forensics_day_02_looks_can_be_deceiving_investigation,2,34
+2026-10-02T23:58:38.320Z,script_analysis_day_02_encoded_intent,Host With the Most,script_analysis,2,2,Single Solve,script_analysis_day_02_encoded_intent_investigation,2,36
+2026-10-03T15:55:17.589Z,warmups_day_01,A Little Based,warmups,1,1,Time Trial,warmups_day_01_sprint,3,39
+2026-10-03T15:55:32.036Z,warmups_day_01,A Little Based,warmups,1,1,Mastery,warmups_day_01_mastery,5,44
+2026-10-03T15:57:42.308Z,metadata_forensics_day_01_hash_to_ride,You Must Be This Hash to Ride,metadata_forensics,1,1,Time Trial,metadata_forensics_day_01_hash_to_ride_sprint,3,47
+2026-10-03T15:57:52.991Z,metadata_forensics_day_01_hash_to_ride,You Must Be This Hash to Ride,metadata_forensics,1,1,Mastery,metadata_forensics_day_01_hash_to_ride_mastery,5,52
+2026-10-03T16:04:41.358Z,script_analysis_day_01_native_signals,Power Play,script_analysis,1,1,Time Trial,script_analysis_day_01_native_signals_sprint,3,55
+2026-10-03T16:05:03.122Z,script_analysis_day_01_native_signals,Power Play,script_analysis,1,1,Mastery,script_analysis_day_01_native_signals_mastery,5,60
+2026-10-03T16:25:11.621Z,binary_reverse_engineering_day_01_c_elf_orientation,ELF Aware,binary_reverse_engineering,1,1,Time Trial,binary_reverse_engineering_day_01_c_elf_orientation_sprint,3,63
+2026-10-03T16:34:43.545Z,binary_reverse_engineering_day_01_c_elf_orientation,ELF Aware,binary_reverse_engineering,1,1,Mastery,binary_reverse_engineering_day_01_c_elf_orientation_mastery,5,68
+2026-10-03T16:38:48.373Z,warmups_day_02,Half a Turn,warmups,2,2,Time Trial,warmups_day_02_sprint,3,71
+2026-10-03T16:40:23.078Z,warmups_day_02,Half a Turn,warmups,2,2,Mastery,warmups_day_02_mastery,5,76
+2026-10-03T16:44:09.149Z,metadata_forensics_day_02_looks_can_be_deceiving,Looks Can Be Deceiving,metadata_forensics,2,2,Time Trial,metadata_forensics_day_02_looks_can_be_deceiving_sprint,3,79
+2026-10-03T16:48:31.966Z,metadata_forensics_day_02_looks_can_be_deceiving,Looks Can Be Deceiving,metadata_forensics,2,2,Mastery,metadata_forensics_day_02_looks_can_be_deceiving_mastery,5,84
+2026-10-03T17:09:33.680Z,script_analysis_day_02_encoded_intent,Host With the Most,script_analysis,2,2,Time Trial,script_analysis_day_02_encoded_intent_sprint,3,87
+2026-10-03T17:13:22.363Z,script_analysis_day_02_encoded_intent,Host With the Most,script_analysis,2,2,Mastery,script_analysis_day_02_encoded_intent_mastery,5,92
+2026-10-03T17:22:39.629Z,binary_reverse_engineering_day_02_cpp_and_pe_orientation,Mangled,binary_reverse_engineering,2,2,Single Solve,binary_reverse_engineering_day_02_cpp_and_pe_orientation_investigation,2,94
+2026-10-03T17:43:12.200Z,warmups_day_03,Hex Appeal,warmups,3,3,Single Solve,warmups_day_03_investigation,2,96
+2026-10-03T17:44:10.423Z,warmups_day_03,Hex Appeal,warmups,3,3,Time Trial,warmups_day_03_sprint,3,99
+2026-10-03T17:49:10.157Z,warmups_day_03,Hex Appeal,warmups,3,3,Mastery,warmups_day_03_mastery,5,104
+2026-10-03T17:51:20.201Z,metadata_forensics_day_03_bom_voyage,BOM Voyage,metadata_forensics,3,3,Single Solve,metadata_forensics_day_03_bom_voyage_investigation,2,106
+2026-10-03T17:52:34.812Z,metadata_forensics_day_03_bom_voyage,BOM Voyage,metadata_forensics,3,3,Time Trial,metadata_forensics_day_03_bom_voyage_sprint,3,109
+2026-10-03T17:59:40.720Z,metadata_forensics_day_03_bom_voyage,BOM Voyage,metadata_forensics,3,3,Mastery,metadata_forensics_day_03_bom_voyage_mastery,5,114
+2026-10-03T18:04:42.269Z,mobile_android_day_03_intent_injection,Intent Injection,mobile_android,3,3,Single Solve,mobile_android_day_03_intent_injection_investigation,2,116
+2026-10-03T18:05:27.195Z,mobile_android_day_03_intent_injection,Intent Injection,mobile_android,3,3,Time Trial,mobile_android_day_03_intent_injection_sprint,3,119
+2026-10-03T18:05:53.637Z,mobile_android_day_03_intent_injection,Intent Injection,mobile_android,3,3,Mastery,mobile_android_day_03_intent_injection_mastery,5,124
+2026-10-03T19:51:06.573Z,mobile_android_day_02_deep_link_drift,Deep Link Drift,mobile_android,2,2,Single Solve,mobile_android_day_02_deep_link_drift_investigation,2,126
+2026-10-03T19:58:50.247Z,binary_reverse_engineering_day_02_cpp_and_pe_orientation,Mangled,binary_reverse_engineering,2,2,Time Trial,binary_reverse_engineering_day_02_cpp_and_pe_orientation_sprint,3,129
+2026-10-03T20:00:14.741Z,mobile_android_day_02_deep_link_drift,Deep Link Drift,mobile_android,2,2,Time Trial,mobile_android_day_02_deep_link_drift_sprint,3,132
+2026-10-03T20:01:07.594Z,mobile_android_day_02_deep_link_drift,Deep Link Drift,mobile_android,2,2,Mastery,mobile_android_day_02_deep_link_drift_mastery,5,137
+2026-10-03T20:01:12.473Z,mobile_android_day_01_exported_trust,Exported Trust,mobile_android,1,1,Time Trial,mobile_android_day_01_exported_trust_sprint,3,140
+2026-10-03T20:01:45.172Z,mobile_android_day_01_exported_trust,Exported Trust,mobile_android,1,1,Mastery,mobile_android_day_01_exported_trust_mastery,5,145
+2026-10-03T20:04:42.153Z,binary_reverse_engineering_day_02_cpp_and_pe_orientation,Mangled,binary_reverse_engineering,2,2,Mastery,binary_reverse_engineering_day_02_cpp_and_pe_orientation_mastery,5,150
+2026-10-04T01:43:41.470Z,binary_reverse_engineering_day_03_managed_configuration,Table Manners,binary_reverse_engineering,3,3,Single Solve,binary_reverse_engineering_day_03_managed_configuration_investigation,2,152
+2026-10-04T01:51:04.435Z,binary_reverse_engineering_day_03_managed_configuration,Table Manners,binary_reverse_engineering,3,3,Time Trial,binary_reverse_engineering_day_03_managed_configuration_sprint,3,155
+2026-10-04T01:56:24.229Z,binary_reverse_engineering_day_03_managed_configuration,Table Manners,binary_reverse_engineering,3,3,Mastery,binary_reverse_engineering_day_03_managed_configuration_mastery,5,160
+2026-10-04T17:19:12.245Z,warmups_day_04,Two of a Kind,warmups,4,4,Single Solve,warmups_day_04_investigation,2,162
+2026-10-04T17:19:36.854Z,metadata_forensics_day_04_picture_this,Picture This,metadata_forensics,4,4,Single Solve,metadata_forensics_day_04_picture_this_investigation,2,164
+2026-10-04T17:29:00.412Z,mobile_android_day_04_pending_intent_relay,Pending Intent Relay,mobile_android,4,4,Single Solve,mobile_android_day_04_pending_intent_relay_investigation,2,166
+2026-10-04T17:50:00.460Z,warmups_day_04,Two of a Kind,warmups,4,4,Time Trial,warmups_day_04_sprint,3,169
+2026-10-04T17:53:07.388Z,warmups_day_04,Two of a Kind,warmups,4,4,Mastery,warmups_day_04_mastery,5,174
+2026-10-04T17:53:59.443Z,metadata_forensics_day_04_picture_this,Picture This,metadata_forensics,4,4,Time Trial,metadata_forensics_day_04_picture_this_sprint,3,177
+2026-10-04T17:55:15.993Z,metadata_forensics_day_04_picture_this,Picture This,metadata_forensics,4,4,Mastery,metadata_forensics_day_04_picture_this_mastery,5,182
+2026-10-04T17:55:53.908Z,mobile_android_day_04_pending_intent_relay,Pending Intent Relay,mobile_android,4,4,Time Trial,mobile_android_day_04_pending_intent_relay_sprint,3,185
+2026-10-04T17:56:44.556Z,mobile_android_day_04_pending_intent_relay,Pending Intent Relay,mobile_android,4,4,Mastery,mobile_android_day_04_pending_intent_relay_mastery,5,190
+2026-10-04T23:43:48.541Z,script_analysis_day_04_shell_contrast,Dim and Dimmer,script_analysis,4,4,Single Solve,script_analysis_day_04_shell_contrast_investigation,2,192
+2026-10-05T18:33:07.939Z,warmups_day_05,By the Numbers,warmups,5,5,Single Solve,warmups_day_05_investigation,2,194
+2026-10-05T18:34:46.572Z,warmups_day_05,By the Numbers,warmups,5,5,Time Trial,warmups_day_05_sprint,3,197
+2026-10-05T18:37:06.406Z,warmups_day_05,By the Numbers,warmups,5,5,Mastery,warmups_day_05_mastery,5,202
+2026-10-05T18:40:25.415Z,metadata_forensics_day_05_chunk_norris,Chunk Norris,metadata_forensics,5,5,Single Solve,metadata_forensics_day_05_chunk_norris_investigation,2,204
+2026-10-05T18:41:28.093Z,metadata_forensics_day_05_chunk_norris,Chunk Norris,metadata_forensics,5,5,Time Trial,metadata_forensics_day_05_chunk_norris_sprint,3,207
+2026-10-05T18:47:53.046Z,metadata_forensics_day_05_chunk_norris,Chunk Norris,metadata_forensics,5,5,Mastery,metadata_forensics_day_05_chunk_norris_mastery,5,212
+2026-10-05T21:31:33.133Z,script_analysis_day_05_python_carrier_lab,Hatch Careful,script_analysis,5,5,Single Solve,script_analysis_day_05_python_carrier_lab_investigation,2,214
+2026-10-06T13:02:10.977Z,binary_reverse_engineering_day_05_rust_runtime_shapes,Rust Belt,binary_reverse_engineering,5,5,Single Solve,binary_reverse_engineering_day_05_rust_runtime_shapes_investigation,2,216
+2026-10-06T13:04:53.216Z,warmups_day_06,Eight Is Enough,warmups,6,6,Single Solve,warmups_day_06_investigation,2,218
+2026-10-06T13:06:39.548Z,binary_reverse_engineering_day_05_rust_runtime_shapes,Rust Belt,binary_reverse_engineering,5,5,Time Trial,binary_reverse_engineering_day_05_rust_runtime_shapes_sprint,3,221
+2026-10-06T13:11:34.933Z,warmups_day_06,Eight Is Enough,warmups,6,6,Time Trial,warmups_day_06_sprint,3,224
+2026-10-06T13:13:21.951Z,binary_reverse_engineering_day_05_rust_runtime_shapes,Rust Belt,binary_reverse_engineering,5,5,Mastery,binary_reverse_engineering_day_05_rust_runtime_shapes_mastery,5,229
+2026-10-06T13:20:47.995Z,warmups_day_06,Eight Is Enough,warmups,6,6,Mastery,warmups_day_06_mastery,5,234
+2026-10-06T13:26:58.792Z,metadata_forensics_day_06_portable_deception,Portable Deception,metadata_forensics,6,6,Single Solve,metadata_forensics_day_06_portable_deception_investigation,2,236
+2026-10-06T13:29:18.402Z,mobile_android_day_05_backup_spill,Backup Spill,mobile_android,5,5,Single Solve,mobile_android_day_05_backup_spill_investigation,2,238
+2026-10-06T13:31:59.362Z,metadata_forensics_day_06_portable_deception,Portable Deception,metadata_forensics,6,6,Time Trial,metadata_forensics_day_06_portable_deception_sprint,3,241
+2026-10-06T13:32:07.463Z,mobile_android_day_05_backup_spill,Backup Spill,mobile_android,5,5,Time Trial,mobile_android_day_05_backup_spill_sprint,3,244
+2026-10-06T13:35:08.291Z,mobile_android_day_05_backup_spill,Backup Spill,mobile_android,5,5,Mastery,mobile_android_day_05_backup_spill_mastery,5,249
+2026-10-06T13:37:02.354Z,metadata_forensics_day_06_portable_deception,Portable Deception,metadata_forensics,6,6,Mastery,metadata_forensics_day_06_portable_deception_mastery,5,254
+2026-10-06T14:02:36.163Z,script_analysis_day_05_python_carrier_lab,Hatch Careful,script_analysis,5,5,Time Trial,script_analysis_day_05_python_carrier_lab_sprint,3,257
+2026-10-06T14:11:18.231Z,script_analysis_day_05_python_carrier_lab,Hatch Careful,script_analysis,5,5,Mastery,script_analysis_day_05_python_carrier_lab_mastery,5,262
+2026-10-07T13:03:10.968Z,script_analysis_day_03_batch_expansion,Expansion Pack,script_analysis,3,3,Single Solve,script_analysis_day_03_batch_expansion_investigation,2,264
+2026-10-07T13:07:54.554Z,mobile_android_day_07_webview_bridge,WebView Bridge,mobile_android,7,7,Single Solve,mobile_android_day_07_webview_bridge_investigation,2,266
+2026-10-07T13:11:48.796Z,mobile_android_day_07_webview_bridge,WebView Bridge,mobile_android,7,7,Time Trial,mobile_android_day_07_webview_bridge_sprint,3,269
+2026-10-07T13:13:34.982Z,mobile_android_day_07_webview_bridge,WebView Bridge,mobile_android,7,7,Mastery,mobile_android_day_07_webview_bridge_mastery,5,274
+2026-10-07T13:24:40.781Z,binary_reverse_engineering_day_07_kotlin_staging_logic,Routine Check,binary_reverse_engineering,7,7,Single Solve,binary_reverse_engineering_day_07_kotlin_staging_logic_investigation,2,276
+2026-10-07T13:27:10.172Z,script_analysis_day_03_batch_expansion,Expansion Pack,script_analysis,3,3,Time Trial,script_analysis_day_03_batch_expansion_sprint,3,279
+2026-10-07T13:32:56.141Z,binary_reverse_engineering_day_07_kotlin_staging_logic,Routine Check,binary_reverse_engineering,7,7,Time Trial,binary_reverse_engineering_day_07_kotlin_staging_logic_sprint,3,282
+2026-10-07T13:37:22.774Z,binary_reverse_engineering_day_07_kotlin_staging_logic,Routine Check,binary_reverse_engineering,7,7,Mastery,binary_reverse_engineering_day_07_kotlin_staging_logic_mastery,5,287
+2026-10-07T13:40:00.363Z,script_analysis_day_03_batch_expansion,Expansion Pack,script_analysis,3,3,Mastery,script_analysis_day_03_batch_expansion_mastery,5,292
+2026-10-07T14:03:59.916Z,warmups_day_07,Percent Chance,warmups,7,7,Single Solve,warmups_day_07_investigation,2,294
+2026-10-07T14:04:26.430Z,warmups_day_07,Percent Chance,warmups,7,7,Time Trial,warmups_day_07_sprint,3,297
+2026-10-07T14:08:18.681Z,warmups_day_07,Percent Chance,warmups,7,7,Mastery,warmups_day_07_mastery,5,302
+2026-10-07T14:24:19.037Z,binary_reverse_engineering_day_04_go_runtime_fingerprints,Go Fish,binary_reverse_engineering,4,4,Single Solve,binary_reverse_engineering_day_04_go_runtime_fingerprints_investigation,2,304
+2026-10-07T14:28:27.334Z,binary_reverse_engineering_day_04_go_runtime_fingerprints,Go Fish,binary_reverse_engineering,4,4,Time Trial,binary_reverse_engineering_day_04_go_runtime_fingerprints_sprint,3,307
+2026-10-07T14:35:00.840Z,binary_reverse_engineering_day_04_go_runtime_fingerprints,Go Fish,binary_reverse_engineering,4,4,Mastery,binary_reverse_engineering_day_04_go_runtime_fingerprints_mastery,5,312
+2026-10-07T14:56:05.166Z,script_analysis_day_04_shell_contrast,Dim and Dimmer,script_analysis,4,4,Time Trial,script_analysis_day_04_shell_contrast_sprint,3,315
+2026-10-07T15:11:11.135Z,script_analysis_day_04_shell_contrast,Dim and Dimmer,script_analysis,4,4,Mastery,script_analysis_day_04_shell_contrast_mastery,5,320
+2026-10-07T16:11:26.986Z,mobile_android_day_06_provider_paths,Provider Paths,mobile_android,6,6,Single Solve,mobile_android_day_06_provider_paths_investigation,2,322
+2026-10-07T16:12:15.702Z,mobile_android_day_06_provider_paths,Provider Paths,mobile_android,6,6,Time Trial,mobile_android_day_06_provider_paths_sprint,3,325
+2026-10-07T16:14:36.518Z,mobile_android_day_06_provider_paths,Provider Paths,mobile_android,6,6,Mastery,mobile_android_day_06_provider_paths_mastery,5,330
+2026-10-08T13:51:38.358Z,binary_reverse_engineering_day_06_java_bytecode_loader,Pool Party,binary_reverse_engineering,6,6,Single Solve,binary_reverse_engineering_day_06_java_bytecode_loader_investigation,2,332
+2026-10-08T13:53:36.916Z,binary_reverse_engineering_day_06_java_bytecode_loader,Pool Party,binary_reverse_engineering,6,6,Time Trial,binary_reverse_engineering_day_06_java_bytecode_loader_sprint,3,335
+2026-10-08T13:54:41.452Z,binary_reverse_engineering_day_06_java_bytecode_loader,Pool Party,binary_reverse_engineering,6,6,Mastery,binary_reverse_engineering_day_06_java_bytecode_loader_mastery,5,340
+2026-10-08T19:06:15.335Z,warmups_day_08,Entity Relations,warmups,8,8,Single Solve,warmups_day_08_investigation,2,342
+2026-10-08T19:06:25.552Z,warmups_day_08,Entity Relations,warmups,8,8,Time Trial,warmups_day_08_sprint,3,345
+2026-10-08T19:06:56.728Z,warmups_day_08,Entity Relations,warmups,8,8,Mastery,warmups_day_08_mastery,5,350
+2026-10-08T19:07:13.981Z,metadata_forensics_day_08_whats_in_the_box,What’s in the Box?,metadata_forensics,8,8,Single Solve,metadata_forensics_day_08_whats_in_the_box_investigation,2,352
+2026-10-08T19:07:31.216Z,metadata_forensics_day_08_whats_in_the_box,What’s in the Box?,metadata_forensics,8,8,Time Trial,metadata_forensics_day_08_whats_in_the_box_sprint,3,355
+2026-10-08T19:07:52.308Z,metadata_forensics_day_08_whats_in_the_box,What’s in the Box?,metadata_forensics,8,8,Mastery,metadata_forensics_day_08_whats_in_the_box_mastery,5,360
+2026-10-08T19:24:53.653Z,mobile_android_day_08_cleartext_session,Cleartext Session,mobile_android,8,8,Single Solve,mobile_android_day_08_cleartext_session_investigation,2,362
+2026-10-08T19:25:26.373Z,mobile_android_day_08_cleartext_session,Cleartext Session,mobile_android,8,8,Time Trial,mobile_android_day_08_cleartext_session_sprint,3,365
+2026-10-08T19:26:10.152Z,mobile_android_day_08_cleartext_session,Cleartext Session,mobile_android,8,8,Mastery,mobile_android_day_08_cleartext_session_mastery,5,370
+2026-10-09T13:43:34.114Z,warmups_day_09,Escape Room,warmups,9,9,Single Solve,warmups_day_09_investigation,2,372
+2026-10-09T13:44:08.397Z,metadata_forensics_day_09_built_different,Built Different,metadata_forensics,9,9,Single Solve,metadata_forensics_day_09_built_different_investigation,2,374
+2026-10-09T13:44:15.719Z,warmups_day_09,Escape Room,warmups,9,9,Time Trial,warmups_day_09_sprint,3,377
+2026-10-09T13:45:03.774Z,warmups_day_09,Escape Room,warmups,9,9,Mastery,warmups_day_09_mastery,5,382
+2026-10-09T13:45:38.399Z,metadata_forensics_day_09_built_different,Built Different,metadata_forensics,9,9,Time Trial,metadata_forensics_day_09_built_different_sprint,3,385
+2026-10-09T13:45:56.882Z,metadata_forensics_day_09_built_different,Built Different,metadata_forensics,9,9,Mastery,metadata_forensics_day_09_built_different_mastery,5,390
+2026-10-09T14:04:51.521Z,mobile_android_day_09_trust_everyone,Trust Everyone,mobile_android,9,9,Single Solve,mobile_android_day_09_trust_everyone_investigation,2,392
+2026-10-09T14:05:15.937Z,mobile_android_day_09_trust_everyone,Trust Everyone,mobile_android,9,9,Time Trial,mobile_android_day_09_trust_everyone_sprint,3,395
+2026-10-09T14:05:34.423Z,mobile_android_day_09_trust_everyone,Trust Everyone,mobile_android,9,9,Mastery,mobile_android_day_09_trust_everyone_mastery,5,400
+2026-10-09T14:10:26.862Z,binary_reverse_engineering_day_08_swift_network_configuration,Swift Justice,binary_reverse_engineering,8,8,Single Solve,binary_reverse_engineering_day_08_swift_network_configuration_investigation,2,402
+2026-10-09T14:11:50.793Z,binary_reverse_engineering_day_08_swift_network_configuration,Swift Justice,binary_reverse_engineering,8,8,Time Trial,binary_reverse_engineering_day_08_swift_network_configuration_sprint,3,405
+2026-10-09T14:12:10.311Z,binary_reverse_engineering_day_08_swift_network_configuration,Swift Justice,binary_reverse_engineering,8,8,Mastery,binary_reverse_engineering_day_08_swift_network_configuration_mastery,5,410
+2026-10-09T17:05:40.445Z,script_analysis_day_09_stager_relationships,All the World's a Stager,script_analysis,9,9,Single Solve,script_analysis_day_09_stager_relationships_investigation,2,412
+2026-10-09T17:08:29.289Z,binary_reverse_engineering_day_09_nim_generated_runtime,Nimble,binary_reverse_engineering,9,9,Single Solve,binary_reverse_engineering_day_09_nim_generated_runtime_investigation,2,414
+2026-10-09T17:12:53.633Z,script_analysis_day_09_stager_relationships,All the World's a Stager,script_analysis,9,9,Time Trial,script_analysis_day_09_stager_relationships_sprint,3,417
+2026-10-09T17:20:51.916Z,script_analysis_day_09_stager_relationships,All the World's a Stager,script_analysis,9,9,Mastery,script_analysis_day_09_stager_relationships_mastery,5,422
+2026-10-09T17:27:20.331Z,binary_reverse_engineering_day_09_nim_generated_runtime,Nimble,binary_reverse_engineering,9,9,Time Trial,binary_reverse_engineering_day_09_nim_generated_runtime_sprint,3,425
+2026-10-09T17:29:51.280Z,binary_reverse_engineering_day_09_nim_generated_runtime,Nimble,binary_reverse_engineering,9,9,Mastery,binary_reverse_engineering_day_09_nim_generated_runtime_mastery,5,430
+2026-10-09T21:09:41.803Z,script_analysis_day_06_bash_behavior_graphs,Shell We Begin,script_analysis,6,6,Single Solve,script_analysis_day_06_bash_behavior_graphs_investigation,2,432
+2026-10-09T21:23:56.718Z,script_analysis_day_06_bash_behavior_graphs,Shell We Begin,script_analysis,6,6,Time Trial,script_analysis_day_06_bash_behavior_graphs_sprint,3,435
+2026-10-09T22:06:35.357Z,script_analysis_day_08_cross_language_iocs,Lost in Translation,script_analysis,8,8,Single Solve,script_analysis_day_08_cross_language_iocs_investigation,2,437
+2026-10-09T22:35:27.717Z,script_analysis_day_08_cross_language_iocs,Lost in Translation,script_analysis,8,8,Time Trial,script_analysis_day_08_cross_language_iocs_sprint,3,440
+2026-10-10T18:15:50.401Z,script_analysis_day_07_node_operation_graphs,Node by Node,script_analysis,7,7,Single Solve,script_analysis_day_07_node_operation_graphs_investigation,2,442
+2026-10-10T18:21:33.962Z,script_analysis_day_07_node_operation_graphs,Node by Node,script_analysis,7,7,Time Trial,script_analysis_day_07_node_operation_graphs_sprint,3,445
+2026-10-10T18:25:42.074Z,script_analysis_day_07_node_operation_graphs,Node by Node,script_analysis,7,7,Mastery,script_analysis_day_07_node_operation_graphs_mastery,5,450
+2026-10-10T19:29:16.898Z,warmups_day_10,Thirty-Two Below,warmups,10,10,Single Solve,warmups_day_10_investigation,2,452
+2026-10-10T19:29:17.707Z,mobile_android_day_10_network_config_split,Network Config Split,mobile_android,10,10,Single Solve,mobile_android_day_10_network_config_split_investigation,2,454
+2026-10-10T19:34:04.957Z,warmups_day_10,Thirty-Two Below,warmups,10,10,Time Trial,warmups_day_10_sprint,3,457
+2026-10-10T19:35:45.560Z,warmups_day_10,Thirty-Two Below,warmups,10,10,Mastery,warmups_day_10_mastery,5,462
+2026-10-10T19:36:38.128Z,metadata_forensics_day_10_where_do_we_begin,Where Do We Begin?,metadata_forensics,10,10,Single Solve,metadata_forensics_day_10_where_do_we_begin_investigation,2,464
+2026-10-10T19:37:15.097Z,metadata_forensics_day_10_where_do_we_begin,Where Do We Begin?,metadata_forensics,10,10,Time Trial,metadata_forensics_day_10_where_do_we_begin_sprint,3,467
+2026-10-10T19:37:47.928Z,metadata_forensics_day_10_where_do_we_begin,Where Do We Begin?,metadata_forensics,10,10,Mastery,metadata_forensics_day_10_where_do_we_begin_mastery,5,472
+2026-10-10T19:38:15.026Z,mobile_android_day_10_network_config_split,Network Config Split,mobile_android,10,10,Time Trial,mobile_android_day_10_network_config_split_sprint,3,475
+2026-10-10T19:38:16.928Z,script_analysis_day_06_bash_behavior_graphs,Shell We Begin,script_analysis,6,6,Mastery,script_analysis_day_06_bash_behavior_graphs_mastery,5,480
+2026-10-10T19:42:51.284Z,mobile_android_day_10_network_config_split,Network Config Split,mobile_android,10,10,Mastery,mobile_android_day_10_network_config_split_mastery,5,485
+2026-10-10T19:46:00.102Z,binary_reverse_engineering_day_10_zig_cross_platform_services,Zig Zag,binary_reverse_engineering,10,10,Single Solve,binary_reverse_engineering_day_10_zig_cross_platform_services_investigation,2,487
+2026-10-10T19:49:29.257Z,binary_reverse_engineering_day_10_zig_cross_platform_services,Zig Zag,binary_reverse_engineering,10,10,Time Trial,binary_reverse_engineering_day_10_zig_cross_platform_services_sprint,3,490
+2026-10-10T19:59:50.042Z,binary_reverse_engineering_day_10_zig_cross_platform_services,Zig Zag,binary_reverse_engineering,10,10,Mastery,binary_reverse_engineering_day_10_zig_cross_platform_services_mastery,5,495
+2026-10-10T22:22:07.572Z,script_analysis_day_10_wmi_persistence_reconstruction,Bind Over Matter,script_analysis,10,10,Single Solve,script_analysis_day_10_wmi_persistence_reconstruction_investigation,2,497
+2026-10-10T22:24:41.853Z,script_analysis_day_10_wmi_persistence_reconstruction,Bind Over Matter,script_analysis,10,10,Time Trial,script_analysis_day_10_wmi_persistence_reconstruction_sprint,3,500
+2026-10-10T22:25:04.876Z,script_analysis_day_10_wmi_persistence_reconstruction,Bind Over Matter,script_analysis,10,10,Mastery,script_analysis_day_10_wmi_persistence_reconstruction_mastery,5,505
+2026-10-10T22:33:44.094Z,script_analysis_day_08_cross_language_iocs,Lost in Translation,script_analysis,8,8,Mastery,script_analysis_day_08_cross_language_iocs_mastery,5,510
+2026-10-10T22:39:28.988Z,metadata_forensics_day_07_seven_zip_no_relation,"Seven-Zip, No Relation",metadata_forensics,7,7,Single Solve,metadata_forensics_day_07_seven_zip_no_relation_investigation,2,512
+2026-10-10T22:40:27.239Z,metadata_forensics_day_07_seven_zip_no_relation,"Seven-Zip, No Relation",metadata_forensics,7,7,Time Trial,metadata_forensics_day_07_seven_zip_no_relation_sprint,3,515
+2026-10-10T22:40:53.447Z,metadata_forensics_day_07_seven_zip_no_relation,"Seven-Zip, No Relation",metadata_forensics,7,7,Mastery,metadata_forensics_day_07_seven_zip_no_relation_mastery,5,520
+2026-10-11T14:45:31.128Z,warmups_day_11,Safe Travels,warmups,11,11,Single Solve,warmups_day_11_investigation,2,522
+2026-10-11T14:47:27.146Z,metadata_forensics_day_11_whats_my_name_again,What’s My Name Again?,metadata_forensics,11,11,Single Solve,metadata_forensics_day_11_whats_my_name_again_investigation,2,524
+2026-10-11T14:48:41.887Z,script_analysis_day_11_native_api_semantics,By Any Other Name,script_analysis,11,11,Single Solve,script_analysis_day_11_native_api_semantics_investigation,2,526
+2026-10-11T14:50:48.887Z,binary_reverse_engineering_day_11_d_collection_planner,D-Day,binary_reverse_engineering,11,11,Single Solve,binary_reverse_engineering_day_11_d_collection_planner_investigation,2,528
+2026-10-11T14:51:50.315Z,mobile_android_day_11_local_secrets,Local Secrets,mobile_android,11,11,Single Solve,mobile_android_day_11_local_secrets_investigation,2,530
+2026-10-11T14:54:46.476Z,warmups_day_11,Safe Travels,warmups,11,11,Time Trial,warmups_day_11_sprint,3,533
+2026-10-11T14:56:10.486Z,warmups_day_11,Safe Travels,warmups,11,11,Mastery,warmups_day_11_mastery,5,538
+2026-10-11T14:56:15.163Z,metadata_forensics_day_11_whats_my_name_again,What’s My Name Again?,metadata_forensics,11,11,Time Trial,metadata_forensics_day_11_whats_my_name_again_sprint,3,541
+2026-10-11T14:56:21.572Z,metadata_forensics_day_11_whats_my_name_again,What’s My Name Again?,metadata_forensics,11,11,Mastery,metadata_forensics_day_11_whats_my_name_again_mastery,5,546
+2026-10-11T14:58:32.647Z,script_analysis_day_11_native_api_semantics,By Any Other Name,script_analysis,11,11,Time Trial,script_analysis_day_11_native_api_semantics_sprint,3,549
+2026-10-11T14:59:17.297Z,script_analysis_day_11_native_api_semantics,By Any Other Name,script_analysis,11,11,Mastery,script_analysis_day_11_native_api_semantics_mastery,5,554
+2026-10-11T14:59:28.171Z,binary_reverse_engineering_day_11_d_collection_planner,D-Day,binary_reverse_engineering,11,11,Time Trial,binary_reverse_engineering_day_11_d_collection_planner_sprint,3,557
+2026-10-11T15:01:26.991Z,mobile_android_day_11_local_secrets,Local Secrets,mobile_android,11,11,Time Trial,mobile_android_day_11_local_secrets_sprint,3,560
+2026-10-11T15:02:00.927Z,mobile_android_day_11_local_secrets,Local Secrets,mobile_android,11,11,Mastery,mobile_android_day_11_local_secrets_mastery,5,565
+2026-10-12T13:00:30.750Z,warmups_day_12,Back at You,warmups,12,12,Single Solve,warmups_day_12_investigation,2,567
+2026-10-12T13:00:46.316Z,warmups_day_12,Back at You,warmups,12,12,Time Trial,warmups_day_12_sprint,3,570
+2026-10-12T13:02:16.408Z,metadata_forensics_day_12_managed_expectations,Managed Expectations,metadata_forensics,12,12,Single Solve,metadata_forensics_day_12_managed_expectations_investigation,2,572
+2026-10-12T13:02:28.559Z,metadata_forensics_day_12_managed_expectations,Managed Expectations,metadata_forensics,12,12,Time Trial,metadata_forensics_day_12_managed_expectations_sprint,3,575
+2026-10-12T13:02:46.858Z,metadata_forensics_day_12_managed_expectations,Managed Expectations,metadata_forensics,12,12,Mastery,metadata_forensics_day_12_managed_expectations_mastery,5,580
+2026-10-12T13:04:19.156Z,script_analysis_day_12_autoit_workflow_pair,AutoIt Takes Two,script_analysis,12,12,Single Solve,script_analysis_day_12_autoit_workflow_pair_investigation,2,582
+2026-10-12T13:04:30.842Z,script_analysis_day_12_autoit_workflow_pair,AutoIt Takes Two,script_analysis,12,12,Time Trial,script_analysis_day_12_autoit_workflow_pair_sprint,3,585
+2026-10-12T13:04:37.716Z,script_analysis_day_12_autoit_workflow_pair,AutoIt Takes Two,script_analysis,12,12,Mastery,script_analysis_day_12_autoit_workflow_pair_mastery,5,590
+2026-10-12T13:09:35.163Z,mobile_android_day_12_sqlite_assumptions,SQLite Assumptions,mobile_android,12,12,Single Solve,mobile_android_day_12_sqlite_assumptions_investigation,2,592
+2026-10-12T13:09:39.532Z,mobile_android_day_12_sqlite_assumptions,SQLite Assumptions,mobile_android,12,12,Time Trial,mobile_android_day_12_sqlite_assumptions_sprint,3,595
+2026-10-12T13:09:47.098Z,mobile_android_day_12_sqlite_assumptions,SQLite Assumptions,mobile_android,12,12,Mastery,mobile_android_day_12_sqlite_assumptions_mastery,5,600
+2026-10-12T13:55:21.399Z,binary_reverse_engineering_day_12_pascal_archive_stager,Pascal's Wager,binary_reverse_engineering,12,12,Single Solve,binary_reverse_engineering_day_12_pascal_archive_stager_investigation,2,602
+2026-10-12T21:00:56.755Z,warmups_day_12,Back at You,warmups,12,12,Mastery,warmups_day_12_mastery,5,607
+2026-10-12T21:01:19.520Z,binary_reverse_engineering_day_12_pascal_archive_stager,Pascal's Wager,binary_reverse_engineering,12,12,Time Trial,binary_reverse_engineering_day_12_pascal_archive_stager_sprint,3,610
+2026-10-12T21:04:57.037Z,binary_reverse_engineering_day_12_pascal_archive_stager,Pascal's Wager,binary_reverse_engineering,12,12,Mastery,binary_reverse_engineering_day_12_pascal_archive_stager_mastery,5,615
+2026-10-12T21:13:07.816Z,binary_reverse_engineering_day_11_d_collection_planner,D-Day,binary_reverse_engineering,11,11,Mastery,binary_reverse_engineering_day_11_d_collection_planner_mastery,5,620
+2026-10-13T13:01:11.494Z,mobile_android_day_13_keystore_misuse,Keystore Misuse,mobile_android,13,13,Single Solve,mobile_android_day_13_keystore_misuse_investigation,2,622
+2026-10-13T13:01:18.443Z,mobile_android_day_13_keystore_misuse,Keystore Misuse,mobile_android,13,13,Time Trial,mobile_android_day_13_keystore_misuse_sprint,3,625
+2026-10-13T13:01:27.264Z,mobile_android_day_13_keystore_misuse,Keystore Misuse,mobile_android,13,13,Mastery,mobile_android_day_13_keystore_misuse_mastery,5,630
+2026-10-13T13:01:28.220Z,metadata_forensics_day_13_product_placement,Product Placement,metadata_forensics,13,13,Single Solve,metadata_forensics_day_13_product_placement_investigation,2,632
+2026-10-13T13:01:53.713Z,warmups_day_13,Opposite Day,warmups,13,13,Single Solve,warmups_day_13_investigation,2,634
+2026-10-13T13:02:07.289Z,warmups_day_13,Opposite Day,warmups,13,13,Time Trial,warmups_day_13_sprint,3,637
+2026-10-13T13:02:16.793Z,script_analysis_day_13_archive_delivery_chain,Zip Code,script_analysis,13,13,Single Solve,script_analysis_day_13_archive_delivery_chain_investigation,2,639
+2026-10-13T13:02:37.006Z,metadata_forensics_day_13_product_placement,Product Placement,metadata_forensics,13,13,Time Trial,metadata_forensics_day_13_product_placement_sprint,3,642
+2026-10-13T13:02:46.267Z,metadata_forensics_day_13_product_placement,Product Placement,metadata_forensics,13,13,Mastery,metadata_forensics_day_13_product_placement_mastery,5,647
+2026-10-13T13:02:54.190Z,script_analysis_day_13_archive_delivery_chain,Zip Code,script_analysis,13,13,Time Trial,script_analysis_day_13_archive_delivery_chain_sprint,3,650
+2026-10-13T13:03:09.193Z,warmups_day_13,Opposite Day,warmups,13,13,Mastery,warmups_day_13_mastery,5,655
+2026-10-13T13:03:29.918Z,script_analysis_day_13_archive_delivery_chain,Zip Code,script_analysis,13,13,Mastery,script_analysis_day_13_archive_delivery_chain_mastery,5,660
+2026-10-13T13:08:19.441Z,binary_reverse_engineering_day_13_crystal_dns_configuration,Crystal Clear,binary_reverse_engineering,13,13,Single Solve,binary_reverse_engineering_day_13_crystal_dns_configuration_investigation,2,662
+2026-10-13T13:08:50.367Z,binary_reverse_engineering_day_13_crystal_dns_configuration,Crystal Clear,binary_reverse_engineering,13,13,Time Trial,binary_reverse_engineering_day_13_crystal_dns_configuration_sprint,3,665
+2026-10-13T13:09:36.622Z,binary_reverse_engineering_day_13_crystal_dns_configuration,Crystal Clear,binary_reverse_engineering,13,13,Mastery,binary_reverse_engineering_day_13_crystal_dns_configuration_mastery,5,670
+2026-10-14T13:01:07.034Z,metadata_forensics_day_14_shortcut_home,The Shortcut Home,metadata_forensics,14,14,Single Solve,metadata_forensics_day_14_shortcut_home_investigation,2,672
+2026-10-14T13:01:18.593Z,script_analysis_day_14_msbuild_trusted_project_abuse,Trust the Process,script_analysis,14,14,Single Solve,script_analysis_day_14_msbuild_trusted_project_abuse_investigation,2,674
+2026-10-14T13:01:19.605Z,metadata_forensics_day_14_shortcut_home,The Shortcut Home,metadata_forensics,14,14,Time Trial,metadata_forensics_day_14_shortcut_home_sprint,3,677
+2026-10-14T13:01:26.235Z,metadata_forensics_day_14_shortcut_home,The Shortcut Home,metadata_forensics,14,14,Mastery,metadata_forensics_day_14_shortcut_home_mastery,5,682
+2026-10-14T13:01:43.055Z,script_analysis_day_14_msbuild_trusted_project_abuse,Trust the Process,script_analysis,14,14,Time Trial,script_analysis_day_14_msbuild_trusted_project_abuse_sprint,3,685
+2026-10-14T13:01:58.800Z,script_analysis_day_14_msbuild_trusted_project_abuse,Trust the Process,script_analysis,14,14,Mastery,script_analysis_day_14_msbuild_trusted_project_abuse_mastery,5,690
+2026-10-14T13:02:17.739Z,mobile_android_day_14_predictable_crypto,Predictable Crypto,mobile_android,14,14,Single Solve,mobile_android_day_14_predictable_crypto_investigation,2,692
+2026-10-14T13:02:25.584Z,mobile_android_day_14_predictable_crypto,Predictable Crypto,mobile_android,14,14,Time Trial,mobile_android_day_14_predictable_crypto_sprint,3,695
+2026-10-14T13:02:30.327Z,mobile_android_day_14_predictable_crypto,Predictable Crypto,mobile_android,14,14,Mastery,mobile_android_day_14_predictable_crypto_mastery,5,700
+2026-10-14T13:05:04.592Z,warmups_day_14,Seven Steps,warmups,14,14,Single Solve,warmups_day_14_investigation,2,702
+2026-10-14T13:05:11.162Z,warmups_day_14,Seven Steps,warmups,14,14,Time Trial,warmups_day_14_sprint,3,705
+2026-10-14T13:05:25.909Z,binary_reverse_engineering_day_14_objective_c_persistence_descriptor,Selective Memory,binary_reverse_engineering,14,14,Single Solve,binary_reverse_engineering_day_14_objective_c_persistence_descriptor_investigation,2,707
+2026-10-14T13:05:44.069Z,binary_reverse_engineering_day_14_objective_c_persistence_descriptor,Selective Memory,binary_reverse_engineering,14,14,Time Trial,binary_reverse_engineering_day_14_objective_c_persistence_descriptor_sprint,3,710
+2026-10-14T13:06:58.566Z,binary_reverse_engineering_day_14_objective_c_persistence_descriptor,Selective Memory,binary_reverse_engineering,14,14,Mastery,binary_reverse_engineering_day_14_objective_c_persistence_descriptor_mastery,5,715
+2026-10-14T13:08:29.860Z,warmups_day_14,Seven Steps,warmups,14,14,Mastery,warmups_day_14_mastery,5,720
+2026-10-15T13:02:05.978Z,script_analysis_day_15_credential_store_clues,Crumb Trail,script_analysis,15,15,Single Solve,script_analysis_day_15_credential_store_clues_investigation,2,722
+2026-10-15T13:02:27.611Z,mobile_android_day_15_native_library_secrets,Native Library Secrets,mobile_android,15,15,Single Solve,mobile_android_day_15_native_library_secrets_investigation,2,724
+2026-10-15T13:03:00.568Z,warmups_day_15,Room Forty-Seven,warmups,15,15,Single Solve,warmups_day_15_investigation,2,726
+2026-10-15T13:03:04.501Z,metadata_forensics_day_15_word_to_the_wise,A Word to the Wise,metadata_forensics,15,15,Single Solve,metadata_forensics_day_15_word_to_the_wise_investigation,2,728
+2026-10-15T13:03:10.094Z,warmups_day_15,Room Forty-Seven,warmups,15,15,Time Trial,warmups_day_15_sprint,3,731
+2026-10-15T13:03:29.931Z,mobile_android_day_15_native_library_secrets,Native Library Secrets,mobile_android,15,15,Time Trial,mobile_android_day_15_native_library_secrets_sprint,3,734
+2026-10-15T13:04:02.246Z,warmups_day_15,Room Forty-Seven,warmups,15,15,Mastery,warmups_day_15_mastery,5,739
+2026-10-15T13:04:33.582Z,metadata_forensics_day_15_word_to_the_wise,A Word to the Wise,metadata_forensics,15,15,Time Trial,metadata_forensics_day_15_word_to_the_wise_sprint,3,742
+2026-10-15T13:04:37.927Z,mobile_android_day_15_native_library_secrets,Native Library Secrets,mobile_android,15,15,Mastery,mobile_android_day_15_native_library_secrets_mastery,5,747
+2026-10-15T13:04:39.587Z,script_analysis_day_15_credential_store_clues,Crumb Trail,script_analysis,15,15,Time Trial,script_analysis_day_15_credential_store_clues_sprint,3,750
+2026-10-15T13:04:59.520Z,binary_reverse_engineering_day_15_assembly_and_symbol_loss,Stripped,binary_reverse_engineering,15,15,Single Solve,binary_reverse_engineering_day_15_assembly_and_symbol_loss_investigation,2,752
+2026-10-15T13:05:13.020Z,script_analysis_day_15_credential_store_clues,Crumb Trail,script_analysis,15,15,Mastery,script_analysis_day_15_credential_store_clues_mastery,5,757
+2026-10-15T13:05:15.728Z,binary_reverse_engineering_day_15_assembly_and_symbol_loss,Stripped,binary_reverse_engineering,15,15,Time Trial,binary_reverse_engineering_day_15_assembly_and_symbol_loss_sprint,3,760
+2026-10-15T13:05:43.555Z,metadata_forensics_day_15_word_to_the_wise,A Word to the Wise,metadata_forensics,15,15,Mastery,metadata_forensics_day_15_word_to_the_wise_mastery,5,765
+2026-10-15T13:06:17.358Z,binary_reverse_engineering_day_15_assembly_and_symbol_loss,Stripped,binary_reverse_engineering,15,15,Mastery,binary_reverse_engineering_day_15_assembly_and_symbol_loss_mastery,5,770
+2026-10-16T13:00:19.913Z,mobile_android_day_16_jni_boundary,JNI Boundary,mobile_android,16,16,Single Solve,mobile_android_day_16_jni_boundary_investigation,2,772
+2026-10-16T13:00:26.920Z,mobile_android_day_16_jni_boundary,JNI Boundary,mobile_android,16,16,Time Trial,mobile_android_day_16_jni_boundary_sprint,3,775
+2026-10-16T13:00:32.489Z,warmups_day_16,Dot Com,warmups,16,16,Single Solve,warmups_day_16_investigation,2,777
+2026-10-16T13:00:32.543Z,metadata_forensics_day_16_return_to_sender,Return to Sender,metadata_forensics,16,16,Single Solve,metadata_forensics_day_16_return_to_sender_investigation,2,779
+2026-10-16T13:00:36.138Z,mobile_android_day_16_jni_boundary,JNI Boundary,mobile_android,16,16,Mastery,mobile_android_day_16_jni_boundary_mastery,5,784
+2026-10-16T13:00:55.044Z,script_analysis_day_16_obfuscation_equivalence,"Same Same, But Different",script_analysis,16,16,Single Solve,script_analysis_day_16_obfuscation_equivalence_investigation,2,786
+2026-10-16T13:00:56.462Z,warmups_day_16,Dot Com,warmups,16,16,Time Trial,warmups_day_16_sprint,3,789
+2026-10-16T13:01:05.436Z,script_analysis_day_16_obfuscation_equivalence,"Same Same, But Different",script_analysis,16,16,Time Trial,script_analysis_day_16_obfuscation_equivalence_sprint,3,792
+2026-10-16T13:01:20.775Z,binary_reverse_engineering_day_16_webassembly_optimization_equivalence,Wasm Up,binary_reverse_engineering,16,16,Single Solve,binary_reverse_engineering_day_16_webassembly_optimization_equivalence_investigation,2,794
+2026-10-16T13:01:34.504Z,script_analysis_day_16_obfuscation_equivalence,"Same Same, But Different",script_analysis,16,16,Mastery,script_analysis_day_16_obfuscation_equivalence_mastery,5,799
+2026-10-16T13:01:37.111Z,metadata_forensics_day_16_return_to_sender,Return to Sender,metadata_forensics,16,16,Time Trial,metadata_forensics_day_16_return_to_sender_sprint,3,802
+2026-10-16T13:01:51.242Z,binary_reverse_engineering_day_16_webassembly_optimization_equivalence,Wasm Up,binary_reverse_engineering,16,16,Time Trial,binary_reverse_engineering_day_16_webassembly_optimization_equivalence_sprint,3,805
+2026-10-16T13:02:21.067Z,metadata_forensics_day_16_return_to_sender,Return to Sender,metadata_forensics,16,16,Mastery,metadata_forensics_day_16_return_to_sender_mastery,5,810
+2026-10-16T13:02:35.951Z,warmups_day_16,Dot Com,warmups,16,16,Mastery,warmups_day_16_mastery,5,815
+2026-10-16T13:03:05.254Z,binary_reverse_engineering_day_16_webassembly_optimization_equivalence,Wasm Up,binary_reverse_engineering,16,16,Mastery,binary_reverse_engineering_day_16_webassembly_optimization_equivalence_mastery,5,820
+2026-10-17T13:01:32.866Z,script_analysis_day_17_download_graph,Fetch Quest,script_analysis,17,17,Single Solve,script_analysis_day_17_download_graph_investigation,2,822
+2026-10-17T13:01:40.546Z,script_analysis_day_17_download_graph,Fetch Quest,script_analysis,17,17,Time Trial,script_analysis_day_17_download_graph_sprint,3,825
+2026-10-17T13:02:01.619Z,mobile_android_day_17_name_collapse,Name Collapse,mobile_android,17,17,Single Solve,mobile_android_day_17_name_collapse_investigation,2,827
+2026-10-17T13:02:05.896Z,script_analysis_day_17_download_graph,Fetch Quest,script_analysis,17,17,Mastery,script_analysis_day_17_download_graph_mastery,5,832
+2026-10-17T13:02:07.318Z,mobile_android_day_17_name_collapse,Name Collapse,mobile_android,17,17,Time Trial,mobile_android_day_17_name_collapse_sprint,3,835
+2026-10-17T13:02:20.420Z,warmups_day_17,Bacon Bits,warmups,17,17,Single Solve,warmups_day_17_investigation,2,837
+2026-10-17T13:02:25.393Z,warmups_day_17,Bacon Bits,warmups,17,17,Time Trial,warmups_day_17_sprint,3,840
+2026-10-17T13:02:29.253Z,mobile_android_day_17_name_collapse,Name Collapse,mobile_android,17,17,Mastery,mobile_android_day_17_name_collapse_mastery,5,845
+2026-10-17T13:02:38.745Z,metadata_forensics_day_17_hear_me_out,Hear Me Out,metadata_forensics,17,17,Single Solve,metadata_forensics_day_17_hear_me_out_investigation,2,847
+2026-10-17T13:02:44.163Z,metadata_forensics_day_17_hear_me_out,Hear Me Out,metadata_forensics,17,17,Time Trial,metadata_forensics_day_17_hear_me_out_sprint,3,850
+2026-10-17T13:02:50.258Z,metadata_forensics_day_17_hear_me_out,Hear Me Out,metadata_forensics,17,17,Mastery,metadata_forensics_day_17_hear_me_out_mastery,5,855
+2026-10-17T13:03:12.792Z,warmups_day_17,Bacon Bits,warmups,17,17,Mastery,warmups_day_17_mastery,5,860
+2026-10-17T16:16:51.699Z,binary_reverse_engineering_day_17_encoded_configuration_recovery,Decoder Ring,binary_reverse_engineering,17,17,Single Solve,binary_reverse_engineering_day_17_encoded_configuration_recovery_investigation,2,862
+2026-10-17T16:19:07.445Z,binary_reverse_engineering_day_17_encoded_configuration_recovery,Decoder Ring,binary_reverse_engineering,17,17,Time Trial,binary_reverse_engineering_day_17_encoded_configuration_recovery_sprint,3,865
+2026-10-17T16:29:06.327Z,binary_reverse_engineering_day_17_encoded_configuration_recovery,Decoder Ring,binary_reverse_engineering,17,17,Mastery,binary_reverse_engineering_day_17_encoded_configuration_recovery_mastery,5,870
+2026-10-18T14:23:28.603Z,warmups_day_18,Off the Rails,warmups,18,18,Single Solve,warmups_day_18_investigation,2,872
+2026-10-18T14:23:33.093Z,warmups_day_18,Off the Rails,warmups,18,18,Time Trial,warmups_day_18_sprint,3,875
+2026-10-18T14:23:37.238Z,metadata_forensics_day_18_frame_of_reference,Frame of Reference,metadata_forensics,18,18,Single Solve,metadata_forensics_day_18_frame_of_reference_investigation,2,877
+2026-10-18T14:23:42.538Z,metadata_forensics_day_18_frame_of_reference,Frame of Reference,metadata_forensics,18,18,Time Trial,metadata_forensics_day_18_frame_of_reference_sprint,3,880
+2026-10-18T14:23:48.847Z,mobile_android_day_18_encrypted_strings,Encrypted Strings,mobile_android,18,18,Single Solve,mobile_android_day_18_encrypted_strings_investigation,2,882
+2026-10-18T14:23:49.630Z,metadata_forensics_day_18_frame_of_reference,Frame of Reference,metadata_forensics,18,18,Mastery,metadata_forensics_day_18_frame_of_reference_mastery,5,887
+2026-10-18T14:23:53.735Z,mobile_android_day_18_encrypted_strings,Encrypted Strings,mobile_android,18,18,Time Trial,mobile_android_day_18_encrypted_strings_sprint,3,890
+2026-10-18T14:23:58.962Z,mobile_android_day_18_encrypted_strings,Encrypted Strings,mobile_android,18,18,Mastery,mobile_android_day_18_encrypted_strings_mastery,5,895
+2026-10-18T14:24:23.525Z,binary_reverse_engineering_day_18_control_flow_reconstruction,Flow State,binary_reverse_engineering,18,18,Single Solve,binary_reverse_engineering_day_18_control_flow_reconstruction_investigation,2,897
+2026-10-18T14:24:32.765Z,warmups_day_18,Off the Rails,warmups,18,18,Mastery,warmups_day_18_mastery,5,902
+2026-10-18T14:24:40.611Z,binary_reverse_engineering_day_18_control_flow_reconstruction,Flow State,binary_reverse_engineering,18,18,Time Trial,binary_reverse_engineering_day_18_control_flow_reconstruction_sprint,3,905
+2026-10-18T14:25:29.749Z,binary_reverse_engineering_day_18_control_flow_reconstruction,Flow State,binary_reverse_engineering,18,18,Mastery,binary_reverse_engineering_day_18_control_flow_reconstruction_mastery,5,910
+2026-10-18T14:33:49.418Z,script_analysis_day_18_process_story,Orphan Process,script_analysis,18,18,Single Solve,script_analysis_day_18_process_story_investigation,2,912
+2026-10-18T14:34:13.232Z,script_analysis_day_18_process_story,Orphan Process,script_analysis,18,18,Time Trial,script_analysis_day_18_process_story_sprint,3,915
+2026-10-18T14:34:38.779Z,script_analysis_day_18_process_story,Orphan Process,script_analysis,18,18,Mastery,script_analysis_day_18_process_story_mastery,5,920
+2026-10-19T13:00:37.753Z,script_analysis_day_19_managed_assembly_bridge,Sharp Practice,script_analysis,19,19,Single Solve,script_analysis_day_19_managed_assembly_bridge_investigation,2,922
+2026-10-19T13:00:37.844Z,metadata_forensics_day_19_little_endian_on_the_prairie,Little Endian on the Prairie,metadata_forensics,19,19,Single Solve,metadata_forensics_day_19_little_endian_on_the_prairie_investigation,2,924
+2026-10-19T13:00:37.970Z,warmups_day_19,Little Things,warmups,19,19,Single Solve,warmups_day_19_investigation,2,926
+2026-10-19T13:00:46.113Z,warmups_day_19,Little Things,warmups,19,19,Time Trial,warmups_day_19_sprint,3,929
+2026-10-19T13:00:47.483Z,metadata_forensics_day_19_little_endian_on_the_prairie,Little Endian on the Prairie,metadata_forensics,19,19,Time Trial,metadata_forensics_day_19_little_endian_on_the_prairie_sprint,3,932
+2026-10-19T13:00:50.695Z,script_analysis_day_19_managed_assembly_bridge,Sharp Practice,script_analysis,19,19,Time Trial,script_analysis_day_19_managed_assembly_bridge_sprint,3,935
+2026-10-19T13:00:56.508Z,metadata_forensics_day_19_little_endian_on_the_prairie,Little Endian on the Prairie,metadata_forensics,19,19,Mastery,metadata_forensics_day_19_little_endian_on_the_prairie_mastery,5,940
+2026-10-19T13:01:06.907Z,mobile_android_day_19_reflection_maze,Reflection Maze,mobile_android,19,19,Single Solve,mobile_android_day_19_reflection_maze_investigation,2,942
+2026-10-19T13:01:14.263Z,mobile_android_day_19_reflection_maze,Reflection Maze,mobile_android,19,19,Time Trial,mobile_android_day_19_reflection_maze_sprint,3,945
+2026-10-19T13:01:21.654Z,mobile_android_day_19_reflection_maze,Reflection Maze,mobile_android,19,19,Mastery,mobile_android_day_19_reflection_maze_mastery,5,950
+2026-10-19T13:01:27.911Z,script_analysis_day_19_managed_assembly_bridge,Sharp Practice,script_analysis,19,19,Mastery,script_analysis_day_19_managed_assembly_bridge_mastery,5,955
+2026-10-19T13:02:26.801Z,binary_reverse_engineering_day_19_static_unpacking,Jack in the Box,binary_reverse_engineering,19,19,Single Solve,binary_reverse_engineering_day_19_static_unpacking_investigation,2,957
+2026-10-19T13:02:39.334Z,binary_reverse_engineering_day_19_static_unpacking,Jack in the Box,binary_reverse_engineering,19,19,Time Trial,binary_reverse_engineering_day_19_static_unpacking_sprint,3,960
+2026-10-19T13:03:32.393Z,binary_reverse_engineering_day_19_static_unpacking,Jack in the Box,binary_reverse_engineering,19,19,Mastery,binary_reverse_engineering_day_19_static_unpacking_mastery,5,965
+2026-10-19T13:04:55.797Z,warmups_day_19,Little Things,warmups,19,19,Mastery,warmups_day_19_mastery,5,970
+2026-10-19T13:06:38.271Z,web_exploitation_day_01_backup_exposure,Back Up a Minute,web_exploitation,1,19,Single Solve,web_exploitation_day_01_backup_exposure_investigation,2,972
+2026-10-19T13:07:05.276Z,web_exploitation_day_01_backup_exposure,Back Up a Minute,web_exploitation,1,19,Time Trial,web_exploitation_day_01_backup_exposure_sprint,3,975
+2026-10-19T13:11:35.873Z,web_exploitation_day_02_idor,Permission to Slip,web_exploitation,2,19,Single Solve,web_exploitation_day_02_idor_investigation,2,977
+2026-10-19T13:12:21.524Z,web_exploitation_day_02_idor,Permission to Slip,web_exploitation,2,19,Time Trial,web_exploitation_day_02_idor_sprint,3,980
+2026-10-19T13:14:52.260Z,web_exploitation_day_03_sqli,Query Me This,web_exploitation,3,19,Single Solve,web_exploitation_day_03_sqli_investigation,2,982
+2026-10-19T13:15:26.525Z,web_exploitation_day_03_sqli,Query Me This,web_exploitation,3,19,Time Trial,web_exploitation_day_03_sqli_sprint,3,985
+2026-10-19T13:16:05.885Z,web_exploitation_day_03_sqli,Query Me This,web_exploitation,3,19,Mastery,web_exploitation_day_03_sqli_mastery,5,990
+2026-10-19T13:17:58.090Z,web_exploitation_day_01_backup_exposure,Back Up a Minute,web_exploitation,1,19,Mastery,web_exploitation_day_01_backup_exposure_mastery,5,995
+2026-10-19T13:18:28.900Z,web_exploitation_day_02_idor,Permission to Slip,web_exploitation,2,19,Mastery,web_exploitation_day_02_idor_mastery,5,1000
+2026-10-20T13:00:13.624Z,script_analysis_day_20_jenkins_pipeline_intrusion,The Butler Did It,script_analysis,20,20,Single Solve,script_analysis_day_20_jenkins_pipeline_intrusion_investigation,2,1002
+2026-10-20T13:00:14.864Z,warmups_day_20,Big Entrance,warmups,20,20,Single Solve,warmups_day_20_investigation,2,1004
+2026-10-20T13:00:19.907Z,warmups_day_20,Big Entrance,warmups,20,20,Time Trial,warmups_day_20_sprint,3,1007
+2026-10-20T13:00:22.487Z,script_analysis_day_20_jenkins_pipeline_intrusion,The Butler Did It,script_analysis,20,20,Time Trial,script_analysis_day_20_jenkins_pipeline_intrusion_sprint,3,1010
+2026-10-20T13:00:24.721Z,warmups_day_20,Big Entrance,warmups,20,20,Mastery,warmups_day_20_mastery,5,1015
+2026-10-20T13:00:44.216Z,web_exploitation_day_04_lfi,Stay in Your Directory,web_exploitation,4,20,Single Solve,web_exploitation_day_04_lfi_investigation,2,1017
+2026-10-20T13:00:44.934Z,binary_reverse_engineering_day_20_resources_and_overlays,Resourceful,binary_reverse_engineering,20,20,Single Solve,binary_reverse_engineering_day_20_resources_and_overlays_investigation,2,1019
+2026-10-20T13:00:46.974Z,script_analysis_day_20_jenkins_pipeline_intrusion,The Butler Did It,script_analysis,20,20,Mastery,script_analysis_day_20_jenkins_pipeline_intrusion_mastery,5,1024
+2026-10-20T13:01:02.984Z,binary_reverse_engineering_day_20_resources_and_overlays,Resourceful,binary_reverse_engineering,20,20,Time Trial,binary_reverse_engineering_day_20_resources_and_overlays_sprint,3,1027
+2026-10-20T13:01:08.408Z,mobile_android_day_20_loaded_later,Loaded Later,mobile_android,20,20,Single Solve,mobile_android_day_20_loaded_later_investigation,2,1029
+2026-10-20T13:01:15.701Z,mobile_android_day_20_loaded_later,Loaded Later,mobile_android,20,20,Time Trial,mobile_android_day_20_loaded_later_sprint,3,1032
+2026-10-20T13:01:26.177Z,mobile_android_day_20_loaded_later,Loaded Later,mobile_android,20,20,Mastery,mobile_android_day_20_loaded_later_mastery,5,1037
+2026-10-20T13:01:40.472Z,metadata_forensics_day_20_universal_appeal,Universal Appeal,metadata_forensics,20,20,Single Solve,metadata_forensics_day_20_universal_appeal_investigation,2,1039
+2026-10-20T13:01:45.046Z,binary_reverse_engineering_day_20_resources_and_overlays,Resourceful,binary_reverse_engineering,20,20,Mastery,binary_reverse_engineering_day_20_resources_and_overlays_mastery,5,1044
+2026-10-20T13:01:47.337Z,web_exploitation_day_05_administratively_speaking,Administratively Speaking,web_exploitation,5,20,Single Solve,web_exploitation_day_05_administratively_speaking_investigation,2,1046
+2026-10-20T13:01:55.034Z,metadata_forensics_day_20_universal_appeal,Universal Appeal,metadata_forensics,20,20,Time Trial,metadata_forensics_day_20_universal_appeal_sprint,3,1049
+2026-10-20T13:02:02.197Z,web_exploitation_day_04_lfi,Stay in Your Directory,web_exploitation,4,20,Time Trial,web_exploitation_day_04_lfi_sprint,3,1052
+2026-10-20T13:02:02.560Z,web_exploitation_day_05_administratively_speaking,Administratively Speaking,web_exploitation,5,20,Time Trial,web_exploitation_day_05_administratively_speaking_sprint,3,1055
+2026-10-20T13:02:02.758Z,metadata_forensics_day_20_universal_appeal,Universal Appeal,metadata_forensics,20,20,Mastery,metadata_forensics_day_20_universal_appeal_mastery,5,1060
+2026-10-20T13:02:47.894Z,web_exploitation_day_05_administratively_speaking,Administratively Speaking,web_exploitation,5,20,Mastery,web_exploitation_day_05_administratively_speaking_mastery,5,1065
+2026-10-20T13:02:48.110Z,web_exploitation_day_04_lfi,Stay in Your Directory,web_exploitation,4,20,Mastery,web_exploitation_day_04_lfi_mastery,5,1070
+2026-10-21T13:00:15.836Z,script_analysis_day_21_github_actions_persistence,Actions Speak Louder,script_analysis,21,21,Single Solve,script_analysis_day_21_github_actions_persistence_investigation,2,1072
+2026-10-21T13:00:18.209Z,mobile_android_day_21_debug_me_if_you_can,Debug Me If You Can,mobile_android,21,21,Single Solve,mobile_android_day_21_debug_me_if_you_can_investigation,2,1074
+2026-10-21T13:00:19.251Z,warmups_day_21,Under Pressure,warmups,21,21,Single Solve,warmups_day_21_investigation,2,1076
+2026-10-21T13:00:22.532Z,mobile_android_day_21_debug_me_if_you_can,Debug Me If You Can,mobile_android,21,21,Time Trial,mobile_android_day_21_debug_me_if_you_can_sprint,3,1079
+2026-10-21T13:00:25.633Z,warmups_day_21,Under Pressure,warmups,21,21,Time Trial,warmups_day_21_sprint,3,1082
+2026-10-21T13:00:26.102Z,script_analysis_day_21_github_actions_persistence,Actions Speak Louder,script_analysis,21,21,Time Trial,script_analysis_day_21_github_actions_persistence_sprint,3,1085
+2026-10-21T13:00:30.507Z,mobile_android_day_21_debug_me_if_you_can,Debug Me If You Can,mobile_android,21,21,Mastery,mobile_android_day_21_debug_me_if_you_can_mastery,5,1090
+2026-10-21T13:00:41.902Z,metadata_forensics_day_21_package_deal,Package Deal,metadata_forensics,21,21,Single Solve,metadata_forensics_day_21_package_deal_investigation,2,1092
+2026-10-21T13:00:53.602Z,metadata_forensics_day_21_package_deal,Package Deal,metadata_forensics,21,21,Time Trial,metadata_forensics_day_21_package_deal_sprint,3,1095
+2026-10-21T13:01:01.057Z,metadata_forensics_day_21_package_deal,Package Deal,metadata_forensics,21,21,Mastery,metadata_forensics_day_21_package_deal_mastery,5,1100
+2026-10-21T13:01:07.330Z,script_analysis_day_21_github_actions_persistence,Actions Speak Louder,script_analysis,21,21,Mastery,script_analysis_day_21_github_actions_persistence_mastery,5,1105
+2026-10-21T13:01:11.366Z,web_exploitation_day_06_reflect_upon_this,Reflect Upon This,web_exploitation,6,21,Single Solve,web_exploitation_day_06_reflect_upon_this_investigation,2,1107
+2026-10-21T13:01:51.954Z,web_exploitation_day_06_reflect_upon_this,Reflect Upon This,web_exploitation,6,21,Time Trial,web_exploitation_day_06_reflect_upon_this_sprint,3,1110
+2026-10-21T13:02:21.473Z,web_exploitation_day_06_reflect_upon_this,Reflect Upon This,web_exploitation,6,21,Mastery,web_exploitation_day_06_reflect_upon_this_mastery,5,1115
+2026-10-21T13:02:37.464Z,warmups_day_21,Under Pressure,warmups,21,21,Mastery,warmups_day_21_mastery,5,1120
+2026-10-21T13:03:32.096Z,web_exploitation_day_07_stored_xss,Stored for Later,web_exploitation,7,21,Single Solve,web_exploitation_day_07_stored_xss_investigation,2,1122
+2026-10-21T13:04:34.527Z,web_exploitation_day_07_stored_xss,Stored for Later,web_exploitation,7,21,Time Trial,web_exploitation_day_07_stored_xss_sprint,3,1125
+2026-10-21T13:04:52.412Z,web_exploitation_day_07_stored_xss,Stored for Later,web_exploitation,7,21,Mastery,web_exploitation_day_07_stored_xss_mastery,5,1130
+2026-10-21T13:05:14.273Z,binary_reverse_engineering_day_21_shared_library_boundaries,Shared Custody,binary_reverse_engineering,21,21,Single Solve,binary_reverse_engineering_day_21_shared_library_boundaries_investigation,2,1132
+2026-10-21T13:05:26.557Z,binary_reverse_engineering_day_21_shared_library_boundaries,Shared Custody,binary_reverse_engineering,21,21,Time Trial,binary_reverse_engineering_day_21_shared_library_boundaries_sprint,3,1135
+2026-10-21T13:06:16.738Z,web_exploitation_day_08_session_impression,Session Impression,web_exploitation,8,21,Single Solve,web_exploitation_day_08_session_impression_investigation,2,1137
+2026-10-21T13:06:32.496Z,binary_reverse_engineering_day_21_shared_library_boundaries,Shared Custody,binary_reverse_engineering,21,21,Mastery,binary_reverse_engineering_day_21_shared_library_boundaries_mastery,5,1142
+2026-10-21T13:06:41.639Z,web_exploitation_day_08_session_impression,Session Impression,web_exploitation,8,21,Time Trial,web_exploitation_day_08_session_impression_sprint,3,1145
+2026-10-21T13:07:01.855Z,web_exploitation_day_08_session_impression,Session Impression,web_exploitation,8,21,Mastery,web_exploitation_day_08_session_impression_mastery,5,1150
+2026-10-22T13:00:22.582Z,script_analysis_day_22_installer_script_chain,"Next, Next, Finish",script_analysis,22,22,Single Solve,script_analysis_day_22_installer_script_chain_investigation,2,1152
+2026-10-22T13:00:30.648Z,warmups_day_22,Deflated Ego,warmups,22,22,Single Solve,warmups_day_22_investigation,2,1154
+2026-10-22T13:00:31.684Z,script_analysis_day_22_installer_script_chain,"Next, Next, Finish",script_analysis,22,22,Time Trial,script_analysis_day_22_installer_script_chain_sprint,3,1157
+2026-10-22T13:00:37.063Z,warmups_day_22,Deflated Ego,warmups,22,22,Time Trial,warmups_day_22_sprint,3,1160
+2026-10-22T13:00:40.041Z,metadata_forensics_day_22_main_character_energy,Main Character Energy,metadata_forensics,22,22,Single Solve,metadata_forensics_day_22_main_character_energy_investigation,2,1162
+2026-10-22T13:00:47.292Z,mobile_android_day_22_root_of_trust,Root of Trust,mobile_android,22,22,Single Solve,mobile_android_day_22_root_of_trust_investigation,2,1164
+2026-10-22T13:00:51.954Z,web_exploitation_day_09_forged_with_care,Forged With Care,web_exploitation,9,22,Single Solve,web_exploitation_day_09_forged_with_care_investigation,2,1166
+2026-10-22T13:00:56.713Z,mobile_android_day_22_root_of_trust,Root of Trust,mobile_android,22,22,Time Trial,mobile_android_day_22_root_of_trust_sprint,3,1169
+2026-10-22T13:01:20.604Z,mobile_android_day_22_root_of_trust,Root of Trust,mobile_android,22,22,Mastery,mobile_android_day_22_root_of_trust_mastery,5,1174
+2026-10-22T13:01:25.987Z,web_exploitation_day_09_forged_with_care,Forged With Care,web_exploitation,9,22,Time Trial,web_exploitation_day_09_forged_with_care_sprint,3,1177
+2026-10-22T13:01:31.652Z,metadata_forensics_day_22_main_character_energy,Main Character Energy,metadata_forensics,22,22,Time Trial,metadata_forensics_day_22_main_character_energy_sprint,3,1180
+2026-10-22T13:01:40.884Z,metadata_forensics_day_22_main_character_energy,Main Character Energy,metadata_forensics,22,22,Mastery,metadata_forensics_day_22_main_character_energy_mastery,5,1185
+2026-10-22T13:01:53.758Z,binary_reverse_engineering_day_22_managed_native_bridge,Bridge Troll,binary_reverse_engineering,22,22,Single Solve,binary_reverse_engineering_day_22_managed_native_bridge_investigation,2,1187
+2026-10-22T13:01:59.741Z,web_exploitation_day_09_forged_with_care,Forged With Care,web_exploitation,9,22,Mastery,web_exploitation_day_09_forged_with_care_mastery,5,1192
+2026-10-22T13:02:43.845Z,script_analysis_day_22_installer_script_chain,"Next, Next, Finish",script_analysis,22,22,Mastery,script_analysis_day_22_installer_script_chain_mastery,5,1197
+2026-10-22T13:03:11.469Z,web_exploitation_day_10_uploading_expectations,Uploading Expectations,web_exploitation,10,22,Single Solve,web_exploitation_day_10_uploading_expectations_investigation,2,1199
+2026-10-22T13:03:36.296Z,web_exploitation_day_10_uploading_expectations,Uploading Expectations,web_exploitation,10,22,Time Trial,web_exploitation_day_10_uploading_expectations_sprint,3,1202
+2026-10-22T13:03:37.471Z,binary_reverse_engineering_day_22_managed_native_bridge,Bridge Troll,binary_reverse_engineering,22,22,Time Trial,binary_reverse_engineering_day_22_managed_native_bridge_sprint,3,1205
+2026-10-22T13:04:00.631Z,web_exploitation_day_10_uploading_expectations,Uploading Expectations,web_exploitation,10,22,Mastery,web_exploitation_day_10_uploading_expectations_mastery,5,1210
+2026-10-22T13:05:15.794Z,binary_reverse_engineering_day_22_managed_native_bridge,Bridge Troll,binary_reverse_engineering,22,22,Mastery,binary_reverse_engineering_day_22_managed_native_bridge_mastery,5,1215
+2026-10-22T13:06:08.964Z,warmups_day_22,Deflated Ego,warmups,22,22,Mastery,warmups_day_22_mastery,5,1220
+2026-10-23T13:00:35.490Z,mobile_android_day_23_hook_line_and_signal,Hook Line and Signal,mobile_android,23,23,Single Solve,mobile_android_day_23_hook_line_and_signal_investigation,2,1222
+2026-10-23T13:00:45.057Z,binary_reverse_engineering_day_23_anti_analysis_recognition,Trust Issues,binary_reverse_engineering,23,23,Single Solve,binary_reverse_engineering_day_23_anti_analysis_recognition_investigation,2,1224
+2026-10-23T13:00:57.111Z,script_analysis_day_23_game_resource_loader,Press Start to Decode,script_analysis,23,23,Single Solve,script_analysis_day_23_game_resource_loader_investigation,2,1226
+2026-10-23T13:01:02.131Z,metadata_forensics_day_23_page_me_maybe,Page Me Maybe,metadata_forensics,23,23,Single Solve,metadata_forensics_day_23_page_me_maybe_investigation,2,1228
+2026-10-23T13:01:06.873Z,warmups_day_23,Eighty-Five Alive,warmups,23,23,Single Solve,warmups_day_23_investigation,2,1230
+2026-10-23T13:01:10.591Z,binary_reverse_engineering_day_23_anti_analysis_recognition,Trust Issues,binary_reverse_engineering,23,23,Time Trial,binary_reverse_engineering_day_23_anti_analysis_recognition_sprint,3,1233
+2026-10-23T13:01:16.005Z,warmups_day_23,Eighty-Five Alive,warmups,23,23,Time Trial,warmups_day_23_sprint,3,1236
+2026-10-23T13:03:26.169Z,metadata_forensics_day_23_page_me_maybe,Page Me Maybe,metadata_forensics,23,23,Time Trial,metadata_forensics_day_23_page_me_maybe_sprint,3,1239
+2026-10-23T13:03:34.319Z,binary_reverse_engineering_day_23_anti_analysis_recognition,Trust Issues,binary_reverse_engineering,23,23,Mastery,binary_reverse_engineering_day_23_anti_analysis_recognition_mastery,5,1244
+2026-10-23T13:03:43.430Z,metadata_forensics_day_23_page_me_maybe,Page Me Maybe,metadata_forensics,23,23,Mastery,metadata_forensics_day_23_page_me_maybe_mastery,5,1249
+2026-10-23T13:04:29.189Z,mobile_android_day_23_hook_line_and_signal,Hook Line and Signal,mobile_android,23,23,Time Trial,mobile_android_day_23_hook_line_and_signal_sprint,3,1252
+2026-10-23T13:08:17.025Z,mobile_android_day_23_hook_line_and_signal,Hook Line and Signal,mobile_android,23,23,Mastery,mobile_android_day_23_hook_line_and_signal_mastery,5,1257
+2026-10-23T13:09:55.063Z,web_exploitation_day_12_ask_again_later,Ask Again Later,web_exploitation,12,23,Single Solve,web_exploitation_day_12_ask_again_later_investigation,2,1259
+2026-10-23T13:10:15.446Z,web_exploitation_day_12_ask_again_later,Ask Again Later,web_exploitation,12,23,Time Trial,web_exploitation_day_12_ask_again_later_sprint,3,1262
+2026-10-23T13:10:49.480Z,warmups_day_23,Eighty-Five Alive,warmups,23,23,Mastery,warmups_day_23_mastery,5,1267
+2026-10-23T13:11:06.358Z,web_exploitation_day_12_ask_again_later,Ask Again Later,web_exploitation,12,23,Mastery,web_exploitation_day_12_ask_again_later_mastery,5,1272
+2026-10-23T13:12:23.526Z,web_exploitation_day_13_posted_too_much,Posted Too Much,web_exploitation,13,23,Single Solve,web_exploitation_day_13_posted_too_much_investigation,2,1274
+2026-10-23T13:12:48.184Z,web_exploitation_day_13_posted_too_much,Posted Too Much,web_exploitation,13,23,Time Trial,web_exploitation_day_13_posted_too_much_sprint,3,1277
+2026-10-23T13:13:22.776Z,web_exploitation_day_13_posted_too_much,Posted Too Much,web_exploitation,13,23,Mastery,web_exploitation_day_13_posted_too_much_mastery,5,1282
+2026-10-23T13:13:45.401Z,script_analysis_day_23_game_resource_loader,Press Start to Decode,script_analysis,23,23,Time Trial,script_analysis_day_23_game_resource_loader_sprint,3,1285
+2026-10-23T13:14:49.721Z,web_exploitation_day_11_template_temper,Template Temper,web_exploitation,11,23,Single Solve,web_exploitation_day_11_template_temper_investigation,2,1287
+2026-10-23T13:15:11.939Z,web_exploitation_day_11_template_temper,Template Temper,web_exploitation,11,23,Time Trial,web_exploitation_day_11_template_temper_sprint,3,1290
+2026-10-23T13:15:42.259Z,web_exploitation_day_11_template_temper,Template Temper,web_exploitation,11,23,Mastery,web_exploitation_day_11_template_temper_mastery,5,1295
+2026-10-23T13:18:12.284Z,script_analysis_day_23_game_resource_loader,Press Start to Decode,script_analysis,23,23,Mastery,script_analysis_day_23_game_resource_loader_mastery,5,1300
+2026-10-24T13:01:48.008Z,script_analysis_day_24_jsp_webshell_source,Web of Lies,script_analysis,24,24,Single Solve,script_analysis_day_24_jsp_webshell_source_investigation,2,1302
+2026-10-24T13:01:49.404Z,mobile_android_day_24_emulator_alibi,Emulator Alibi,mobile_android,24,24,Single Solve,mobile_android_day_24_emulator_alibi_investigation,2,1304
+2026-10-24T13:01:59.297Z,script_analysis_day_24_jsp_webshell_source,Web of Lies,script_analysis,24,24,Time Trial,script_analysis_day_24_jsp_webshell_source_sprint,3,1307
+2026-10-24T13:02:15.131Z,script_analysis_day_24_jsp_webshell_source,Web of Lies,script_analysis,24,24,Mastery,script_analysis_day_24_jsp_webshell_source_mastery,5,1312
+2026-10-24T13:02:16.189Z,metadata_forensics_day_24_event_horizon,Event Horizon,metadata_forensics,24,24,Single Solve,metadata_forensics_day_24_event_horizon_investigation,2,1314
+2026-10-24T13:02:24.428Z,metadata_forensics_day_24_event_horizon,Event Horizon,metadata_forensics,24,24,Time Trial,metadata_forensics_day_24_event_horizon_sprint,3,1317
+2026-10-24T13:02:31.750Z,warmups_day_24,String Theory,warmups,24,24,Single Solve,warmups_day_24_investigation,2,1319
+2026-10-24T13:02:36.797Z,warmups_day_24,String Theory,warmups,24,24,Time Trial,warmups_day_24_sprint,3,1322
+2026-10-24T13:02:42.784Z,metadata_forensics_day_24_event_horizon,Event Horizon,metadata_forensics,24,24,Mastery,metadata_forensics_day_24_event_horizon_mastery,5,1327
+2026-10-24T13:02:47.714Z,mobile_android_day_24_emulator_alibi,Emulator Alibi,mobile_android,24,24,Time Trial,mobile_android_day_24_emulator_alibi_sprint,3,1330
+2026-10-24T13:03:07.076Z,binary_reverse_engineering_day_24_patch_diffing,Spot the Difference,binary_reverse_engineering,24,24,Single Solve,binary_reverse_engineering_day_24_patch_diffing_investigation,2,1332
+2026-10-24T13:03:18.409Z,web_exploitation_day_15_fetch_quest,Fetch Quest,web_exploitation,15,24,Single Solve,web_exploitation_day_15_fetch_quest_investigation,2,1334
+2026-10-24T13:03:18.454Z,web_exploitation_day_14_the_api_has_opinions,The API Has Opinions,web_exploitation,14,24,Single Solve,web_exploitation_day_14_the_api_has_opinions_investigation,2,1336
+2026-10-24T13:03:39.532Z,binary_reverse_engineering_day_24_patch_diffing,Spot the Difference,binary_reverse_engineering,24,24,Time Trial,binary_reverse_engineering_day_24_patch_diffing_sprint,3,1339
+2026-10-24T13:04:20.726Z,mobile_android_day_24_emulator_alibi,Emulator Alibi,mobile_android,24,24,Mastery,mobile_android_day_24_emulator_alibi_mastery,5,1344
+2026-10-24T13:04:22.602Z,web_exploitation_day_14_the_api_has_opinions,The API Has Opinions,web_exploitation,14,24,Time Trial,web_exploitation_day_14_the_api_has_opinions_sprint,3,1347
+2026-10-24T13:04:22.608Z,web_exploitation_day_15_fetch_quest,Fetch Quest,web_exploitation,15,24,Time Trial,web_exploitation_day_15_fetch_quest_sprint,3,1350
+2026-10-24T13:07:06.161Z,web_exploitation_day_15_fetch_quest,Fetch Quest,web_exploitation,15,24,Mastery,web_exploitation_day_15_fetch_quest_mastery,5,1355
+2026-10-24T13:07:06.189Z,web_exploitation_day_14_the_api_has_opinions,The API Has Opinions,web_exploitation,14,24,Mastery,web_exploitation_day_14_the_api_has_opinions_mastery,5,1360
+2026-10-24T13:07:09.027Z,warmups_day_24,String Theory,warmups,24,24,Mastery,warmups_day_24_mastery,5,1365
+2026-10-24T13:07:22.796Z,binary_reverse_engineering_day_24_patch_diffing,Spot the Difference,binary_reverse_engineering,24,24,Mastery,binary_reverse_engineering_day_24_patch_diffing_mastery,5,1370
+2026-10-25T13:00:17.298Z,script_analysis_day_25_phoenix_stage_chain,Ashes to Assets,script_analysis,25,25,Single Solve,script_analysis_day_25_phoenix_stage_chain_investigation,2,1372
+2026-10-25T13:00:33.812Z,script_analysis_day_25_phoenix_stage_chain,Ashes to Assets,script_analysis,25,25,Time Trial,script_analysis_day_25_phoenix_stage_chain_sprint,3,1375
+2026-10-25T13:00:35.498Z,warmups_day_25,You Have a Point,warmups,25,25,Single Solve,warmups_day_25_investigation,2,1377
+2026-10-25T13:00:40.138Z,mobile_android_day_25_integrity_signals,Integrity Signals,mobile_android,25,25,Single Solve,mobile_android_day_25_integrity_signals_investigation,2,1379
+2026-10-25T13:00:46.588Z,script_analysis_day_25_phoenix_stage_chain,Ashes to Assets,script_analysis,25,25,Mastery,script_analysis_day_25_phoenix_stage_chain_mastery,5,1384
+2026-10-25T13:00:47.656Z,warmups_day_25,You Have a Point,warmups,25,25,Time Trial,warmups_day_25_sprint,3,1387
+2026-10-25T13:00:50.366Z,metadata_forensics_day_25_hive_mind,Hive Mind,metadata_forensics,25,25,Single Solve,metadata_forensics_day_25_hive_mind_investigation,2,1389
+2026-10-25T13:01:07.251Z,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause,Out of Bounds,binary_reverse_engineering,25,25,Single Solve,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause_investigation,2,1391
+2026-10-25T13:01:31.992Z,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause,Out of Bounds,binary_reverse_engineering,25,25,Time Trial,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause_sprint,3,1394
+2026-10-25T13:01:32.991Z,web_exploitation_day_16_shell_company,Shell Company,web_exploitation,16,25,Single Solve,web_exploitation_day_16_shell_company_investigation,2,1396
+2026-10-25T13:01:33.000Z,web_exploitation_day_17_reset_expectations,Reset Expectations,web_exploitation,17,25,Single Solve,web_exploitation_day_17_reset_expectations_investigation,2,1398
+2026-10-25T13:01:33.147Z,web_exploitation_day_18_resolver_revolt,Resolver Revolt,web_exploitation,18,25,Single Solve,web_exploitation_day_18_resolver_revolt_investigation,2,1400
+2026-10-25T13:01:37.540Z,metadata_forensics_day_25_hive_mind,Hive Mind,metadata_forensics,25,25,Time Trial,metadata_forensics_day_25_hive_mind_sprint,3,1403
+2026-10-25T13:01:44.946Z,metadata_forensics_day_25_hive_mind,Hive Mind,metadata_forensics,25,25,Mastery,metadata_forensics_day_25_hive_mind_mastery,5,1408
+2026-10-25T13:01:48.141Z,mobile_android_day_25_integrity_signals,Integrity Signals,mobile_android,25,25,Time Trial,mobile_android_day_25_integrity_signals_sprint,3,1411
+2026-10-25T13:02:17.780Z,warmups_day_25,You Have a Point,warmups,25,25,Mastery,warmups_day_25_mastery,5,1416
+2026-10-25T13:02:30.288Z,web_exploitation_day_18_resolver_revolt,Resolver Revolt,web_exploitation,18,25,Time Trial,web_exploitation_day_18_resolver_revolt_sprint,3,1419
+2026-10-25T13:02:30.366Z,web_exploitation_day_17_reset_expectations,Reset Expectations,web_exploitation,17,25,Time Trial,web_exploitation_day_17_reset_expectations_sprint,3,1422
+2026-10-25T13:02:30.386Z,web_exploitation_day_16_shell_company,Shell Company,web_exploitation,16,25,Time Trial,web_exploitation_day_16_shell_company_sprint,3,1425
+2026-10-25T13:04:13.394Z,web_exploitation_day_18_resolver_revolt,Resolver Revolt,web_exploitation,18,25,Mastery,web_exploitation_day_18_resolver_revolt_mastery,5,1430
+2026-10-25T13:04:13.638Z,web_exploitation_day_16_shell_company,Shell Company,web_exploitation,16,25,Mastery,web_exploitation_day_16_shell_company_mastery,5,1435
+2026-10-25T13:04:13.650Z,web_exploitation_day_17_reset_expectations,Reset Expectations,web_exploitation,17,25,Mastery,web_exploitation_day_17_reset_expectations_mastery,5,1440
+2026-10-25T13:04:21.208Z,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause,Out of Bounds,binary_reverse_engineering,25,25,Mastery,binary_reverse_engineering_day_25_synthetic_vulnerability_root_cause_mastery,5,1445
+2026-10-25T13:04:59.838Z,mobile_android_day_25_integrity_signals,Integrity Signals,mobile_android,25,25,Mastery,mobile_android_day_25_integrity_signals_mastery,5,1450
+2026-10-26T13:00:36.663Z,warmups_day_26,Food for Thought,warmups,26,26,Single Solve,warmups_day_26_investigation,2,1452
+2026-10-26T13:00:43.483Z,warmups_day_26,Food for Thought,warmups,26,26,Time Trial,warmups_day_26_sprint,3,1455
+2026-10-26T13:00:58.900Z,script_analysis_day_26_beam_message_flow,Mixed Signals,script_analysis,26,26,Single Solve,script_analysis_day_26_beam_message_flow_investigation,2,1457
+2026-10-26T13:01:02.322Z,mobile_android_day_26_split_decision,Split Decision,mobile_android,26,26,Single Solve,mobile_android_day_26_split_decision_investigation,2,1459
+2026-10-26T13:01:07.130Z,script_analysis_day_26_beam_message_flow,Mixed Signals,script_analysis,26,26,Time Trial,script_analysis_day_26_beam_message_flow_sprint,3,1462
+2026-10-26T13:01:29.021Z,script_analysis_day_26_beam_message_flow,Mixed Signals,script_analysis,26,26,Mastery,script_analysis_day_26_beam_message_flow_mastery,5,1467
+2026-10-26T13:01:35.624Z,binary_reverse_engineering_day_26_crash_triage,Crash Course,binary_reverse_engineering,26,26,Single Solve,binary_reverse_engineering_day_26_crash_triage_investigation,2,1469
+2026-10-26T13:01:52.306Z,web_exploitation_day_19_trust_the_webhook,Trust the Webhook,web_exploitation,19,26,Single Solve,web_exploitation_day_19_trust_the_webhook_investigation,2,1471
+2026-10-26T13:02:13.461Z,metadata_forensics_day_26_before_you_go,Before You Go,metadata_forensics,26,26,Single Solve,metadata_forensics_day_26_before_you_go_investigation,2,1473
+2026-10-26T13:02:15.335Z,binary_reverse_engineering_day_26_crash_triage,Crash Course,binary_reverse_engineering,26,26,Time Trial,binary_reverse_engineering_day_26_crash_triage_sprint,3,1476
+2026-10-26T13:02:25.363Z,metadata_forensics_day_26_before_you_go,Before You Go,metadata_forensics,26,26,Time Trial,metadata_forensics_day_26_before_you_go_sprint,3,1479
+2026-10-26T13:02:36.954Z,metadata_forensics_day_26_before_you_go,Before You Go,metadata_forensics,26,26,Mastery,metadata_forensics_day_26_before_you_go_mastery,5,1484
+2026-10-26T13:03:01.048Z,web_exploitation_day_20_serialized_offender,Serialized Offender,web_exploitation,20,26,Single Solve,web_exploitation_day_20_serialized_offender_investigation,2,1486
+2026-10-26T13:03:45.387Z,web_exploitation_day_19_trust_the_webhook,Trust the Webhook,web_exploitation,19,26,Time Trial,web_exploitation_day_19_trust_the_webhook_sprint,3,1489
+2026-10-26T13:03:53.471Z,mobile_android_day_26_split_decision,Split Decision,mobile_android,26,26,Time Trial,mobile_android_day_26_split_decision_sprint,3,1492
+2026-10-26T13:04:17.897Z,mobile_android_day_26_split_decision,Split Decision,mobile_android,26,26,Mastery,mobile_android_day_26_split_decision_mastery,5,1497
+2026-10-26T13:04:39.624Z,web_exploitation_day_19_trust_the_webhook,Trust the Webhook,web_exploitation,19,26,Mastery,web_exploitation_day_19_trust_the_webhook_mastery,5,1502
+2026-10-26T13:04:46.812Z,warmups_day_26,Food for Thought,warmups,26,26,Mastery,warmups_day_26_mastery,5,1507
+2026-10-26T13:05:00.952Z,web_exploitation_day_20_serialized_offender,Serialized Offender,web_exploitation,20,26,Time Trial,web_exploitation_day_20_serialized_offender_sprint,3,1510
+2026-10-26T13:05:15.149Z,binary_reverse_engineering_day_26_crash_triage,Crash Course,binary_reverse_engineering,26,26,Mastery,binary_reverse_engineering_day_26_crash_triage_mastery,5,1515
+2026-10-26T13:05:34.601Z,web_exploitation_day_20_serialized_offender,Serialized Offender,web_exploitation,20,26,Mastery,web_exploitation_day_20_serialized_offender_mastery,5,1520
+2026-10-27T13:00:34.208Z,mobile_android_day_27_dependency_surface,Dependency Surface,mobile_android,27,27,Single Solve,mobile_android_day_27_dependency_surface_investigation,2,1522
+2026-10-27T13:00:36.861Z,script_analysis_day_27_docker_build_attribution,FROM Whence It Came,script_analysis,27,27,Single Solve,script_analysis_day_27_docker_build_attribution_investigation,2,1524
+2026-10-27T13:00:41.932Z,mobile_android_day_27_dependency_surface,Dependency Surface,mobile_android,27,27,Time Trial,mobile_android_day_27_dependency_surface_sprint,3,1527
+2026-10-27T13:00:43.125Z,metadata_forensics_day_27_packet_loss_prevention,Packet Loss Prevention,metadata_forensics,27,27,Single Solve,metadata_forensics_day_27_packet_loss_prevention_investigation,2,1529
+2026-10-27T13:00:45.378Z,script_analysis_day_27_docker_build_attribution,FROM Whence It Came,script_analysis,27,27,Time Trial,script_analysis_day_27_docker_build_attribution_sprint,3,1532
+2026-10-27T13:00:55.026Z,mobile_android_day_27_dependency_surface,Dependency Surface,mobile_android,27,27,Mastery,mobile_android_day_27_dependency_surface_mastery,5,1537
+2026-10-27T13:01:15.947Z,script_analysis_day_27_docker_build_attribution,FROM Whence It Came,script_analysis,27,27,Mastery,script_analysis_day_27_docker_build_attribution_mastery,5,1542
+2026-10-27T13:01:20.011Z,web_exploitation_day_21_double_spent,Double Spent,web_exploitation,21,27,Single Solve,web_exploitation_day_21_double_spent_investigation,2,1544
+2026-10-27T13:01:38.555Z,metadata_forensics_day_27_packet_loss_prevention,Packet Loss Prevention,metadata_forensics,27,27,Time Trial,metadata_forensics_day_27_packet_loss_prevention_sprint,3,1547
+2026-10-27T13:01:53.739Z,metadata_forensics_day_27_packet_loss_prevention,Packet Loss Prevention,metadata_forensics,27,27,Mastery,metadata_forensics_day_27_packet_loss_prevention_mastery,5,1552
+2026-10-27T13:02:39.767Z,web_exploitation_day_22_socket_to_me,Socket to Me,web_exploitation,22,27,Single Solve,web_exploitation_day_22_socket_to_me_investigation,2,1554
+2026-10-27T13:03:51.248Z,web_exploitation_day_23_forwarded_misgivings,Forwarded Misgivings,web_exploitation,23,27,Single Solve,web_exploitation_day_23_forwarded_misgivings_investigation,2,1556
+2026-10-27T13:04:10.426Z,warmups_day_27,Monkey Business,warmups,27,27,Single Solve,warmups_day_27_investigation,2,1558
+2026-10-27T13:04:19.241Z,warmups_day_27,Monkey Business,warmups,27,27,Time Trial,warmups_day_27_sprint,3,1561
+2026-10-27T13:04:41.651Z,web_exploitation_day_21_double_spent,Double Spent,web_exploitation,21,27,Time Trial,web_exploitation_day_21_double_spent_sprint,3,1564
+2026-10-27T13:05:01.964Z,binary_reverse_engineering_day_27_compiler_attribution,Compiler Says What,binary_reverse_engineering,27,27,Single Solve,binary_reverse_engineering_day_27_compiler_attribution_investigation,2,1566
+2026-10-27T13:05:31.579Z,binary_reverse_engineering_day_27_compiler_attribution,Compiler Says What,binary_reverse_engineering,27,27,Time Trial,binary_reverse_engineering_day_27_compiler_attribution_sprint,3,1569
+2026-10-27T13:05:57.542Z,web_exploitation_day_21_double_spent,Double Spent,web_exploitation,21,27,Mastery,web_exploitation_day_21_double_spent_mastery,5,1574
+2026-10-27T13:06:39.031Z,web_exploitation_day_22_socket_to_me,Socket to Me,web_exploitation,22,27,Time Trial,web_exploitation_day_22_socket_to_me_sprint,3,1577
+2026-10-27T13:07:14.398Z,web_exploitation_day_22_socket_to_me,Socket to Me,web_exploitation,22,27,Mastery,web_exploitation_day_22_socket_to_me_mastery,5,1582
+2026-10-27T13:07:37.568Z,web_exploitation_day_23_forwarded_misgivings,Forwarded Misgivings,web_exploitation,23,27,Time Trial,web_exploitation_day_23_forwarded_misgivings_sprint,3,1585
+2026-10-27T13:07:39.538Z,binary_reverse_engineering_day_27_compiler_attribution,Compiler Says What,binary_reverse_engineering,27,27,Mastery,binary_reverse_engineering_day_27_compiler_attribution_mastery,5,1590
+2026-10-27T13:08:25.001Z,web_exploitation_day_23_forwarded_misgivings,Forwarded Misgivings,web_exploitation,23,27,Mastery,web_exploitation_day_23_forwarded_misgivings_mastery,5,1595
+2026-10-27T13:08:36.143Z,warmups_day_27,Monkey Business,warmups,27,27,Mastery,warmups_day_27_mastery,5,1600
+2026-10-28T13:00:09.379Z,script_analysis_day_28_terraform_cloud_timeline,Out of Order,script_analysis,28,28,Single Solve,script_analysis_day_28_terraform_cloud_timeline_investigation,2,1602
+2026-10-28T13:00:34.264Z,script_analysis_day_28_terraform_cloud_timeline,Out of Order,script_analysis,28,28,Time Trial,script_analysis_day_28_terraform_cloud_timeline_sprint,3,1605
+2026-10-28T13:00:45.843Z,warmups_day_28,Back in Sixteen,warmups,28,28,Single Solve,warmups_day_28_investigation,2,1607
+2026-10-28T13:00:52.724Z,script_analysis_day_28_terraform_cloud_timeline,Out of Order,script_analysis,28,28,Mastery,script_analysis_day_28_terraform_cloud_timeline_mastery,5,1612
+2026-10-28T13:00:53.125Z,mobile_android_day_28_protocol_reconstruction,Protocol Reconstruction,mobile_android,28,28,Single Solve,mobile_android_day_28_protocol_reconstruction_investigation,2,1614
+2026-10-28T13:00:59.851Z,mobile_android_day_28_protocol_reconstruction,Protocol Reconstruction,mobile_android,28,28,Time Trial,mobile_android_day_28_protocol_reconstruction_sprint,3,1617
+2026-10-28T13:01:00.968Z,warmups_day_28,Back in Sixteen,warmups,28,28,Time Trial,warmups_day_28_sprint,3,1620
+2026-10-28T13:01:21.070Z,metadata_forensics_day_28_where_it_all_began,Where It All Began,metadata_forensics,28,28,Single Solve,metadata_forensics_day_28_where_it_all_began_investigation,2,1622
+2026-10-28T13:01:26.757Z,mobile_android_day_28_protocol_reconstruction,Protocol Reconstruction,mobile_android,28,28,Mastery,mobile_android_day_28_protocol_reconstruction_mastery,5,1627
+2026-10-28T13:01:31.681Z,metadata_forensics_day_28_where_it_all_began,Where It All Began,metadata_forensics,28,28,Time Trial,metadata_forensics_day_28_where_it_all_began_sprint,3,1630
+2026-10-28T13:01:44.157Z,metadata_forensics_day_28_where_it_all_began,Where It All Began,metadata_forensics,28,28,Mastery,metadata_forensics_day_28_where_it_all_began_mastery,5,1635
+2026-10-28T13:01:44.825Z,web_exploitation_day_24_fail_open_friday,Fail Open Friday,web_exploitation,24,28,Single Solve,web_exploitation_day_24_fail_open_friday_investigation,2,1637
+2026-10-28T13:01:44.937Z,web_exploitation_day_25_if_a_breach_falls_in_a_log,If a Breach Falls in a Log,web_exploitation,25,28,Single Solve,web_exploitation_day_25_if_a_breach_falls_in_a_log_investigation,2,1639
+2026-10-28T13:03:01.336Z,web_exploitation_day_24_fail_open_friday,Fail Open Friday,web_exploitation,24,28,Time Trial,web_exploitation_day_24_fail_open_friday_sprint,3,1642
+2026-10-28T13:03:01.489Z,web_exploitation_day_25_if_a_breach_falls_in_a_log,If a Breach Falls in a Log,web_exploitation,25,28,Time Trial,web_exploitation_day_25_if_a_breach_falls_in_a_log_sprint,3,1645
+2026-10-28T13:05:38.776Z,web_exploitation_day_24_fail_open_friday,Fail Open Friday,web_exploitation,24,28,Mastery,web_exploitation_day_24_fail_open_friday_mastery,5,1650
+2026-10-28T13:05:38.967Z,web_exploitation_day_25_if_a_breach_falls_in_a_log,If a Breach Falls in a Log,web_exploitation,25,28,Mastery,web_exploitation_day_25_if_a_breach_falls_in_a_log_mastery,5,1655
+2026-10-28T13:07:19.814Z,warmups_day_28,Back in Sixteen,warmups,28,28,Mastery,warmups_day_28_mastery,5,1660
+2026-10-28T13:10:41.866Z,binary_reverse_engineering_day_28_family_clustering,Family Resemblance,binary_reverse_engineering,28,28,Single Solve,binary_reverse_engineering_day_28_family_clustering_investigation,2,1662
+2026-10-28T13:10:56.168Z,binary_reverse_engineering_day_28_family_clustering,Family Resemblance,binary_reverse_engineering,28,28,Time Trial,binary_reverse_engineering_day_28_family_clustering_sprint,3,1665
+2026-10-28T13:12:19.887Z,binary_reverse_engineering_day_28_family_clustering,Family Resemblance,binary_reverse_engineering,28,28,Mastery,binary_reverse_engineering_day_28_family_clustering_mastery,5,1670
+2026-10-29T13:00:28.537Z,script_analysis_day_29_makefile_variant_diff,Make It Make Sense,script_analysis,29,29,Single Solve,script_analysis_day_29_makefile_variant_diff_investigation,2,1672
+2026-10-29T13:00:31.872Z,metadata_forensics_day_29_trust_issues,Trust Issues,metadata_forensics,29,29,Single Solve,metadata_forensics_day_29_trust_issues_investigation,2,1674
+2026-10-29T13:00:38.675Z,script_analysis_day_29_makefile_variant_diff,Make It Make Sense,script_analysis,29,29,Time Trial,script_analysis_day_29_makefile_variant_diff_sprint,3,1677
+2026-10-29T13:00:42.489Z,metadata_forensics_day_29_trust_issues,Trust Issues,metadata_forensics,29,29,Time Trial,metadata_forensics_day_29_trust_issues_sprint,3,1680
+2026-10-29T13:00:43.930Z,warmups_day_29,Rotten Base,warmups,29,29,Single Solve,warmups_day_29_investigation,2,1682
+2026-10-29T13:00:52.465Z,warmups_day_29,Rotten Base,warmups,29,29,Time Trial,warmups_day_29_sprint,3,1685
+2026-10-29T13:01:06.792Z,script_analysis_day_29_makefile_variant_diff,Make It Make Sense,script_analysis,29,29,Mastery,script_analysis_day_29_makefile_variant_diff_mastery,5,1690
+2026-10-29T13:01:18.607Z,metadata_forensics_day_29_trust_issues,Trust Issues,metadata_forensics,29,29,Mastery,metadata_forensics_day_29_trust_issues_mastery,5,1695
+2026-10-29T13:01:20.035Z,web_exploitation_day_26_trust_the_build,Trust the Build,web_exploitation,26,29,Single Solve,web_exploitation_day_26_trust_the_build_investigation,2,1697
+2026-10-29T13:01:28.928Z,binary_reverse_engineering_day_29_variant_diffing,Fraternal Twins,binary_reverse_engineering,29,29,Single Solve,binary_reverse_engineering_day_29_variant_diffing_investigation,2,1699
+2026-10-29T13:01:58.321Z,binary_reverse_engineering_day_29_variant_diffing,Fraternal Twins,binary_reverse_engineering,29,29,Time Trial,binary_reverse_engineering_day_29_variant_diffing_sprint,3,1702
+2026-10-29T13:02:05.752Z,web_exploitation_day_27_internal_affairs,Internal Affairs,web_exploitation,27,29,Single Solve,web_exploitation_day_27_internal_affairs_investigation,2,1704
+2026-10-29T13:02:08.152Z,mobile_android_day_29_white_box_key_recovery,White Box Key Recovery,mobile_android,29,29,Single Solve,mobile_android_day_29_white_box_key_recovery_investigation,2,1706
+2026-10-29T13:02:39.569Z,mobile_android_day_29_white_box_key_recovery,White Box Key Recovery,mobile_android,29,29,Time Trial,mobile_android_day_29_white_box_key_recovery_sprint,3,1709
+2026-10-29T13:03:09.197Z,web_exploitation_day_26_trust_the_build,Trust the Build,web_exploitation,26,29,Time Trial,web_exploitation_day_26_trust_the_build_sprint,3,1712
+2026-10-29T13:03:09.530Z,web_exploitation_day_27_internal_affairs,Internal Affairs,web_exploitation,27,29,Time Trial,web_exploitation_day_27_internal_affairs_sprint,3,1715
+2026-10-29T13:03:34.159Z,mobile_android_day_29_white_box_key_recovery,White Box Key Recovery,mobile_android,29,29,Mastery,mobile_android_day_29_white_box_key_recovery_mastery,5,1720
+2026-10-29T13:03:51.315Z,binary_reverse_engineering_day_29_variant_diffing,Fraternal Twins,binary_reverse_engineering,29,29,Mastery,binary_reverse_engineering_day_29_variant_diffing_mastery,5,1725
+2026-10-29T13:04:44.101Z,web_exploitation_day_27_internal_affairs,Internal Affairs,web_exploitation,27,29,Mastery,web_exploitation_day_27_internal_affairs_mastery,5,1730
+2026-10-29T13:04:44.190Z,web_exploitation_day_26_trust_the_build,Trust the Build,web_exploitation,26,29,Mastery,web_exploitation_day_26_trust_the_build_mastery,5,1735
+2026-10-29T13:06:32.044Z,warmups_day_29,Rotten Base,warmups,29,29,Mastery,warmups_day_29_mastery,5,1740
+2026-10-30T13:00:05.707Z,warmups_day_30,Percent Percent,warmups,30,30,Single Solve,warmups_day_30_investigation,2,1742
+2026-10-30T13:00:10.927Z,script_analysis_day_30_beanshell_jsp_graph,Spill the Beans,script_analysis,30,30,Single Solve,script_analysis_day_30_beanshell_jsp_graph_investigation,2,1744
+2026-10-30T13:00:11.216Z,warmups_day_30,Percent Percent,warmups,30,30,Time Trial,warmups_day_30_sprint,3,1747
+2026-10-30T13:00:31.293Z,script_analysis_day_30_beanshell_jsp_graph,Spill the Beans,script_analysis,30,30,Time Trial,script_analysis_day_30_beanshell_jsp_graph_sprint,3,1750
+2026-10-30T13:00:49.775Z,web_exploitation_day_28_pass_the_identity,Pass the Identity,web_exploitation,28,30,Single Solve,web_exploitation_day_28_pass_the_identity_investigation,2,1752
+2026-10-30T13:01:01.137Z,script_analysis_day_30_beanshell_jsp_graph,Spill the Beans,script_analysis,30,30,Mastery,script_analysis_day_30_beanshell_jsp_graph_mastery,5,1757
+2026-10-30T13:01:17.094Z,metadata_forensics_day_30_seeing_double,Seeing Double,metadata_forensics,30,30,Single Solve,metadata_forensics_day_30_seeing_double_investigation,2,1759
+2026-10-30T13:01:55.600Z,web_exploitation_day_28_pass_the_identity,Pass the Identity,web_exploitation,28,30,Time Trial,web_exploitation_day_28_pass_the_identity_sprint,3,1762
+2026-10-30T13:02:09.669Z,mobile_android_day_30_layered_protections,Layered Protections,mobile_android,30,30,Single Solve,mobile_android_day_30_layered_protections_investigation,2,1764
+2026-10-30T13:02:27.141Z,warmups_day_30,Percent Percent,warmups,30,30,Mastery,warmups_day_30_mastery,5,1769
+2026-10-30T13:02:40.478Z,metadata_forensics_day_30_seeing_double,Seeing Double,metadata_forensics,30,30,Time Trial,metadata_forensics_day_30_seeing_double_sprint,3,1772
+2026-10-30T13:02:44.433Z,web_exploitation_day_29_queue_the_confusion,Queue the Confusion,web_exploitation,29,30,Single Solve,web_exploitation_day_29_queue_the_confusion_investigation,2,1774
+2026-10-30T13:02:49.820Z,mobile_android_day_30_layered_protections,Layered Protections,mobile_android,30,30,Time Trial,mobile_android_day_30_layered_protections_sprint,3,1777
+2026-10-30T13:02:52.793Z,metadata_forensics_day_30_seeing_double,Seeing Double,metadata_forensics,30,30,Mastery,metadata_forensics_day_30_seeing_double_mastery,5,1782
+2026-10-30T13:03:40.019Z,web_exploitation_day_29_queue_the_confusion,Queue the Confusion,web_exploitation,29,30,Time Trial,web_exploitation_day_29_queue_the_confusion_sprint,3,1785
+2026-10-30T13:04:06.244Z,binary_reverse_engineering_day_30_multi_binary_campaign,Campaign Trail,binary_reverse_engineering,30,30,Single Solve,binary_reverse_engineering_day_30_multi_binary_campaign_investigation,2,1787
+2026-10-30T13:04:06.506Z,web_exploitation_day_29_queue_the_confusion,Queue the Confusion,web_exploitation,29,30,Mastery,web_exploitation_day_29_queue_the_confusion_mastery,5,1792
+2026-10-30T13:04:09.232Z,mobile_android_day_30_layered_protections,Layered Protections,mobile_android,30,30,Mastery,mobile_android_day_30_layered_protections_mastery,5,1797
+2026-10-30T13:04:26.347Z,binary_reverse_engineering_day_30_multi_binary_campaign,Campaign Trail,binary_reverse_engineering,30,30,Time Trial,binary_reverse_engineering_day_30_multi_binary_campaign_sprint,3,1800
+2026-10-30T13:04:48.210Z,web_exploitation_day_28_pass_the_identity,Pass the Identity,web_exploitation,28,30,Mastery,web_exploitation_day_28_pass_the_identity_mastery,5,1805
+2026-10-30T13:05:43.855Z,binary_reverse_engineering_day_30_multi_binary_campaign,Campaign Trail,binary_reverse_engineering,30,30,Mastery,binary_reverse_engineering_day_30_multi_binary_campaign_mastery,5,1810
+2026-10-31T13:00:09.015Z,script_analysis_day_31_xslt_final_gauntlet,The Full Transform,script_analysis,31,31,Single Solve,script_analysis_day_31_xslt_final_gauntlet_investigation,2,1812
+2026-10-31T13:00:24.729Z,script_analysis_day_31_xslt_final_gauntlet,The Full Transform,script_analysis,31,31,Time Trial,script_analysis_day_31_xslt_final_gauntlet_sprint,3,1815
+2026-10-31T13:00:39.312Z,mobile_android_day_31_mobile_arena_gauntlet,Mobile Arena Gauntlet,mobile_android,31,31,Single Solve,mobile_android_day_31_mobile_arena_gauntlet_investigation,2,1817
+2026-10-31T13:00:46.423Z,script_analysis_day_31_xslt_final_gauntlet,The Full Transform,script_analysis,31,31,Mastery,script_analysis_day_31_xslt_final_gauntlet_mastery,5,1822
+2026-10-31T13:00:48.079Z,warmups_day_31,One More Thing,warmups,31,31,Single Solve,warmups_day_31_investigation,2,1824
+2026-10-31T13:00:50.113Z,mobile_android_day_31_mobile_arena_gauntlet,Mobile Arena Gauntlet,mobile_android,31,31,Time Trial,mobile_android_day_31_mobile_arena_gauntlet_sprint,3,1827
+2026-10-31T13:00:55.005Z,warmups_day_31,One More Thing,warmups,31,31,Time Trial,warmups_day_31_sprint,3,1830
+2026-10-31T13:01:18.402Z,mobile_android_day_31_mobile_arena_gauntlet,Mobile Arena Gauntlet,mobile_android,31,31,Mastery,mobile_android_day_31_mobile_arena_gauntlet_mastery,5,1835
+2026-10-31T13:01:47.102Z,binary_reverse_engineering_day_31_reversing_gauntlet,Final Boss,binary_reverse_engineering,31,31,Single Solve,binary_reverse_engineering_day_31_reversing_gauntlet_investigation,2,1837
+2026-10-31T13:01:54.013Z,web_exploitation_day_31_full_stack_incident,Full Stack Incident,web_exploitation,31,31,Single Solve,web_exploitation_day_31_full_stack_incident_investigation,2,1839
+2026-10-31T13:02:00.851Z,binary_reverse_engineering_day_31_reversing_gauntlet,Final Boss,binary_reverse_engineering,31,31,Time Trial,binary_reverse_engineering_day_31_reversing_gauntlet_sprint,3,1842
+2026-10-31T13:02:38.467Z,web_exploitation_day_31_full_stack_incident,Full Stack Incident,web_exploitation,31,31,Time Trial,web_exploitation_day_31_full_stack_incident_sprint,3,1845
+2026-10-31T13:03:05.696Z,web_exploitation_day_31_full_stack_incident,Full Stack Incident,web_exploitation,31,31,Mastery,web_exploitation_day_31_full_stack_incident_mastery,5,1850
+2026-10-31T13:04:30.893Z,metadata_forensics_day_31_no_artifact_left_behind,No Artifact Left Behind,metadata_forensics,31,31,Single Solve,metadata_forensics_day_31_no_artifact_left_behind_investigation,2,1852
+2026-10-31T13:05:12.977Z,warmups_day_31,One More Thing,warmups,31,31,Mastery,warmups_day_31_mastery,5,1857
+2026-10-31T13:06:28.450Z,binary_reverse_engineering_day_31_reversing_gauntlet,Final Boss,binary_reverse_engineering,31,31,Mastery,binary_reverse_engineering_day_31_reversing_gauntlet_mastery,5,1862
+2026-10-31T13:13:41.162Z,metadata_forensics_day_31_no_artifact_left_behind,No Artifact Left Behind,metadata_forensics,31,31,Time Trial,metadata_forensics_day_31_no_artifact_left_behind_sprint,3,1865
+2026-10-31T13:15:12.046Z,web_exploitation_day_30_framework_roulette,Framework Roulette,web_exploitation,30,31,Single Solve,web_exploitation_day_30_framework_roulette_investigation,2,1867
+2026-10-31T13:18:28.740Z,web_exploitation_day_30_framework_roulette,Framework Roulette,web_exploitation,30,31,Time Trial,web_exploitation_day_30_framework_roulette_sprint,3,1870
+2026-10-31T13:19:12.450Z,web_exploitation_day_30_framework_roulette,Framework Roulette,web_exploitation,30,31,Mastery,web_exploitation_day_30_framework_roulette_mastery,5,1875
+2026-10-31T13:21:25.640Z,metadata_forensics_day_31_no_artifact_left_behind,No Artifact Left Behind,metadata_forensics,31,31,Mastery,metadata_forensics_day_31_no_artifact_left_behind_mastery,5,1880
+2026-10-31T15:32:27.237Z,sha1_hulud,SHA1-Hulud,bonus,,30,One-off award,sha1_hulud,5,1885

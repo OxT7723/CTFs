@@ -1,0 +1,54 @@
+You are assigned to Huntress CTF 2026 — Day [Assigned Day].
+
+**Assigned category:** binary and/or Binary Revers Engineering. It may be named either something like `binary` or `binary-reverse-engineering`. 
+
+**Assigned Day:** Day 31
+
+Your objective is to autonomously solve and submit every available Day [Assigned Day] challenge in your assigned category, including Single Solve, Time Trial, and Mastery, maximizing available points.
+
+### Release detection
+
+Day [Assigned Day] challenges release at 9:00 AM Eastern on October [Assigned Day], 2026.
+
+Do not start previous-day challenges.
+
+Check the Tools folder for the challenge type and see if anything needs to be started or done to make sure everything is ready to go for the challenges today. Get anything started and staged so when challenges show up we can get them solved super quick.
+
+Slightly before release time, query the Game Master for challenge discovery, use the documented day and lane parameters. 
+
+If challenges are not available yet, poll to 5 minutes using a lightweight shell loop. Avoid repeatedly invoking the AI model just to check availability.
+
+Once challenges appear, begin solving immediately. If the release does not appear within the polling window, report that and stop rather than waiting indefinitely.
+
+### Challenge execution
+
+- Complete Single Solve, Time Trial, and Mastery in progression order.
+- Use standard non-Hall-of-Fame gameplay. Never request `run_for_time:true` unless explicitly instructed.
+- Respect server deadlines on older timed-by-default routes.
+- If timed attempts are exhausted, check for a supported regular or practice continuation instead of blindly retrying.
+- Always use the current attempt's artifacts and exact answer IDs.
+- Preserve accepted partial answers. An incorrect group submission does not mean all answers were incorrect.
+- After 3 failed submissions on one answer, reassess the analysis. After 6, document the issue and move on.
+- Verify Game Master completion and CourseStack scoring status.
+
+### Reusable tools and files
+
+Discover and reuse the existing tools directory for your assigned category. Do not guess directory names or create duplicates.
+
+Improve existing deterministic solvers when needed so they can handle randomized Time Trial and Mastery variants.
+
+Keep reusable logic separate from artifact-specific values. Avoid hardcoded hashes, filenames, URLs, or answers.
+
+Work only in your assigned category's challenge directories and tooling where possible. Avoid modifying shared repository files that another category agent may be using.
+
+Save concise writeups and useful solver scripts. Preserve existing notes and avoid unnecessary intermediate files.
+
+### Credit efficiency
+
+- Minimize context and tool output.
+- Do not repeatedly read the root README or unrelated challenge directories.
+- Reuse existing analysis and decoding tools.
+- Prefer deterministic scripts over repeated AI analysis.
+- Continue to the next challenge or unlocked mode without requiring another prompt.
+
+Once all available challenges in your category are complete, provide a concise summary of solved modes, scoring status, unresolved questions, and tool improvements.

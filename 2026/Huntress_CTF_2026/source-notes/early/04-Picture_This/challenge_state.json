@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-04-picture-this",
+  "day": 4,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-04-picture-this",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "45c8c9fe-1e6e-4a35-8291-3f467901489c",
+        "mode": "single_solve",
+        "answer_ids": [
+          "d04-jpeg-001-jpeg-sof-dimensions-pixels"
+        ],
+        "questions": [
+          {
+            "id": "d04-jpeg-001-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-001.jpg.",
+            "artifact": "metadata-day-04-evidence.zip -> camera-001.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d04-jpeg-001-jpeg-sof-dimensions-pixels"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "45c8c9fe-1e6e-4a35-8291-3f467901489c",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d04-jpeg-001-jpeg-sof-dimensions-pixels"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-04-picture-this/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-04T17:54:04.797Z",
+        "attempt_id": "7de001fd-9cbc-4e44-8692-018e6a8671a1",
+        "mode": "time_trial",
+        "answer_ids": [
+          "d04-jpeg-002-jpeg-sof-dimensions-pixels"
+        ],
+        "questions": [
+          {
+            "id": "d04-jpeg-002-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-002.jpg.",
+            "artifact": "metadata-day-04-evidence.zip -> camera-002.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d04-jpeg-002-jpeg-sof-dimensions-pixels"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "7de001fd-9cbc-4e44-8692-018e6a8671a1",
+          "deadline": "2026-10-04T17:54:04.797Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d04-jpeg-002-jpeg-sof-dimensions-pixels"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-04-picture-this/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-04T17:55:21.145Z",
+        "attempt_id": "4d6c7ea9-11de-4523-875e-547e9179faa7",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.d04-jpeg-003-jpeg-sof-dimensions-pixels",
+          "set2.d04-jpeg-004-jpeg-sof-dimensions-pixels"
+        ],
+        "questions": [
+          {
+            "id": "set1.d04-jpeg-003-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-003.jpg.",
+            "artifact": "metadata-day-04-evidence-01.zip -> camera-003.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d04-jpeg-004-jpeg-sof-dimensions-pixels",
+            "question": "Determine jpeg.sof_dimensions_pixels for camera-004.jpg.",
+            "artifact": "metadata-day-04-evidence-02.zip -> camera-004.jpg",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.d04-jpeg-003-jpeg-sof-dimensions-pixels",
+        "set2.d04-jpeg-004-jpeg-sof-dimensions-pixels"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "4d6c7ea9-11de-4523-875e-547e9179faa7",
+          "deadline": "2026-10-04T17:55:21.145Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.d04-jpeg-003-jpeg-sof-dimensions-pixels",
+            "set2.d04-jpeg-004-jpeg-sof-dimensions-pixels"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 Picture This",
+  "last_synced": "2026-10-04T21:45:48.493585+00:00"
+}

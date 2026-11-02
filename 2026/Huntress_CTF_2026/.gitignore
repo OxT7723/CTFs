@@ -1,0 +1,21 @@
+# Local analysis outputs and credentials
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.ovpn
+downloads/
+local-artifacts/
+private-notes/
+*.log
+
+# Keep raw exports and working copies outside this publication folder.
+scoreboard.json
+*.tmp
+.DS_Store
+Thumbs.db

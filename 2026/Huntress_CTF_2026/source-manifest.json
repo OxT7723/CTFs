@@ -1,0 +1,3142 @@
+{
+  "policy": "Preserve selected original documentation and solver source; rename active instruction files; deactivate missing/session links; replace private lab IPs with TEST-NET-1 192.0.2.1; omit actual challenge specimens and connection configuration. No source program or challenge binary was executed.",
+  "sources": [
+    {
+      "source": "early/01-A_Little_Based/challenge_state.json",
+      "published_path": "source-notes/early/01-A_Little_Based/challenge_state.json",
+      "source_sha256": "ca7aab47a82c0a5a6ad27fd7fbe5baa952dcd74e5c3ae0b62772da887672b05e",
+      "published_sha256": "ca7aab47a82c0a5a6ad27fd7fbe5baa952dcd74e5c3ae0b62772da887672b05e",
+      "edited": false
+    },
+    {
+      "source": "early/01-A_Little_Based/readme.md",
+      "published_path": "source-notes/early/01-A_Little_Based/readme.md",
+      "source_sha256": "6b8f5e56860d3e2ecfa4b99f89e94af759933eb668d54317d67399e7c8eedb62",
+      "published_sha256": "5eee175c70419be42b14d4bb38573d889915fa8939e43d31ca8c59768194ba1e",
+      "edited": true
+    },
+    {
+      "source": "early/01-ELF_Aware/challenge_state.json",
+      "published_path": "source-notes/early/01-ELF_Aware/challenge_state.json",
+      "source_sha256": "e04a031a79ea935b770c1aaf1fd98da756aee45c2e94a9be7b2cd3db7c705d56",
+      "published_sha256": "e04a031a79ea935b770c1aaf1fd98da756aee45c2e94a9be7b2cd3db7c705d56",
+      "edited": false
+    },
+    {
+      "source": "early/01-ELF_Aware/readme.md",
+      "published_path": "source-notes/early/01-ELF_Aware/readme.md",
+      "source_sha256": "b132c392155eb0a79e07c62f227ae75a25d238f7f3722a43220c5335d2f1c7ee",
+      "published_sha256": "fd563020add97179663f92479771b313f13b84d1f0462e6c0438ef5fb715c47a",
+      "edited": true
+    },
+    {
+      "source": "early/01-Exported_Trust/challenge_state.json",
+      "published_path": "source-notes/early/01-Exported_Trust/challenge_state.json",
+      "source_sha256": "a1e863184d4b9c414a8590f4cef199be4be80392f9ba9719c64f16ebd8520365",
+      "published_sha256": "a1e863184d4b9c414a8590f4cef199be4be80392f9ba9719c64f16ebd8520365",
+      "edited": false
+    },
+    {
+      "source": "early/01-Exported_Trust/readme.md",
+      "published_path": "source-notes/early/01-Exported_Trust/readme.md",
+      "source_sha256": "f0ef93765b448b5233ab1d019ce93aed66f0090d0ed58345e605f84e0c5869ac",
+      "published_sha256": "1dfe4286e641e35f2c844141c52ab56ce9b7b021fce3ae75cc5e3bf7ffea32ca",
+      "edited": true
+    },
+    {
+      "source": "early/01-Power_Play/challenge_state.json",
+      "published_path": "source-notes/early/01-Power_Play/challenge_state.json",
+      "source_sha256": "a345b824cd9576a8d3928599db88ca70092ff1d258258029d060e39edb77e0ea",
+      "published_sha256": "a345b824cd9576a8d3928599db88ca70092ff1d258258029d060e39edb77e0ea",
+      "edited": false
+    },
+    {
+      "source": "early/01-Power_Play/readme.md",
+      "published_path": "source-notes/early/01-Power_Play/readme.md",
+      "source_sha256": "c70e4a66d552ae8afc1659e4522cf00102bdf05beb333cd5daad30dec0f83b0b",
+      "published_sha256": "5d1cae8898e427258c93379e37892c3aefb890b5ce8370a5b86583c043173aee",
+      "edited": true
+    },
+    {
+      "source": "early/01-Read_the_Rules/challenge_state.json",
+      "published_path": "source-notes/early/01-Read_the_Rules/challenge_state.json",
+      "source_sha256": "831b09c1972e3829c45d93ffa9ad259df842134258b5a6b8bb030ce615c5ef7d",
+      "published_sha256": "831b09c1972e3829c45d93ffa9ad259df842134258b5a6b8bb030ce615c5ef7d",
+      "edited": false
+    },
+    {
+      "source": "early/01-Read_the_Rules/readme.md",
+      "published_path": "source-notes/early/01-Read_the_Rules/readme.md",
+      "source_sha256": "96c68d43e90b7de49604cca6b6e8c4f1487ecbdf1428932d0980cbb857e98db7",
+      "published_sha256": "36aa0e4327bfe579292368c6a6b2d9883829cc6dcec5709f42254e565b96cbf7",
+      "edited": true
+    },
+    {
+      "source": "early/01-Sanity_Check/challenge_state.json",
+      "published_path": "source-notes/early/01-Sanity_Check/challenge_state.json",
+      "source_sha256": "af70ac39738b8103eb39c123a475a77729374f08af6739f511e2c8a05374d4fd",
+      "published_sha256": "af70ac39738b8103eb39c123a475a77729374f08af6739f511e2c8a05374d4fd",
+      "edited": false
+    },
+    {
+      "source": "early/01-Sanity_Check/readme.md",
+      "published_path": "source-notes/early/01-Sanity_Check/readme.md",
+      "source_sha256": "641fa075c123cdf0f57a0f3cea19a517c3ced8a8572e6c8821bc298fae6299e4",
+      "published_sha256": "098aaabbdcf795d7b999d03ae5f5a25f041a1d26edd4e12c2f472505950ed0b1",
+      "edited": true
+    },
+    {
+      "source": "early/01-Welcome_Robots/challenge_state.json",
+      "published_path": "source-notes/early/01-Welcome_Robots/challenge_state.json",
+      "source_sha256": "c64b4695db25a75f7d2abd5c2c385b307b0b00f57356f77ea886eed0684a7e56",
+      "published_sha256": "c64b4695db25a75f7d2abd5c2c385b307b0b00f57356f77ea886eed0684a7e56",
+      "edited": false
+    },
+    {
+      "source": "early/01-Welcome_Robots/readme.md",
+      "published_path": "source-notes/early/01-Welcome_Robots/readme.md",
+      "source_sha256": "9f3652937d55403b605dfb3c14737ee1acb8bd0f863582ad75278c5e238f4bc0",
+      "published_sha256": "dec46a0bf77d3375dac8092fa91cd19596f0ffb680cb62bf35f52745bb674351",
+      "edited": true
+    },
+    {
+      "source": "early/01-You_Must_Be_This_Hash_to_Ride/challenge_state.json",
+      "published_path": "source-notes/early/01-You_Must_Be_This_Hash_to_Ride/challenge_state.json",
+      "source_sha256": "defc5320b9853e4b438b53ebdc8a4835c91dbdf06aca58fd0e9924a23565dd01",
+      "published_sha256": "defc5320b9853e4b438b53ebdc8a4835c91dbdf06aca58fd0e9924a23565dd01",
+      "edited": false
+    },
+    {
+      "source": "early/01-You_Must_Be_This_Hash_to_Ride/readme.md",
+      "published_path": "source-notes/early/01-You_Must_Be_This_Hash_to_Ride/readme.md",
+      "source_sha256": "309363b99580197f350c183cd987e75bd53170cc91b2822faa6cb2dd246b4844",
+      "published_sha256": "5ddfb3a4f64f1b1ce223dd3c0b6efa1dfb55b6bfeb2431ed002d27309a8d756c",
+      "edited": true
+    },
+    {
+      "source": "early/02-Deep_Link_Drift/challenge_state.json",
+      "published_path": "source-notes/early/02-Deep_Link_Drift/challenge_state.json",
+      "source_sha256": "a1bd1e30d0b4f7b246d4c8170a38cb40abc25430e810fc60b3d60f544275bb9c",
+      "published_sha256": "a1bd1e30d0b4f7b246d4c8170a38cb40abc25430e810fc60b3d60f544275bb9c",
+      "edited": false
+    },
+    {
+      "source": "early/02-Deep_Link_Drift/readme.md",
+      "published_path": "source-notes/early/02-Deep_Link_Drift/readme.md",
+      "source_sha256": "42a6863a27968d48473f27d685119accd8fc55bf57c244fea264fbbece9f91f7",
+      "published_sha256": "5474845a31c25a9a2bef58cc4b8a8e988ac111ad839790a30f66bc8a790d8c9b",
+      "edited": true
+    },
+    {
+      "source": "early/02-Half_a_Turn/challenge_state.json",
+      "published_path": "source-notes/early/02-Half_a_Turn/challenge_state.json",
+      "source_sha256": "f0feb2f5ca944aec73425312fd7b62fba837240fff0ef65d4dfa82689225ab97",
+      "published_sha256": "f0feb2f5ca944aec73425312fd7b62fba837240fff0ef65d4dfa82689225ab97",
+      "edited": false
+    },
+    {
+      "source": "early/02-Half_a_Turn/readme.md",
+      "published_path": "source-notes/early/02-Half_a_Turn/readme.md",
+      "source_sha256": "e027dc447e6e153f834a6a146d565c4ea0d7d78bc349289692591190823319b3",
+      "published_sha256": "cc3863eb637bae9f0f89358469487527d6ed679d6c0a9109dbc0be774933adb4",
+      "edited": true
+    },
+    {
+      "source": "early/02-Host_With_the_Most/challenge_state.json",
+      "published_path": "source-notes/early/02-Host_With_the_Most/challenge_state.json",
+      "source_sha256": "343c393802fada651b3e985c611c8eab267bbfcd41edd25dd9d3e119d94f43e4",
+      "published_sha256": "343c393802fada651b3e985c611c8eab267bbfcd41edd25dd9d3e119d94f43e4",
+      "edited": false
+    },
+    {
+      "source": "early/02-Host_With_the_Most/readme.md",
+      "published_path": "source-notes/early/02-Host_With_the_Most/readme.md",
+      "source_sha256": "6990292a63672260a244022fc7160347a34c364b3902403be874dfeb8a149114",
+      "published_sha256": "1297ae86b6ad65cfd7dd82214f4bd4f3c2f3046ea91499a247bafbac2f010725",
+      "edited": true
+    },
+    {
+      "source": "early/02-Looks_Can_Be_Deceiving/challenge_state.json",
+      "published_path": "source-notes/early/02-Looks_Can_Be_Deceiving/challenge_state.json",
+      "source_sha256": "512c31a53b042f8f0d5454918bc994b8c6296946416061f50882ab73add72d72",
+      "published_sha256": "512c31a53b042f8f0d5454918bc994b8c6296946416061f50882ab73add72d72",
+      "edited": false
+    },
+    {
+      "source": "early/02-Looks_Can_Be_Deceiving/readme.md",
+      "published_path": "source-notes/early/02-Looks_Can_Be_Deceiving/readme.md",
+      "source_sha256": "ef7ced5d86686ca67fea1e1731841ee90e604667a0144c85d71a85056948018f",
+      "published_sha256": "0489e39ec070d2c790e83ea47a3927d03ed213b9e1d4c20f1c93a6f90c866932",
+      "edited": true
+    },
+    {
+      "source": "early/02-Mangled/challenge_state.json",
+      "published_path": "source-notes/early/02-Mangled/challenge_state.json",
+      "source_sha256": "7e7c37aed935709d9c53098e951fd874c7812be35f3b68d32bb661b1417e213c",
+      "published_sha256": "7e7c37aed935709d9c53098e951fd874c7812be35f3b68d32bb661b1417e213c",
+      "edited": false
+    },
+    {
+      "source": "early/02-Mangled/readme.md",
+      "published_path": "source-notes/early/02-Mangled/readme.md",
+      "source_sha256": "184e223b71d50dfed171b7e23c97fd4244cd7124db1ee44fffcfa9e24aa0fe98",
+      "published_sha256": "ef54fe4eeab2c242efc1c6608d49177a15709e30d6c056bc85c9a402f8660738",
+      "edited": true
+    },
+    {
+      "source": "early/03-BOM_Voyage/challenge_state.json",
+      "published_path": "source-notes/early/03-BOM_Voyage/challenge_state.json",
+      "source_sha256": "66d47a6674252860f696e28e677ede26d4c43300ad4ca3fe1efb6b8e0e44a83e",
+      "published_sha256": "66d47a6674252860f696e28e677ede26d4c43300ad4ca3fe1efb6b8e0e44a83e",
+      "edited": false
+    },
+    {
+      "source": "early/03-BOM_Voyage/readme.md",
+      "published_path": "source-notes/early/03-BOM_Voyage/readme.md",
+      "source_sha256": "aecba043001ebbe869a2e06e32f880a67e26ebf9f4c06b95adc8808733d51ff9",
+      "published_sha256": "20a9380e412d560aa191495d2a862d43aeef1da05330768541a08e1f78e65d8c",
+      "edited": true
+    },
+    {
+      "source": "early/03-Expansion_Pack/challenge_state.json",
+      "published_path": "source-notes/early/03-Expansion_Pack/challenge_state.json",
+      "source_sha256": "e5f76aef140b34748ebc0cb656cd1b0200b79065a251394f5d97a893d17a5cfa",
+      "published_sha256": "e5f76aef140b34748ebc0cb656cd1b0200b79065a251394f5d97a893d17a5cfa",
+      "edited": false
+    },
+    {
+      "source": "early/03-Expansion_Pack/readme.md",
+      "published_path": "source-notes/early/03-Expansion_Pack/readme.md",
+      "source_sha256": "3125b5f66ae42e9d624a0f36818e27512de6cf290ca8925941bf7d01dcd61afa",
+      "published_sha256": "052996691ccbc953cbff6985d9431a8891d031874914a1a2131236f838778939",
+      "edited": true
+    },
+    {
+      "source": "early/03-Expansion_Pack/run_mastery.py",
+      "published_path": "tools/early/03-Expansion_Pack/run_mastery.py",
+      "source_sha256": "95e86e6014c5869b573626eed1b50bf3ce30094fc64faa29923e11b04e9ac29b",
+      "published_sha256": "95e86e6014c5869b573626eed1b50bf3ce30094fc64faa29923e11b04e9ac29b",
+      "edited": false
+    },
+    {
+      "source": "early/03-Expansion_Pack/solve_expansion.py",
+      "published_path": "tools/early/03-Expansion_Pack/solve_expansion.py",
+      "source_sha256": "4c6693b97ccc99bdae2f7347d2a336a6942039297044f9a32ed5c1e7293b555f",
+      "published_sha256": "4c6693b97ccc99bdae2f7347d2a336a6942039297044f9a32ed5c1e7293b555f",
+      "edited": false
+    },
+    {
+      "source": "early/03-Hex_Appeal/challenge_state.json",
+      "published_path": "source-notes/early/03-Hex_Appeal/challenge_state.json",
+      "source_sha256": "8285e95aed6028b5ae4de02a30eeaf94a4b23fc1031ded2866bed267f016c599",
+      "published_sha256": "8285e95aed6028b5ae4de02a30eeaf94a4b23fc1031ded2866bed267f016c599",
+      "edited": false
+    },
+    {
+      "source": "early/03-Hex_Appeal/readme.md",
+      "published_path": "source-notes/early/03-Hex_Appeal/readme.md",
+      "source_sha256": "5841d9c51392394f1bf2904401a57d7d70cae04d794a5618fd1da7c21696dd75",
+      "published_sha256": "1a4e45839d84cf56dd69fc61fea2b2a782d7e261c6728b1344380f978d3ed989",
+      "edited": true
+    },
+    {
+      "source": "early/03-Intent_Injection/challenge_state.json",
+      "published_path": "source-notes/early/03-Intent_Injection/challenge_state.json",
+      "source_sha256": "2803c76341ceb9b198b64398d2413eac3062f1b0e629a9f5b5037c47bc9a6192",
+      "published_sha256": "2803c76341ceb9b198b64398d2413eac3062f1b0e629a9f5b5037c47bc9a6192",
+      "edited": false
+    },
+    {
+      "source": "early/03-Intent_Injection/readme.md",
+      "published_path": "source-notes/early/03-Intent_Injection/readme.md",
+      "source_sha256": "93c3a5f14414323600164f67df17803c7b04fa4bcc4da8e299636184dd1a1be3",
+      "published_sha256": "b5e47efbecf26a547ccc1b025b738ad6e2899f47849c92977a53a89206688760",
+      "edited": true
+    },
+    {
+      "source": "early/03-Table_Manners/challenge_state.json",
+      "published_path": "source-notes/early/03-Table_Manners/challenge_state.json",
+      "source_sha256": "f6d900e0640852ef5b092e2322772a91b1766a438f01fce8c2f497524aed5087",
+      "published_sha256": "f6d900e0640852ef5b092e2322772a91b1766a438f01fce8c2f497524aed5087",
+      "edited": false
+    },
+    {
+      "source": "early/03-Table_Manners/readme.md",
+      "published_path": "source-notes/early/03-Table_Manners/readme.md",
+      "source_sha256": "201849b52717c7b781f3effee912d72e377cbe810c17639a9a90104799ff14ea",
+      "published_sha256": "b23cb7cd44b6d06c537cdb31df605cb15eab94975b34afcea439a4e48ff70f07",
+      "edited": true
+    },
+    {
+      "source": "early/04-Dim_and_Dimmer/challenge_state.json",
+      "published_path": "source-notes/early/04-Dim_and_Dimmer/challenge_state.json",
+      "source_sha256": "e984dea5a850aef275001defd87363170d4a06b3aee57b10ec98001aaffb0364",
+      "published_sha256": "e984dea5a850aef275001defd87363170d4a06b3aee57b10ec98001aaffb0364",
+      "edited": false
+    },
+    {
+      "source": "early/04-Dim_and_Dimmer/readme.md",
+      "published_path": "source-notes/early/04-Dim_and_Dimmer/readme.md",
+      "source_sha256": "caf785aa5c64b4e67ab67fc2bb3783110a3a6585278f131034621a6dd4c33ea1",
+      "published_sha256": "b96534a54ef7f88581098a20965d3a90c9cdce86cffd8e4f021bb3de2227a09b",
+      "edited": true
+    },
+    {
+      "source": "early/04-Dim_and_Dimmer/tools/build_dimmer_answers.py",
+      "published_path": "tools/early/04-Dim_and_Dimmer/tools/build_dimmer_answers.py",
+      "source_sha256": "f1d0c71cba3c7dfaa254225074b4aa3c551b6ccea269afed0a9ebe15d0c7a226",
+      "published_sha256": "f1d0c71cba3c7dfaa254225074b4aa3c551b6ccea269afed0a9ebe15d0c7a226",
+      "edited": false
+    },
+    {
+      "source": "early/04-Dim_and_Dimmer/tools/decode_dimmer.py",
+      "published_path": "tools/early/04-Dim_and_Dimmer/tools/decode_dimmer.py",
+      "source_sha256": "77c2848eb47b49dba0c6166ac1d3462f5f3e6700e3b5056156f9db3d09ef3285",
+      "published_sha256": "77c2848eb47b49dba0c6166ac1d3462f5f3e6700e3b5056156f9db3d09ef3285",
+      "edited": false
+    },
+    {
+      "source": "early/04-Dim_and_Dimmer/tools/run_mastery_fast.py",
+      "published_path": "tools/early/04-Dim_and_Dimmer/tools/run_mastery_fast.py",
+      "source_sha256": "cd3bb7b5ad28200a29355058d7fa949998052b0c868bd4b46f9f1ae030ec661f",
+      "published_sha256": "cd3bb7b5ad28200a29355058d7fa949998052b0c868bd4b46f9f1ae030ec661f",
+      "edited": false
+    },
+    {
+      "source": "early/04-Dim_and_Dimmer/tools/run_time_trial.py",
+      "published_path": "tools/early/04-Dim_and_Dimmer/tools/run_time_trial.py",
+      "source_sha256": "11ecf9d3ced6c549474e297b93776e65c631c66e92e5b40397b2ac234fb36a26",
+      "published_sha256": "11ecf9d3ced6c549474e297b93776e65c631c66e92e5b40397b2ac234fb36a26",
+      "edited": false
+    },
+    {
+      "source": "early/04-Dim_and_Dimmer/tools/run_time_trial_fast.py",
+      "published_path": "tools/early/04-Dim_and_Dimmer/tools/run_time_trial_fast.py",
+      "source_sha256": "b84e5fd74a6f357378aa960cb3866b1fc9e837bd4ac128031e1f2a2fcb15953e",
+      "published_sha256": "b84e5fd74a6f357378aa960cb3866b1fc9e837bd4ac128031e1f2a2fcb15953e",
+      "edited": false
+    },
+    {
+      "source": "early/04-Go_Fish/challenge_state.json",
+      "published_path": "source-notes/early/04-Go_Fish/challenge_state.json",
+      "source_sha256": "4d3983985f1753cdae29d4e79f7e7d1e306b3e39344c7e3704766bba4a70485e",
+      "published_sha256": "4d3983985f1753cdae29d4e79f7e7d1e306b3e39344c7e3704766bba4a70485e",
+      "edited": false
+    },
+    {
+      "source": "early/04-Go_Fish/readme.md",
+      "published_path": "source-notes/early/04-Go_Fish/readme.md",
+      "source_sha256": "90b9db0d8e16f09b7eb7d13b31c875e3988fdf15bd12212eff269e0c2e59371b",
+      "published_sha256": "a257885f4c66e4d4a61ff8af24ec565d5d657af8c35a4e490d84613e7ae6e4f9",
+      "edited": true
+    },
+    {
+      "source": "early/04-Go_Fish/solve_mastery.py",
+      "published_path": "tools/early/04-Go_Fish/solve_mastery.py",
+      "source_sha256": "3137ce813186748e9315108f8dd678f3a509e2c20316e5837135c55ad2848ef7",
+      "published_sha256": "3137ce813186748e9315108f8dd678f3a509e2c20316e5837135c55ad2848ef7",
+      "edited": false
+    },
+    {
+      "source": "early/04-Go_Fish/solve_time_trial.py",
+      "published_path": "tools/early/04-Go_Fish/solve_time_trial.py",
+      "source_sha256": "4fc4b43e518214ec20bbc6ee98ec30b153ef8db601e3dc174821426e46aa3695",
+      "published_sha256": "4fc4b43e518214ec20bbc6ee98ec30b153ef8db601e3dc174821426e46aa3695",
+      "edited": false
+    },
+    {
+      "source": "early/04-Pending_Intent_Relay/challenge_state.json",
+      "published_path": "source-notes/early/04-Pending_Intent_Relay/challenge_state.json",
+      "source_sha256": "f45a1ae062975cd1e012c47e65b677475146aa2032f3a0e20b57d6f7a4db05de",
+      "published_sha256": "f45a1ae062975cd1e012c47e65b677475146aa2032f3a0e20b57d6f7a4db05de",
+      "edited": false
+    },
+    {
+      "source": "early/04-Pending_Intent_Relay/readme.md",
+      "published_path": "source-notes/early/04-Pending_Intent_Relay/readme.md",
+      "source_sha256": "301a506018de70a4903ce1e24b193d5bb9696bef2d9977b36893f13f89515eac",
+      "published_sha256": "3fc3e14e69c933a69c6ae795c7ded41f77ab61c2467d1cd9408db0faf6799996",
+      "edited": true
+    },
+    {
+      "source": "early/04-Picture_This/challenge_state.json",
+      "published_path": "source-notes/early/04-Picture_This/challenge_state.json",
+      "source_sha256": "7ccf5a0369e045755453faf530a8a1c6e916f4d25f5a9277444035479bad08c5",
+      "published_sha256": "7ccf5a0369e045755453faf530a8a1c6e916f4d25f5a9277444035479bad08c5",
+      "edited": false
+    },
+    {
+      "source": "early/04-Picture_This/readme.md",
+      "published_path": "source-notes/early/04-Picture_This/readme.md",
+      "source_sha256": "26078230289cdd952b8c407745fea50ffdeff6e0d45037852b94f22d3c2ca3ea",
+      "published_sha256": "7f1ed22de0f8712a2a7532023d1d420d5e533d021a2231d4b26b7885fd06c6b9",
+      "edited": true
+    },
+    {
+      "source": "early/04-Two_of_a_Kind/challenge_state.json",
+      "published_path": "source-notes/early/04-Two_of_a_Kind/challenge_state.json",
+      "source_sha256": "1ef2493549b61640af743c3a5a34a668e96f9960bb41cf36dc75e2942a84b430",
+      "published_sha256": "1ef2493549b61640af743c3a5a34a668e96f9960bb41cf36dc75e2942a84b430",
+      "edited": false
+    },
+    {
+      "source": "early/04-Two_of_a_Kind/readme.md",
+      "published_path": "source-notes/early/04-Two_of_a_Kind/readme.md",
+      "source_sha256": "b5c216501cb1346da0fb8b14e16648e492bfddb70df4b84a356bf59712df018e",
+      "published_sha256": "6aed22d402dbfdc3fdb1cc666be6792087363f0d5c114f72ae4148bed292878a",
+      "edited": true
+    },
+    {
+      "source": "early/05-Backup_Spill/challenge_state.json",
+      "published_path": "source-notes/early/05-Backup_Spill/challenge_state.json",
+      "source_sha256": "8bc1953b82a0ad3bc684d9cab1a268b7b39426fbbb4a0e2ec09a46f23b791999",
+      "published_sha256": "8bc1953b82a0ad3bc684d9cab1a268b7b39426fbbb4a0e2ec09a46f23b791999",
+      "edited": false
+    },
+    {
+      "source": "early/05-Backup_Spill/readme.md",
+      "published_path": "source-notes/early/05-Backup_Spill/readme.md",
+      "source_sha256": "da6f6886059738ef0bbe95e85ed9a24a7b035cc988cbda40ef01824c6f9fe478",
+      "published_sha256": "1982d8eedd6a07f19b517133cb555dfd28ecda576b6482c4636dd5b006f33c65",
+      "edited": true
+    },
+    {
+      "source": "early/05-By_the_Numbers/challenge_state.json",
+      "published_path": "source-notes/early/05-By_the_Numbers/challenge_state.json",
+      "source_sha256": "3c209b96296c7cadd7dcbb421e9658ade15bc7d19ffa6a1ccf9635453194f552",
+      "published_sha256": "3c209b96296c7cadd7dcbb421e9658ade15bc7d19ffa6a1ccf9635453194f552",
+      "edited": false
+    },
+    {
+      "source": "early/05-By_the_Numbers/readme.md",
+      "published_path": "source-notes/early/05-By_the_Numbers/readme.md",
+      "source_sha256": "e1bef769f31779c971a0b1d5f6a19bcfd60fba93bd8990d19b7055b87066b6eb",
+      "published_sha256": "e5579e864bdb7c5a0ae09434ff8f8bd07d21ca1926f181b98e76f432e48f2081",
+      "edited": true
+    },
+    {
+      "source": "early/05-Chunk_Norris/challenge_state.json",
+      "published_path": "source-notes/early/05-Chunk_Norris/challenge_state.json",
+      "source_sha256": "d0a0b7c8635a28ee42ec035af4a7bd0894c6e3888ffa18ea7891327e238d8db2",
+      "published_sha256": "d0a0b7c8635a28ee42ec035af4a7bd0894c6e3888ffa18ea7891327e238d8db2",
+      "edited": false
+    },
+    {
+      "source": "early/05-Chunk_Norris/readme.md",
+      "published_path": "source-notes/early/05-Chunk_Norris/readme.md",
+      "source_sha256": "b46d3812fc424f9f0fa00f8dd346f01a7333a63fb160d6a8c50f4b8a528e7a02",
+      "published_sha256": "619ec9053004e6e57d976aef21a3328bb2a69890a7107c8acb357f90c85c8923",
+      "edited": true
+    },
+    {
+      "source": "early/05-Hatch_Careful/challenge_state.json",
+      "published_path": "source-notes/early/05-Hatch_Careful/challenge_state.json",
+      "source_sha256": "4425516b03849c87f68dca959a26fec06fad4da817d6fa555f8aaaa33ff72ce3",
+      "published_sha256": "4425516b03849c87f68dca959a26fec06fad4da817d6fa555f8aaaa33ff72ce3",
+      "edited": false
+    },
+    {
+      "source": "early/05-Hatch_Careful/readme.md",
+      "published_path": "source-notes/early/05-Hatch_Careful/readme.md",
+      "source_sha256": "34df969664db77798d20c427200554669adcc0bc1360a6766d1f5f5fb8eea515",
+      "published_sha256": "a29c4a5f575590d18b1b5bbe8cebb669730c2c7af475b26f9258b3e0330791d4",
+      "edited": true
+    },
+    {
+      "source": "early/05-Hatch_Careful/tools/run_mastery.py",
+      "published_path": "tools/early/05-Hatch_Careful/tools/run_mastery.py",
+      "source_sha256": "eb18a36969d12f069e8b8eb6ad7108de9f5cc593d30777a3147ede4fafdf2629",
+      "published_sha256": "eb18a36969d12f069e8b8eb6ad7108de9f5cc593d30777a3147ede4fafdf2629",
+      "edited": false
+    },
+    {
+      "source": "early/05-Hatch_Careful/tools/run_time_trial.py",
+      "published_path": "tools/early/05-Hatch_Careful/tools/run_time_trial.py",
+      "source_sha256": "716c08c6412d36cc80fa9f10299939bcbb988af4ef0954b2a981e7985df7c7c0",
+      "published_sha256": "716c08c6412d36cc80fa9f10299939bcbb988af4ef0954b2a981e7985df7c7c0",
+      "edited": false
+    },
+    {
+      "source": "early/05-Hatch_Careful/tools/solve_hatch.py",
+      "published_path": "tools/early/05-Hatch_Careful/tools/solve_hatch.py",
+      "source_sha256": "e113ffe78279310b2428a53f3b2cd693944ab2b9d4dccea1f51439147683ded2",
+      "published_sha256": "e113ffe78279310b2428a53f3b2cd693944ab2b9d4dccea1f51439147683ded2",
+      "edited": false
+    },
+    {
+      "source": "early/05-Hatch_Careful/tools/static_recover.py",
+      "published_path": "tools/early/05-Hatch_Careful/tools/static_recover.py",
+      "source_sha256": "c19b735f285a3d334d07533c073b24a21a0132b1bf899159b35a96abba4048f1",
+      "published_sha256": "c19b735f285a3d334d07533c073b24a21a0132b1bf899159b35a96abba4048f1",
+      "edited": false
+    },
+    {
+      "source": "early/05-Rust_Belt/artifacts/mastery/attempt-9bf7f790-4620-421e-978a-bfa017ce7cd4/report.md",
+      "published_path": "source-notes/early/05-Rust_Belt/artifacts/mastery/attempt-9bf7f790-4620-421e-978a-bfa017ce7cd4/report.md",
+      "source_sha256": "334935256ebd5c3a68d849657aff5e56ec9592c41d689c9a13201a496b110a3a",
+      "published_sha256": "f8141d5b2f40e0ae22a68669cbe2556303fc4041a8de351d11a678310831b919",
+      "edited": true
+    },
+    {
+      "source": "early/05-Rust_Belt/artifacts/single_solve/report.md",
+      "published_path": "source-notes/early/05-Rust_Belt/artifacts/single_solve/report.md",
+      "source_sha256": "fc75e3a09c7b05d00e493e4c1a727c5c4be84a7ca581bfa87e116e6039c2d1f9",
+      "published_sha256": "1b0d42a2e66ee668088c43ea485b0b6e8d888727402db04d34437cf62e5dac6c",
+      "edited": true
+    },
+    {
+      "source": "early/05-Rust_Belt/artifacts/time_trial/attempt-fb3d857c-67b4-454b-b928-f28c95bb5d9c/report.md",
+      "published_path": "source-notes/early/05-Rust_Belt/artifacts/time_trial/attempt-fb3d857c-67b4-454b-b928-f28c95bb5d9c/report.md",
+      "source_sha256": "effa3885e8292efa6e1c050413e8f996393554a1d7a9e63bebacaabf30659403",
+      "published_sha256": "edcd5085bd18d92c4f8ce630805e0ca6a1e32d09ac037eaf48b60850eb3620c8",
+      "edited": true
+    },
+    {
+      "source": "early/05-Rust_Belt/challenge_state.json",
+      "published_path": "source-notes/early/05-Rust_Belt/challenge_state.json",
+      "source_sha256": "b018d36a7ff0a9da3750275c518666c6f7f714fe86988d5547458d3c64907f0e",
+      "published_sha256": "b018d36a7ff0a9da3750275c518666c6f7f714fe86988d5547458d3c64907f0e",
+      "edited": false
+    },
+    {
+      "source": "early/05-Rust_Belt/readme.md",
+      "published_path": "source-notes/early/05-Rust_Belt/readme.md",
+      "source_sha256": "a991180fd377f6cbd93296681d0b9f733a2ad524f117330b83bf901d58babd8b",
+      "published_sha256": "276ed43364e80a51647ed22006e99ee8554383c8a4d8c884657f766555fcf645",
+      "edited": true
+    },
+    {
+      "source": "early/05-Rust_Belt/solve_mastery.py",
+      "published_path": "tools/early/05-Rust_Belt/solve_mastery.py",
+      "source_sha256": "0e663bf1b46794727468aef69b994abd5b187eeaba44ce2c63ea1ecb81031753",
+      "published_sha256": "0e663bf1b46794727468aef69b994abd5b187eeaba44ce2c63ea1ecb81031753",
+      "edited": false
+    },
+    {
+      "source": "early/05-Rust_Belt/solve_time_trial.py",
+      "published_path": "tools/early/05-Rust_Belt/solve_time_trial.py",
+      "source_sha256": "deabd3b90aafc672056327f108df9d0b70e31d9348b7caa607286ad1fb3236d2",
+      "published_sha256": "deabd3b90aafc672056327f108df9d0b70e31d9348b7caa607286ad1fb3236d2",
+      "edited": false
+    },
+    {
+      "source": "early/06-Eight_Is_Enough/challenge_state.json",
+      "published_path": "source-notes/early/06-Eight_Is_Enough/challenge_state.json",
+      "source_sha256": "502c707c8a022d0d371c3b7058d994f5ea4232d368a52f04d721e0b20e67d809",
+      "published_sha256": "502c707c8a022d0d371c3b7058d994f5ea4232d368a52f04d721e0b20e67d809",
+      "edited": false
+    },
+    {
+      "source": "early/06-Eight_Is_Enough/readme.md",
+      "published_path": "source-notes/early/06-Eight_Is_Enough/readme.md",
+      "source_sha256": "abb940d0940c870e761e63994b9c6f60d15b9b6b31b70c5424c030ec4c82a097",
+      "published_sha256": "dc815e1f005848fdaeed5f1d6ec14f15ed6229bee5e5c5dbee0f719a1bf45424",
+      "edited": true
+    },
+    {
+      "source": "early/06-Pool_Party/challenge_state.json",
+      "published_path": "source-notes/early/06-Pool_Party/challenge_state.json",
+      "source_sha256": "467e4f9a2b3fc0a30c5cb0fe25a2d7e700f3e322b746231280bca6a6b2521012",
+      "published_sha256": "467e4f9a2b3fc0a30c5cb0fe25a2d7e700f3e322b746231280bca6a6b2521012",
+      "edited": false
+    },
+    {
+      "source": "early/06-Pool_Party/readme.md",
+      "published_path": "source-notes/early/06-Pool_Party/readme.md",
+      "source_sha256": "9a9d3cf411ec781090263a665f7bcd44ae45868b495092ad06bb351c9b059a5b",
+      "published_sha256": "6499d3d3220cd54224badf3a0856678897a0e9662ff24b1b1fd7b34bc78974ff",
+      "edited": true
+    },
+    {
+      "source": "early/06-Pool_Party/run_mastery.py",
+      "published_path": "tools/early/06-Pool_Party/run_mastery.py",
+      "source_sha256": "d36965ad75d195684560eb78c42f1391c4a4a7abd075e8ced63e3c5225c2187b",
+      "published_sha256": "d36965ad75d195684560eb78c42f1391c4a4a7abd075e8ced63e3c5225c2187b",
+      "edited": false
+    },
+    {
+      "source": "early/06-Pool_Party/solve.py",
+      "published_path": "tools/early/06-Pool_Party/solve.py",
+      "source_sha256": "577150171b1c63db28c9022a55c2e81d1e580d31735327a346fed076ad421cca",
+      "published_sha256": "577150171b1c63db28c9022a55c2e81d1e580d31735327a346fed076ad421cca",
+      "edited": false
+    },
+    {
+      "source": "early/06-Portable_Deception/challenge_state.json",
+      "published_path": "source-notes/early/06-Portable_Deception/challenge_state.json",
+      "source_sha256": "ac9ae3147ee52556c593a5cdcd583a130a39558ec79cd3cb1566e0e493687641",
+      "published_sha256": "ac9ae3147ee52556c593a5cdcd583a130a39558ec79cd3cb1566e0e493687641",
+      "edited": false
+    },
+    {
+      "source": "early/06-Portable_Deception/readme.md",
+      "published_path": "source-notes/early/06-Portable_Deception/readme.md",
+      "source_sha256": "e576e59ef1f82fa709fae9c8f6403c8149d21046f0a645791f8e33c7a26a707c",
+      "published_sha256": "764e79482bc0f6fe5d78be189d838dc1a61d2edefcc799a2fe833e068c90f492",
+      "edited": true
+    },
+    {
+      "source": "early/06-Provider_Paths/challenge_state.json",
+      "published_path": "source-notes/early/06-Provider_Paths/challenge_state.json",
+      "source_sha256": "0b566c37d7d2859c600831ef6057992a41efeeda1ebd08a7c07185493b46ffbf",
+      "published_sha256": "0b566c37d7d2859c600831ef6057992a41efeeda1ebd08a7c07185493b46ffbf",
+      "edited": false
+    },
+    {
+      "source": "early/06-Provider_Paths/readme.md",
+      "published_path": "source-notes/early/06-Provider_Paths/readme.md",
+      "source_sha256": "54c0fea9ca9d007bc0098ed6fcec1c47bf72c268438d2ded451dd01822f32fa5",
+      "published_sha256": "3d811664a991b53410dfdeb2a2779498bffddfa1ecc610a038c7a31c7467ae77",
+      "edited": true
+    },
+    {
+      "source": "early/06-Provider_Paths/solve_mastery.py",
+      "published_path": "tools/early/06-Provider_Paths/solve_mastery.py",
+      "source_sha256": "47684d990deb5506fdaa5ed72be9cea5ff6b52b9b4c53b42f09382df0ec87728",
+      "published_sha256": "47684d990deb5506fdaa5ed72be9cea5ff6b52b9b4c53b42f09382df0ec87728",
+      "edited": false
+    },
+    {
+      "source": "early/06-Shell_We_Begin/challenge_state.json",
+      "published_path": "source-notes/early/06-Shell_We_Begin/challenge_state.json",
+      "source_sha256": "5d846a3cdb813b0d2bba0b69c67bfc5da08deb8a02e699dd0700e394e46098c8",
+      "published_sha256": "5d846a3cdb813b0d2bba0b69c67bfc5da08deb8a02e699dd0700e394e46098c8",
+      "edited": false
+    },
+    {
+      "source": "early/06-Shell_We_Begin/readme.md",
+      "published_path": "source-notes/early/06-Shell_We_Begin/readme.md",
+      "source_sha256": "40b3b40f8e6df254f13c9d5be11a6e27307307daf58cb0c8dba3b7dc1f5df680",
+      "published_sha256": "8751f0f0de1d979424451fd2afed640f58ab2c2dc84844f3363641081b1df547",
+      "edited": true
+    },
+    {
+      "source": "early/06-Shell_We_Begin/solve/run_timed.py",
+      "published_path": "tools/early/06-Shell_We_Begin/solve/run_timed.py",
+      "source_sha256": "c75a3008b297821fc8a5a6187af22fc35806ac632b26db26f9fc01c7eba70181",
+      "published_sha256": "c75a3008b297821fc8a5a6187af22fc35806ac632b26db26f9fc01c7eba70181",
+      "edited": false
+    },
+    {
+      "source": "early/06-Shell_We_Begin/solve/timed_solver.py",
+      "published_path": "tools/early/06-Shell_We_Begin/solve/timed_solver.py",
+      "source_sha256": "63b64485defdad64600eb0bcd0c497b36ee242c5cfa9ee94b924e9ff54f4441a",
+      "published_sha256": "63b64485defdad64600eb0bcd0c497b36ee242c5cfa9ee94b924e9ff54f4441a",
+      "edited": false
+    },
+    {
+      "source": "early/07-Node_by_Node/challenge_state.json",
+      "published_path": "source-notes/early/07-Node_by_Node/challenge_state.json",
+      "source_sha256": "d1d12b4043dd57485440dd45726b4c04f5638f440989a6963f57232be25159b0",
+      "published_sha256": "d1d12b4043dd57485440dd45726b4c04f5638f440989a6963f57232be25159b0",
+      "edited": false
+    },
+    {
+      "source": "early/07-Node_by_Node/game_ai/readme.md",
+      "published_path": "source-notes/early/07-Node_by_Node/game_ai/readme.md",
+      "source_sha256": "10d89a16027e2ed12f37af966470cf0e4ec282c767fcad5358653612b02a5ff8",
+      "published_sha256": "69ab5c3236ed1ac8a782dbc711fdfe540af9c98f2df894d36242e05c483db217",
+      "edited": true
+    },
+    {
+      "source": "early/07-Node_by_Node/readme.md",
+      "published_path": "source-notes/early/07-Node_by_Node/readme.md",
+      "source_sha256": "48e7cf2e74ef7d4f0bc52916f69667a2d6e6b29d390f27757f52df352fd1d989",
+      "published_sha256": "51b3f7fa6b29b4b1a0f9c6913edc1bc51a7edad351566833bfef0abf30b4bd0e",
+      "edited": true
+    },
+    {
+      "source": "early/07-Percent_Chance/challenge_state.json",
+      "published_path": "source-notes/early/07-Percent_Chance/challenge_state.json",
+      "source_sha256": "7a3306fbf2abe19d1d17cb950e88e9633a489c0c99a44903ced449c475f825e1",
+      "published_sha256": "7a3306fbf2abe19d1d17cb950e88e9633a489c0c99a44903ced449c475f825e1",
+      "edited": false
+    },
+    {
+      "source": "early/07-Percent_Chance/readme.md",
+      "published_path": "source-notes/early/07-Percent_Chance/readme.md",
+      "source_sha256": "624599bf2030dd4adf15ba263d08c33ef76f6104d684c7c7f02728c630544908",
+      "published_sha256": "1a624d17d89ca2722d4d424b3a3af6428f0c70a5089df512d67ed00c850b7789",
+      "edited": true
+    },
+    {
+      "source": "early/07-Percent_Chance/solve.py",
+      "published_path": "tools/early/07-Percent_Chance/solve.py",
+      "source_sha256": "18f7dbe8dbf11f8dd24a934ce04677509eaf4c7b8185c7e8202acff9a741679c",
+      "published_sha256": "18f7dbe8dbf11f8dd24a934ce04677509eaf4c7b8185c7e8202acff9a741679c",
+      "edited": false
+    },
+    {
+      "source": "early/07-Routine_Check/challenge_state.json",
+      "published_path": "source-notes/early/07-Routine_Check/challenge_state.json",
+      "source_sha256": "51a2d182ee1babc940fd6903e55f8f11e5bbec08ae6b4b9a5894622d37d03e37",
+      "published_sha256": "51a2d182ee1babc940fd6903e55f8f11e5bbec08ae6b4b9a5894622d37d03e37",
+      "edited": false
+    },
+    {
+      "source": "early/07-Routine_Check/readme.md",
+      "published_path": "source-notes/early/07-Routine_Check/readme.md",
+      "source_sha256": "2b6e2a7957fb96bac69a5ffe9fe28fc6dd6be360a39720e2b178e51ac302a376",
+      "published_sha256": "1cecf908356720e3c3c040186946ecfb2f3f24809857294331e7536dcb2fe616",
+      "edited": true
+    },
+    {
+      "source": "early/07-Seven-Zip_No_Relation/challenge_state.json",
+      "published_path": "source-notes/early/07-Seven-Zip_No_Relation/challenge_state.json",
+      "source_sha256": "bb11b5b8f2ecb1a733a3b5b93d54dbe661659f9e7ab83f1a1717e959c2a327e3",
+      "published_sha256": "bb11b5b8f2ecb1a733a3b5b93d54dbe661659f9e7ab83f1a1717e959c2a327e3",
+      "edited": false
+    },
+    {
+      "source": "early/07-Seven-Zip_No_Relation/readme.md",
+      "published_path": "source-notes/early/07-Seven-Zip_No_Relation/readme.md",
+      "source_sha256": "163395a7b1c081915a7c11aa06aa07ac4e480299e0c46e781f67f1bd29ac0200",
+      "published_sha256": "acf2a15500d6fdd3e3483d21737007087858d4a45a0923585afa81177c5e3a20",
+      "edited": true
+    },
+    {
+      "source": "early/07-WebView_Bridge/challenge_state.json",
+      "published_path": "source-notes/early/07-WebView_Bridge/challenge_state.json",
+      "source_sha256": "6c06e25e548373349cc7481bd0943ce66341f9e515bc635335ab0908f6d39940",
+      "published_sha256": "6c06e25e548373349cc7481bd0943ce66341f9e515bc635335ab0908f6d39940",
+      "edited": false
+    },
+    {
+      "source": "early/07-WebView_Bridge/readme.md",
+      "published_path": "source-notes/early/07-WebView_Bridge/readme.md",
+      "source_sha256": "c0258bb0a86e4884e011eeddb9e8cb3544a27f5b8d34945268262b13dfcfdf24",
+      "published_sha256": "4bf750529c282c455b9fe2df4a128f04e3eb6340df4205862bc301f9fd2892c6",
+      "edited": true
+    },
+    {
+      "source": "early/08-Cleartext_Session/challenge_state.json",
+      "published_path": "source-notes/early/08-Cleartext_Session/challenge_state.json",
+      "source_sha256": "cf196d87e1751bfb36ee6e0573ca9bfd4aa062824692daebc8a17c79fdda4980",
+      "published_sha256": "cf196d87e1751bfb36ee6e0573ca9bfd4aa062824692daebc8a17c79fdda4980",
+      "edited": false
+    },
+    {
+      "source": "early/08-Cleartext_Session/readme.md",
+      "published_path": "source-notes/early/08-Cleartext_Session/readme.md",
+      "source_sha256": "3989eaab6ffeaf02edfced4c191910bfaf1bf38d76d46f16c324c32d64968db0",
+      "published_sha256": "228d404d19557a1c8b4c772217523da2af2c8acccc77a5b63319c5055ed5dffd",
+      "edited": true
+    },
+    {
+      "source": "early/08-Entity_Relations/challenge_state.json",
+      "published_path": "source-notes/early/08-Entity_Relations/challenge_state.json",
+      "source_sha256": "f6160f19dd3c7e572cf2829a62b29f95042a9a4cf7a98e3a7be8f93e91b67168",
+      "published_sha256": "f6160f19dd3c7e572cf2829a62b29f95042a9a4cf7a98e3a7be8f93e91b67168",
+      "edited": false
+    },
+    {
+      "source": "early/08-Entity_Relations/readme.md",
+      "published_path": "source-notes/early/08-Entity_Relations/readme.md",
+      "source_sha256": "3cc89361e9c84ac1a1d9158876901a5c9e142d2d6e05059cfa5580157514c331",
+      "published_sha256": "fda1a0c5b8c8863ab3f1b390b66a9d445a331d4110a1c05aecd9c88bd8726bae",
+      "edited": true
+    },
+    {
+      "source": "early/08-Lost_in_Translation/challenge_state.json",
+      "published_path": "source-notes/early/08-Lost_in_Translation/challenge_state.json",
+      "source_sha256": "67e591ecccab894fa6ce1c479d27ff7147e3fe279691296ece398297af7d2836",
+      "published_sha256": "67e591ecccab894fa6ce1c479d27ff7147e3fe279691296ece398297af7d2836",
+      "edited": false
+    },
+    {
+      "source": "early/08-Lost_in_Translation/readme.md",
+      "published_path": "source-notes/early/08-Lost_in_Translation/readme.md",
+      "source_sha256": "bf3adb1e7450d6435a9a0e06b35150a130b93d00e22b549c399b21f526573df7",
+      "published_sha256": "5465aae7aa5d5b71041bd25081224d66f2ea56c14236c9d6cc4af65886f0f7fc",
+      "edited": true
+    },
+    {
+      "source": "early/08-Swift_Justice/challenge_state.json",
+      "published_path": "source-notes/early/08-Swift_Justice/challenge_state.json",
+      "source_sha256": "92151b8bd4845992e3c425826589f631514a2fad50d4d7aac9dc3621d7208692",
+      "published_sha256": "92151b8bd4845992e3c425826589f631514a2fad50d4d7aac9dc3621d7208692",
+      "edited": false
+    },
+    {
+      "source": "early/08-Swift_Justice/readme.md",
+      "published_path": "source-notes/early/08-Swift_Justice/readme.md",
+      "source_sha256": "3efa6ac301011240e0b63bdd7a7a895906b49c547f28fdad5c71027c5b9ff4ba",
+      "published_sha256": "c6d82dbeee9141ae79e09682a42479f2a07ba795ac47a80bace3e8241e9cc830",
+      "edited": true
+    },
+    {
+      "source": "early/08-Swift_Justice/run_mode.py",
+      "published_path": "tools/early/08-Swift_Justice/run_mode.py",
+      "source_sha256": "cbef067079c8d7a402a673e34725cbfc644c3de451fb26fba13499d58a61de12",
+      "published_sha256": "cbef067079c8d7a402a673e34725cbfc644c3de451fb26fba13499d58a61de12",
+      "edited": false
+    },
+    {
+      "source": "early/08-Swift_Justice/solve_evidence.py",
+      "published_path": "tools/early/08-Swift_Justice/solve_evidence.py",
+      "source_sha256": "8d64662d349b114417716d9d63de2560a6a4e7cbe8c2436a2733ec43b155cba2",
+      "published_sha256": "8da00cb46a63cecfdfbd5e29c5fe983de4ec49a104a722f67c2add1f492a60f1",
+      "edited": false
+    },
+    {
+      "source": "early/08-Whats_in_the_Box/challenge_state.json",
+      "published_path": "source-notes/early/08-Whats_in_the_Box/challenge_state.json",
+      "source_sha256": "fa2338713c4e2acd6f3ef873d9e6e302b568f27d17910393ea5d18fd8ee42d33",
+      "published_sha256": "fa2338713c4e2acd6f3ef873d9e6e302b568f27d17910393ea5d18fd8ee42d33",
+      "edited": false
+    },
+    {
+      "source": "early/08-Whats_in_the_Box/readme.md",
+      "published_path": "source-notes/early/08-Whats_in_the_Box/readme.md",
+      "source_sha256": "444fae651bdb72a18597f43d9c192036d1c2a9e773e6a13d55204f11f198cfa0",
+      "published_sha256": "d3f01680d880138ede9d15819ba5179e0ec686d6cc91ba86c614d6dc4ab04f02",
+      "edited": true
+    },
+    {
+      "source": "early/09-All_the_Worlds_a_Stager/challenge_state.json",
+      "published_path": "source-notes/early/09-All_the_Worlds_a_Stager/challenge_state.json",
+      "source_sha256": "387e3f3c6b394b0d21274c6dc2764867bf4757dbb0370d6d71d7db678368893b",
+      "published_sha256": "387e3f3c6b394b0d21274c6dc2764867bf4757dbb0370d6d71d7db678368893b",
+      "edited": false
+    },
+    {
+      "source": "early/09-All_the_Worlds_a_Stager/game_ai/revisit.md",
+      "published_path": "source-notes/early/09-All_the_Worlds_a_Stager/game_ai/revisit.md",
+      "source_sha256": "b71afb588b1e29cc7c652e6be33b02868f9f043dad19e3d427acd141de903b8c",
+      "published_sha256": "a6ee91242ae36772020c2454dac6e9a56e1083f9251477d6aece248dfd0c66ca",
+      "edited": true
+    },
+    {
+      "source": "early/09-All_the_Worlds_a_Stager/game_ai/solve.py",
+      "published_path": "tools/early/09-All_the_Worlds_a_Stager/game_ai/solve.py",
+      "source_sha256": "347d25a4834796c7b7c5045b65833e73737c98424e998e07b6101260d8907289",
+      "published_sha256": "347d25a4834796c7b7c5045b65833e73737c98424e998e07b6101260d8907289",
+      "edited": false
+    },
+    {
+      "source": "early/09-All_the_Worlds_a_Stager/game_ai/writeup.md",
+      "published_path": "source-notes/early/09-All_the_Worlds_a_Stager/game_ai/writeup.md",
+      "source_sha256": "50d773e9b5bc53c880009c191b1cbb5bf16dd75311fc14c787031fbbb0a39e1a",
+      "published_sha256": "965f127c1d0a2613e6276c1a9c03b61d0bec999bca63640f94e713ba1df5a2cf",
+      "edited": true
+    },
+    {
+      "source": "early/09-All_the_Worlds_a_Stager/readme.md",
+      "published_path": "source-notes/early/09-All_the_Worlds_a_Stager/readme.md",
+      "source_sha256": "05a993c06faf780eb4fa369fb72db89d3e52d39959d2f26c9bf8fa05f9e800df",
+      "published_sha256": "4860e48f4cb89436883a844050c6f2905a6f59d3dd1b82bcc918d7df4f887b60",
+      "edited": true
+    },
+    {
+      "source": "early/09-All_the_Worlds_a_Stager/solve.py",
+      "published_path": "tools/early/09-All_the_Worlds_a_Stager/solve.py",
+      "source_sha256": "d5cc847c87321ed8ceb4ebd5709063e0a1965923846085ba973fced25dd8829c",
+      "published_sha256": "d5cc847c87321ed8ceb4ebd5709063e0a1965923846085ba973fced25dd8829c",
+      "edited": false
+    },
+    {
+      "source": "early/09-Built_Different/challenge_state.json",
+      "published_path": "source-notes/early/09-Built_Different/challenge_state.json",
+      "source_sha256": "5933d691e1d687ddc970791b5dfc4eb8fe80b3ace6c4ce856038a1556934342c",
+      "published_sha256": "5933d691e1d687ddc970791b5dfc4eb8fe80b3ace6c4ce856038a1556934342c",
+      "edited": false
+    },
+    {
+      "source": "early/09-Built_Different/readme.md",
+      "published_path": "source-notes/early/09-Built_Different/readme.md",
+      "source_sha256": "28b059fc9e60772bfaae2280a37e6f6040b250acdf1a8c07c9fef86d006adee0",
+      "published_sha256": "626087d11866742f917d1ef43329d02364bf6851f7b0cde9dae83ea77c6250e1",
+      "edited": true
+    },
+    {
+      "source": "early/09-Escape_Room/challenge_state.json",
+      "published_path": "source-notes/early/09-Escape_Room/challenge_state.json",
+      "source_sha256": "b884be4eda911781dc2b8bfc6a5b32a3f87b8d79b09ca81f9df34ab77aaea7bd",
+      "published_sha256": "b884be4eda911781dc2b8bfc6a5b32a3f87b8d79b09ca81f9df34ab77aaea7bd",
+      "edited": false
+    },
+    {
+      "source": "early/09-Escape_Room/readme.md",
+      "published_path": "source-notes/early/09-Escape_Room/readme.md",
+      "source_sha256": "40f7f1995f70a51e88ce4733fc837170eb3a85381c723e459e37f3d6437a9ece",
+      "published_sha256": "f8c79f7a8bf70dddf0a46d213ccaa0008f0b39474ab33c59ecb84ed133ecf670",
+      "edited": true
+    },
+    {
+      "source": "early/09-Nimble/challenge_state.json",
+      "published_path": "source-notes/early/09-Nimble/challenge_state.json",
+      "source_sha256": "04b7ef60f3d05f12312b06a7b64b1f0d8e5598ef70d66444fee66c67094f1a2c",
+      "published_sha256": "04b7ef60f3d05f12312b06a7b64b1f0d8e5598ef70d66444fee66c67094f1a2c",
+      "edited": false
+    },
+    {
+      "source": "early/09-Nimble/readme.md",
+      "published_path": "source-notes/early/09-Nimble/readme.md",
+      "source_sha256": "38dfd850ba270186ee85bd4f4b009e08fd810dc4a3ce908b4700cba414cea81a",
+      "published_sha256": "e2767c8f356c41255a223176a6820dc0fea5bb247b4b0b7b6d1c958fd4259885",
+      "edited": true
+    },
+    {
+      "source": "early/09-Trust_Everyone/challenge_state.json",
+      "published_path": "source-notes/early/09-Trust_Everyone/challenge_state.json",
+      "source_sha256": "75623ede638b7f950716421e522b05cdf73cd8c54fc98916eade48e8836fe32a",
+      "published_sha256": "75623ede638b7f950716421e522b05cdf73cd8c54fc98916eade48e8836fe32a",
+      "edited": false
+    },
+    {
+      "source": "early/09-Trust_Everyone/readme.md",
+      "published_path": "source-notes/early/09-Trust_Everyone/readme.md",
+      "source_sha256": "c4fdab9e4667f3d85cebfa59700abdecb549e4cb7f5a48acf10188c8f5eca06e",
+      "published_sha256": "70dc5c7cf2597cf109506813859bb5c90cf4e54ff39dd4e03443b27a172933c2",
+      "edited": true
+    },
+    {
+      "source": "early/10-Bind_Over_Matter/challenge_state.json",
+      "published_path": "source-notes/early/10-Bind_Over_Matter/challenge_state.json",
+      "source_sha256": "e41a616f2a3a21e00bd5b2a6cda297e3dc48ba0415e3d0a86316052f223aeeda",
+      "published_sha256": "e41a616f2a3a21e00bd5b2a6cda297e3dc48ba0415e3d0a86316052f223aeeda",
+      "edited": false
+    },
+    {
+      "source": "early/10-Bind_Over_Matter/readme.md",
+      "published_path": "source-notes/early/10-Bind_Over_Matter/readme.md",
+      "source_sha256": "7ebe8bd1b6c34ebd8d251e8ac99f2e00ec5510f4a5d399e15a2ea53f6479369c",
+      "published_sha256": "f8f83a9201b90ede80dbe734b8e5d5a5742c8fe76a3d91bdec1d4adee412d8b2",
+      "edited": true
+    },
+    {
+      "source": "early/10-Network_Config_Split/challenge_state.json",
+      "published_path": "source-notes/early/10-Network_Config_Split/challenge_state.json",
+      "source_sha256": "789205707078de419aa432a092438505b196671764c11bd3b0fcdb3b913aca98",
+      "published_sha256": "789205707078de419aa432a092438505b196671764c11bd3b0fcdb3b913aca98",
+      "edited": false
+    },
+    {
+      "source": "early/10-Network_Config_Split/readme.md",
+      "published_path": "source-notes/early/10-Network_Config_Split/readme.md",
+      "source_sha256": "f57ce4d413c879f4905e7dabe96acfef3dc3f72585e5ae942a17e70f7b79fcce",
+      "published_sha256": "fbdc1f236a217727ecc80a6801019815949f083a724c0abd848d4408cf528334",
+      "edited": true
+    },
+    {
+      "source": "early/10-Thirty-Two_Below/challenge_state.json",
+      "published_path": "source-notes/early/10-Thirty-Two_Below/challenge_state.json",
+      "source_sha256": "67282766dfa28698165f6ab571bd63e929686a6a583f54b576a6d80957fa8ce0",
+      "published_sha256": "67282766dfa28698165f6ab571bd63e929686a6a583f54b576a6d80957fa8ce0",
+      "edited": false
+    },
+    {
+      "source": "early/10-Thirty-Two_Below/readme.md",
+      "published_path": "source-notes/early/10-Thirty-Two_Below/readme.md",
+      "source_sha256": "57c0114c5e1ceefc9f9c9f1c02f49871d38f8fc81ef1a33696809582ad184029",
+      "published_sha256": "d57ad7c34a0b2e4e869741b98abd2a09ad8ad162e1c9cdc6f2cca29b177e778d",
+      "edited": true
+    },
+    {
+      "source": "early/10-Where_Do_We_Begin/challenge_state.json",
+      "published_path": "source-notes/early/10-Where_Do_We_Begin/challenge_state.json",
+      "source_sha256": "52b08fd8c5b193c63c930807215a821638b8417c0b673277ba6b57773c845781",
+      "published_sha256": "52b08fd8c5b193c63c930807215a821638b8417c0b673277ba6b57773c845781",
+      "edited": false
+    },
+    {
+      "source": "early/10-Where_Do_We_Begin/readme.md",
+      "published_path": "source-notes/early/10-Where_Do_We_Begin/readme.md",
+      "source_sha256": "26b4973077cd3990be83d9229f19cc5a8ea679306d3705f35462c2a3fa6c79d0",
+      "published_sha256": "b0731c56d27c69e80b7f41f9bde8cdca4f1c48c6f1c79aa7f224e1523bef0704",
+      "edited": true
+    },
+    {
+      "source": "early/10-Zig_Zag/challenge_state.json",
+      "published_path": "source-notes/early/10-Zig_Zag/challenge_state.json",
+      "source_sha256": "4f188e7412545e0e33545c9fe7c12cda22791205ea57f23f76ddba73f5395a58",
+      "published_sha256": "4f188e7412545e0e33545c9fe7c12cda22791205ea57f23f76ddba73f5395a58",
+      "edited": false
+    },
+    {
+      "source": "early/10-Zig_Zag/readme.md",
+      "published_path": "source-notes/early/10-Zig_Zag/readme.md",
+      "source_sha256": "824de51e5548b41ff2ca999868ec9a39e0aa9f994406b1108cd4a575d111e0fb",
+      "published_sha256": "c170477554f0cfb5ba60d0a832dea12ba472a4601d8bb726d30526b89f9e54cb",
+      "edited": true
+    },
+    {
+      "source": "early/11-By_Any_Other_Name/challenge_state.json",
+      "published_path": "source-notes/early/11-By_Any_Other_Name/challenge_state.json",
+      "source_sha256": "dfddc8427993ce560c7bec136ec8f71285a95c40c5e74f12f79d3854a2cf58af",
+      "published_sha256": "dfddc8427993ce560c7bec136ec8f71285a95c40c5e74f12f79d3854a2cf58af",
+      "edited": false
+    },
+    {
+      "source": "early/11-By_Any_Other_Name/readme.md",
+      "published_path": "source-notes/early/11-By_Any_Other_Name/readme.md",
+      "source_sha256": "614bbfd1bc1a5702c6d11c4a2b25a4189277e45679ee3b9990e2bc12273f84ba",
+      "published_sha256": "75396bb6e217c240f11ec39690e9f721c4ab421c52412cde2fbe70e44322368e",
+      "edited": true
+    },
+    {
+      "source": "early/11-D-Day/challenge_state.json",
+      "published_path": "source-notes/early/11-D-Day/challenge_state.json",
+      "source_sha256": "dd82f6b7fbf5e711c4283b6ff9f5ac183e5d96b5e33ff4151e9ac4a75562f873",
+      "published_sha256": "dd82f6b7fbf5e711c4283b6ff9f5ac183e5d96b5e33ff4151e9ac4a75562f873",
+      "edited": false
+    },
+    {
+      "source": "early/11-D-Day/readme.md",
+      "published_path": "source-notes/early/11-D-Day/readme.md",
+      "source_sha256": "5d1f3d7b9dc921e1c895a675cc118e2f20adf7ea7e8552df0a7681e49a41077b",
+      "published_sha256": "908c7a2987d2a2bf3ec2b049d5059cf1adef808121065fe75ef75c1b0aadcd43",
+      "edited": true
+    },
+    {
+      "source": "early/11-Local_Secrets/challenge_state.json",
+      "published_path": "source-notes/early/11-Local_Secrets/challenge_state.json",
+      "source_sha256": "42d101d7744f26bd98f186129c2f0115814c6f8f6672868e6c9e94f16cf13ec9",
+      "published_sha256": "42d101d7744f26bd98f186129c2f0115814c6f8f6672868e6c9e94f16cf13ec9",
+      "edited": false
+    },
+    {
+      "source": "early/11-Local_Secrets/readme.md",
+      "published_path": "source-notes/early/11-Local_Secrets/readme.md",
+      "source_sha256": "9c173da5dee37f5c984639e1e7d8d5d875fa6b1b1bad8d7e776b5de6c9c0995c",
+      "published_sha256": "7d021918300145981393356434f7241cd365c22b9a0b90c0fc7f74e790197290",
+      "edited": true
+    },
+    {
+      "source": "early/11-Safe_Travels/challenge_state.json",
+      "published_path": "source-notes/early/11-Safe_Travels/challenge_state.json",
+      "source_sha256": "3a17baf69e7b2ef773e629c64e2a7cfb1124ad8d959780919bd3b71c1cf4962e",
+      "published_sha256": "3a17baf69e7b2ef773e629c64e2a7cfb1124ad8d959780919bd3b71c1cf4962e",
+      "edited": false
+    },
+    {
+      "source": "early/11-Safe_Travels/readme.md",
+      "published_path": "source-notes/early/11-Safe_Travels/readme.md",
+      "source_sha256": "60075380730249b09eb8189b05e365b036b505873bd69d5791f401e03c0904a3",
+      "published_sha256": "7df4b9a7ced4b5294c17fb0e0831ad56daa87f0633d7c9fc9965abb667ab40d1",
+      "edited": true
+    },
+    {
+      "source": "early/11-Whats_My_Name_Again/challenge_state.json",
+      "published_path": "source-notes/early/11-Whats_My_Name_Again/challenge_state.json",
+      "source_sha256": "b4c05942205af9faf483c90f373689501cd5c2680054762b71058c5ecd3cb2dc",
+      "published_sha256": "b4c05942205af9faf483c90f373689501cd5c2680054762b71058c5ecd3cb2dc",
+      "edited": false
+    },
+    {
+      "source": "early/11-Whats_My_Name_Again/readme.md",
+      "published_path": "source-notes/early/11-Whats_My_Name_Again/readme.md",
+      "source_sha256": "a0c9c8fff40d5e52fc7632b573ceb908ca5911705366837e0c12bf0feac5a713",
+      "published_sha256": "6029f4d64a6d0d53450a8e60b19262224c4a79e97793fc2f94bb8b8f77851bf8",
+      "edited": true
+    },
+    {
+      "source": "early/12-AutoIt_Takes_Two/challenge_state.json",
+      "published_path": "source-notes/early/12-AutoIt_Takes_Two/challenge_state.json",
+      "source_sha256": "d59848464532541987df25b00ac26bb8964d7bb5d06d82e5fe29e2f5fbdc4406",
+      "published_sha256": "d59848464532541987df25b00ac26bb8964d7bb5d06d82e5fe29e2f5fbdc4406",
+      "edited": false
+    },
+    {
+      "source": "early/12-AutoIt_Takes_Two/readme.md",
+      "published_path": "source-notes/early/12-AutoIt_Takes_Two/readme.md",
+      "source_sha256": "a9e247646cf92883eb807682be0c020af3a9467e683c00287ca45225bd84b9a8",
+      "published_sha256": "9b9bf9848f85fbf2ec138b73e2ba9815c35bd56cf78c5236c55a3ea7656f1451",
+      "edited": true
+    },
+    {
+      "source": "early/12-Back_at_You/challenge_state.json",
+      "published_path": "source-notes/early/12-Back_at_You/challenge_state.json",
+      "source_sha256": "ad9466e41b79b7329413384679a45ad4f33f1e3124f556c3d7afe75c81e80d1a",
+      "published_sha256": "ad9466e41b79b7329413384679a45ad4f33f1e3124f556c3d7afe75c81e80d1a",
+      "edited": false
+    },
+    {
+      "source": "early/12-Back_at_You/readme.md",
+      "published_path": "source-notes/early/12-Back_at_You/readme.md",
+      "source_sha256": "f2ec92e7cb84b26e8e4f72612452b8dc244ae6c58a3c4a986d0ab9837489c830",
+      "published_sha256": "bbb6cdcf31baa4e79b832962a3004f0902e4e128b8b6865c9f1b17c08d46002c",
+      "edited": true
+    },
+    {
+      "source": "early/12-Managed_Expectations/challenge_state.json",
+      "published_path": "source-notes/early/12-Managed_Expectations/challenge_state.json",
+      "source_sha256": "f355d1898f32c5aacb1c6940093389639f8b30b5c257b5bc6381a86ad749186c",
+      "published_sha256": "f355d1898f32c5aacb1c6940093389639f8b30b5c257b5bc6381a86ad749186c",
+      "edited": false
+    },
+    {
+      "source": "early/12-Managed_Expectations/readme.md",
+      "published_path": "source-notes/early/12-Managed_Expectations/readme.md",
+      "source_sha256": "d7243e0569d2400517825bf1654bd7b84028a3e6023f08b70c9d560bd36494bb",
+      "published_sha256": "5df46285e086c8afc1713f828ed1debad4f3dc3a5975cc2def0bbbed18529639",
+      "edited": true
+    },
+    {
+      "source": "early/12-Pascals_Wager/challenge_state.json",
+      "published_path": "source-notes/early/12-Pascals_Wager/challenge_state.json",
+      "source_sha256": "a5dbe3934ea93696140f10e9c35023a5a5bb715623aeddcf2846f7dec5d74bba",
+      "published_sha256": "a5dbe3934ea93696140f10e9c35023a5a5bb715623aeddcf2846f7dec5d74bba",
+      "edited": false
+    },
+    {
+      "source": "early/12-Pascals_Wager/readme.md",
+      "published_path": "source-notes/early/12-Pascals_Wager/readme.md",
+      "source_sha256": "e8f12dbe51157389f4bede755eabd53c7fc24a0834c18d4823c202dfeb14025f",
+      "published_sha256": "7f93f346c17517bf6709ef2f15598de2daf277f07900fb035dc0721cf48eef56",
+      "edited": true
+    },
+    {
+      "source": "early/12-SQLite_Assumptions/challenge_state.json",
+      "published_path": "source-notes/early/12-SQLite_Assumptions/challenge_state.json",
+      "source_sha256": "e57fb97bd3e767d95103d2f4acabf1253013fccfbfc0bb0c5e6d5332e11d049d",
+      "published_sha256": "e57fb97bd3e767d95103d2f4acabf1253013fccfbfc0bb0c5e6d5332e11d049d",
+      "edited": false
+    },
+    {
+      "source": "early/12-SQLite_Assumptions/readme.md",
+      "published_path": "source-notes/early/12-SQLite_Assumptions/readme.md",
+      "source_sha256": "6f237c47af4b2aeb602219484aa7a35c17beb04f049c6bc673629ff94d997201",
+      "published_sha256": "6f31dacb813459893f19d3a21ea5041833e3cf4173b047e0cfcd460407c4f457",
+      "edited": true
+    },
+    {
+      "source": "early/AGENTS.md",
+      "published_path": "source-notes/early/workflow-instructions.md",
+      "source_sha256": "b9a831809f607fff8f0480cb872a0a42a0a95b9095cda91058c5a6a06f862447",
+      "published_sha256": "6874861026b4ab97bdf11cbe49eea9dd46bcd0396e3a68d08fd57651ae088103",
+      "edited": true
+    },
+    {
+      "source": "early/AI available CTF.md",
+      "published_path": "source-notes/early/AI available CTF.md",
+      "source_sha256": "86bcbbbb2bee0b682c040c9e14dc02fe04664aae945c21915e28952f592b37c5",
+      "published_sha256": "3b88591f2e3adbacc99dfd2597220574dcf8b33023f66ef0baf8597816a5e443",
+      "edited": true
+    },
+    {
+      "source": "early/CTF_WORKFLOW.md",
+      "published_path": "source-notes/early/CTF_WORKFLOW.md",
+      "source_sha256": "0409570c61448f8d5efb4afeb0a51a2e3face7f775438bf81756f7c704fbf893",
+      "published_sha256": "5ae90c43844397906abf1134740b90c7b03f4b57d29ea57b24f9fb9972f929d5",
+      "edited": true
+    },
+    {
+      "source": "early/Day04-Host-AI-output.md",
+      "published_path": "source-notes/early/Day04-Host-AI-output.md",
+      "source_sha256": "6fdb79294fbd70777308445296a8197ca9102c520ae3ea37f41fb574e1738dc9",
+      "published_sha256": "295648899dca8ea207b5a4e0e4d8936ed7996bd5ed693a744caa32ccfc2c28ae",
+      "edited": true
+    },
+    {
+      "source": "early/Day1/A little based/readme.md",
+      "published_path": "source-notes/early/Day1/A little based/readme.md",
+      "source_sha256": "87ba4852939e04ee735416c06d533b6a162827f75b56c1af9ad980881299ff6d",
+      "published_sha256": "059cfa5a6c04a5d9ffc32e1a44b55ec1106af55a9c17db15c968478b35003f82",
+      "edited": true
+    },
+    {
+      "source": "early/Day1/Read the rules/readme.md",
+      "published_path": "source-notes/early/Day1/Read the rules/readme.md",
+      "source_sha256": "f7d47a647e047e920f1c6710c4e34b130bff0361cdda4a88a0e5e6e8f80af86b",
+      "published_sha256": "b75aac5978ba08fb975a69e678f37b44bc1dae9b20b8470a672917fe44602cce",
+      "edited": true
+    },
+    {
+      "source": "early/Day1/Sanity Check/readme.md",
+      "published_path": "source-notes/early/Day1/Sanity Check/readme.md",
+      "source_sha256": "16747e194aa2b6f9dcb4270347d6884273d596f924b2549a0a3b5adf9b759c95",
+      "published_sha256": "418456776c39a4d2a38df97b7e9dc80112bee983d1a54925d52d00bbe5017b1d",
+      "edited": true
+    },
+    {
+      "source": "early/Day1/Welcome Robots/readme.md",
+      "published_path": "source-notes/early/Day1/Welcome Robots/readme.md",
+      "source_sha256": "e50ccfc346f915a268a4387d1c5cd6eb48e4bada7bffb14f5838369b66bdfc87",
+      "published_sha256": "5f919386df5528823d10a44349e250b007b52a0b9a2f0badc360371714a2d5ea",
+      "edited": true
+    },
+    {
+      "source": "early/Day1/you must be this hash to ride/readme.md",
+      "published_path": "source-notes/early/Day1/you must be this hash to ride/readme.md",
+      "source_sha256": "9351f94b2e50f475dd2f566d7d2b99992e3fd2e5250e85198c835b6ed28372dd",
+      "published_sha256": "cbeee2d302eba56032ff2f2a52d4d8f7b6bd4bd1f859a273b6c0f7ba4a94feba",
+      "edited": true
+    },
+    {
+      "source": "early/README.md",
+      "published_path": "source-notes/early/README.md",
+      "source_sha256": "76be4dcae30b86ec0b16045489280e4f05e754700b208a4fc31ac558d00f0740",
+      "published_sha256": "0affe176ddcba86a998ab87a3e706016e11e73942bdef9a85f434cd3af163a99",
+      "edited": true
+    },
+    {
+      "source": "early/README_INSTALL.md",
+      "published_path": "source-notes/early/README_INSTALL.md",
+      "source_sha256": "23bc726b574288e4a983c790ea7334e19f4af55ee9078b7d35efa6c405d2c582",
+      "published_sha256": "83805097115656ad7389fc3928b8883820fa32dd99b07d0317d17a61f0c3a57d",
+      "edited": true
+    },
+    {
+      "source": "early/coursestack_sync.py",
+      "published_path": "tools/early/coursestack_sync.py",
+      "source_sha256": "f7d2f12a013d1479ce63a128e90b7721b35e36a8b3d2f9bec96b0c8801057cf7",
+      "published_sha256": "f7d2f12a013d1479ce63a128e90b7721b35e36a8b3d2f9bec96b0c8801057cf7",
+      "edited": false
+    },
+    {
+      "source": "early/docs/ARCHIVES.md",
+      "published_path": "source-notes/early/docs/ARCHIVES.md",
+      "source_sha256": "eba509f65ed59ba760b3e8a4ca0608f785d343ad383dfab07ecc3e9878658e93",
+      "published_sha256": "6d1490a6fab1b0695ee46b48c83ff9c8469c03b89db40029446162d5de32dff3",
+      "edited": true
+    },
+    {
+      "source": "early/docs/CTF_WORKFLOW_ORIGINAL.md",
+      "published_path": "source-notes/early/docs/CTF_WORKFLOW_ORIGINAL.md",
+      "source_sha256": "bb6ca353ca02310178c7a0cef7d4949e43dff3d625b140abee6a7e8fb5d24995",
+      "published_sha256": "494c211b93bbe526fe53fc36c0790118856f7da65e1634559f3ed26f507cc69d",
+      "edited": true
+    },
+    {
+      "source": "early/docs/GAME_MASTER.md",
+      "published_path": "source-notes/early/docs/GAME_MASTER.md",
+      "source_sha256": "50adb2e5bda1e4a0a561806e1451321c8d777ef7c44ee5773298d12e48da931a",
+      "published_sha256": "bcc608ada919df5bd85c6a91e97fb20be12e6fa709ab39f10306f17df16cab84",
+      "edited": true
+    },
+    {
+      "source": "early/docs/HUNTRESS_ORIGINAL_AGENTS.md",
+      "published_path": "source-notes/early/docs/HUNTRESS_ORIGINAL_AGENTS.md",
+      "source_sha256": "3d83ddcff44fb59d7eb2a012128cf66bb90e88379f2ea230b01324ea57d2812d",
+      "published_sha256": "af26cb81c3b08e6096facbc7dc083a9de1aa3be77309ad899c96eeaae634106b",
+      "edited": true
+    },
+    {
+      "source": "early/docs/SOLVE.md",
+      "published_path": "source-notes/early/docs/SOLVE.md",
+      "source_sha256": "fc797f37845b512db81855eb606e9e3e6274fc398c3796a95a557c00830bbcc1",
+      "published_sha256": "a0469ac996530c9e334e1193b36b07946c116bdfa681b23544e7ec8097e0d310",
+      "edited": true
+    },
+    {
+      "source": "early/docs/STATE.md",
+      "published_path": "source-notes/early/docs/STATE.md",
+      "source_sha256": "b686f5cade1bf56afc6da8ad1dcff0a19e4c7c4542ebaaf7d1be77e8f07a1ba0",
+      "published_sha256": "542f2fd1a729f761c6d9be6b20138fea7be7bd3017c2e88d2139555e1286c384",
+      "edited": true
+    },
+    {
+      "source": "early/docs/SYNC.md",
+      "published_path": "source-notes/early/docs/SYNC.md",
+      "source_sha256": "4e15499d392bb5bdbdbd943440659f9b5d6a7a6893dcdb1ad7b9cd335577fb2a",
+      "published_sha256": "4e718f5d1c2b3d2807c16df4bae0ef82220d089e2d42a064c88f04bc29c976aa",
+      "edited": true
+    },
+    {
+      "source": "early/docs/TIMED_MODES.md",
+      "published_path": "source-notes/early/docs/TIMED_MODES.md",
+      "source_sha256": "832d0de947c14a541b0af6dd719d9060c39bf9ae3af3efb78d60efb4bc114da4",
+      "published_sha256": "10126133d8dcba96d44fe58fd2112c13953e232d2d44799980a2bb9a40138651",
+      "edited": true
+    },
+    {
+      "source": "early/game_master/day_03/day_03_summary.md",
+      "published_path": "source-notes/early/game_master/day_03/day_03_summary.md",
+      "source_sha256": "8fc0f078463088a1f72ae30334f9fbc09a9e8ba495224bb223ee86c871f59f0a",
+      "published_sha256": "e3be04be9cdb2dd3189b776c4f6ecf7859c544ac4904225b14a2474573f0b047",
+      "edited": true
+    },
+    {
+      "source": "early/gm.py",
+      "published_path": "tools/early/gm.py",
+      "source_sha256": "1851de8905edff99b1f74998a6511dfc6441b7a248e5843efeb11ffb183a835a",
+      "published_sha256": "1851de8905edff99b1f74998a6511dfc6441b7a248e5843efeb11ffb183a835a",
+      "edited": false
+    },
+    {
+      "source": "early/huntress_sync.py",
+      "published_path": "tools/early/huntress_sync.py",
+      "source_sha256": "93fe4de4614de42e81dde04e39d502e2205ae3ce8bdebd6c681d14ae1472afc8",
+      "published_sha256": "93fe4de4614de42e81dde04e39d502e2205ae3ce8bdebd6c681d14ae1472afc8",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/03-run_mastery.py",
+      "published_path": "tools/early/script-analysis-tools/03-run_mastery.py",
+      "source_sha256": "874c54f611bd6ca7501395f9c8fcf53ebbff4d589d9aba8b2bd94dce644edda0",
+      "published_sha256": "95e86e6014c5869b573626eed1b50bf3ce30094fc64faa29923e11b04e9ac29b",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/03-solve_expansion.py",
+      "published_path": "tools/early/script-analysis-tools/03-solve_expansion.py",
+      "source_sha256": "c3ccde2b9d6b231164351410655110dd4b0e8b843ed2efa3d89fd422a31ccc88",
+      "published_sha256": "4c6693b97ccc99bdae2f7347d2a336a6942039297044f9a32ed5c1e7293b555f",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/04-build_dimmer_answers.py",
+      "published_path": "tools/early/script-analysis-tools/04-build_dimmer_answers.py",
+      "source_sha256": "e1fd94f53203e6856141ac7019eab9352b4b0f2c9ead239b3b387139457cfaf4",
+      "published_sha256": "f1d0c71cba3c7dfaa254225074b4aa3c551b6ccea269afed0a9ebe15d0c7a226",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/04-decode_dimmer.py",
+      "published_path": "tools/early/script-analysis-tools/04-decode_dimmer.py",
+      "source_sha256": "b82b090ed2ce499b0f45b185ee1baddeebed2b34de0e29547ef2a02d319b0495",
+      "published_sha256": "77c2848eb47b49dba0c6166ac1d3462f5f3e6700e3b5056156f9db3d09ef3285",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/04-run_mastery_fast.py",
+      "published_path": "tools/early/script-analysis-tools/04-run_mastery_fast.py",
+      "source_sha256": "50e672c2e4ada9fd132a4cee0c7e3716b0253db3fe7c5d587e6ebc6ef88e6dba",
+      "published_sha256": "cd3bb7b5ad28200a29355058d7fa949998052b0c868bd4b46f9f1ae030ec661f",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/04-run_time_trial.py",
+      "published_path": "tools/early/script-analysis-tools/04-run_time_trial.py",
+      "source_sha256": "0cd3770f84c50e38e04c681474bd27217dc4d531deeee87fae37a9c64e8f2338",
+      "published_sha256": "11ecf9d3ced6c549474e297b93776e65c631c66e92e5b40397b2ac234fb36a26",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/04-run_time_trial_fast.py",
+      "published_path": "tools/early/script-analysis-tools/04-run_time_trial_fast.py",
+      "source_sha256": "02e116bb8df81b8a9b733715bbfad24bc6b3319e5daaaa69660704ff992e6c9e",
+      "published_sha256": "b84e5fd74a6f357378aa960cb3866b1fc9e837bd4ac128031e1f2a2fcb15953e",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/05-run_mastery.py",
+      "published_path": "tools/early/script-analysis-tools/05-run_mastery.py",
+      "source_sha256": "19104d1a7e1164cd54a0777617e7457f35ae6e7ed43356c78d37480156ed7d86",
+      "published_sha256": "eb18a36969d12f069e8b8eb6ad7108de9f5cc593d30777a3147ede4fafdf2629",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/05-run_time_trial.py",
+      "published_path": "tools/early/script-analysis-tools/05-run_time_trial.py",
+      "source_sha256": "fd20ea8c5822c334b4d087e1164d84fda4ed376753aa64e2aea0b05cd901f51f",
+      "published_sha256": "716c08c6412d36cc80fa9f10299939bcbb988af4ef0954b2a981e7985df7c7c0",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/05-solve_hatch.py",
+      "published_path": "tools/early/script-analysis-tools/05-solve_hatch.py",
+      "source_sha256": "a6bfe9444fe866f6dc01e6aaa9d3082d8c81244abb248097c5b7cebaa171360d",
+      "published_sha256": "e113ffe78279310b2428a53f3b2cd693944ab2b9d4dccea1f51439147683ded2",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/05-static_recover.py",
+      "published_path": "tools/early/script-analysis-tools/05-static_recover.py",
+      "source_sha256": "03abea3913de076836e13075fd1e1544e122bf1c46f0b4bd54318f2b2168eec4",
+      "published_sha256": "c19b735f285a3d334d07533c073b24a21a0132b1bf899159b35a96abba4048f1",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/06-run_timed.py",
+      "published_path": "tools/early/script-analysis-tools/06-run_timed.py",
+      "source_sha256": "3bf630af34325d2a2bd81e515e700fd667b83e27d137a6c573f48f010e81b59a",
+      "published_sha256": "c75a3008b297821fc8a5a6187af22fc35806ac632b26db26f9fc01c7eba70181",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/06-timed_solver.py",
+      "published_path": "tools/early/script-analysis-tools/06-timed_solver.py",
+      "source_sha256": "dc9851214dda80604bd1ad51c7f1b18a580dcf81cbd4a49f1f95cf732cc72f56",
+      "published_sha256": "63b64485defdad64600eb0bcd0c497b36ee242c5cfa9ee94b924e9ff54f4441a",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/07-run_timed.py",
+      "published_path": "tools/early/script-analysis-tools/07-run_timed.py",
+      "source_sha256": "192aaa18de2a5e9f059e519a5ac4886b6e52bdd4800688c7bf499b9acca99554",
+      "published_sha256": "a991ee93c78dc45775a06da9602eec7b080e0cf11295f39726105639d6ea8839",
+      "edited": true
+    },
+    {
+      "source": "early/script-analysis-tools/07-solve_node_by_node.py",
+      "published_path": "tools/early/script-analysis-tools/07-solve_node_by_node.py",
+      "source_sha256": "f6514309b49ab02f4a7592fb5f9d516c0c472fb628c7b3f429018da6aaa5a4b9",
+      "published_sha256": "01ce65e093209e0fbdec769409ef55b33a5273b9828520fd0195e68afe4ad2c7",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/09-solve.py",
+      "published_path": "tools/early/script-analysis-tools/09-solve.py",
+      "source_sha256": "17530f00a92c746e6b99c2347ab050e52962856b190d250f1d0fd88e1b14afdb",
+      "published_sha256": "d594a9dc338ec42365f93bc4dd1c8f13d0040a04637a9f839e53498b734550c6",
+      "edited": false
+    },
+    {
+      "source": "early/script-analysis-tools/readme.md",
+      "published_path": "tools/early/script-analysis-tools/readme.md",
+      "source_sha256": "f0471726092213ed4cd7ddb2f64e7341ef186997b487779a72fbb9c54a0adc2d",
+      "published_sha256": "38b8ed4930a4deeea59be701d476e46495ca1c833c69a63616c0a1ce8997b050",
+      "edited": true
+    },
+    {
+      "source": "early/script-analysis-tools/script_analysis_solver.py",
+      "published_path": "tools/early/script-analysis-tools/script_analysis_solver.py",
+      "source_sha256": "ff1572c9bdc76c15cb2b13e0146ea75113d152021d362018a91dd6bbb7df74ce",
+      "published_sha256": "ff1572c9bdc76c15cb2b13e0146ea75113d152021d362018a91dd6bbb7df74ce",
+      "edited": false
+    },
+    {
+      "source": "early/z-helper stuff/day challenge fetcher/huntress_day_sync.py",
+      "published_path": "tools/early/z-helper stuff/day challenge fetcher/huntress_day_sync.py",
+      "source_sha256": "3a6c42d07be3500106227de644a14410a368256316d3eac89d447aee8ee8cab8",
+      "published_sha256": "3a6c42d07be3500106227de644a14410a368256316d3eac89d447aee8ee8cab8",
+      "edited": false
+    },
+    {
+      "source": "early/z-helper stuff/day challenge fetcher/readme.md",
+      "published_path": "source-notes/early/z-helper stuff/day challenge fetcher/readme.md",
+      "source_sha256": "3183ee473e3611794559ee0441bca6246180e177a994bed9f70b4417d85abe9c",
+      "published_sha256": "d923f97f7daf874989e1b34eb49d59fdf660accd18cd46cc35418b6e2ec3c2e0",
+      "edited": true
+    },
+    {
+      "source": "gameai/AGENTS.md",
+      "published_path": "source-notes/later/workflow-instructions.md",
+      "source_sha256": "9d225b5d42500851041d1cbcd4a4065f605e2b7691922eb5974e0dd758821a45",
+      "published_sha256": "c7f98fbc6884d81ea32d0111584b2073afab5d756fbddd18d02cbce65566e1eb",
+      "edited": true
+    },
+    {
+      "source": "gameai/DAY04-PROGRESS.md",
+      "published_path": "source-notes/later/DAY04-PROGRESS.md",
+      "source_sha256": "6fdb79294fbd70777308445296a8197ca9102c520ae3ea37f41fb574e1738dc9",
+      "published_sha256": "295648899dca8ea207b5a4e0e4d8936ed7996bd5ed693a744caa32ccfc2c28ae",
+      "edited": true
+    },
+    {
+      "source": "gameai/WRAP-UP.md",
+      "published_path": "source-notes/later/WRAP-UP.md",
+      "source_sha256": "c08b18c6607525a9a3bf0bb191f5d9cd8e67118bee39b35a87b53311fd1a3d03",
+      "published_sha256": "c6870321af4642245acbc8950df2bde58bf88e55b28453a26a26a864224a9072",
+      "edited": true
+    },
+    {
+      "source": "gameai/binary-reverse-engineering-tools/README.md",
+      "published_path": "tools/later/binary-reverse-engineering-tools/README.md",
+      "source_sha256": "cbd84146ab98a13e360d9dccd80aaf46bd65f2434d508688cd5c72ee5fa478aa",
+      "published_sha256": "d81bad5e3d45978fcc4a6281243f5ec0f0ac102579aa3f7e8912071813bdaed9",
+      "edited": true
+    },
+    {
+      "source": "gameai/binary-reverse-engineering-tools/analyze_evidence.py",
+      "published_path": "tools/later/binary-reverse-engineering-tools/analyze_evidence.py",
+      "source_sha256": "3994bf53fd427aa704d5a8c14d6cce32b12e51a5f50d80a84811f6e3ebf25dd5",
+      "published_sha256": "3994bf53fd427aa704d5a8c14d6cce32b12e51a5f50d80a84811f6e3ebf25dd5",
+      "edited": false
+    },
+    {
+      "source": "gameai/binary-reverse-engineering-tools/extract_zip.py",
+      "published_path": "tools/later/binary-reverse-engineering-tools/extract_zip.py",
+      "source_sha256": "2015e0881d2700e977d6b3a2cdb7884ef9ecf86fe2ea8088b435816f9751f684",
+      "published_sha256": "2015e0881d2700e977d6b3a2cdb7884ef9ecf86fe2ea8088b435816f9751f684",
+      "edited": false
+    },
+    {
+      "source": "gameai/binary-reverse-engineering-tools/requirements.txt",
+      "published_path": "tools/later/binary-reverse-engineering-tools/requirements.txt",
+      "source_sha256": "c04d829c5da146049f3487b0b2995983bcea3c60c2dffafbf44ea7892c3f6793",
+      "published_sha256": "c04d829c5da146049f3487b0b2995983bcea3c60c2dffafbf44ea7892c3f6793",
+      "edited": false
+    },
+    {
+      "source": "gameai/binary-reverse-engineering-tools/run_modes.py",
+      "published_path": "tools/later/binary-reverse-engineering-tools/run_modes.py",
+      "source_sha256": "d9f7b6fdd565f1531d2f0ee8027c861fe2271f4c6ca6a75b8b5fdee24d3ef3e7",
+      "published_sha256": "4b19f6792c93b4d3dfc1322a989a9f9eaf89f04f6f27718305b70fab8ac3f36d",
+      "edited": true
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/analysis/decrypt_all.py",
+      "published_path": "tools/later/day-30/binary/fresh-sha1-hulud/analysis/decrypt_all.py",
+      "source_sha256": "182926013d3ef8bce7cd45785902a559345305eedfeda273322c149e1278254d",
+      "published_sha256": "182926013d3ef8bce7cd45785902a559345305eedfeda273322c149e1278254d",
+      "edited": false
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/analysis/decrypt_xsobf.py",
+      "published_path": "tools/later/day-30/binary/fresh-sha1-hulud/analysis/decrypt_xsobf.py",
+      "source_sha256": "9c07723db54dc830fe22361717b99496d717d741ed4248ae44eadd6df2927005",
+      "published_sha256": "9c07723db54dc830fe22361717b99496d717d741ed4248ae44eadd6df2927005",
+      "edited": false
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/analysis/disasm.py",
+      "published_path": "tools/later/day-30/binary/fresh-sha1-hulud/analysis/disasm.py",
+      "source_sha256": "dccbd63bbfa04183260280c959e780c0e5fd4867413caaa85f2d63a6fcf42f40",
+      "published_sha256": "dccbd63bbfa04183260280c959e780c0e5fd4867413caaa85f2d63a6fcf42f40",
+      "edited": false
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/analysis/solve_sha1_hulud_narrow.py",
+      "published_path": "tools/later/day-30/binary/fresh-sha1-hulud/analysis/solve_sha1_hulud_narrow.py",
+      "source_sha256": "3e04afd3e6f855a82cf1365b08efed9e586af9b4555e413e853b5e958fc77b85",
+      "published_sha256": "3e04afd3e6f855a82cf1365b08efed9e586af9b4555e413e853b5e958fc77b85",
+      "edited": false
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/analysis/solve_sha1_hulud_trace.py",
+      "published_path": "tools/later/day-30/binary/fresh-sha1-hulud/analysis/solve_sha1_hulud_trace.py",
+      "source_sha256": "f1287bca90ed3c12e9f10cae43bfe6213b5587c55af27275835ca244ebce7c06",
+      "published_sha256": "f1287bca90ed3c12e9f10cae43bfe6213b5587c55af27275835ca244ebce7c06",
+      "edited": false
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/analysis/sweep_embre.py",
+      "published_path": "tools/later/day-30/binary/fresh-sha1-hulud/analysis/sweep_embre.py",
+      "source_sha256": "bc9f09caa7b9a1ad6caf308b5a7ad1bf8a8c7c8563e17ca0b92c25cda8100a23",
+      "published_sha256": "bc9f09caa7b9a1ad6caf308b5a7ad1bf8a8c7c8563e17ca0b92c25cda8100a23",
+      "edited": false
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/attempted-flags.md",
+      "published_path": "source-notes/later/day-30/binary/fresh-sha1-hulud/attempted-flags.md",
+      "source_sha256": "5f15c7b28eafe599286c305fe57c47ca24d42ce4620f9107c5fdf20657085a11",
+      "published_sha256": "c927941c2a5e0ada9bfa4b00c2789931f266f57dd1a29d967ce425380a93b7b1",
+      "edited": true
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/notes/HANDOFF.md",
+      "published_path": "source-notes/later/day-30/binary/fresh-sha1-hulud/notes/HANDOFF.md",
+      "source_sha256": "c5d3369ba447f071278b8b2abcbd729522047c1601fcd9e0654bc30d2ced2187",
+      "published_sha256": "57b3a268d411e21fbaaf4bb2471a8fce1f6016f3fa4a6c6c67f6ec2ea68bae78",
+      "edited": true
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/notes/findings.md",
+      "published_path": "source-notes/later/day-30/binary/fresh-sha1-hulud/notes/findings.md",
+      "source_sha256": "d5183e0c60e1ed4c0ad1b42a4c4237875d331b05b81734b7407ae28c3cc0c917",
+      "published_sha256": "8b915fdd40c0836a60a344ef2b330993fc3decfd4f899e840b12a60665f95e5a",
+      "edited": true
+    },
+    {
+      "source": "gameai/day-30/binary/fresh-sha1-hulud/resume-notes.md",
+      "published_path": "source-notes/later/day-30/binary/fresh-sha1-hulud/resume-notes.md",
+      "source_sha256": "ff23a6cec611c2910d24731b65338d0a87d26975a67e795e266793118b77695e",
+      "published_sha256": "8ca298bf746a3f7e21c7a33bc18c220c4df96c02218a6e6e1c017ba8a301beee",
+      "edited": true
+    },
+    {
+      "source": "gameai/day17-binary-decoder-ring-questions.md",
+      "published_path": "source-notes/later/day17-binary-decoder-ring-questions.md",
+      "source_sha256": "60d577c6f56c8bc182fb18d7733116af122143997f12631b457b07f675ffd4cb",
+      "published_sha256": "799d4a819622726e8f379a80419e18b2708e801a5450942fb7ba4af251bb31ec",
+      "edited": true
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/README.md",
+      "published_path": "tools/later/metadata-forensics-tools/README.md",
+      "source_sha256": "365c86a33a536cc7c21733c908c832d1a0ab57fa96827268f68c53ada1689d32",
+      "published_sha256": "c9c26ad2c408c88c0b6b6c2a59d1b3b76459de5bc2d3fd5d40bf79e7dca14c2e",
+      "edited": true
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/apk_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/apk_metadata.py",
+      "source_sha256": "6de5ab1a1b6739f29d75cbefa706e8c916dee31995e2029e9c5be10c8a5719f2",
+      "published_sha256": "6de5ab1a1b6739f29d75cbefa706e8c916dee31995e2029e9c5be10c8a5719f2",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/audio_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/audio_metadata.py",
+      "source_sha256": "9fc7e6d9d2c539c5a42a5155d4fbefa888de9156d6990dbd00ba2442fb3e88ab",
+      "published_sha256": "9fc7e6d9d2c539c5a42a5155d4fbefa888de9156d6990dbd00ba2442fb3e88ab",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/disk_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/disk_metadata.py",
+      "source_sha256": "0088ee65e9cf25bc6c64e238deb579bf8f640eddb88e443605472bdc28eb9a87",
+      "published_sha256": "0088ee65e9cf25bc6c64e238deb579bf8f640eddb88e443605472bdc28eb9a87",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/elf_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/elf_metadata.py",
+      "source_sha256": "ce0e8bfc5aa19d5a21f86a13476c31c3bd31839134cdbe4253de4493c37695e2",
+      "published_sha256": "ce0e8bfc5aa19d5a21f86a13476c31c3bd31839134cdbe4253de4493c37695e2",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/evtx_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/evtx_metadata.py",
+      "source_sha256": "bd66ea1d8572dd552914de55d0cd64c842da0c5b34dda7905001849010bc55e9",
+      "published_sha256": "bd66ea1d8572dd552914de55d0cd64c842da0c5b34dda7905001849010bc55e9",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/jar_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/jar_metadata.py",
+      "source_sha256": "d51d18a0965cf73b4876f194bf40ee52a271b90a5d488be38e3a4ed9695ee1d9",
+      "published_sha256": "d51d18a0965cf73b4876f194bf40ee52a271b90a5d488be38e3a4ed9695ee1d9",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/macho_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/macho_metadata.py",
+      "source_sha256": "c0f08689b387da717e434771d0889f327b07664d891e676a34b614929bbf151e",
+      "published_sha256": "c0f08689b387da717e434771d0889f327b07664d891e676a34b614929bbf151e",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/metadata_graph.py",
+      "published_path": "tools/later/metadata-forensics-tools/metadata_graph.py",
+      "source_sha256": "cb0ec6a427c4e375d74a67ceb1a1aaaaf629645c52d2bc2d93478143cdda327e",
+      "published_sha256": "cb0ec6a427c4e375d74a67ceb1a1aaaaf629645c52d2bc2d93478143cdda327e",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/ooxml_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/ooxml_metadata.py",
+      "source_sha256": "9e9f200f9e3eac04ff41a7b7f7e04ce811c103d89554e89f1f15db396cb24ecf",
+      "published_sha256": "9e9f200f9e3eac04ff41a7b7f7e04ce811c103d89554e89f1f15db396cb24ecf",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/pcap_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/pcap_metadata.py",
+      "source_sha256": "c7a818865d2a707c6e4a50754e2562a8d179111acd2f69ac9806ebc655996362",
+      "published_sha256": "c7a818865d2a707c6e4a50754e2562a8d179111acd2f69ac9806ebc655996362",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/pe_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/pe_metadata.py",
+      "source_sha256": "d803d896d363fa4f0d12fdd068523a032b1177b045b257b13d5a5a4ccbb4b17d",
+      "published_sha256": "d803d896d363fa4f0d12fdd068523a032b1177b045b257b13d5a5a4ccbb4b17d",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/prefetch_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/prefetch_metadata.py",
+      "source_sha256": "54dcef79d0d19e9786e6edba049cb541ed846782b9300d58369f0d4c15074e1f",
+      "published_sha256": "54dcef79d0d19e9786e6edba049cb541ed846782b9300d58369f0d4c15074e1f",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/registry_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/registry_metadata.py",
+      "source_sha256": "48df3b27a55188413718e473679827f1ff787d169fa8484a8302ea405bc27b13",
+      "published_sha256": "48df3b27a55188413718e473679827f1ff787d169fa8484a8302ea405bc27b13",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/requirements.txt",
+      "published_path": "tools/later/metadata-forensics-tools/requirements.txt",
+      "source_sha256": "64c5020a5ebcbfdcfb08a7c8a9d0ca76a4d41288a5659bf8c9e6921d5838502e",
+      "published_sha256": "64c5020a5ebcbfdcfb08a7c8a9d0ca76a4d41288a5659bf8c9e6921d5838502e",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/run_challenge.py",
+      "published_path": "tools/later/metadata-forensics-tools/run_challenge.py",
+      "source_sha256": "f13c4f4e5239480242bad9c37c41c123923d04c4f0c3c9710add29c6c36b65d9",
+      "published_sha256": "f13c4f4e5239480242bad9c37c41c123923d04c4f0c3c9710add29c6c36b65d9",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/shortcut_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/shortcut_metadata.py",
+      "source_sha256": "af1732d0a5e87f57a45b351bb3c44b014241c71c7c152c398c61c5bb234ef1e1",
+      "published_sha256": "af1732d0a5e87f57a45b351bb3c44b014241c71c7c152c398c61c5bb234ef1e1",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/sqlite_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/sqlite_metadata.py",
+      "source_sha256": "dddd6588558d6661dc03a095f390bc39ade6709f24c3d95b683b60a6a74e191d",
+      "published_sha256": "dddd6588558d6661dc03a095f390bc39ade6709f24c3d95b683b60a6a74e191d",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/video_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/video_metadata.py",
+      "source_sha256": "3cb256d6a374e241f54f0a9668e897a5d3f24934a29a9b065dc91473552dfa88",
+      "published_sha256": "3cb256d6a374e241f54f0a9668e897a5d3f24934a29a9b065dc91473552dfa88",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/x509_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/x509_metadata.py",
+      "source_sha256": "59f64c604bce7e647ebb53bc6383db7ea4db47b32fa82345d45a51e7627dee4e",
+      "published_sha256": "59f64c604bce7e647ebb53bc6383db7ea4db47b32fa82345d45a51e7627dee4e",
+      "edited": false
+    },
+    {
+      "source": "gameai/metadata-forensics-tools/zip_metadata.py",
+      "published_path": "tools/later/metadata-forensics-tools/zip_metadata.py",
+      "source_sha256": "2b47a55fa5aefc42d73ef301350c279cf2d6538ef7766826059102b402848a28",
+      "published_sha256": "2b47a55fa5aefc42d73ef301350c279cf2d6538ef7766826059102b402848a28",
+      "edited": false
+    },
+    {
+      "source": "gameai/mobile-android-tools/README.md",
+      "published_path": "tools/later/mobile-android-tools/README.md",
+      "source_sha256": "b800778268ca681b4cc714bebb8eb26303912cf455b838cf20c3e0aedfd9506f",
+      "published_sha256": "80fa118ea88f450bf98b7d5155ce8d60c1eae83d3715a48656ddb4f0b645cde0",
+      "edited": true
+    },
+    {
+      "source": "gameai/mobile-android-tools/decode_puzzle_assets.py",
+      "published_path": "tools/later/mobile-android-tools/decode_puzzle_assets.py",
+      "source_sha256": "594f7e413a12f4289f1545c5ee59f0f9421de9f16cdc1cf2b94ffccd337d62e7",
+      "published_sha256": "594f7e413a12f4289f1545c5ee59f0f9421de9f16cdc1cf2b94ffccd337d62e7",
+      "edited": false
+    },
+    {
+      "source": "gameai/mobile-android-tools/inspect_dex.py",
+      "published_path": "tools/later/mobile-android-tools/inspect_dex.py",
+      "source_sha256": "4c5ba3924db9357f31523cd24a82d54f380a43f8e97d258f49b95068d22b9324",
+      "published_sha256": "4c5ba3924db9357f31523cd24a82d54f380a43f8e97d258f49b95068d22b9324",
+      "edited": false
+    },
+    {
+      "source": "gameai/mobile-android-tools/inspect_manifest.py",
+      "published_path": "tools/later/mobile-android-tools/inspect_manifest.py",
+      "source_sha256": "b736cd8803df207c9b088b6c72b2f21ff07260fe30d77f370ce189cdb996d92d",
+      "published_sha256": "b736cd8803df207c9b088b6c72b2f21ff07260fe30d77f370ce189cdb996d92d",
+      "edited": false
+    },
+    {
+      "source": "gameai/mobile-android-tools/requirements.txt",
+      "published_path": "tools/later/mobile-android-tools/requirements.txt",
+      "source_sha256": "7717644e2bae11d01436dc00c333b2b821bcff8611b596ae35ee36678e30fbb9",
+      "published_sha256": "7717644e2bae11d01436dc00c333b2b821bcff8611b596ae35ee36678e30fbb9",
+      "edited": false
+    },
+    {
+      "source": "gameai/mobile-android-tools/run_modes.py",
+      "published_path": "tools/later/mobile-android-tools/run_modes.py",
+      "source_sha256": "f4a67a5faf55e90765e9f5398425dd50810c26f55ea1836bdb2267f5e6e4004e",
+      "published_sha256": "ac01b20cbc40b2a30790d2ed96373732feabff7f8302c1153beaa588c3e5e147",
+      "edited": true
+    },
+    {
+      "source": "gameai/mobile-android-tools/solve_analysis_codec.py",
+      "published_path": "tools/later/mobile-android-tools/solve_analysis_codec.py",
+      "source_sha256": "5b26b20daad7b912d67c3d854fd377861654af6c6aa62373f388476979f0d593",
+      "published_sha256": "5b26b20daad7b912d67c3d854fd377861654af6c6aa62373f388476979f0d593",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/09-solve.py",
+      "published_path": "tools/later/script-analysis-tools/09-solve.py",
+      "source_sha256": "ef9fab297c3ea2d8645f3dbee31b6ff0bd146f0b4da45481b850efec5559975f",
+      "published_sha256": "ef9fab297c3ea2d8645f3dbee31b6ff0bd146f0b4da45481b850efec5559975f",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/README.md",
+      "published_path": "tools/later/script-analysis-tools/README.md",
+      "source_sha256": "64ceadd6544637f65b88edeb828159f7fd052402c68a8a7b071a36ad564d5ef6",
+      "published_sha256": "b3fa97ab57cd4372535ac9de988a69be625f57d2b495eca7f6053b24bee924ff",
+      "edited": true
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/03-run_mastery.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/03-run_mastery.py",
+      "source_sha256": "874c54f611bd6ca7501395f9c8fcf53ebbff4d589d9aba8b2bd94dce644edda0",
+      "published_sha256": "95e86e6014c5869b573626eed1b50bf3ce30094fc64faa29923e11b04e9ac29b",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/03-solve_expansion.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/03-solve_expansion.py",
+      "source_sha256": "c3ccde2b9d6b231164351410655110dd4b0e8b843ed2efa3d89fd422a31ccc88",
+      "published_sha256": "4c6693b97ccc99bdae2f7347d2a336a6942039297044f9a32ed5c1e7293b555f",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/04-build_dimmer_answers.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/04-build_dimmer_answers.py",
+      "source_sha256": "e1fd94f53203e6856141ac7019eab9352b4b0f2c9ead239b3b387139457cfaf4",
+      "published_sha256": "f1d0c71cba3c7dfaa254225074b4aa3c551b6ccea269afed0a9ebe15d0c7a226",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/04-decode_dimmer.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/04-decode_dimmer.py",
+      "source_sha256": "b82b090ed2ce499b0f45b185ee1baddeebed2b34de0e29547ef2a02d319b0495",
+      "published_sha256": "77c2848eb47b49dba0c6166ac1d3462f5f3e6700e3b5056156f9db3d09ef3285",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/04-run_mastery_fast.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/04-run_mastery_fast.py",
+      "source_sha256": "50e672c2e4ada9fd132a4cee0c7e3716b0253db3fe7c5d587e6ebc6ef88e6dba",
+      "published_sha256": "cd3bb7b5ad28200a29355058d7fa949998052b0c868bd4b46f9f1ae030ec661f",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/04-run_time_trial.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/04-run_time_trial.py",
+      "source_sha256": "0cd3770f84c50e38e04c681474bd27217dc4d531deeee87fae37a9c64e8f2338",
+      "published_sha256": "11ecf9d3ced6c549474e297b93776e65c631c66e92e5b40397b2ac234fb36a26",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/04-run_time_trial_fast.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/04-run_time_trial_fast.py",
+      "source_sha256": "02e116bb8df81b8a9b733715bbfad24bc6b3319e5daaaa69660704ff992e6c9e",
+      "published_sha256": "b84e5fd74a6f357378aa960cb3866b1fc9e837bd4ac128031e1f2a2fcb15953e",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/05-run_mastery.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/05-run_mastery.py",
+      "source_sha256": "19104d1a7e1164cd54a0777617e7457f35ae6e7ed43356c78d37480156ed7d86",
+      "published_sha256": "eb18a36969d12f069e8b8eb6ad7108de9f5cc593d30777a3147ede4fafdf2629",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/05-run_time_trial.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/05-run_time_trial.py",
+      "source_sha256": "fd20ea8c5822c334b4d087e1164d84fda4ed376753aa64e2aea0b05cd901f51f",
+      "published_sha256": "716c08c6412d36cc80fa9f10299939bcbb988af4ef0954b2a981e7985df7c7c0",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/05-solve_hatch.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/05-solve_hatch.py",
+      "source_sha256": "a6bfe9444fe866f6dc01e6aaa9d3082d8c81244abb248097c5b7cebaa171360d",
+      "published_sha256": "e113ffe78279310b2428a53f3b2cd693944ab2b9d4dccea1f51439147683ded2",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/05-static_recover.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/05-static_recover.py",
+      "source_sha256": "03abea3913de076836e13075fd1e1544e122bf1c46f0b4bd54318f2b2168eec4",
+      "published_sha256": "c19b735f285a3d334d07533c073b24a21a0132b1bf899159b35a96abba4048f1",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/06-run_mastery.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/06-run_mastery.py",
+      "source_sha256": "c06befbca038efe65555d09fa2b018cbafbc4856602372609aa6bcb87fecb075",
+      "published_sha256": "05bf296d7c832d269ed82669c70b5da847c9feaa713244ee74e7fb428948622f",
+      "edited": true
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/06-run_timed.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/06-run_timed.py",
+      "source_sha256": "3bf630af34325d2a2bd81e515e700fd667b83e27d137a6c573f48f010e81b59a",
+      "published_sha256": "c75a3008b297821fc8a5a6187af22fc35806ac632b26db26f9fc01c7eba70181",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/06-timed_solver.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/06-timed_solver.py",
+      "source_sha256": "dc9851214dda80604bd1ad51c7f1b18a580dcf81cbd4a49f1f95cf732cc72f56",
+      "published_sha256": "63b64485defdad64600eb0bcd0c497b36ee242c5cfa9ee94b924e9ff54f4441a",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/07-run_timed.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/07-run_timed.py",
+      "source_sha256": "66e8e07d6e29490e495868f8ad557ad1fd7e698b8e8e6b137ce78f8dd504fc94",
+      "published_sha256": "851fe470dd1dd84857f38781eecc46745510a0e01e340cdd0dc1f11b0113dfc4",
+      "edited": true
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/07-solve_node_by_node.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/07-solve_node_by_node.py",
+      "source_sha256": "871b018f1a60b634621a3a3552a2b4c4e7eea4b98bff2388c0441c67ac94781f",
+      "published_sha256": "038c19b7481aa8f88aa21a7cc23e73e0331e7b0493897a8583d52df271148d51",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/10-run_modes.py",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/10-run_modes.py",
+      "source_sha256": "b1a47ee93d14a92450b7a79996d515e8cb506ee1b3c632369742303f5117b018",
+      "published_sha256": "9fcd85564b8df8749e8e1e393e94f3275764632928451431137dee9bd253160d",
+      "edited": true
+    },
+    {
+      "source": "gameai/script-analysis-tools/archive/day-specific/README.md",
+      "published_path": "tools/later/script-analysis-tools/archive/day-specific/README.md",
+      "source_sha256": "a4a3796247be337008cf0a0531e1d0e10e179bf102edaefe4c2df62c45ea7f4d",
+      "published_sha256": "30c16bcfb3a45fee8bd949ef24a6a247256360f1939c7c6e85b662d580ac4368",
+      "edited": true
+    },
+    {
+      "source": "gameai/script-analysis-tools/requirements.txt",
+      "published_path": "tools/later/script-analysis-tools/requirements.txt",
+      "source_sha256": "a988f04e2410e8d7ff3388c9f13124061a85715f5aaa6cf11f19fed6ac0069f5",
+      "published_sha256": "a988f04e2410e8d7ff3388c9f13124061a85715f5aaa6cf11f19fed6ac0069f5",
+      "edited": false
+    },
+    {
+      "source": "gameai/script-analysis-tools/run_modes.py",
+      "published_path": "tools/later/script-analysis-tools/run_modes.py",
+      "source_sha256": "3eb463420b54f061b022d7e5b3a64d3d5004b5d9425a2c4c578cb97cfac4d0d8",
+      "published_sha256": "6057bae1ed98fc53baea0a4b863bf736ce5fcf1c43cfd7a864fdd055a1d0858d",
+      "edited": true
+    },
+    {
+      "source": "gameai/script-analysis-tools/script_analysis_solver.py",
+      "published_path": "tools/later/script-analysis-tools/script_analysis_solver.py",
+      "source_sha256": "9737ab6e26c88a87233a08f869e797a3e22ca4b34b532fc214ba58380421528e",
+      "published_sha256": "875d14eff9e6d62b084e846dd441f2aa59d929177d9c0dc10e6e5d3e27f2a724",
+      "edited": false
+    },
+    {
+      "source": "gameai/warmup-tools/README.md",
+      "published_path": "tools/later/warmup-tools/README.md",
+      "source_sha256": "115b1501c78edd7f28023199d093372cd09779be08c4f5ff4b9a22f96e8fdd5f",
+      "published_sha256": "ffee24399bf51e8c66122697ea1efb3f61ec9ff3f9175693f632a20bf1cbc937",
+      "edited": true
+    },
+    {
+      "source": "gameai/warmup-tools/decode_base64_layers.py",
+      "published_path": "tools/later/warmup-tools/decode_base64_layers.py",
+      "source_sha256": "b29516b8f4d7ccfbd3b4084e78a6145a41790486b8b5bf1068043b92924eb553",
+      "published_sha256": "b29516b8f4d7ccfbd3b4084e78a6145a41790486b8b5bf1068043b92924eb553",
+      "edited": false
+    },
+    {
+      "source": "gameai/warmup-tools/run_modes.py",
+      "published_path": "tools/later/warmup-tools/run_modes.py",
+      "source_sha256": "b23d1284d9a7bcc689c6c89d96e65fbda338a30fadadda6ae6766ac460d91571",
+      "published_sha256": "2d9605fbff7944883f260bcdb4805b431360ba60668bb07d49a93c1fdfa8d94b",
+      "edited": true
+    },
+    {
+      "source": "gameai/warmup-tools/run_remaining_variants.py",
+      "published_path": "tools/later/warmup-tools/run_remaining_variants.py",
+      "source_sha256": "7088ce6af6bab2bb258b268c4154a910ecf261b357f27c4b33d264b0a2e212a9",
+      "published_sha256": "4f1c06d495495eb20b19561989960126f6aea74df2677135f8d344c32e960fdf",
+      "edited": true
+    },
+    {
+      "source": "gameai/web-tools/README.md",
+      "published_path": "tools/later/web-tools/README.md",
+      "source_sha256": "67fe1adefbde8900fd2c5870f401d5831ee2fb210774ab9a514040ab27e40fd5",
+      "published_sha256": "13eb63ae338a52e9828ba4eabd30fd15da2ed8430d97aea5489e194c964e2c46",
+      "edited": true
+    },
+    {
+      "source": "gameai/web-tools/auto_solve_target.py",
+      "published_path": "tools/later/web-tools/auto_solve_target.py",
+      "source_sha256": "11f0fd5621e0c626de9a38f1797a2903e847fb8c0fae0878c1c3d340aebd580a",
+      "published_sha256": "11f0fd5621e0c626de9a38f1797a2903e847fb8c0fae0878c1c3d340aebd580a",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/day27-notes.md",
+      "published_path": "source-notes/later/web-tools/day27-notes.md",
+      "source_sha256": "96dd43eca71e9251def62a9b38d006e87b8d6a714020c6f1c71d902f8320a71c",
+      "published_sha256": "d51c9da088046f417c709fdb59dceafad12dd8a802bb86eca6019289347e20bf",
+      "edited": true
+    },
+    {
+      "source": "gameai/web-tools/day28-notes.md",
+      "published_path": "source-notes/later/web-tools/day28-notes.md",
+      "source_sha256": "753c774bb3be30b7e57db45620d492c29e801df6bc7901e32156340f5c67ed2d",
+      "published_sha256": "6ed4976803fc001c19f3d1dce72e0f995a18ac241f9b3fbbd599948ccb8a9118",
+      "edited": true
+    },
+    {
+      "source": "gameai/web-tools/day30-notes.md",
+      "published_path": "source-notes/later/web-tools/day30-notes.md",
+      "source_sha256": "8a3b3f524640169324152468898de8008d8228cc1a83ac8cdc9d7355f86b813c",
+      "published_sha256": "797548b110558de346bfe51b0cf4f6df26811f0884dc32d2ff9537dd6c09b03d",
+      "edited": true
+    },
+    {
+      "source": "gameai/web-tools/inspect_target.py",
+      "published_path": "tools/later/web-tools/inspect_target.py",
+      "source_sha256": "8b17a4b7fe9c067b529d9cc2a5a37b8f152b6353be01464017ea54b86442c8ae",
+      "published_sha256": "8b17a4b7fe9c067b529d9cc2a5a37b8f152b6353be01464017ea54b86442c8ae",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_api_field_action.py",
+      "published_path": "tools/later/web-tools/solve_api_field_action.py",
+      "source_sha256": "07386f167bce516ae55f1663ceea2e61c157c1443e228ff02c28189c45043b91",
+      "published_sha256": "07386f167bce516ae55f1663ceea2e61c157c1443e228ff02c28189c45043b91",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_backup_exposure.py",
+      "published_path": "tools/later/web-tools/solve_backup_exposure.py",
+      "source_sha256": "03dfadc00bdb6f3a110772b77a5bdbeb0a1c435f89127130cc47311d77ec1003",
+      "published_sha256": "03dfadc00bdb6f3a110772b77a5bdbeb0a1c435f89127130cc47311d77ec1003",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_clued_route.py",
+      "published_path": "tools/later/web-tools/solve_clued_route.py",
+      "source_sha256": "5c58c1831234791884e5c21f044d7dcd93f538a835837bf201e46e597b338cc8",
+      "published_sha256": "5c58c1831234791884e5c21f044d7dcd93f538a835837bf201e46e597b338cc8",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_csrf_preferences.py",
+      "published_path": "tools/later/web-tools/solve_csrf_preferences.py",
+      "source_sha256": "45eb02c9777286b8942f778ebfccb82f7478f9443b5cb8c3ea1024f933c2fa6d",
+      "published_sha256": "45eb02c9777286b8942f778ebfccb82f7478f9443b5cb8c3ea1024f933c2fa6d",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_day25.py",
+      "published_path": "tools/later/web-tools/solve_day25.py",
+      "source_sha256": "f58697032fdce8bf031428912b1b245fcda2782b226f9c2b9d4d97036a686f62",
+      "published_sha256": "f58697032fdce8bf031428912b1b245fcda2782b226f9c2b9d4d97036a686f62",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_day26.py",
+      "published_path": "tools/later/web-tools/solve_day26.py",
+      "source_sha256": "a8763540b6d5d8bc5e2ec924dea0592463c9130b0f6af0a41fadf7c6b9235cf3",
+      "published_sha256": "a8763540b6d5d8bc5e2ec924dea0592463c9130b0f6af0a41fadf7c6b9235cf3",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_day27.py",
+      "published_path": "tools/later/web-tools/solve_day27.py",
+      "source_sha256": "6b4d9e9a4e48aed0af409fc1647e1364023253b8968fab9705a6c1b5320b816e",
+      "published_sha256": "6b4d9e9a4e48aed0af409fc1647e1364023253b8968fab9705a6c1b5320b816e",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_day28.py",
+      "published_path": "tools/later/web-tools/solve_day28.py",
+      "source_sha256": "d6e3070f372fb0c75a23b8dccd8627287ebd447cfc3eb3984afd8920ccb314af",
+      "published_sha256": "d6e3070f372fb0c75a23b8dccd8627287ebd447cfc3eb3984afd8920ccb314af",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_delayed_query.py",
+      "published_path": "tools/later/web-tools/solve_delayed_query.py",
+      "source_sha256": "70fd1c4d103d608a22e0b134d1df47747ec7c57ab0f675654608cd82e844b6a0",
+      "published_sha256": "70fd1c4d103d608a22e0b134d1df47747ec7c57ab0f675654608cd82e844b6a0",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_framework_roulette.py",
+      "published_path": "tools/later/web-tools/solve_framework_roulette.py",
+      "source_sha256": "a6bb97ec2f8706c4980bf8870bd907741c96ec82993bb000689ccf0b74c18f4a",
+      "published_sha256": "a6bb97ec2f8706c4980bf8870bd907741c96ec82993bb000689ccf0b74c18f4a",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_full_stack_incident.py",
+      "published_path": "tools/later/web-tools/solve_full_stack_incident.py",
+      "source_sha256": "43c8ba3354956d68d92c67d8cf229f357c14000161d87376f61e68e4452f69d8",
+      "published_sha256": "43c8ba3354956d68d92c67d8cf229f357c14000161d87376f61e68e4452f69d8",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_idor.py",
+      "published_path": "tools/later/web-tools/solve_idor.py",
+      "source_sha256": "aead7e615ebfa8fad775dbb40f968e183f0cc45ae84fc0935f3827579725a2ec",
+      "published_sha256": "aead7e615ebfa8fad775dbb40f968e183f0cc45ae84fc0935f3827579725a2ec",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_internal_fetch.py",
+      "published_path": "tools/later/web-tools/solve_internal_fetch.py",
+      "source_sha256": "38fe311b2e4add1bac4e222d3db20fcc51b33ec0b93965df7c239c925fb6670f",
+      "published_sha256": "38fe311b2e4add1bac4e222d3db20fcc51b33ec0b93965df7c239c925fb6670f",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_mass_assignment.py",
+      "published_path": "tools/later/web-tools/solve_mass_assignment.py",
+      "source_sha256": "67ce52573c1ffc5f84a8f5fa2b0f07cd097a861e8268a887416b046d686c9da4",
+      "published_sha256": "67ce52573c1ffc5f84a8f5fa2b0f07cd097a861e8268a887416b046d686c9da4",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_pass_identity.py",
+      "published_path": "tools/later/web-tools/solve_pass_identity.py",
+      "source_sha256": "ebbbb065e2df4d498acb6d790e93a8920b8e0009dbf52c448edc223212dbbf86",
+      "published_sha256": "ebbbb065e2df4d498acb6d790e93a8920b8e0009dbf52c448edc223212dbbf86",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_path_traversal.py",
+      "published_path": "tools/later/web-tools/solve_path_traversal.py",
+      "source_sha256": "30843d8aedd00c90a23974d745f27563218de015b18ce79b08f9a3b12d9ad139",
+      "published_sha256": "30843d8aedd00c90a23974d745f27563218de015b18ce79b08f9a3b12d9ad139",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_queue_confusion.py",
+      "published_path": "tools/later/web-tools/solve_queue_confusion.py",
+      "source_sha256": "cf13c99d0a8d7df0a6045879ea503de66b4560c0355f8e6cb2df16a22fcd0f15",
+      "published_sha256": "cf13c99d0a8d7df0a6045879ea503de66b4560c0355f8e6cb2df16a22fcd0f15",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_reflect_callback.py",
+      "published_path": "tools/later/web-tools/solve_reflect_callback.py",
+      "source_sha256": "ef231c1ce2147ba43bef1ace73e84bdf610b849fb02aee0c5fbde2cc06188676",
+      "published_sha256": "ef231c1ce2147ba43bef1ace73e84bdf610b849fb02aee0c5fbde2cc06188676",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_session_impression.py",
+      "published_path": "tools/later/web-tools/solve_session_impression.py",
+      "source_sha256": "718e20fc7ebf3c2ce4873fc7729eb9c7707f8a7e77698bc6bca5b84311104e60",
+      "published_sha256": "718e20fc7ebf3c2ce4873fc7729eb9c7707f8a7e77698bc6bca5b84311104e60",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_sqli.py",
+      "published_path": "tools/later/web-tools/solve_sqli.py",
+      "source_sha256": "5d6d902627b10cd9907ffd62a16c90d040a47709ab9937689349d47bf061d455",
+      "published_sha256": "5d6d902627b10cd9907ffd62a16c90d040a47709ab9937689349d47bf061d455",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_stored_xss.py",
+      "published_path": "tools/later/web-tools/solve_stored_xss.py",
+      "source_sha256": "02ed7f18bd8553d0f6ac89a095fb8ec26f78b093c4e14e2266ce8a7518f5c005",
+      "published_sha256": "02ed7f18bd8553d0f6ac89a095fb8ec26f78b093c4e14e2266ce8a7518f5c005",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_template_expression.py",
+      "published_path": "tools/later/web-tools/solve_template_expression.py",
+      "source_sha256": "6139b965b784801c14e14774dd6cb08606ed47db136abdcf62e10ae320540462",
+      "published_sha256": "6139b965b784801c14e14774dd6cb08606ed47db136abdcf62e10ae320540462",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_trust_the_build.py",
+      "published_path": "tools/later/web-tools/solve_trust_the_build.py",
+      "source_sha256": "1dea71d8132ed041df6011b71b1a5b4476f5dcd874cfe0b527eb602da3a7e1c6",
+      "published_sha256": "1dea71d8132ed041df6011b71b1a5b4476f5dcd874cfe0b527eb602da3a7e1c6",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/solve_upload_preview.py",
+      "published_path": "tools/later/web-tools/solve_upload_preview.py",
+      "source_sha256": "e43c6e6a565db1915e8e45aabee131dd6b19dca8edcde8a282833fcceffb3e5f",
+      "published_sha256": "e43c6e6a565db1915e8e45aabee131dd6b19dca8edcde8a282833fcceffb3e5f",
+      "edited": false
+    },
+    {
+      "source": "gameai/work/day-29/warmups/notes.md",
+      "published_path": "source-notes/later/work/day-29/warmups/notes.md",
+      "source_sha256": "8064e60feda2a8106abfaba0b628c040a2a6653c803653a971d93778e3d697e3",
+      "published_sha256": "8c85935d53aafe114eb7faf3920b48531666eb217bf353460c919971b2528e32",
+      "edited": true
+    },
+    {
+      "source": "gameai/work/day-30/binary/353f3c79-6a5e-42b3-b061-0b531ec2e59e/analysis/solve_sha1_hulud_trace.py",
+      "published_path": "tools/later/work/day-30/binary/353f3c79-6a5e-42b3-b061-0b531ec2e59e/analysis/solve_sha1_hulud_trace.py",
+      "source_sha256": "f1287bca90ed3c12e9f10cae43bfe6213b5587c55af27275835ca244ebce7c06",
+      "published_sha256": "f1287bca90ed3c12e9f10cae43bfe6213b5587c55af27275835ca244ebce7c06",
+      "edited": false
+    },
+    {
+      "source": "gameai/writeups/day-01/binary-elf-aware.md",
+      "published_path": "source-notes/later/writeups/day-01/binary-elf-aware.md",
+      "source_sha256": "b58fbc693f4ca15c2532d9767080624460a0855ff64b2fa14ccec2f9020e09c3",
+      "published_sha256": "9103eb90d7c4506ead5a13839da979590840707814a38190bc861ff3bfee82fb",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-01/metadata-forensics-you-must-be-this-hash-to-ride.md",
+      "published_path": "source-notes/later/writeups/day-01/metadata-forensics-you-must-be-this-hash-to-ride.md",
+      "source_sha256": "1f955d943b1a54aa14fe0cab68ef6a36b5499b62903823f7148ff00463477414",
+      "published_sha256": "1acd7e10e54e345e0b83d75a78b6270d561d2672a46b74bc05459fb3e578a84c",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-01/mobile-android-exported-trust.md",
+      "published_path": "source-notes/later/writeups/day-01/mobile-android-exported-trust.md",
+      "source_sha256": "7c63c0a02aecdf5238e9ffb1126dc2ac918f43834f02c22a2bd52bf099934367",
+      "published_sha256": "b5c1fe242fbbed0aa12eda1cd0a8c5df44e6e3ab75466a9b6fcbe7c3fa331611",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-01/script-analysis-power-play.md",
+      "published_path": "source-notes/later/writeups/day-01/script-analysis-power-play.md",
+      "source_sha256": "8eccdd3b2d981ea983d2896f516cecc81db8661ce292c8a5ac90b2cb85bcff2d",
+      "published_sha256": "9e9d5c187d84df7159de81d56319d33bddbcfd338317402832cf1b515039b7bf",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-01/warmups-a-little-based.md",
+      "published_path": "source-notes/later/writeups/day-01/warmups-a-little-based.md",
+      "source_sha256": "cefaddd11dce689a30bde3ded0a1c37353972897d0a39e642b2985e050c99dc3",
+      "published_sha256": "e7f1fd9e523e5ca4abda87e29eb4f5f6a8a9f23a3f8ab4bace51e1eb53fc0ae8",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-02/binary-mangled.md",
+      "published_path": "source-notes/later/writeups/day-02/binary-mangled.md",
+      "source_sha256": "3b74261c1ff6cc8f71a158d491158cf8d3d0da7a5d9b3188bfb63019c3e57afe",
+      "published_sha256": "b28684adebf4e64e878e0de36a5bbfaed3680f3bd2bff1b8d1e57f1989280713",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-02/metadata-forensics-looks-can-be-deceiving.md",
+      "published_path": "source-notes/later/writeups/day-02/metadata-forensics-looks-can-be-deceiving.md",
+      "source_sha256": "9a64fa2a62518e0040247139a31b2680184b28ddded87aaf804fbb2a9d4ec984",
+      "published_sha256": "bcf49b7dd6634eab00421ade0d904d1e8e18800b4f162255ed15e83e68477751",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-02/mobile-android-deep-link-drift.md",
+      "published_path": "source-notes/later/writeups/day-02/mobile-android-deep-link-drift.md",
+      "source_sha256": "2159e4ccd1922c01d5d41c337fd9374518dd22d7d9eb3c64fe2f9e239209b9c4",
+      "published_sha256": "84170ba13622b459387e2f9622117afc7a6632d2d0982e4d6ecad1e3c1f78522",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-02/script-analysis-host-with-the-most.md",
+      "published_path": "source-notes/later/writeups/day-02/script-analysis-host-with-the-most.md",
+      "source_sha256": "b9bcc9299d915125df2862f64a40a6d735da5b537417e9b27050c109dd68cd45",
+      "published_sha256": "ccdff364822f3092942144fd1e45961f42c9279c003c9e67b561970b015fe022",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-02/warmups-half-a-turn.md",
+      "published_path": "source-notes/later/writeups/day-02/warmups-half-a-turn.md",
+      "source_sha256": "e204ddae042803fa8e142a756d5a8049623a82bdc1cb37a0ab9d5e1ea21b002f",
+      "published_sha256": "cd01cee23a3d2c60e1c12c3b57a25f3e68487019faa0563163dabe6c30806852",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-03/binary-table-manners.md",
+      "published_path": "source-notes/later/writeups/day-03/binary-table-manners.md",
+      "source_sha256": "8aa32b0877cbe5554f082e7c9e8ef661586811889076df64c6857ab1cb09d54c",
+      "published_sha256": "f7de8b91cd3eea6acb03f9e4d54c24fbd4d40d9af5982db17137115c7ca5b7cf",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-03/mobile-android-intent-injection.md",
+      "published_path": "source-notes/later/writeups/day-03/mobile-android-intent-injection.md",
+      "source_sha256": "8757b1ba6180b3af11a9d02ab2ce7e1d742a0674cc124f7a68fc927ae0c4d826",
+      "published_sha256": "0d94882585050c11e46cfc6f1070f4c2086fcd304b188466f3fac0af1540bdc7",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-06/decode-summary.txt",
+      "published_path": "source-notes/later/writeups/day-06/decode-summary.txt",
+      "source_sha256": "9bd55be27313968960d96a500439e96743358f046858b4a46b73bf60baf63b0d",
+      "published_sha256": "9bd55be27313968960d96a500439e96743358f046858b4a46b73bf60baf63b0d",
+      "edited": false
+    },
+    {
+      "source": "gameai/writeups/day-07/seven-zip-no-relation.md",
+      "published_path": "source-notes/later/writeups/day-07/seven-zip-no-relation.md",
+      "source_sha256": "3f7d279c3625de99c8dcb8db3d95d0303bde87f0a178d173da2c476ca0e50a44",
+      "published_sha256": "743417b26f58b7c44be2a51ed968a56e74eec628cec90eda70306146d2ee1240",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-08/progress-notes.md",
+      "published_path": "source-notes/later/writeups/day-08/progress-notes.md",
+      "source_sha256": "32f185602debdf06c8d52af299af5d561e92d67d71416236b8d7bc0b6568810f",
+      "published_sha256": "f872f642a0b55b8d61d358dd3fa72687e61b3efd18f6e7b7a504ae2bf80f6dad",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-09/all-worlds-a-stager.md",
+      "published_path": "source-notes/later/writeups/day-09/all-worlds-a-stager.md",
+      "source_sha256": "4956de60c44ddcc36d5aa4cce23ac529866328761a9bc80de235dee012fac775",
+      "published_sha256": "b76725050ad36db10f337593ac5865f728870cd3f239046f5a9d935d0ae0c6bf",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-09/built-different.md",
+      "published_path": "source-notes/later/writeups/day-09/built-different.md",
+      "source_sha256": "6513a7c97f90572294a71d425ae4d2c9072af24b6ecb70def2bccfea4bc22630",
+      "published_sha256": "958f9c67acd11d80a8991fb7a67978fc4a0fdb5ade8636960b060d2fd8197769",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-09/escape-room.md",
+      "published_path": "source-notes/later/writeups/day-09/escape-room.md",
+      "source_sha256": "e107b8844e224bd0b864f457972fa3aa51d735780cf4639704c4dbdfb14abd77",
+      "published_sha256": "9ec5c73d7081e802a2a73bc102f3c3cfc695d28a5e705db073780d1160f67c0c",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-09/nimble.md",
+      "published_path": "source-notes/later/writeups/day-09/nimble.md",
+      "source_sha256": "d000b814be58834f3fe1c39d59aea0daf6bf0854efb2732e0d7ef34753bb16c1",
+      "published_sha256": "7fad7d1a3295371eba23074458f9b295441b73c1b3d7de5b5c3f1aa254533cc8",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-09/trust-everyone.md",
+      "published_path": "source-notes/later/writeups/day-09/trust-everyone.md",
+      "source_sha256": "82daf25637f6d4d8b7c8901c173cdf605a59617173bb5294adc42a1486dc2857",
+      "published_sha256": "4b6ad38b96c8c7d98d1b1d78aa403afbd0cf3578bb1ea079bff8d2e27e5fef74",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-10/solve-notes.md",
+      "published_path": "source-notes/later/writeups/day-10/solve-notes.md",
+      "source_sha256": "89459da41f1f16f0abaf7ef630ed0764845623cd497789789e1692f4553c830a",
+      "published_sha256": "2d0f4c166f68eb3a97f8d11613b2ae2ebefc16fa0a4092f9bcb7a2f5f6aaa8a7",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-11/binary-d-day.md",
+      "published_path": "source-notes/later/writeups/day-11/binary-d-day.md",
+      "source_sha256": "2ee282b4c5720d9044f0afc04422e64d96ba65952bd7a9796370cdf8f8e4e2cc",
+      "published_sha256": "93968a974816f5bbefb750b5f0e375e647edd02656a044377e455b607cf3fc15",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-11/metadata-forensics-name-again.md",
+      "published_path": "source-notes/later/writeups/day-11/metadata-forensics-name-again.md",
+      "source_sha256": "1046133783166f0322192c5536dbc971b42a1780875c076aec622e3c2c82bf4d",
+      "published_sha256": "3ba1520112885abd90354714fa75d89b2e412bfe1b43c4c9e7dfe71b0bfc26ec",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-11/mobile-local-secrets.md",
+      "published_path": "source-notes/later/writeups/day-11/mobile-local-secrets.md",
+      "source_sha256": "4a246e296ab7a8c0931822154c6746abac0e2f87f8b4aa4879071fc8725bf886",
+      "published_sha256": "947806f27c1906f5fa3b8ec262be602fcd50f1efaacede208561b8eab7ac037d",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-11/progress-notes.md",
+      "published_path": "source-notes/later/writeups/day-11/progress-notes.md",
+      "source_sha256": "f958242e37f0778ed174c6d07e4429ebadc24b730079f61b401b92927b8c634c",
+      "published_sha256": "794eaba3d9ca89c231c9a7ad852e0974de808ac804aa9395598633523981c9b6",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-11/script-analysis-by-any-other-name.md",
+      "published_path": "source-notes/later/writeups/day-11/script-analysis-by-any-other-name.md",
+      "source_sha256": "f44615f02b780c557dc90a8ba55e72d390bb8b3f2ace3bf674e0c13773f27566",
+      "published_sha256": "5fdbb7d64bf364002443973f5c316499ceea674898e9fa3d76bf123058eea813",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-11/warmup-safe-travels.md",
+      "published_path": "source-notes/later/writeups/day-11/warmup-safe-travels.md",
+      "source_sha256": "27c8321c361b0e13a72a49fc488e6ab5775ad79da41786f903e3737bce92e3ff",
+      "published_sha256": "7989cfd584c34053aadf3ee11e979a3193e07a7aea0b159e7cee5e9a58aa9a06",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-12/progress-notes.md",
+      "published_path": "source-notes/later/writeups/day-12/progress-notes.md",
+      "source_sha256": "1f739a1b497b92b01469a07b8cc23e751f284eefd58610d723c69562a56ee9f8",
+      "published_sha256": "10c7d472d02fed28261ddf7c1af2da30f605de0d2e8ea9a0a19dcc5545b95c89",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-13/binary-crystal-clear.md",
+      "published_path": "source-notes/later/writeups/day-13/binary-crystal-clear.md",
+      "source_sha256": "a9378dbf24f4909bf5e7eda5e16808ebeca57ae67e482fafb38daa8881899ee1",
+      "published_sha256": "2bc9c791933f646568e9df8fb1cbd1ccb41e36dd84c2edf270337736354b3c36",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-13/metadata-forensics-product-placement.md",
+      "published_path": "source-notes/later/writeups/day-13/metadata-forensics-product-placement.md",
+      "source_sha256": "1d14438397b9ad7cdd01199c813336d754554528caa569ea4f6ba3176dd49d76",
+      "published_sha256": "7a3127f0c038c391d3012c5f24e27f881f4cc758b20798e79a642436bd373e17",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-13/mobile-keystore-misuse.md",
+      "published_path": "source-notes/later/writeups/day-13/mobile-keystore-misuse.md",
+      "source_sha256": "7be901bef3206507f7ffe2059f9a9ced0bd6d4134928a7062016f48b07d24900",
+      "published_sha256": "75517dfb653d5600a39339489b4cc285366c4fa0f15f5767369f7c1d2ed87be6",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-13/progress-notes.md",
+      "published_path": "source-notes/later/writeups/day-13/progress-notes.md",
+      "source_sha256": "c5ee77151995cec46fdf60732840313d32da659df8715dc72e74d42ed5a11b1f",
+      "published_sha256": "0b6273e2134c37f753f6f886d94408d9f1d31f1b28f876758401ff8049bf69ec",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-13/script-analysis-zip-code.md",
+      "published_path": "source-notes/later/writeups/day-13/script-analysis-zip-code.md",
+      "source_sha256": "64e2740e59d23aaf2b31c9d4cf9c81b96a685bd0334f3deecce433943b499a1e",
+      "published_sha256": "55479b060693efbdd1ca268f963049a0c07459c3dfeb8913acf8a72d2542b754",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-14/binary-selective-memory.md",
+      "published_path": "source-notes/later/writeups/day-14/binary-selective-memory.md",
+      "source_sha256": "87d8b5df0e6d43599471ffa1599d6cf0b3298a6fcd667053e8867069087e65cd",
+      "published_sha256": "9283ceab5d5d31fa3938d9487bf5666ddc12107945ead055c2eec389964d8d4e",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-14/metadata-forensics-shortcut-home.md",
+      "published_path": "source-notes/later/writeups/day-14/metadata-forensics-shortcut-home.md",
+      "source_sha256": "aa5fcbb4bc492b5ac27c7f5ae64580e470195c986f7a385c5c22fa4cc34fb74c",
+      "published_sha256": "108ae591faa3e678ca56b684d3efd1a42b5eb648fb013d14dc304b2987e89016",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-14/mobile-predictable-crypto.md",
+      "published_path": "source-notes/later/writeups/day-14/mobile-predictable-crypto.md",
+      "source_sha256": "afe348c5ac487abe07096ab53f24048d7683a3b9acf62950e8b71e7c77be3047",
+      "published_sha256": "f103ed3ea08c9998ca7eac6ec734f08d2705aa0f216fcd412e2e7e2102f63f87",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-14/script-analysis-trust-the-process.md",
+      "published_path": "source-notes/later/writeups/day-14/script-analysis-trust-the-process.md",
+      "source_sha256": "75eba9912462cf24f65805593899c04844b3c5f111144ffc988f1736cec0f58c",
+      "published_sha256": "2d9139e1d680d775bae1f76d2c30f6cf5ae7335387ee2d46c01d01df5f406021",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-14/warmups-seven-steps.md",
+      "published_path": "source-notes/later/writeups/day-14/warmups-seven-steps.md",
+      "source_sha256": "02b3042ebd33b5afc6628875fc9da039266887aa8a721312230453ab3c31fc2a",
+      "published_sha256": "bc3b7b4f5a9fce9022d098a7114f85b180739400e559961d4c92ff62bc252684",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-15/binary-stripped.md",
+      "published_path": "source-notes/later/writeups/day-15/binary-stripped.md",
+      "source_sha256": "dea4b2f220ca34e15bb924635f9dc227f90a19c73f3e0bea84bf573899b4b7d9",
+      "published_sha256": "a71a67f978541551f5069ad3e159192ef68bfce6b85e530d3f31fd8f9d4b88c1",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-15/metadata-forensics-word-to-the-wise.md",
+      "published_path": "source-notes/later/writeups/day-15/metadata-forensics-word-to-the-wise.md",
+      "source_sha256": "777be0ad76bf0219e66bfe9037d631853f93d4de536d420b2f038ad972d0327f",
+      "published_sha256": "77e48f9f5a12a22cef8a0d4c843545eb3e0fbda6838517c986e050ccf98ca22e",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-15/mobile-native-library-secrets.md",
+      "published_path": "source-notes/later/writeups/day-15/mobile-native-library-secrets.md",
+      "source_sha256": "3877a8cee9e737ac285254956161ed4e4cc4a5b977c334b1db510c14400efb93",
+      "published_sha256": "cd2fa21f9bbbbff2f7d8e809182db6b6b6c46910bebec60760eb12717f95d82e",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-15/script-analysis-crumb-trail.md",
+      "published_path": "source-notes/later/writeups/day-15/script-analysis-crumb-trail.md",
+      "source_sha256": "4224296ca34fb90507e99b7f6e323a8d28c06c0e08d21f6ce1eff4c537c2783a",
+      "published_sha256": "6ad9bae7ed21c71c4b8ee6f74a9055dbed42a04700342d534e51ae7905ea38b3",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-15/warmups-room-forty-seven.md",
+      "published_path": "source-notes/later/writeups/day-15/warmups-room-forty-seven.md",
+      "source_sha256": "231b3d5e66bf3e00c71f6a3b237c0ad8c5365537956aba509b761a3ce1a57eff",
+      "published_sha256": "a875cf3055687dfeb71131489fca3b57b4d6990a2b98cec72056a0ed6e84dc16",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-16/binary-wasm-up.md",
+      "published_path": "source-notes/later/writeups/day-16/binary-wasm-up.md",
+      "source_sha256": "a99c3e54facaf4a41fb17e759ba67313588420f9c4776c1791c0647fd250e87c",
+      "published_sha256": "4bb53e43acb6e4c68ff04d08d2ec67027aed49de361f21549b806d9e2e4da08b",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-16/metadata-forensics-return-to-sender.md",
+      "published_path": "source-notes/later/writeups/day-16/metadata-forensics-return-to-sender.md",
+      "source_sha256": "1144f0e3ff5259022c27fc5a6b15e6c151ebc9c8f5bfd955acaa2fa38f23ad53",
+      "published_sha256": "4a3858118e83f1b5765dc4fc43cd07b564106e4bbc9dd184b2a8a03d03a9314b",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-16/mobile-jni-boundary.md",
+      "published_path": "source-notes/later/writeups/day-16/mobile-jni-boundary.md",
+      "source_sha256": "638d89b320f97b2abe2149f953fc5f7da15d69e25d553230ccc2ecdba6b4d266",
+      "published_sha256": "823cc58cc379101a48b55a778dbc5013d597c514975105191fccfa752269afdf",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-16/script-analysis-same-same-but-different.md",
+      "published_path": "source-notes/later/writeups/day-16/script-analysis-same-same-but-different.md",
+      "source_sha256": "4f7e3ab7e995266f4430f83f7787d4356bd87c6edf113523c47e3589167dff57",
+      "published_sha256": "62f4c171fde71e078341e09df6000d53a46132bb98f598786c9fede46c502f11",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-16/warmups.md",
+      "published_path": "source-notes/later/writeups/day-16/warmups.md",
+      "source_sha256": "bd1cb81c4f98f3e1bb7982a3a47ea100362c6dcd9fdce2b0fc7b3c275d2a6258",
+      "published_sha256": "d44a89c5d6a4fa108f2d64b4027a03fd9d19ae4ac2d5ca6204347419169d8516",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-17/binary-decoder-ring.md",
+      "published_path": "source-notes/later/writeups/day-17/binary-decoder-ring.md",
+      "source_sha256": "41b39062a9131c8dbd5f219c7c621935aa33476bffcf052eb2f30adefd11c4a8",
+      "published_sha256": "cc39b664403d97ab5ad4a175665596d6cfc0c36c21a928e54f928513f27e0645",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-17/metadata-forensics-hear-me-out.md",
+      "published_path": "source-notes/later/writeups/day-17/metadata-forensics-hear-me-out.md",
+      "source_sha256": "077bec8fe6ab2470ab485ba964946412fd90102052f56ab1fa65e86e1f703195",
+      "published_sha256": "7f0e9046b624c68920453e655c485c02ccf8a50bac8188e21e25dc75cb4c40cf",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-17/mobile-name-collapse.md",
+      "published_path": "source-notes/later/writeups/day-17/mobile-name-collapse.md",
+      "source_sha256": "15dfa6247278187c92fd9c7af0f00e96b7a0372319cb2ae8a401dcb2955f32f1",
+      "published_sha256": "77dee97388ade4d4b78b64829199c5ee2d6cce97a691c833c9a467d69e4b2029",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-17/script-analysis-fetch-quest.md",
+      "published_path": "source-notes/later/writeups/day-17/script-analysis-fetch-quest.md",
+      "source_sha256": "58bb52b7381929004a1fb133b5a967a0c35f06e258c33a62086af06fd6c5480a",
+      "published_sha256": "9e2cc6e77e395aee69a6c96830823825b13bf823a084caaa411f44630034df2b",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-17/warmups-bacon-bits.md",
+      "published_path": "source-notes/later/writeups/day-17/warmups-bacon-bits.md",
+      "source_sha256": "d16445c0802d1dfcd7fd7e8b136eafbbcf64d59282997e3e45bbf71f2679230c",
+      "published_sha256": "74e70d0fb95472b2698aeda53e3e364bd43e93a9bb2ae38f6a498f94d3bbcef8",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-18/binary-flow-state.md",
+      "published_path": "source-notes/later/writeups/day-18/binary-flow-state.md",
+      "source_sha256": "e70d982c3c5e7bc25f1119e34364b919c466af58b0e8bbdd8783862bdcbbc0d6",
+      "published_sha256": "f27dd98cd13b9cc44347e1562c14f21e07adb58dd749f21d28b52b05b406783f",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-18/metadata-forensics-frame-of-reference.md",
+      "published_path": "source-notes/later/writeups/day-18/metadata-forensics-frame-of-reference.md",
+      "source_sha256": "d7e61547cc79e27d687f0617281753aeac1d20f05ee7a4a0745461a77f3a426d",
+      "published_sha256": "0efa499913a2f879da2e335033ae5edcf1b8574e327bb2252fdc0f04db25c819",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-18/mobile-encrypted-strings.md",
+      "published_path": "source-notes/later/writeups/day-18/mobile-encrypted-strings.md",
+      "source_sha256": "4e3bc398dd2e86c845a710b3575735f97dcd8553f0d785add6e189f66a9a2138",
+      "published_sha256": "15f3c3d990fcb90ad1fa60097de42d7afb87fd86fa2ed8fd14137cf59b173d3c",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-18/script-analysis-orphan-process.md",
+      "published_path": "source-notes/later/writeups/day-18/script-analysis-orphan-process.md",
+      "source_sha256": "bb24bc312e1deeb59bfca4b1b671fee8ce5894ec946ef3190ee96a710fd25f0f",
+      "published_sha256": "ee8e8f90a7df5b74e1ac71358abcb416980b75ddb640441ef652df2103c537a7",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-18/warmups-off-the-rails.md",
+      "published_path": "source-notes/later/writeups/day-18/warmups-off-the-rails.md",
+      "source_sha256": "cc0a630c391b4153b9602c5c88b0fd232862494d1deacde452939347c8098520",
+      "published_sha256": "00f9e2f52584695ae018a6eaca7679b28d6a8071ac7114fe3b6c893c70cb166f",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-19/binary-jack-in-the-box.md",
+      "published_path": "source-notes/later/writeups/day-19/binary-jack-in-the-box.md",
+      "source_sha256": "5bcd13e6431e50587cff8ebdbae215d7f86deac6f2586c91c47a0cf932cbcef9",
+      "published_sha256": "e237f5b4b6107775bd039702df19198597d23d80e7f7ea9c2f86870f4bc60572",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-19/metadata-forensics-little-endian-on-the-prairie.md",
+      "published_path": "source-notes/later/writeups/day-19/metadata-forensics-little-endian-on-the-prairie.md",
+      "source_sha256": "ed235ff59a2a264fd8c16ff550463786d7cfa4bb3915be47e7c8e036cabc04d4",
+      "published_sha256": "f954c3f948990bf4db5f6b533275bf9c37ae20fd858442293b622ffa7285f2c2",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-19/mobile-android-reflection-maze.md",
+      "published_path": "source-notes/later/writeups/day-19/mobile-android-reflection-maze.md",
+      "source_sha256": "7ee9ea851ebc4c078fc97dd62687a44a39fe9fdcb42fec50474c9b1dc4295790",
+      "published_sha256": "db8324813d70fc67ba3b7b6483407fe90e6187c735d49cff74563986663bcb95",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-19/script-analysis-sharp-practice.md",
+      "published_path": "source-notes/later/writeups/day-19/script-analysis-sharp-practice.md",
+      "source_sha256": "03dfb6f828cfecdf734701f807216b9ee06a91e676b831d293f2cb57a7cd0cd6",
+      "published_sha256": "a9165091e5be65b1ab08f052d623fccad92944e38c372d8c2a24a5c7c87b3954",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-19/warmups-little-things.md",
+      "published_path": "source-notes/later/writeups/day-19/warmups-little-things.md",
+      "source_sha256": "fe1e936568b89bb01e4f7f7ee661669968ddf54a8948b8e2e908e1d64a0fb177",
+      "published_sha256": "69f32d7e75153e968a44a42d7b04b92c936b85a0ae3d8bbf78c50c2e58cd39bd",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-20/binary-resourceful.md",
+      "published_path": "source-notes/later/writeups/day-20/binary-resourceful.md",
+      "source_sha256": "d66b38683e4b0f0e108e6a0fdbac9ac69911070c9f12038d6b69a9dcaf26eddc",
+      "published_sha256": "c3b4799149f9cb869f1fdb25b593b5c9b8fd0675adce63e6858d8db1c4779371",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-20/metadata-forensics-universal-appeal.md",
+      "published_path": "source-notes/later/writeups/day-20/metadata-forensics-universal-appeal.md",
+      "source_sha256": "2f147caa1056dde867b2401eb41cc8b4bce512d8bb0ce2e8d03f930b8260616a",
+      "published_sha256": "19ff3a1a7b47f96ba5e368f152a5a0dbb8203ebfdb8d798d4b7e805a3cc62898",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-20/mobile-loaded-later.md",
+      "published_path": "source-notes/later/writeups/day-20/mobile-loaded-later.md",
+      "source_sha256": "a62fa356860a0525f8aa4be8d69ae165a62264899c37ab4cdb977c857491e4f7",
+      "published_sha256": "234ac1974bbfd8ba8646601ca5ec32f8ee40d0800d43df3ceec252cfc5f5f8f4",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-20/script-analysis-the-butler-did-it.md",
+      "published_path": "source-notes/later/writeups/day-20/script-analysis-the-butler-did-it.md",
+      "source_sha256": "15bf00197acf07feaf2520f0546af591da1e41d14e446bec162eea3ac1588e2a",
+      "published_sha256": "5085c43bc48e5d0b9a2b3cf5a8b62d680c62fd17dbcb4f533a2e08f13c2347a3",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-20/warmups-big-entrance.md",
+      "published_path": "source-notes/later/writeups/day-20/warmups-big-entrance.md",
+      "source_sha256": "c9d9ce06c95c021f4bb82276450bd9063285b4ff561f1694957341aa1474be91",
+      "published_sha256": "c8f0b39157fd2eac4e8b6329e771858bdc430ef44ca402c32874c561c023f707",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-20/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-20/web-exploitation.md",
+      "source_sha256": "1f994675c66a8b6962164d7a31397e7453e718efaebe4e3f01088a01d35b8ddf",
+      "published_sha256": "d302eec362c5ff951cda5c499e8832e4032631b6b2a218af6d97304c8f53bac3",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-21/binary-shared-custody.md",
+      "published_path": "source-notes/later/writeups/day-21/binary-shared-custody.md",
+      "source_sha256": "3d621cca79284716df050f7be041ccc2f1846df44a1556fabac86a4ad8affcd8",
+      "published_sha256": "61c7466f4333351fb5198dfd1976eb0c7fcb817134db29caed09cba296479158",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-21/metadata-forensics-package-deal.md",
+      "published_path": "source-notes/later/writeups/day-21/metadata-forensics-package-deal.md",
+      "source_sha256": "a5575944449db177667bad4adb60107d63b9509bd61048aa807da3bd34e1c5b6",
+      "published_sha256": "ea30aa970965462caa939920768c79fc397463b7fc91f5e63502f2e473f2ccee",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-21/mobile-debug-me-if-you-can.md",
+      "published_path": "source-notes/later/writeups/day-21/mobile-debug-me-if-you-can.md",
+      "source_sha256": "9d70f924f15ec306bb46ca3d169e20f2d75b35d63f450c700345a08a88099429",
+      "published_sha256": "fb1b7d39491e2a626fc7531b94b396d16a9204bc038673725824faab6dd056d3",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-21/script-analysis-actions-speak-louder.md",
+      "published_path": "source-notes/later/writeups/day-21/script-analysis-actions-speak-louder.md",
+      "source_sha256": "d00ffd3b1120669a4cd3219cd67e2e6d75ac0d7dd8e725db167ebc33a9f4cf12",
+      "published_sha256": "cbe74b5f633fcebf2ed03fd66111a11c1fbfe7532d4b8f5f42d6c150450cff45",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-21/warmups-under-pressure.md",
+      "published_path": "source-notes/later/writeups/day-21/warmups-under-pressure.md",
+      "source_sha256": "76052b211073974012b18ff7336e4744bd186ec1f0a4762019dc163ab0262e54",
+      "published_sha256": "977c35222ba2095c49f42299c418fccfa25203a090b491c1d3946df55b96514b",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-21/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-21/web-exploitation.md",
+      "source_sha256": "33ba37fdfba340d87fd803d3b0713d42c20a693fbf05376fb7be408d75334f5c",
+      "published_sha256": "214b1f849a754716a6648367dc2b6d2ebf05650414cf9ccab02e3dc6d92034ef",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-22/binary-bridge-troll.md",
+      "published_path": "source-notes/later/writeups/day-22/binary-bridge-troll.md",
+      "source_sha256": "8f582da86c0de882bd64ec721c31e686e324819ec2187d8de9e2211b1078eece",
+      "published_sha256": "37368a4795b94ba6276457fd4043c05608de1082d04ee60c01875bc66f8c53d3",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-22/metadata-forensics-main-character-energy.md",
+      "published_path": "source-notes/later/writeups/day-22/metadata-forensics-main-character-energy.md",
+      "source_sha256": "07240e66b54ae76b360d19a0cb046b8d7bcdf4864efde02d9a50a7ee95f4dd79",
+      "published_sha256": "ec2bc03d6a60a3ab8afaec8a4fb7cb38ea9f01d1cd04538a7a2dbc2fca95a186",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-22/mobile-root-of-trust.md",
+      "published_path": "source-notes/later/writeups/day-22/mobile-root-of-trust.md",
+      "source_sha256": "6a9777dde6cb08ec165bcba9b45a8f9eda4d32b47700cda12e55c4e8fc3750d8",
+      "published_sha256": "31007d5b4f73433ad2fc30b36005bd9fe870c6cb1a4e13a2e59559c90def7448",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-22/script-analysis-next-next-finish.md",
+      "published_path": "source-notes/later/writeups/day-22/script-analysis-next-next-finish.md",
+      "source_sha256": "e9b3098e10b00c09e63c5fe9ba80ca024cd6cb7bdce3776aaae5aab8db24352d",
+      "published_sha256": "c0c913169f2ee0cac5542c2b805c03e5acdec4f3ffbb492ce777318ea1643569",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-22/warmups-deflated-ego.md",
+      "published_path": "source-notes/later/writeups/day-22/warmups-deflated-ego.md",
+      "source_sha256": "62940cc4100fba2c4f540bc3e5eab08efa3b64012349e493dee2343c9949f620",
+      "published_sha256": "04de6241aff7055690f9bff4410d697a8b15b7a69a1d0960d39dec8bd0f256f5",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-22/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-22/web-exploitation.md",
+      "source_sha256": "092a8eda3b62fcfa9e1f629c250df370687edbaf96c2357e94978b3ef76b2b58",
+      "published_sha256": "d87a4847af0d13ee71dd5018ed2cc11d920ca674b19014b7acd9c7dcabc7aef6",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-23/binary-anti-analysis-recognition.md",
+      "published_path": "source-notes/later/writeups/day-23/binary-anti-analysis-recognition.md",
+      "source_sha256": "0e4c03281bf846f171bc5aae1f4df1e41615243fdfe1d42da32ef75d5b3d596f",
+      "published_sha256": "d4e527ea1f4322902d9f15f32de9126db6a6eb5091eff2a5f268d5d3c4d377d5",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-23/metadata-forensics-page-me-maybe.md",
+      "published_path": "source-notes/later/writeups/day-23/metadata-forensics-page-me-maybe.md",
+      "source_sha256": "a351a0ea9451b75e33cfb33a92dbea19041b2b13f696d603ec0d4e648b18955f",
+      "published_sha256": "b0dc46c2387ed6259d532b59146dd5d3703280ca01bc942bb5cb0ff492c0e9ad",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-23/mobile-hook-line-and-signal.md",
+      "published_path": "source-notes/later/writeups/day-23/mobile-hook-line-and-signal.md",
+      "source_sha256": "3764e3ca1b7b0bb8e9c791cbef056f0ae90a2ccf8e3b14403fb3f1218fccddc0",
+      "published_sha256": "80dbf080a528b8818d699b439cea6a1210b5a64d3a8c154ffccb9603af94333e",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-23/script-analysis-press-start-to-decode.md",
+      "published_path": "source-notes/later/writeups/day-23/script-analysis-press-start-to-decode.md",
+      "source_sha256": "60bb475df1abf307d717e278c2ffb50ce335bfd5cb10bc33c0dba87f28507d09",
+      "published_sha256": "1dc4b669676142ddb77fd3e1dd1bf5e2fea5b612a29d179e0ffbf2168c69f0dd",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-23/warmups-eighty-five-alive.md",
+      "published_path": "source-notes/later/writeups/day-23/warmups-eighty-five-alive.md",
+      "source_sha256": "676d6e6b073031224f97517eb777b20c6c6b5d91cd95d53333745fe0ee9e59dd",
+      "published_sha256": "ab6e3e9f4b32b1c99dfade8ae8aa451ac0b54b714a4d592f67dbf2627cfeab13",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-23/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-23/web-exploitation.md",
+      "source_sha256": "f0e3492c5c9949ff34fa50479c35c87305331936d4de675c4f354943cf56a2e3",
+      "published_sha256": "cce01dfdc5a10c1d3ff7f85c27cac739254c5a91de79850529a092d0ef890e5d",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-24/binary-spot-the-difference.md",
+      "published_path": "source-notes/later/writeups/day-24/binary-spot-the-difference.md",
+      "source_sha256": "026ff3f989b68cf4c6a31ffe36131d2114ba6a72ba67a51d606bef9a6c8f59d3",
+      "published_sha256": "baf1816a5c51d73a818308a87d4dda03004fddb6e5fcf23e0b05cf4f3f8b092c",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-24/metadata-forensics-event-horizon.md",
+      "published_path": "source-notes/later/writeups/day-24/metadata-forensics-event-horizon.md",
+      "source_sha256": "a1066d6c6f3c6a41d8612c84d791962b6b7c4bb873c2a9d4df59338c43d1264d",
+      "published_sha256": "4bc088d6cd1f3c50a2ce26bf43349f3200bfba86dd2ad31fb83fd73bda0471a8",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-24/mobile-emulator-alibi.md",
+      "published_path": "source-notes/later/writeups/day-24/mobile-emulator-alibi.md",
+      "source_sha256": "6e83c61dac476137650bc268304ced68206ff6b64f27d1b3d0325ae2f5c7a476",
+      "published_sha256": "1da1e03a93b1ea21f2ade14e19300264782cdc333e2fed40cc75e4607c36919a",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-24/script-analysis-web-of-lies.md",
+      "published_path": "source-notes/later/writeups/day-24/script-analysis-web-of-lies.md",
+      "source_sha256": "01cae2c6daf9a06b0390349fcbb3f2076cfed797dbea94ef95eded80ebb93c1e",
+      "published_sha256": "b2c2e8a5df5ad260800944ef11a1ac93a89514211ceeaf93996ac736d8c253e6",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-24/warmups-string-theory.md",
+      "published_path": "source-notes/later/writeups/day-24/warmups-string-theory.md",
+      "source_sha256": "8e3cb033ac1027d82b274caafea7e6f00063f3368901505414543fa9f09e77aa",
+      "published_sha256": "49bbc053907a2c99dee4118d06d815b04d98d075d13fda257cd3af89b1047c32",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-24/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-24/web-exploitation.md",
+      "source_sha256": "2ee3edc3cbd48314cbf5efb66f4c33b4553dc176912739b58cbc40b342eec058",
+      "published_sha256": "550d45e9a9846a6611c741908965801926b54ae37f297607c6539ac5d94d7abd",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-25/binary-out-of-bounds.md",
+      "published_path": "source-notes/later/writeups/day-25/binary-out-of-bounds.md",
+      "source_sha256": "e25f0dc960c9662eacd23da8b5b6d35408fe2c5e1a2a9cc12318d72ccf596df7",
+      "published_sha256": "8b9f1243d003c13e67283834e9986b293bf0f14f359d323f635b726db9204215",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-25/metadata-forensics-hive-mind.md",
+      "published_path": "source-notes/later/writeups/day-25/metadata-forensics-hive-mind.md",
+      "source_sha256": "06189f0f082ad86991f23dd751afa1b7e341b5827c2aa636b55d460bc71858c1",
+      "published_sha256": "32a5e21ca51ec5ad197b65c68808d70af1e5551b087e9949f08c8e9fb9b4908f",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-25/mobile-integrity-signals.md",
+      "published_path": "source-notes/later/writeups/day-25/mobile-integrity-signals.md",
+      "source_sha256": "f4e7b74b67c9e2e22ee3ad87954e4f8c40c1a39696a1a6c8ab7985bc818e223a",
+      "published_sha256": "0e2709fa95a40461e10574759e4d32f45f42f26fb4074be087d076e4afceaa7e",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-25/script-analysis-ashes-to-assets.md",
+      "published_path": "source-notes/later/writeups/day-25/script-analysis-ashes-to-assets.md",
+      "source_sha256": "747042c51c26980143549110be4a693110d2ee52a38b497ea5e48f46e9c61582",
+      "published_sha256": "8484a08399138d023436423b9562318e53334570ad674b44e2577afa491f4495",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-25/warmups-you-have-a-point.md",
+      "published_path": "source-notes/later/writeups/day-25/warmups-you-have-a-point.md",
+      "source_sha256": "9870a3a755851eb49f5602212f46280c4d14136cb9a1a4fc5f9a454093cf54c7",
+      "published_sha256": "7aad8087f23367f0b354645ad68f7338b4395cd076ec9f01b2f1cbf2355e45cc",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-25/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-25/web-exploitation.md",
+      "source_sha256": "f5eb00d010ee3426f69f8bab66c51e18ed1dc85c04aa8ee491b2188c01775614",
+      "published_sha256": "359c5c1e9d8fa5549f2e6f68b9b48555e1c8b3febcab83876a271001f1489c80",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-26/binary-crash-course.md",
+      "published_path": "source-notes/later/writeups/day-26/binary-crash-course.md",
+      "source_sha256": "c13735249605f8222c8ef270a4e371f328004fd65a5436b02986175307fad72f",
+      "published_sha256": "8b6e92bd24eb0118df299677dc21b6a4cb3931dba968a2347cb65e4d2331f359",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-26/metadata-forensics-before-you-go.md",
+      "published_path": "source-notes/later/writeups/day-26/metadata-forensics-before-you-go.md",
+      "source_sha256": "b43ff94b2b38c5e64c50b53775e84ca736187c9f86e6199f48ea6c475d2bd10e",
+      "published_sha256": "977fbd40b89719741c0c622097427f0cf28fddcf5e62eef2c18b2e5f37d31d3b",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-26/mobile-android-split-decision.md",
+      "published_path": "source-notes/later/writeups/day-26/mobile-android-split-decision.md",
+      "source_sha256": "a7f43245b58867438d85dcb5953fca183be45aeb781f34cab86749ae32f5268d",
+      "published_sha256": "2e20646cf722cbd226c054880f72e872fb9308f6b245884e0b230c1e4c918b9d",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-26/script-analysis-mixed-signals.md",
+      "published_path": "source-notes/later/writeups/day-26/script-analysis-mixed-signals.md",
+      "source_sha256": "e7ef1b629c6524142c9ea82fe03392c2028dd24d0e03704e0998dc2c989468e6",
+      "published_sha256": "c37930b46e2bbd2dcf839fc46088b041ec27ced2f5ea597655cdb87ebceaf29a",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-26/warmups-food-for-thought.md",
+      "published_path": "source-notes/later/writeups/day-26/warmups-food-for-thought.md",
+      "source_sha256": "6280f2f094a76a29b638715dc3e46e3157455e26ce0e3045f12fdfe58c083b43",
+      "published_sha256": "91a9d68298f496f7a26cf665c8485d8c999fc38ae2aee1f138fb9cc0e08d54fb",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-26/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-26/web-exploitation.md",
+      "source_sha256": "04ceced74d3e9f74160fbbdb0ea5a238ff7c6ba42e5c8f60497a9a3c68bc93b8",
+      "published_sha256": "e2ffe9d3f7711b8509b4a6a0ec99377485780335d0508ca7258b72fcd7ed96b7",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-27/binary-compiler-says-what.md",
+      "published_path": "source-notes/later/writeups/day-27/binary-compiler-says-what.md",
+      "source_sha256": "25b7c15a76cc5936d374459405b850b8c6f01d2ce589c4f4f5f9466a61c9d95f",
+      "published_sha256": "01c161a267c015c1ba627e18e36047cb4b2b7187a572c6e67958f72ce65b8161",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-27/metadata-forensics-packet-loss-prevention.md",
+      "published_path": "source-notes/later/writeups/day-27/metadata-forensics-packet-loss-prevention.md",
+      "source_sha256": "2681e82699943ccf7aa80284b3bf34bd3819c5d707706d7b8f1d8683495896ba",
+      "published_sha256": "d3380c4fa73a82cae06185f3eeb6966b068f1b0835d561ce67f2f2e91d6c9531",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-27/mobile-dependency-surface.md",
+      "published_path": "source-notes/later/writeups/day-27/mobile-dependency-surface.md",
+      "source_sha256": "2ade5fe0715a2a71827e10bc3b78876a95da608e9b325f7cf8345f9aea25d27f",
+      "published_sha256": "c491c024e5d667c517fdb12176c82427598286c7b01add6bbf2e0eecb702eb49",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-27/script-analysis-from-whence-it-came.md",
+      "published_path": "source-notes/later/writeups/day-27/script-analysis-from-whence-it-came.md",
+      "source_sha256": "4414f24095d868d509c5d3c0151fa2862195ddbe3691ebfe37991286b513ffd5",
+      "published_sha256": "c4ea766d98afe13aaa8aad0a00c1afc39ab0f9c788d9b8964f015449b9e8d97a",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-27/warmups-monkey-business.md",
+      "published_path": "source-notes/later/writeups/day-27/warmups-monkey-business.md",
+      "source_sha256": "f97033f389ff08df63be5493df147aacb85a0bb09ccae71d8a612d2e80ee26f8",
+      "published_sha256": "4cd63adeae7bf153fd5c218af039b3a70967e1b43456e6a570545eb9c68b0baf",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-28/binary-family-resemblance.md",
+      "published_path": "source-notes/later/writeups/day-28/binary-family-resemblance.md",
+      "source_sha256": "411b4fda38a9d3d390bb579fcea6408990533949714423ec134323606632931c",
+      "published_sha256": "eab0ab5063d7a0641ea40cfbfc61b437935a0a0bd29d137f3e6d99795c7135ab",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-28/metadata-forensics-where-it-all-began.md",
+      "published_path": "source-notes/later/writeups/day-28/metadata-forensics-where-it-all-began.md",
+      "source_sha256": "cc19a22799c7b893309bc715ddb9ab5e2ba56e6d2796920f6c2d1cbaa040aa45",
+      "published_sha256": "818e86d975f70ada206f1281f330231f9a34658e004bf6dab6c9436887999833",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-28/mobile-protocol-reconstruction.md",
+      "published_path": "source-notes/later/writeups/day-28/mobile-protocol-reconstruction.md",
+      "source_sha256": "c688d93293c9e101d2185a62d5bf216eebfff966f3b4ee748ba79ccfbee1b8cd",
+      "published_sha256": "847834357aec4c6fbcbd09d0a482a3520b954c6671f6fcd5e8e46bc2ecbec43c",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-28/script-analysis-out-of-order.md",
+      "published_path": "source-notes/later/writeups/day-28/script-analysis-out-of-order.md",
+      "source_sha256": "ccf142b8defadfed280d98f18300b246fd232a4c800176a5b5476fc7c07abd00",
+      "published_sha256": "fc983d4941cf4159786e41ffffbb49ecd673efe1dc4d9cf46b1b79af39c34acb",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-28/warmups-back-in-sixteen.md",
+      "published_path": "source-notes/later/writeups/day-28/warmups-back-in-sixteen.md",
+      "source_sha256": "4cb165634250e8a85b16dc4377cdce232a66ef0a538c2f937acc5291601932e6",
+      "published_sha256": "a464525d551fbc2436aa9c22aa25288803af063a57bff83e4ce37922b94bf81f",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-29/binary-fraternal-twins.md",
+      "published_path": "source-notes/later/writeups/day-29/binary-fraternal-twins.md",
+      "source_sha256": "1055e47528a9fcde3f3f6e76c5430f56b791d9ddcb411fa3f8ba3b1a2cb61a1e",
+      "published_sha256": "d15fecd7964c581ef6381a341eeab65526e00e1e4ff142d18c4684da32a8df1a",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-29/metadata-forensics-trust-issues.md",
+      "published_path": "source-notes/later/writeups/day-29/metadata-forensics-trust-issues.md",
+      "source_sha256": "f88aad291e57283639dc5f6ef4ab76c5606ae3d1c5c7176666256f578a30f722",
+      "published_sha256": "0d7554882f7af91cdaf1ff0b35401b0876eefdeaf96452d66c489e7d7c692c77",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-29/mobile-white-box-key-recovery.md",
+      "published_path": "source-notes/later/writeups/day-29/mobile-white-box-key-recovery.md",
+      "source_sha256": "9875fbed3b72d72d89c5ee0bd649a4e3b7d6222ad1a6085f9a80f19d870612c6",
+      "published_sha256": "9a5863c30cb754186467bf7a64b5c96ff14e9dbde40bd557e88c285c04a663d5",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-29/script-analysis-make-it-make-sense.md",
+      "published_path": "source-notes/later/writeups/day-29/script-analysis-make-it-make-sense.md",
+      "source_sha256": "29fa2c7e0d0725f0e11c0adc4c141ce1d5028beed7ae9e3852b03342c9994992",
+      "published_sha256": "580931205d64e2986420fa4b226aa7390ffc7e9b753443db1ccfbf1fadfe7a61",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-29/web-exploitation.md",
+      "published_path": "source-notes/later/writeups/day-29/web-exploitation.md",
+      "source_sha256": "f7e625052999446a9f5ac95e043e9cee9401ad798630b57ac245e7629f2769f8",
+      "published_sha256": "b35e813c061d673a3875b93f88aff6ed99a25f97f3cb18ec910518eb54a1fe42",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-30/binary-multi-binary-campaign.md",
+      "published_path": "source-notes/later/writeups/day-30/binary-multi-binary-campaign.md",
+      "source_sha256": "42eb4f84a19c981a58b115d9a4f5f6a96e03df6f4d8f852c2472f57005e8c1f8",
+      "published_sha256": "4999b7c997e287006488a143cde857980e03fe2bcf6a48d014b06429e8716f88",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-30/metadata-forensics-seeing-double.md",
+      "published_path": "source-notes/later/writeups/day-30/metadata-forensics-seeing-double.md",
+      "source_sha256": "44e4dfa1e396774c26ed4b7048acb03d6406f6a27bc504a3618295bae3490e7c",
+      "published_sha256": "452bff400cd455f31b3313ed6ed987717fd024a36dcbb5734657291d3ba1125b",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-30/mobile-android-layered-protections.md",
+      "published_path": "source-notes/later/writeups/day-30/mobile-android-layered-protections.md",
+      "source_sha256": "086bfc7ff61c1f4ba7d21549e7b9fe5f54bc3d05ac11a5b1639075f814e8144b",
+      "published_sha256": "09ee805c3e4a3a842a5b3154c946fcc55009c14a5405bfb0e21285b9e0737b4c",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-30/script-analysis-spill-the-beans.md",
+      "published_path": "source-notes/later/writeups/day-30/script-analysis-spill-the-beans.md",
+      "source_sha256": "e3f0c82566175a8761dbc86b7b49bec33bd6d15368f37cc20333286b1541af15",
+      "published_sha256": "8b9c2fbdce985db82c23274f24c58acba41b28f2ab7d1ecc2a9904b746eadf75",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-30/warmups-percent-percent.md",
+      "published_path": "source-notes/later/writeups/day-30/warmups-percent-percent.md",
+      "source_sha256": "f6c061f96af3a943d0b276ee32a7ebe3fda16b0daa46d377ce194123feaf4e07",
+      "published_sha256": "60a260c17ee17b0881e743c7e0803381f18c671660f8085a059d39f2a43901e6",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-31/binary-reversing-gauntlet.md",
+      "published_path": "source-notes/later/writeups/day-31/binary-reversing-gauntlet.md",
+      "source_sha256": "a6a488125979cfd33a1c48da9703e24524ad8cbf715b8d0903aacbae1439f5e8",
+      "published_sha256": "300a2ffeca8e3774c303397b427cad8129b0255827cae05b288f31137addefd5",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-31/metadata-forensics-no-artifact-left-behind.md",
+      "published_path": "source-notes/later/writeups/day-31/metadata-forensics-no-artifact-left-behind.md",
+      "source_sha256": "5dbc046ba657c6118d0d9350ab6911ebc7d166a1591e356374d41a56f637ac0b",
+      "published_sha256": "03a17bd21eac70aea77719bc41528cd926b518af5308a1dc6a6523a06c4bbda0",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-31/mobile-arena-gauntlet.md",
+      "published_path": "source-notes/later/writeups/day-31/mobile-arena-gauntlet.md",
+      "source_sha256": "4474517af381bff263597024c1fe5234f067425ca4a595cdf22337e077e11011",
+      "published_sha256": "d561d96f60dc3691007c08858df376d9556fc8ec8eaf1e7400fe0cbb1a67e8df",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-31/script-analysis-the-full-transform.md",
+      "published_path": "source-notes/later/writeups/day-31/script-analysis-the-full-transform.md",
+      "source_sha256": "cd9a75c9002c88e79a1b39a5cd3e3a47895c55db3e71552f8880827b5248886d",
+      "published_sha256": "688140c626c6f917966aec7813fa66f7405aa5dd7e58670017c32694aaef65a2",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-31/warmups-one-more-thing.md",
+      "published_path": "source-notes/later/writeups/day-31/warmups-one-more-thing.md",
+      "source_sha256": "284778f07dc77c4249f6ce21dc100d232ef57eb0f4420916824deaf9c43d8367",
+      "published_sha256": "635517597181b2ed81c3376906bd8390bf16b1018e85cd751bc6fee7b13422b3",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-31/web-exploitation-framework-roulette.md",
+      "published_path": "source-notes/later/writeups/day-31/web-exploitation-framework-roulette.md",
+      "source_sha256": "00451d846eb61b62f338da8fe2f3974041a78bd3c2691d07237436c4b9514fa6",
+      "published_sha256": "4c7c13d14f848e2315743c2a7bb0124aa8316d62bd4357c464e569b374f8c65f",
+      "edited": true
+    },
+    {
+      "source": "gameai/writeups/day-31/web-exploitation-full-stack-incident.md",
+      "published_path": "source-notes/later/writeups/day-31/web-exploitation-full-stack-incident.md",
+      "source_sha256": "c38d9848c8524db046c326d11079bf61acd242e7875f323b11ff8630b0409b16",
+      "published_sha256": "560c96f966cf16712b5eb0d92ec66ea0896335a45f40dbd35a7505ea86260f6f",
+      "edited": true
+    },
+    {
+      "source": "codex/reference/user-updates/sha1-hulud-web-pro-writeup.md",
+      "published_path": "source-notes/user-updates/sha1-hulud-web-pro-writeup.md",
+      "source_sha256": "7a97d843415b4d803f3cc2a1fbab9a6c07927c2db1ca73e74e3ca9c9d3036180",
+      "published_sha256": "06ec32c190103eee95f5e03a893e68db9401854399984bb658cc15e85f053cf3",
+      "edited": true
+    },
+    {
+      "source": "prompts/01 - warmup.txt",
+      "published_path": "prompts/snapshots/01-warmups.txt",
+      "source_sha256": "396f194aae8a9209c2c342eca86797fb49715ab367a40a71261a3518350a5e86",
+      "published_sha256": "396f194aae8a9209c2c342eca86797fb49715ab367a40a71261a3518350a5e86",
+      "edited": false
+    },
+    {
+      "source": "prompts/02 - metadat forensics.txt",
+      "published_path": "prompts/snapshots/02-metadata-forensics.txt",
+      "source_sha256": "ac1011c0e877184445c6f54b1487c3c10ac3420ebfb5bf843ed79923362a4658",
+      "published_sha256": "ac1011c0e877184445c6f54b1487c3c10ac3420ebfb5bf843ed79923362a4658",
+      "edited": false
+    },
+    {
+      "source": "prompts/03 - script.txt",
+      "published_path": "prompts/snapshots/03-script-analysis.txt",
+      "source_sha256": "a6e7bb10e371d9f1f04a05410c7ddb52e64dd9a01f1a48c2fe3b95cc94526dfd",
+      "published_sha256": "a6e7bb10e371d9f1f04a05410c7ddb52e64dd9a01f1a48c2fe3b95cc94526dfd",
+      "edited": false
+    },
+    {
+      "source": "prompts/04 - binary.txt",
+      "published_path": "prompts/snapshots/04-binary-reverse-engineering.txt",
+      "source_sha256": "5898e43d37021f8c7a367ca2b3d024a8becc3fcd04fc6d3951e546c14296e733",
+      "published_sha256": "5898e43d37021f8c7a367ca2b3d024a8becc3fcd04fc6d3951e546c14296e733",
+      "edited": false
+    },
+    {
+      "source": "prompts/05 - mobile.txt",
+      "published_path": "prompts/snapshots/05-mobile-android.txt",
+      "source_sha256": "963fd065ec771c49ca84d78432b20a860f5c85e45bc6b4363d9172f3e85196b2",
+      "published_sha256": "963fd065ec771c49ca84d78432b20a860f5c85e45bc6b4363d9172f3e85196b2",
+      "edited": false
+    },
+    {
+      "source": "prompts/06 - web.txt",
+      "published_path": "prompts/snapshots/06-web-exploitation.txt",
+      "source_sha256": "2c220fb86f09ef6c85458697da4d39226820a48a3f22551ac38a9c7af7b2f491",
+      "published_sha256": "2c220fb86f09ef6c85458697da4d39226820a48a3f22551ac38a9c7af7b2f491",
+      "edited": false
+    },
+    {
+      "source": "prompts/09 - redo promp.md",
+      "published_path": "prompts/snapshots/09-review-training-optimization.md",
+      "source_sha256": "e248fce2147c73eaebd18130915b3fea8c23b364fcf40b66bb94ad1f29bd712b",
+      "published_sha256": "e248fce2147c73eaebd18130915b3fea8c23b364fcf40b66bb94ad1f29bd712b",
+      "edited": false
+    },
+    {
+      "source": "gameai/web-tools/README.md",
+      "published_path": "source-notes/later/web-tools/README.md",
+      "source_sha256": "67fe1adefbde8900fd2c5870f401d5831ee2fb210774ab9a514040ab27e40fd5",
+      "published_sha256": "13eb63ae338a52e9828ba4eabd30fd15da2ed8430d97aea5489e194c964e2c46",
+      "edited": true,
+      "note": "Source-reference mirror retained for curated article citation."
+    }
+  ],
+  "changes": {
+    "credential_values_removed": 0,
+    "artifact_capabilities_removed": 16,
+    "private_ip_occurrences_replaced": 47,
+    "unavailable_links_deactivated": 95,
+    "service_links_deactivated": 457
+  }
+}

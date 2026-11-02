@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-02-looks-can-be-deceiving",
+  "day": 2,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-02-looks-can-be-deceiving",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "755c8028-940f-4918-8167-cef70e9a0c31",
+        "mode": "single_solve",
+        "answer_ids": [
+          "evidence-note-magic-prefix-hex-16"
+        ],
+        "questions": [
+          {
+            "id": "evidence-note-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-02-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "evidence-note-magic-prefix-hex-16"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "755c8028-940f-4918-8167-cef70e9a0c31",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "evidence-note-magic-prefix-hex-16"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-02-looks-can-be-deceiving/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T16:44:13.566Z",
+        "attempt_id": "e941217b-0e65-4d52-aa6b-50763408981e",
+        "mode": "time_trial",
+        "answer_ids": [
+          "roster-magic-prefix-hex-16"
+        ],
+        "questions": [
+          {
+            "id": "roster-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-02-evidence.zip -> roster.csv",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "roster-magic-prefix-hex-16"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "e941217b-0e65-4d52-aa6b-50763408981e",
+          "deadline": "2026-10-03T16:44:13.566Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "roster-magic-prefix-hex-16"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-02-looks-can-be-deceiving/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T16:48:36.051Z",
+        "attempt_id": "3cd7127f-d3ff-49dc-91ec-c7e7cbc4c90b",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.evidence-note-copy-magic-prefix-hex-16",
+          "set2.disguised-report-magic-prefix-hex-16"
+        ],
+        "questions": [
+          {
+            "id": "set1.evidence-note-copy-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-02-evidence-01.zip -> evidence-note-copy.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.disguised-report-magic-prefix-hex-16",
+            "question": "What are the first sixteen bytes as lowercase hexadecimal?",
+            "artifact": "metadata-day-02-evidence-02.zip -> disguised-report.bin",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32 hexadecimal characters representing the first 16 bytes; use no 0x prefix or spaces"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.evidence-note-copy-magic-prefix-hex-16",
+        "set2.disguised-report-magic-prefix-hex-16"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "3cd7127f-d3ff-49dc-91ec-c7e7cbc4c90b",
+          "deadline": "2026-10-03T16:48:36.051Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.evidence-note-copy-magic-prefix-hex-16",
+            "set2.disguised-report-magic-prefix-hex-16"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 Looks Can Be Deceiving",
+  "last_synced": "2026-10-04T21:45:48.488618+00:00",
+  "coursestack": {
+    "key": "8ce48c0f2579d52d1f60",
+    "identity": "99958c8c-a6c9-4770-81c9-10d4ed7e7e7c",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

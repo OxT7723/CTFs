@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-11-whats-my-name-again",
+  "day": 11,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-11-whats-my-name-again",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "1ee816d9-4c31-4ed5-92c7-26c63d9c6503",
+        "mode": "single_solve",
+        "answer_ids": [
+          "d09-pe-001-pe-version-original-filename"
+        ],
+        "questions": [
+          {
+            "id": "d09-pe-001-pe-version-original-filename",
+            "question": "Determine pe.version_original_filename for telemetry-agent-001.exe.",
+            "artifact": "metadata-day-11-evidence.zip -> telemetry-agent-001.exe",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact ordered artifact-derived text requested by the question; preserve punctuation and separators and add no explanation"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d09-pe-001-pe-version-original-filename"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "1ee816d9-4c31-4ed5-92c7-26c63d9c6503",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d09-pe-001-pe-version-original-filename"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-11-whats-my-name-again/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-11T14:56:21.064Z",
+        "attempt_id": "c55db8bc-7a63-4acf-950f-b46472362a63",
+        "mode": "time_trial",
+        "answer_ids": [
+          "d09-pe-002-pe-version-original-filename"
+        ],
+        "questions": [
+          {
+            "id": "d09-pe-002-pe-version-original-filename",
+            "question": "Determine pe.version_original_filename for telemetry-agent-002.exe.",
+            "artifact": "metadata-day-11-evidence.zip -> telemetry-agent-002.exe",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact ordered artifact-derived text requested by the question; preserve punctuation and separators and add no explanation"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d09-pe-002-pe-version-original-filename"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "c55db8bc-7a63-4acf-950f-b46472362a63",
+          "deadline": "2026-10-11T14:56:21.064Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d09-pe-002-pe-version-original-filename"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-11-whats-my-name-again/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-11T14:56:24.844Z",
+        "attempt_id": "17251807-babe-4596-bfba-4769b890046e",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.d09-pe-003-pe-version-original-filename",
+          "set2.d09-pe-004-pe-version-original-filename"
+        ],
+        "questions": [
+          {
+            "id": "set1.d09-pe-003-pe-version-original-filename",
+            "question": "Determine pe.version_original_filename for telemetry-agent-003.exe.",
+            "artifact": "metadata-day-11-evidence-01.zip -> telemetry-agent-003.exe",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact ordered artifact-derived text requested by the question; preserve punctuation and separators and add no explanation"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d09-pe-004-pe-version-original-filename",
+            "question": "Determine pe.version_original_filename for telemetry-agent-004.exe.",
+            "artifact": "metadata-day-11-evidence-02.zip -> telemetry-agent-004.exe",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact ordered artifact-derived text requested by the question; preserve punctuation and separators and add no explanation"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.d09-pe-003-pe-version-original-filename",
+        "set2.d09-pe-004-pe-version-original-filename"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "17251807-babe-4596-bfba-4769b890046e",
+          "deadline": "2026-10-11T14:56:24.844Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.d09-pe-003-pe-version-original-filename",
+            "set2.d09-pe-004-pe-version-original-filename"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 What’s My Name Again?"
+}

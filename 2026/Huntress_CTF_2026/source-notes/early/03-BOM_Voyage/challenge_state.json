@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-03-bom-voyage",
+  "day": 3,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-03-bom-voyage",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "40d5dcb0-1389-4fe7-8bb4-58b4266ae828",
+        "mode": "single_solve",
+        "answer_ids": [
+          "evidence-note-text-utf8-bom-present"
+        ],
+        "questions": [
+          {
+            "id": "evidence-note-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note.txt.",
+            "artifact": "metadata-day-03-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "evidence-note-text-utf8-bom-present"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "40d5dcb0-1389-4fe7-8bb4-58b4266ae828",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "evidence-note-text-utf8-bom-present"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-03-bom-voyage/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T17:52:40.104Z",
+        "attempt_id": "84ac625b-8060-4b1d-b3f7-5778ac0f44a6",
+        "mode": "time_trial",
+        "answer_ids": [
+          "roster-text-utf8-bom-present"
+        ],
+        "questions": [
+          {
+            "id": "roster-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for roster.csv.",
+            "artifact": "metadata-day-03-evidence.zip -> roster.csv",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "roster-text-utf8-bom-present"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "84ac625b-8060-4b1d-b3f7-5778ac0f44a6",
+          "deadline": "2026-10-03T17:52:40.104Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "roster-text-utf8-bom-present"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-03-bom-voyage/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T17:59:44.894Z",
+        "attempt_id": "08286173-a3b3-489a-a57c-97163dc47bb5",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.evidence-note-copy-text-utf8-bom-present",
+          "set2.d03-text-001-text-utf8-bom-present"
+        ],
+        "questions": [
+          {
+            "id": "set1.evidence-note-copy-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for evidence-note-copy.txt.",
+            "artifact": "metadata-day-03-evidence-01.zip -> evidence-note-copy.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d03-text-001-text-utf8-bom-present",
+            "question": "Determine text.utf8_bom_present for export-001-with-bom.txt.",
+            "artifact": "metadata-day-03-evidence-02.zip -> export-001-with-bom.txt",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.evidence-note-copy-text-utf8-bom-present",
+        "set2.d03-text-001-text-utf8-bom-present"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "08286173-a3b3-489a-a57c-97163dc47bb5",
+          "deadline": "2026-10-03T17:59:44.894Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.evidence-note-copy-text-utf8-bom-present",
+            "set2.d03-text-001-text-utf8-bom-present"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 BOM Voyage",
+  "last_synced": "2026-10-04T21:45:48.491453+00:00",
+  "coursestack": {
+    "key": "47305f44c2583f8fd061",
+    "identity": "1518e1c6-2049-419c-8ceb-0f049bbc8df2",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

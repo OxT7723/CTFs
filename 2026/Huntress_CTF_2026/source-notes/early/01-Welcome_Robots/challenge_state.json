@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "challenge_id": "welcome-robots",
+  "day": 1,
+  "lane": "welcome",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "welcome-robots",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "e81af705-5ed6-408a-9f25-2eef3953a824",
+        "mode": "single_solve",
+        "answer_ids": [
+          "flag"
+        ]
+      },
+      "answer_ids": [
+        "flag"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "e81af705-5ed6-408a-9f25-2eef3953a824",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "flag"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": null,
+      "listed_solved": null,
+      "status": null,
+      "answer_ids": [],
+      "attempts": []
+    },
+    "mastery": {
+      "challenge_id": null,
+      "listed_solved": null,
+      "status": null,
+      "answer_ids": [],
+      "attempts": []
+    }
+  },
+  "title": "Welcome Robots",
+  "last_synced": "2026-10-04T21:45:48.476937+00:00",
+  "coursestack": {
+    "key": "7bd3466b645e5a709d85",
+    "identity": "c17d156a-1ec6-42d2-853e-bf2d4f9da7a0",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

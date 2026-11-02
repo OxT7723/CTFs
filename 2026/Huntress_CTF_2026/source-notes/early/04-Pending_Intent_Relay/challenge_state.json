@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "challenge_id": "mobile-android-day-04-pending-intent-relay",
+  "day": 4,
+  "lane": "mobile-android",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "mobile-android-day-04-pending-intent-relay",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "80212245-18a4-49fa-8221-6363e993ebe5",
+        "mode": "single_solve",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-04-0C53CC9C9F in package com.huntress.mobile.d04.v0c53cc9c9f40: Recover and redirect a mutable PendingIntent while preserving every earlier component check. Submit only the exact backend answer code returned for this case.",
+            "artifact": "pending_intent_relay.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "80212245-18a4-49fa-8221-6363e993ebe5",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "mobile-android-day-04-pending-intent-relay/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-04T17:55:59.198Z",
+        "attempt_id": "24d92aaf-b18a-401e-862b-2d32aec84a63",
+        "mode": "time_trial",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-04-B33003E875 in package com.huntress.mobile.d04.vb33003e875ef: Recover and redirect a mutable PendingIntent while preserving every earlier component check. Submit only the exact backend answer code returned for this case.",
+            "artifact": "pending_intent_relay_time_trial.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "24d92aaf-b18a-401e-862b-2d32aec84a63",
+          "deadline": "2026-10-04T17:55:59.198Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "mobile-android-day-04-pending-intent-relay/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-04T17:56:48.709Z",
+        "attempt_id": "fa4180df-1140-4bac-8b71-4169e73b698b",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.answer",
+          "set2.answer",
+          "set3.answer"
+        ],
+        "questions": [
+          {
+            "id": "set1.answer",
+            "question": "For case MOB-04-EA12626565 in package com.huntress.mobile.d04.vea12626565d9: Recover and redirect a mutable PendingIntent while preserving every earlier component check. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 1: pending_intent_relay_mastery_01.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.answer",
+            "question": "For case MOB-04-70705E20B7 in package com.huntress.mobile.d04.v70705e20b7cc: Recover and redirect a mutable PendingIntent while preserving every earlier component check. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 2: pending_intent_relay_mastery_02.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set3.answer",
+            "question": "For case MOB-04-C6EA73C8BF in package com.huntress.mobile.d04.vc6ea73c8bf34: Recover and redirect a mutable PendingIntent while preserving every earlier component check. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 3: pending_intent_relay_mastery_03.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.answer",
+        "set2.answer",
+        "set3.answer"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "fa4180df-1140-4bac-8b71-4169e73b698b",
+          "deadline": "2026-10-04T17:56:48.709Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.answer",
+            "set2.answer",
+            "set3.answer"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "📱 Pending Intent Relay",
+  "last_synced": "2026-10-04T21:45:48.492990+00:00"
+}

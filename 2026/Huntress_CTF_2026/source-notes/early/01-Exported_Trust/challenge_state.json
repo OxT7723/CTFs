@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "challenge_id": "mobile-android-day-01-exported-trust",
+  "day": 1,
+  "lane": "mobile-android",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "mobile-android-day-01-exported-trust",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "981d1fe8-3cee-4eb7-bf4b-121f2631555f",
+        "mode": "single_solve",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-01-073E9A824E in package com.huntress.mobile.d01.v073e9a824e9e: Identify an exported deep-link Activity that attaches an embedded client credential, invoke it with the correct case reference, and return the backend evidence code. Submit only the exact backend answer code returned for this case.",
+            "artifact": "exported_trust.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "981d1fe8-3cee-4eb7-bf4b-121f2631555f",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "mobile-android-day-01-exported-trust/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T20:01:41.826Z",
+        "attempt_id": "575ed415-561a-4c52-a6ae-6a911eb602a7",
+        "mode": "time_trial",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-01-4D5BCD5AD9 in package com.huntress.mobile.d01.v4d5bcd5ad9c0: Identify an exported deep-link Activity that attaches an embedded client credential, invoke it with the correct case reference, and return the backend evidence code. Submit only the exact backend answer code returned for this case.",
+            "artifact": "exported_trust_time_trial.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "575ed415-561a-4c52-a6ae-6a911eb602a7",
+          "deadline": "2026-10-03T20:01:41.826Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "mobile-android-day-01-exported-trust/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T20:02:14.283Z",
+        "attempt_id": "367833dc-2cd4-4559-9b3f-0c780c7878fd",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.answer",
+          "set2.answer",
+          "set3.answer"
+        ],
+        "questions": [
+          {
+            "id": "set1.answer",
+            "question": "For case MOB-01-0DAC1DD945 in package com.huntress.mobile.d01.v0dac1dd9457a: Identify an exported deep-link Activity that attaches an embedded client credential, invoke it with the correct case reference, and return the backend evidence code. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 1: exported_trust_mastery_01.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.answer",
+            "question": "For case MOB-01-D28E90FE08 in package com.huntress.mobile.d01.vd28e90fe0809: Identify an exported deep-link Activity that attaches an embedded client credential, invoke it with the correct case reference, and return the backend evidence code. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 2: exported_trust_mastery_02.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set3.answer",
+            "question": "For case MOB-01-F1EC220721 in package com.huntress.mobile.d01.vf1ec220721f6: Identify an exported deep-link Activity that attaches an embedded client credential, invoke it with the correct case reference, and return the backend evidence code. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 3: exported_trust_mastery_03.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.answer",
+        "set2.answer",
+        "set3.answer"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "367833dc-2cd4-4559-9b3f-0c780c7878fd",
+          "deadline": "2026-10-03T20:02:14.283Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.answer",
+            "set2.answer",
+            "set3.answer"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "📱 Exported Trust",
+  "last_synced": "2026-10-04T21:45:48.479024+00:00",
+  "coursestack": {
+    "key": "be880705e30cbaf2980c",
+    "identity": "d5e497c7-72cb-46c8-a208-391c49a91d23",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

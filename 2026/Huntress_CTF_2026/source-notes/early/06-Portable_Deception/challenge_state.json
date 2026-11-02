@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-06-portable-deception",
+  "day": 6,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-06-portable-deception",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "00f8fbec-7bd3-4fe8-a56a-7e76c54ce041",
+        "mode": "single_solve",
+        "answer_ids": [
+          "d06-pdf-001-pdf-header-version"
+        ],
+        "questions": [
+          {
+            "id": "d06-pdf-001-pdf-header-version",
+            "question": "Determine pdf.header_version for document-001.pdf.",
+            "artifact": "metadata-day-06-evidence.zip -> document-001.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d06-pdf-001-pdf-header-version"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "00f8fbec-7bd3-4fe8-a56a-7e76c54ce041",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d06-pdf-001-pdf-header-version"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-06-portable-deception/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-06T13:32:04.478Z",
+        "attempt_id": "00652a8f-e1b9-47da-94e5-39ac29969403",
+        "mode": "time_trial",
+        "answer_ids": [
+          "d06-pdf-005-pdf-header-version"
+        ],
+        "questions": [
+          {
+            "id": "d06-pdf-005-pdf-header-version",
+            "question": "Determine pdf.header_version for document-005.pdf.",
+            "artifact": "metadata-day-06-evidence.zip -> document-005.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d06-pdf-005-pdf-header-version"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "00652a8f-e1b9-47da-94e5-39ac29969403",
+          "deadline": "2026-10-06T13:32:04.478Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d06-pdf-005-pdf-header-version"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-06-portable-deception/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-06T13:37:06.736Z",
+        "attempt_id": "e757fa2a-f055-4165-9053-c11db9b05c12",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.d06-pdf-003-pdf-header-version",
+          "set2.d06-pdf-004-pdf-header-version"
+        ],
+        "questions": [
+          {
+            "id": "set1.d06-pdf-003-pdf-header-version",
+            "question": "Determine pdf.header_version for document-003.pdf.",
+            "artifact": "metadata-day-06-evidence-01.zip -> document-003.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d06-pdf-004-pdf-header-version",
+            "question": "Determine pdf.header_version for document-004.pdf.",
+            "artifact": "metadata-day-06-evidence-02.zip -> document-004.pdf",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.d06-pdf-003-pdf-header-version",
+        "set2.d06-pdf-004-pdf-header-version"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "e757fa2a-f055-4165-9053-c11db9b05c12",
+          "deadline": "2026-10-06T13:37:06.736Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.d06-pdf-003-pdf-header-version",
+            "set2.d06-pdf-004-pdf-header-version"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 Portable Deception"
+}

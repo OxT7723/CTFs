@@ -1,7 +1,8 @@
-# CTFs I have participated In
+# CTFs I have participated in
 
 | Year | Event Name | Team Name | Ranking |
 | ---- | ---------- | --------- | ------- |
+| 2026 | [Huntress CTF 2026: AI Arena](2026/Huntress_CTF_2026/README.md) | Seeking_Security_Job_And_Flags | **45th of 1,602** |
 | 2026 | [Cyber Apocalypse 2026](2026/CyberApocalypse/README.md) | RedRavens | 885th of 6,744  | 
 | 2026 | [Snyk Fetch The Flag 2026](2026/Snyk_Fetch_The_Flag/README.md) | Redravens | 472 of 1,539 | 
 | 2025 | [Huntress CTF 2025](2025/Huntress_CTF_2025/readme.md) | Kurogen | 27th of 6,869 |
@@ -15,7 +16,7 @@
 | 2024 | [HTB Business CTF 2024: The Vault of Hope](2024/HTBBusinessCTF/README.md) | TIAG | 424/943 |
 | 2024 | [Cyber Apocalypse 2024](2024/CyberApocalypse/readme.md) | RedRavens | 1385/5694 |
 | 2024 | [SANS Offensive Operations CTF](2024/SANS_Offensive_Operations_CTF/readme.md) | N/A | 170th  |
-| 2023 | [Huntress CTF 2025](2023/HuntressCTF/README.md)  | Redravens | 306/4219 |
+| 2023 | [Huntress CTF 2023](2023/HuntressCTF/README.md)  | Redravens | 306/4219 |
 | 2023 | [Snyk Fetch the Flag](2023/Snyk_Fetch_The_Flag/readme.md) | Redravens | 676/1,969 |
 | 2023 | [NahamCon CTF 2023](https://github.com/OxT7723/NahamCon2023CTF) | RedRavens | 280/2,518 |
 | 2022 | [NahamCon EU CTF 2022](2022/NahamConCTF/README.md)  | Dancing Giraffes | 234/1,973 |
@@ -23,8 +24,21 @@
 
 ## 2026
 
+### [Huntress CTF 2026: AI Arena](2026/Huntress_CTF_2026/README.md)
+
+**45th of 1,602 teams · 1,885 points · 561/561 recorded scoring completions**
+
+AI-assisted challenge accounts, reusable solver code, final prompt snapshots, and a reconstructed daily placement chart. The catalog distinguishes saved walkthroughs from completed challenges with limited retained notes.
+
+- [Event overview and certificate](2026/Huntress_CTF_2026/README.md)
+- [Challenge catalog](2026/Huntress_CTF_2026/writeups/README.md)
+- [AI workflow and prompts](2026/Huntress_CTF_2026/AI_WORKFLOW.md)
+- [Results and placement](2026/Huntress_CTF_2026/results/README.md)
+
+![Huntress CTF 2026 daily placement](2026/Huntress_CTF_2026/assets/team-placement.png)
+
 ### [Cyber Apocalypse](2026/CyberApocalypse/README.md) 
-![Cyber Apocalypse 2025](2026/CyberApocalypse/htb-cyberApocalypse-certificate.png)
+![Cyber Apocalypse 2026](2026/CyberApocalypse/htb-cyberApocalypse-certificate.png)
 
 
 ### Synk Fetch The Flag 
@@ -113,5 +127,6 @@ Official URL: https://ctf.nahamcon.com/
 ## Dark Wolf Solutions (DWS)
 ### HiringCTF Challenge
 ![image](2023/DWS/TJ%20Davis_Certificate1024_1.jpg)
+
 
 

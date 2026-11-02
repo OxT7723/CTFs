@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-07-seven-zip-no-relation",
+  "day": 7,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-07-seven-zip-no-relation",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "14503cc6-86b1-4aed-92ae-86099f90e650",
+        "mode": "single_solve",
+        "answer_ids": [
+          "d07-zip-001-zip-eocd-total-entries"
+        ],
+        "questions": [
+          {
+            "id": "d07-zip-001-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-001.zip.",
+            "artifact": "metadata-day-07-evidence.zip -> evidence-drop-001.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d07-zip-001-zip-eocd-total-entries"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "14503cc6-86b1-4aed-92ae-86099f90e650",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d07-zip-001-zip-eocd-total-entries"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-07-seven-zip-no-relation/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-10T22:40:46.540Z",
+        "attempt_id": "7dbf3a5c-6f2c-4fd5-b345-254cb5a136af",
+        "mode": "time_trial",
+        "answer_ids": [
+          "d07-zip-002-zip-eocd-total-entries"
+        ],
+        "questions": [
+          {
+            "id": "d07-zip-002-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-002.zip.",
+            "artifact": "metadata-day-07-evidence.zip -> evidence-drop-002.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d07-zip-002-zip-eocd-total-entries"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "7dbf3a5c-6f2c-4fd5-b345-254cb5a136af",
+          "deadline": "2026-10-10T22:40:46.540Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d07-zip-002-zip-eocd-total-entries"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-07-seven-zip-no-relation/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-10T22:40:55.532Z",
+        "attempt_id": "99ba9c22-a235-42e8-888d-47f097b93943",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.d07-zip-003-zip-eocd-total-entries",
+          "set2.d07-zip-004-zip-eocd-total-entries"
+        ],
+        "questions": [
+          {
+            "id": "set1.d07-zip-003-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-003.zip.",
+            "artifact": "metadata-day-07-evidence-01.zip -> evidence-drop-003.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d07-zip-004-zip-eocd-total-entries",
+            "question": "Determine zip.eocd_total_entries for evidence-drop-004.zip.",
+            "artifact": "metadata-day-07-evidence-02.zip -> evidence-drop-004.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.d07-zip-003-zip-eocd-total-entries",
+        "set2.d07-zip-004-zip-eocd-total-entries"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "99ba9c22-a235-42e8-888d-47f097b93943",
+          "deadline": "2026-10-10T22:40:55.532Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.d07-zip-003-zip-eocd-total-entries",
+            "set2.d07-zip-004-zip-eocd-total-entries"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 Seven-Zip, No Relation"
+}

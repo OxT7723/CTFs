@@ -1,0 +1,250 @@
+[
+  {
+    "date_utc": "2026-10-01",
+    "rank": 173,
+    "points": 24,
+    "last_scored_at_utc": "2026-10-01T14:30:54.995Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-02T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-02",
+    "rank": 237,
+    "points": 36,
+    "last_scored_at_utc": "2026-10-02T23:58:38.320Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-03T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-03",
+    "rank": 64,
+    "points": 150,
+    "last_scored_at_utc": "2026-10-03T20:04:42.153Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-04",
+    "rank": 43,
+    "points": 192,
+    "last_scored_at_utc": "2026-10-04T23:43:48.541Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-05T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-05",
+    "rank": 55,
+    "points": 214,
+    "last_scored_at_utc": "2026-10-05T21:31:33.133Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-06T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-06",
+    "rank": 58,
+    "points": 262,
+    "last_scored_at_utc": "2026-10-06T14:11:18.231Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-07T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-07",
+    "rank": 62,
+    "points": 330,
+    "last_scored_at_utc": "2026-10-07T16:14:36.518Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-08",
+    "rank": 68,
+    "points": 370,
+    "last_scored_at_utc": "2026-10-08T19:26:10.152Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-09",
+    "rank": 62,
+    "points": 440,
+    "last_scored_at_utc": "2026-10-09T22:35:27.717Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-10",
+    "rank": 60,
+    "points": 520,
+    "last_scored_at_utc": "2026-10-10T22:40:53.447Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-11T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-11",
+    "rank": 47,
+    "points": 565,
+    "last_scored_at_utc": "2026-10-11T15:02:00.927Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-12T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-12",
+    "rank": 42,
+    "points": 620,
+    "last_scored_at_utc": "2026-10-12T21:13:07.816Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-13",
+    "rank": 34,
+    "points": 670,
+    "last_scored_at_utc": "2026-10-13T13:09:36.622Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-14",
+    "rank": 32,
+    "points": 720,
+    "last_scored_at_utc": "2026-10-14T13:08:29.860Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-15",
+    "rank": 10,
+    "points": 770,
+    "last_scored_at_utc": "2026-10-15T13:06:17.358Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-16T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-16",
+    "rank": 4,
+    "points": 820,
+    "last_scored_at_utc": "2026-10-16T13:03:05.254Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-17T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-17",
+    "rank": 21,
+    "points": 870,
+    "last_scored_at_utc": "2026-10-17T16:29:06.327Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-18",
+    "rank": 64,
+    "points": 920,
+    "last_scored_at_utc": "2026-10-18T14:34:38.779Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-19T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-19",
+    "rank": 6,
+    "points": 1000,
+    "last_scored_at_utc": "2026-10-19T13:18:28.900Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-20T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-20",
+    "rank": 3,
+    "points": 1070,
+    "last_scored_at_utc": "2026-10-20T13:02:48.110Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-21T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-21",
+    "rank": 9,
+    "points": 1150,
+    "last_scored_at_utc": "2026-10-21T13:07:01.855Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-22",
+    "rank": 13,
+    "points": 1220,
+    "last_scored_at_utc": "2026-10-22T13:06:08.964Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-23",
+    "rank": 11,
+    "points": 1300,
+    "last_scored_at_utc": "2026-10-23T13:18:12.284Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-24T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-24",
+    "rank": 11,
+    "points": 1370,
+    "last_scored_at_utc": "2026-10-24T13:07:22.796Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-25T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-25",
+    "rank": 7,
+    "points": 1450,
+    "last_scored_at_utc": "2026-10-25T13:04:59.838Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-26T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-26",
+    "rank": 7,
+    "points": 1520,
+    "last_scored_at_utc": "2026-10-26T13:05:34.601Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-27T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-27",
+    "rank": 6,
+    "points": 1600,
+    "last_scored_at_utc": "2026-10-27T13:08:36.143Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-28T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-28",
+    "rank": 18,
+    "points": 1670,
+    "last_scored_at_utc": "2026-10-28T13:12:19.887Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-29T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-29",
+    "rank": 11,
+    "points": 1740,
+    "last_scored_at_utc": "2026-10-29T13:06:32.044Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-30T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-30",
+    "rank": 37,
+    "points": 1810,
+    "last_scored_at_utc": "2026-10-30T13:05:43.855Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-10-31T00:00:00.000Z"
+  },
+  {
+    "date_utc": "2026-10-31",
+    "rank": 45,
+    "points": 1885,
+    "last_scored_at_utc": "2026-10-31T15:32:27.237Z",
+    "included_entries": 1596,
+    "checkpoint_exclusive_utc": "2026-11-01T00:00:00.000Z"
+  }
+]

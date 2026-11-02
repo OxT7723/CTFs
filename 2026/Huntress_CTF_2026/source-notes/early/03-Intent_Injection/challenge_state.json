@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "challenge_id": "mobile-android-day-03-intent-injection",
+  "day": 3,
+  "lane": "mobile-android",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "mobile-android-day-03-intent-injection",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "d1f0ebac-5423-4db9-839b-d76534707cb9",
+        "mode": "single_solve",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-03-8006859B52 in package com.huntress.mobile.d03.v8006859b5257: Trace attacker-controlled extras through an internal navigation boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "intent_injection.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "d1f0ebac-5423-4db9-839b-d76534707cb9",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "mobile-android-day-03-intent-injection/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T18:05:32.620Z",
+        "attempt_id": "7a7903c1-a587-4a5d-9c2b-11b24afdb50a",
+        "mode": "time_trial",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-03-18693A2A78 in package com.huntress.mobile.d03.v18693a2a7801: Trace attacker-controlled extras through an internal navigation boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "intent_injection_time_trial.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "7a7903c1-a587-4a5d-9c2b-11b24afdb50a",
+          "deadline": "2026-10-03T18:05:32.620Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "mobile-android-day-03-intent-injection/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T18:05:54.475Z",
+        "attempt_id": "425d2b8c-749c-4027-81a2-0805389f9b83",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.answer",
+          "set2.answer",
+          "set3.answer"
+        ],
+        "questions": [
+          {
+            "id": "set1.answer",
+            "question": "For case MOB-03-A44356F818 in package com.huntress.mobile.d03.va44356f818bf: Trace attacker-controlled extras through an internal navigation boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 1: intent_injection_mastery_01.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.answer",
+            "question": "For case MOB-03-89D5BF7514 in package com.huntress.mobile.d03.v89d5bf751448: Trace attacker-controlled extras through an internal navigation boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 2: intent_injection_mastery_02.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set3.answer",
+            "question": "For case MOB-03-8C27168DD9 in package com.huntress.mobile.d03.v8c27168dd926: Trace attacker-controlled extras through an internal navigation boundary. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 3: intent_injection_mastery_03.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.answer",
+        "set2.answer",
+        "set3.answer"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "425d2b8c-749c-4027-81a2-0805389f9b83",
+          "deadline": "2026-10-03T18:05:54.475Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.answer",
+            "set2.answer",
+            "set3.answer"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "📱 Intent Injection",
+  "last_synced": "2026-10-04T21:45:48.490965+00:00",
+  "coursestack": {
+    "key": "c9ddab8069f128195121",
+    "identity": "06edf526-d8a0-477a-961d-e442f340ea60",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

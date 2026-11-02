@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-01-hash-to-ride",
+  "day": 1,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-01-hash-to-ride",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "ec0ffb1b-c266-4772-8bf4-f5931e2c6a8d",
+        "mode": "single_solve",
+        "answer_ids": [
+          "evidence-note-filename",
+          "evidence-note-size-bytes",
+          "evidence-note-md5",
+          "evidence-note-sha1",
+          "evidence-note-sha256"
+        ],
+        "questions": [
+          {
+            "id": "evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-01-evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-01-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-01-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-01-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-01-evidence.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          }
+        ]
+      },
+      "answer_ids": [
+        "evidence-note-filename",
+        "evidence-note-size-bytes",
+        "evidence-note-md5",
+        "evidence-note-sha1",
+        "evidence-note-sha256"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "ec0ffb1b-c266-4772-8bf4-f5931e2c6a8d",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "evidence-note-filename",
+            "evidence-note-size-bytes",
+            "evidence-note-md5",
+            "evidence-note-sha1",
+            "evidence-note-sha256"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-01-hash-to-ride/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T15:58:02.569Z",
+        "attempt_id": "32b7b4e0-a345-4742-8b00-5c5f52a91dc6",
+        "mode": "time_trial",
+        "answer_ids": [
+          "roster-filename",
+          "roster-size-bytes",
+          "roster-md5",
+          "roster-sha1",
+          "roster-sha256"
+        ],
+        "questions": [
+          {
+            "id": "roster-filename",
+            "question": "What is the exact filename of the roster?",
+            "artifact": "metadata-day-01-evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "roster-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-01-evidence.zip -> roster.csv",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "roster-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-01-evidence.zip -> roster.csv",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "roster-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-01-evidence.zip -> roster.csv",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "roster-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-01-evidence.zip -> roster.csv",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          }
+        ]
+      },
+      "answer_ids": [
+        "roster-filename",
+        "roster-size-bytes",
+        "roster-md5",
+        "roster-sha1",
+        "roster-sha256"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "32b7b4e0-a345-4742-8b00-5c5f52a91dc6",
+          "deadline": "2026-10-03T15:58:02.569Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "roster-filename",
+            "roster-size-bytes",
+            "roster-md5",
+            "roster-sha1",
+            "roster-sha256"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-01-hash-to-ride/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T15:58:14.558Z",
+        "attempt_id": "dbec1523-1089-41b1-83dc-e37581390be7",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.evidence-note-copy-filename",
+          "set1.evidence-note-copy-size-bytes",
+          "set1.evidence-note-copy-md5",
+          "set1.evidence-note-copy-sha1",
+          "set1.evidence-note-copy-sha256",
+          "set2.evidence-note-filename",
+          "set2.evidence-note-size-bytes",
+          "set2.evidence-note-md5",
+          "set2.evidence-note-sha1",
+          "set2.evidence-note-sha256"
+        ],
+        "questions": [
+          {
+            "id": "set1.evidence-note-copy-filename",
+            "question": "What is the exact filename of the renamed evidence-note copy?",
+            "artifact": "metadata-day-01-evidence-01.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.evidence-note-copy-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-01-evidence-01.zip -> evidence-note-copy.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set1.evidence-note-copy-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-01-evidence-01.zip -> evidence-note-copy.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set1.evidence-note-copy-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-01-evidence-01.zip -> evidence-note-copy.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set1.evidence-note-copy-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-01-evidence-01.zip -> evidence-note-copy.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set2.evidence-note-filename",
+            "question": "What is the exact filename of the first evidence note?",
+            "artifact": "metadata-day-01-evidence-02.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact base filename including its extension, with no directory path, quotes, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.evidence-note-size-bytes",
+            "question": "What is its exact size in bytes?",
+            "artifact": "metadata-day-01-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.evidence-note-md5",
+            "question": "What is its MD5 digest?",
+            "artifact": "metadata-day-01-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 32-character hexadecimal MD5 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set2.evidence-note-sha1",
+            "question": "What is its SHA-1 digest?",
+            "artifact": "metadata-day-01-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 40-character hexadecimal SHA-1 digest; letter case is ignored"
+            },
+            "normalization": "case_insensitive"
+          },
+          {
+            "id": "set2.evidence-note-sha256",
+            "question": "What is its SHA-256 digest?",
+            "artifact": "metadata-day-01-evidence-02.zip -> evidence-note.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "exact 64-character hexadecimal SHA-256 value; use no prefix, spaces, or explanatory text"
+            },
+            "normalization": "case_insensitive"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.evidence-note-copy-filename",
+        "set1.evidence-note-copy-size-bytes",
+        "set1.evidence-note-copy-md5",
+        "set1.evidence-note-copy-sha1",
+        "set1.evidence-note-copy-sha256",
+        "set2.evidence-note-filename",
+        "set2.evidence-note-size-bytes",
+        "set2.evidence-note-md5",
+        "set2.evidence-note-sha1",
+        "set2.evidence-note-sha256"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "dbec1523-1089-41b1-83dc-e37581390be7",
+          "deadline": "2026-10-03T15:58:14.558Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.evidence-note-copy-filename",
+            "set1.evidence-note-copy-size-bytes",
+            "set1.evidence-note-copy-md5",
+            "set1.evidence-note-copy-sha1",
+            "set1.evidence-note-copy-sha256",
+            "set2.evidence-note-filename",
+            "set2.evidence-note-size-bytes",
+            "set2.evidence-note-md5",
+            "set2.evidence-note-sha1",
+            "set2.evidence-note-sha256"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 You Must Be This Hash to Ride",
+  "last_synced": "2026-10-04T21:45:48.479614+00:00",
+  "coursestack": {
+    "key": "9f4b487276077d990ba4",
+    "identity": "613063ae-cef1-44dc-a236-cb58c306a334",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

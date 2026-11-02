@@ -1,0 +1,577 @@
+{
+  "challenge_id": "warmups-day-07",
+  "day": 7,
+  "lane": "warmups",
+  "knowledge": {
+    "solution_script": "solve.py",
+    "method": "For a simple blob, repeatedly percent-decode to a fixed point. For numbered Mastery blobs, decode seven fragments as Base64, ROT13, hex, binary, decimal, octal, and percent encoding; concatenate and extract the slug."
+  },
+  "single_solve": {
+    "attempt_id": "a376a419-42a6-4d85-8510-e4087ffdb8b6",
+    "result": "CORRECT",
+    "answer_id": "message",
+    "answer": "witty-storm-fern-77",
+    "artifact": "artifacts/single_solve/blob.txt",
+    "sha256": "210648ada053fb7d20c65ba66f379abc17b4e02cff6d9a3508a3b595f0195a89"
+  },
+  "time_trial": {
+    "attempt_id": "35d81fad-03c7-477f-baa6-15dad3936c06",
+    "result": "CORRECT",
+    "answer_id": "message",
+    "answer": "happy-starfish-quartz-38",
+    "artifact_retained": false
+  },
+  "mastery": {
+    "attempt_id": "3e544504-577a-436d-9cd8-aff9430b2474",
+    "result": "CORRECT",
+    "answer_count": 33,
+    "artifact_retained": false,
+    "reusable_lesson": "Mastery blobs use seven numbered fragments with distinct encodings; percent-decoding the whole blob is insufficient."
+  },
+  "version": 1,
+  "modes": {
+    "single_solve": {
+      "challenge_id": "warmups-day-07",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "a376a419-42a6-4d85-8510-e4087ffdb8b6",
+        "mode": "single_solve",
+        "answer_ids": [
+          "message"
+        ],
+        "questions": [
+          {
+            "id": "message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "message"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "a376a419-42a6-4d85-8510-e4087ffdb8b6",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "message"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "warmups-day-07/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-07T14:04:31.254Z",
+        "attempt_id": "35d81fad-03c7-477f-baa6-15dad3936c06",
+        "mode": "time_trial",
+        "answer_ids": [
+          "message"
+        ],
+        "questions": [
+          {
+            "id": "message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "message"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "35d81fad-03c7-477f-baa6-15dad3936c06",
+          "deadline": "2026-10-07T14:04:31.254Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "message"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "warmups-day-07/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-07T14:08:22.033Z",
+        "attempt_id": "3e544504-577a-436d-9cd8-aff9430b2474",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.message",
+          "set2.message",
+          "set3.message",
+          "set4.message",
+          "set5.message",
+          "set6.message",
+          "set7.message",
+          "set8.message",
+          "set9.message",
+          "set10.message",
+          "set11.message",
+          "set12.message",
+          "set13.message",
+          "set14.message",
+          "set15.message",
+          "set16.message",
+          "set17.message",
+          "set18.message",
+          "set19.message",
+          "set20.message",
+          "set21.message",
+          "set22.message",
+          "set23.message",
+          "set24.message",
+          "set25.message",
+          "set26.message",
+          "set27.message",
+          "set28.message",
+          "set29.message",
+          "set30.message",
+          "set31.message",
+          "set32.message",
+          "set33.message"
+        ],
+        "questions": [
+          {
+            "id": "set1.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-01.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-02.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set3.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-03.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set4.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-04.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set5.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-05.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set6.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-06.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set7.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-07.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set8.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-08.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set9.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-09.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set10.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-10.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set11.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-11.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set12.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-12.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set13.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-13.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set14.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-14.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set15.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-15.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set16.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-16.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set17.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-17.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set18.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-18.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set19.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-19.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set20.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-20.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set21.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-21.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set22.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-22.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set23.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-23.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set24.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-24.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set25.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-25.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set26.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-26.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set27.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-27.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set28.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-28.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set29.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-29.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set30.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-30.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set31.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-31.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set32.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-32.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set33.message",
+            "question": "Decode the assigned blob completely. What exact answer slug does its final non-empty decoded line instruct you to submit?",
+            "artifact": "blob-33.txt",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "three lowercase words separated by hyphens, followed by a hyphen and a two-digit number; submit the slug only"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.message",
+        "set2.message",
+        "set3.message",
+        "set4.message",
+        "set5.message",
+        "set6.message",
+        "set7.message",
+        "set8.message",
+        "set9.message",
+        "set10.message",
+        "set11.message",
+        "set12.message",
+        "set13.message",
+        "set14.message",
+        "set15.message",
+        "set16.message",
+        "set17.message",
+        "set18.message",
+        "set19.message",
+        "set20.message",
+        "set21.message",
+        "set22.message",
+        "set23.message",
+        "set24.message",
+        "set25.message",
+        "set26.message",
+        "set27.message",
+        "set28.message",
+        "set29.message",
+        "set30.message",
+        "set31.message",
+        "set32.message",
+        "set33.message"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "3e544504-577a-436d-9cd8-aff9430b2474",
+          "deadline": "2026-10-07T14:08:22.033Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.message",
+            "set2.message",
+            "set3.message",
+            "set4.message",
+            "set5.message",
+            "set6.message",
+            "set7.message",
+            "set8.message",
+            "set9.message",
+            "set10.message",
+            "set11.message",
+            "set12.message",
+            "set13.message",
+            "set14.message",
+            "set15.message",
+            "set16.message",
+            "set17.message",
+            "set18.message",
+            "set19.message",
+            "set20.message",
+            "set21.message",
+            "set22.message",
+            "set23.message",
+            "set24.message",
+            "set25.message",
+            "set26.message",
+            "set27.message",
+            "set28.message",
+            "set29.message",
+            "set30.message",
+            "set31.message",
+            "set32.message",
+            "set33.message"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "👶 Percent Chance"
+}

@@ -1,0 +1,1953 @@
+{
+  "version": 1,
+  "challenge_id": "binary-reverse-engineering-day-04-go-runtime-fingerprints",
+  "day": 4,
+  "lane": "binary-reverse-engineering",
+  "knowledge": {
+    "artifacts": {
+      "single_solve": {
+        "path": "04-Go_Fish/artifacts/single_solve/evidence.zip",
+        "sha256": "7c99f149a6aeebecdee3f614cbbc24d9d762c819033a3a3b26a0b31a1fd19fdf",
+        "size_bytes": 852723,
+        "archive_password": "infected",
+        "member_count": 5,
+        "retrieved_via": "GET ?op=artifact&challenge=<Single Solve challenge ID>",
+        "retrieved_date": "2026-10-04",
+        "member_sha256": {
+          "d01--variant-000.elf": "a0d3aeddb90dccf579e0262704dc7d7c2828121d8cc988f085de169601737b9b",
+          "d02--variant-000.elf": "e9ca3054b0689f60a9c41a758781fae1406e127e5bfcc866c51f78748fdfd0d7",
+          "d03--variant-000.dll": "a98b993fefd2095f0f25e88171441559b0d07c7e02cf026581590da58eea073d",
+          "d03--variant-000.runtimeconfig.json": "d6109426b0081160c55c7a8229bd386ce28a065bddcf46d29153e0c708a06cf3",
+          "d04--variant-000.elf": "d5aa218b11ca0d94d7186c01a0eae9547ba88a0ec93f61ae2c1e9f964512182f"
+        }
+      }
+    },
+    "time_trial_solver": "04-Go_Fish/solve_time_trial.py",
+    "time_trial_method": "Fetch the current assigned ZIP after start, extract with infected, derive all 32 fields from its five members, match the current answer IDs, and submit in one process. Reuse Rust Belt parsing helpers; never carry instance values forward.",
+    "mastery_solver": "04-Go_Fish/solve_mastery.py",
+    "mastery_method": "Fetch both current assigned ZIPs, extract each with infected, derive the 32 fields per delivery from its own bytes, prefix set1. and set2., verify the current 64 answer IDs, and submit together. Use --retry only for an intentional new attempt."
+  },
+  "modes": {
+    "single_solve": {
+      "challenge_id": "binary-reverse-engineering-day-04-go-runtime-fingerprints",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "b37e6dcb-49a3-43bd-9f3b-0f4911ad45fb",
+        "mode": "single_solve",
+        "answer_ids": [
+          "d01_artifact_sha256_1",
+          "d01_analysis_elf_class",
+          "d01_analysis_machine",
+          "d01_analysis_section_names",
+          "d01_analysis_symbols",
+          "d01_analysis_disassembly",
+          "d01_analysis_elf_type",
+          "d01_analysis_endianness",
+          "d02_artifact_sha256_1",
+          "d02_analysis_format",
+          "d02_analysis_config_campaign",
+          "d02_analysis_config_domain",
+          "d02_analysis_config_mutex",
+          "d02_analysis_config_url",
+          "d02_analysis_config_crc32_hex",
+          "d02_analysis_xor_key_hex",
+          "d03_artifact_sha256_1",
+          "d03_artifact_sha256_2",
+          "d03_analysis_format",
+          "d03_analysis_machine",
+          "d03_analysis_metadata_version",
+          "d03_analysis_config_campaign",
+          "d03_analysis_config_domain",
+          "d03_analysis_config_mutex",
+          "d04_artifact_sha256_1",
+          "d04_analysis_architecture",
+          "d04_analysis_format",
+          "d04_analysis_config_campaign",
+          "d04_analysis_config_domain",
+          "d04_analysis_config_mutex",
+          "d04_analysis_config_url",
+          "d04_analysis_config_crc32_hex"
+        ],
+        "questions": [
+          {
+            "id": "d01_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d01_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_elf_class",
+            "question": "What is the exact analysis elf class value for field d01_analysis_elf_class in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_machine",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable-header machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal machine code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "executable-header machine architecture label or its equivalent decimal or hexadecimal code; common file, readelf, and objdump labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_section_names",
+            "question": "For the bundled Day 1 ELF, submit the section names in section-header-table order as a JSON array of strings. The mandatory null section at index 0 has an empty name; including or omitting that one leading empty string is accepted. Do not substitute the section type NULL for its empty name.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of section-name strings in section-header-table order; an optional leading empty string represents section index 0"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_symbols",
+            "question": "What is the exact analysis symbols value for field d01_analysis_symbols in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_disassembly",
+            "question": "In the bundled Day 1 ELF, find the recover_code FUNC symbol in the symbol table and disassemble its bytes. Submit its decoded instructions in execution order as a JSON array of strings, without addresses or byte columns. If that symbol is absent, submit []. Unrelated format example: [\"nop\",\"ret\"].",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of instruction strings in execution order; an empty array if the recover_code symbol is absent. Intel or AT&T spelling of the same constant-return instructions is accepted."
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_elf_type",
+            "question": "For the bundled Day 1 ELF, report the ELF header e_type value. The standard ELF symbolic constant, the GNU readelf label, or the equivalent decimal or hexadecimal e_type code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF e_type symbolic constant, readelf label, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_endianness",
+            "question": "For the bundled Day 1 ELF, report the byte order identified by the ELF EI_DATA field. A plain byte-order name, the GNU readelf description, the ELF symbolic constant, or the equivalent decimal or hexadecimal EI_DATA code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF byte-order name, readelf description, EI_DATA symbolic constant, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d02_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_format",
+            "question": "For the Day 2 C++ specimen in the bundled archive, identify its executable container from the final bytes. Submit ELF for an Executable and Linkable Format specimen or PE for a Windows Portable Executable specimen; letter case and a more specific ELF32, ELF64, PE32, or PE32+ label are accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE; letter case is ignored and ELF32, ELF64, PE32, PE32+, or Portable Executable are accepted when they identify the same container"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d02_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d02_analysis_config_domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d02_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d02_analysis_config_url in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d02_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_xor_key_hex",
+            "question": "What is the exact analysis xor key hex value for field d02_analysis_xor_key_hex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d03_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_artifact_sha256_2",
+            "question": "What is the exact artifact sha256 2 value for field d03_artifact_sha256_2 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_format",
+            "question": "For the bundled Day 3 managed binary, identify its combined executable-container and managed-runtime format classification. Submit one compound token containing both parts, not just the generic container label. A tool-specific container label such as a bitness-qualified form is accepted when it identifies the same container. Unrelated syntax example: sample_vm.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "one container_runtime token; PE, PE32, or PE32+ may name the same container and CLI, CLR, or .NET may name the managed part; underscore, slash, hyphen, or space separators and letter case are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_machine",
+            "question": "For the bundled Day 3 managed PE binary, report the processor architecture identified by the PE/COFF Machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal Machine code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "PE/COFF Machine architecture label or its equivalent decimal or hexadecimal code; common file, objdump, and IMAGE_FILE_MACHINE labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_metadata_version",
+            "question": "What is the exact analysis metadata version value for field d03_analysis_metadata_version in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d03_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d03_analysis_config_domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d03_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d04_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_architecture",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable header. A normalized architecture name, a standard tool or symbolic label, or an equivalent standard machine code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "processor architecture name, standard tool or symbolic label, or equivalent executable-header machine code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_format",
+            "question": "For the requested specimen in the bundled archive, identify its executable container from the final bytes. Submit an ELF or PE container label; letter case and a more specific ELF32, ELF64, PE32, PE32+, or Portable Executable label are accepted when they identify the same container.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE executable-container label; bitness-qualified standard labels and letter-case differences are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d04_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d04_analysis_config_domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d04_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d04_analysis_config_url in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d04_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d01_artifact_sha256_1",
+        "d01_analysis_elf_class",
+        "d01_analysis_machine",
+        "d01_analysis_section_names",
+        "d01_analysis_symbols",
+        "d01_analysis_disassembly",
+        "d01_analysis_elf_type",
+        "d01_analysis_endianness",
+        "d02_artifact_sha256_1",
+        "d02_analysis_format",
+        "d02_analysis_config_campaign",
+        "d02_analysis_config_domain",
+        "d02_analysis_config_mutex",
+        "d02_analysis_config_url",
+        "d02_analysis_config_crc32_hex",
+        "d02_analysis_xor_key_hex",
+        "d03_artifact_sha256_1",
+        "d03_artifact_sha256_2",
+        "d03_analysis_format",
+        "d03_analysis_machine",
+        "d03_analysis_metadata_version",
+        "d03_analysis_config_campaign",
+        "d03_analysis_config_domain",
+        "d03_analysis_config_mutex",
+        "d04_artifact_sha256_1",
+        "d04_analysis_architecture",
+        "d04_analysis_format",
+        "d04_analysis_config_campaign",
+        "d04_analysis_config_domain",
+        "d04_analysis_config_mutex",
+        "d04_analysis_config_url",
+        "d04_analysis_config_crc32_hex"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "b37e6dcb-49a3-43bd-9f3b-0f4911ad45fb",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d01_artifact_sha256_1",
+            "d01_analysis_elf_class",
+            "d01_analysis_machine",
+            "d01_analysis_section_names",
+            "d01_analysis_symbols",
+            "d01_analysis_disassembly",
+            "d01_analysis_elf_type",
+            "d01_analysis_endianness",
+            "d02_artifact_sha256_1",
+            "d02_analysis_format",
+            "d02_analysis_config_campaign",
+            "d02_analysis_config_domain",
+            "d02_analysis_config_mutex",
+            "d02_analysis_config_url",
+            "d02_analysis_config_crc32_hex",
+            "d02_analysis_xor_key_hex",
+            "d03_artifact_sha256_1",
+            "d03_artifact_sha256_2",
+            "d03_analysis_format",
+            "d03_analysis_machine",
+            "d03_analysis_metadata_version",
+            "d03_analysis_config_campaign",
+            "d03_analysis_config_domain",
+            "d03_analysis_config_mutex",
+            "d04_artifact_sha256_1",
+            "d04_analysis_architecture",
+            "d04_analysis_format",
+            "d04_analysis_config_campaign",
+            "d04_analysis_config_domain",
+            "d04_analysis_config_mutex",
+            "d04_analysis_config_url",
+            "d04_analysis_config_crc32_hex"
+          ],
+          "artifact_path": "04-Go_Fish/artifacts/single_solve/evidence.zip",
+          "artifact_sha256": "7c99f149a6aeebecdee3f614cbbc24d9d762c819033a3a3b26a0b31a1fd19fdf",
+          "artifact_size_bytes": 852723
+        }
+      ],
+      "answers": {
+        "d03_analysis_format": {
+          "confirmed": true,
+          "scope": "artifact_instance",
+          "incorrect_candidates": [
+            "PE32 .NET assembly",
+            "PE32/CLI",
+            "application/vnd.microsoft.portable-executable",
+            "PE32 (CLI)",
+            "Mono/.Net assembly",
+            "PE32 DLL",
+            "CLR",
+            "DLL",
+            "pe",
+            "cil"
+          ],
+          "history": [
+            {
+              "candidate": "PE32 .NET assembly",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "PE32/CLI",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "application/vnd.microsoft.portable-executable",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "PE32 (CLI)",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "Mono/.Net assembly",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "PE32 DLL",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "CLR",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "DLL",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "pe",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "cil",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "PE_CLI",
+              "result": "CORRECT",
+              "note": "Accepted after the Game Master clarified this field’s question and answer format."
+            }
+          ],
+          "current_candidate": "PE_CLI",
+          "evidence": "Static PE/CLI inspection of the assigned d03 DLL and its runtimeconfig.",
+          "last_submission_result": "CORRECT",
+          "remaining": 0,
+          "prior_incorrect_candidates": [
+            {
+              "candidate": "PE32",
+              "source": "Day04-Host-AI-output.md"
+            },
+            {
+              "candidate": "pe32",
+              "source": "Day04-Host-AI-output.md"
+            },
+            {
+              "candidate": "PE",
+              "source": "Day04-Host-AI-output.md"
+            },
+            {
+              "candidate": "PE32 executable",
+              "source": "Day04-Host-AI-output.md"
+            },
+            {
+              "candidate": "full file description",
+              "source": "Day04-Host-AI-output.md"
+            },
+            {
+              "candidate": ".NET",
+              "source": "Day04-Host-AI-output.md"
+            },
+            {
+              "candidate": "pei-i386",
+              "source": "Day04-Host-AI-output.md"
+            },
+            {
+              "candidate": "dotnet",
+              "source": "Day04-Host-AI-output.md"
+            }
+          ]
+        },
+        "d01_analysis_disassembly": {
+          "confirmed": true,
+          "scope": "artifact_instance",
+          "incorrect_candidates": [
+            "[\"401126: b8 a4 1f 00 00 mov eax,0x1fa4\",\"40112b: c3 ret\"]",
+            "[\"0x401126 mov eax,0x1fa4\",\"0x40112b ret\"]",
+            "[\"mov eax, 0x1fa4\",\"ret\"]"
+          ],
+          "history": [
+            {
+              "candidate": "[\"401126: b8 a4 1f 00 00 mov eax,0x1fa4\",\"40112b: c3 ret\"]",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "[\"0x401126 mov eax,0x1fa4\",\"0x40112b ret\"]",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "[\"mov eax,0x1fa4\",\"ret\"]",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "[\"mov eax, 0x1fa4\",\"ret\"]",
+              "result": "incorrect"
+            },
+            {
+              "candidate": "[\"mov eax,0x1fa4\",\"ret\"]",
+              "result": "CORRECT",
+              "note": "Accepted after the Game Master clarified this field’s question and answer format."
+            }
+          ],
+          "current_candidate": "[\"mov eax,0x1fa4\",\"ret\"]",
+          "last_submission_result": "CORRECT",
+          "remaining": 0,
+          "evidence": "The assigned ELF recover_code FUNC symbol is six bytes and disassembles to mov eax,0x1fa4; ret. The instruction-only JSON array was accepted under the clarified live question. Its earlier rejection remains in history as evidence of the prior question behavior.",
+          "prior_incorrect_candidates_note": "Day04-Host-AI-output.md reports several earlier rejected arrays but does not preserve their exact candidate values.",
+          "prior_rejection_note": "Day04-Host-AI-output.md reports several previously rejected JSON arrays but does not preserve their exact values."
+        }
+      },
+      "progress_summary": {
+        "accepted_count": 32,
+        "total_answer_ids": 32,
+        "remaining": 0,
+        "result": "CORRECT",
+        "source": "Live Game Master submission and follow-up status on 2026-10-07."
+      }
+    },
+    "time_trial": {
+      "challenge_id": "binary-reverse-engineering-day-04-go-runtime-fingerprints/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-07T14:28:33.066Z",
+        "attempt_id": "6af3f5e9-eef7-434c-832a-860307a312ae",
+        "mode": "time_trial",
+        "answer_ids": [
+          "d01_artifact_sha256_1",
+          "d01_analysis_elf_class",
+          "d01_analysis_machine",
+          "d01_analysis_section_names",
+          "d01_analysis_symbols",
+          "d01_analysis_disassembly",
+          "d01_analysis_elf_type",
+          "d01_analysis_endianness",
+          "d02_artifact_sha256_1",
+          "d02_analysis_format",
+          "d02_analysis_config_campaign",
+          "d02_analysis_config_domain",
+          "d02_analysis_config_mutex",
+          "d02_analysis_config_url",
+          "d02_analysis_config_crc32_hex",
+          "d02_analysis_xor_key_hex",
+          "d03_artifact_sha256_1",
+          "d03_artifact_sha256_2",
+          "d03_analysis_format",
+          "d03_analysis_machine",
+          "d03_analysis_metadata_version",
+          "d03_analysis_config_campaign",
+          "d03_analysis_config_domain",
+          "d03_analysis_config_mutex",
+          "d04_artifact_sha256_1",
+          "d04_analysis_architecture",
+          "d04_analysis_format",
+          "d04_analysis_config_campaign",
+          "d04_analysis_config_domain",
+          "d04_analysis_config_mutex",
+          "d04_analysis_config_url",
+          "d04_analysis_config_crc32_hex"
+        ],
+        "questions": [
+          {
+            "id": "d01_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d01_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_elf_class",
+            "question": "What is the exact analysis elf class value for field d01_analysis_elf_class in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_machine",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable-header machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal machine code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "executable-header machine architecture label or its equivalent decimal or hexadecimal code; common file, readelf, and objdump labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_section_names",
+            "question": "For the bundled Day 1 ELF, submit the section names in section-header-table order as a JSON array of strings. The mandatory null section at index 0 has an empty name; including or omitting that one leading empty string is accepted. Do not substitute the section type NULL for its empty name.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of section-name strings in section-header-table order; an optional leading empty string represents section index 0"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_symbols",
+            "question": "What is the exact analysis symbols value for field d01_analysis_symbols in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_disassembly",
+            "question": "In the bundled Day 1 ELF, find the recover_code FUNC symbol in the symbol table and disassemble its bytes. Submit its decoded instructions in execution order as a JSON array of strings, without addresses or byte columns. If that symbol is absent, submit []. Unrelated format example: [\"nop\",\"ret\"].",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of instruction strings in execution order; an empty array if the recover_code symbol is absent. Intel or AT&T spelling of the same constant-return instructions is accepted."
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_elf_type",
+            "question": "For the bundled Day 1 ELF, report the ELF header e_type value. The standard ELF symbolic constant, the GNU readelf label, or the equivalent decimal or hexadecimal e_type code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF e_type symbolic constant, readelf label, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d01_analysis_endianness",
+            "question": "For the bundled Day 1 ELF, report the byte order identified by the ELF EI_DATA field. A plain byte-order name, the GNU readelf description, the ELF symbolic constant, or the equivalent decimal or hexadecimal EI_DATA code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF byte-order name, readelf description, EI_DATA symbolic constant, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d02_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_format",
+            "question": "For the Day 2 C++ specimen in the bundled archive, identify its executable container from the final bytes. Submit ELF for an Executable and Linkable Format specimen or PE for a Windows Portable Executable specimen; letter case and a more specific ELF32, ELF64, PE32, or PE32+ label are accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE; letter case is ignored and ELF32, ELF64, PE32, PE32+, or Portable Executable are accepted when they identify the same container"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d02_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d02_analysis_config_domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d02_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d02_analysis_config_url in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d02_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d02_analysis_xor_key_hex",
+            "question": "What is the exact analysis xor key hex value for field d02_analysis_xor_key_hex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d03_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_artifact_sha256_2",
+            "question": "What is the exact artifact sha256 2 value for field d03_artifact_sha256_2 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_format",
+            "question": "For the bundled Day 3 managed binary, identify its combined executable-container and managed-runtime format classification. Submit one compound token containing both parts, not just the generic container label. A tool-specific container label such as a bitness-qualified form is accepted when it identifies the same container. Unrelated syntax example: sample_vm.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "one container_runtime token; PE, PE32, or PE32+ may name the same container and CLI, CLR, or .NET may name the managed part; underscore, slash, hyphen, or space separators and letter case are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_machine",
+            "question": "For the bundled Day 3 managed PE binary, report the processor architecture identified by the PE/COFF Machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal Machine code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "PE/COFF Machine architecture label or its equivalent decimal or hexadecimal code; common file, objdump, and IMAGE_FILE_MACHINE labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_metadata_version",
+            "question": "What is the exact analysis metadata version value for field d03_analysis_metadata_version in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d03_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d03_analysis_config_domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d03_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d03_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d04_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_architecture",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable header. A normalized architecture name, a standard tool or symbolic label, or an equivalent standard machine code is accepted.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "processor architecture name, standard tool or symbolic label, or equivalent executable-header machine code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_format",
+            "question": "For the requested specimen in the bundled archive, identify its executable container from the final bytes. Submit an ELF or PE container label; letter case and a more specific ELF32, ELF64, PE32, PE32+, or Portable Executable label are accepted when they identify the same container.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE executable-container label; bitness-qualified standard labels and letter-case differences are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d04_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d04_analysis_config_domain in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d04_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d04_analysis_config_url in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "d04_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d04_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d01_artifact_sha256_1",
+        "d01_analysis_elf_class",
+        "d01_analysis_machine",
+        "d01_analysis_section_names",
+        "d01_analysis_symbols",
+        "d01_analysis_disassembly",
+        "d01_analysis_elf_type",
+        "d01_analysis_endianness",
+        "d02_artifact_sha256_1",
+        "d02_analysis_format",
+        "d02_analysis_config_campaign",
+        "d02_analysis_config_domain",
+        "d02_analysis_config_mutex",
+        "d02_analysis_config_url",
+        "d02_analysis_config_crc32_hex",
+        "d02_analysis_xor_key_hex",
+        "d03_artifact_sha256_1",
+        "d03_artifact_sha256_2",
+        "d03_analysis_format",
+        "d03_analysis_machine",
+        "d03_analysis_metadata_version",
+        "d03_analysis_config_campaign",
+        "d03_analysis_config_domain",
+        "d03_analysis_config_mutex",
+        "d04_artifact_sha256_1",
+        "d04_analysis_architecture",
+        "d04_analysis_format",
+        "d04_analysis_config_campaign",
+        "d04_analysis_config_domain",
+        "d04_analysis_config_mutex",
+        "d04_analysis_config_url",
+        "d04_analysis_config_crc32_hex"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "6af3f5e9-eef7-434c-832a-860307a312ae",
+          "deadline": "2026-10-07T14:28:33.066Z",
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d01_artifact_sha256_1",
+            "d01_analysis_elf_class",
+            "d01_analysis_machine",
+            "d01_analysis_section_names",
+            "d01_analysis_symbols",
+            "d01_analysis_disassembly",
+            "d01_analysis_elf_type",
+            "d01_analysis_endianness",
+            "d02_artifact_sha256_1",
+            "d02_analysis_format",
+            "d02_analysis_config_campaign",
+            "d02_analysis_config_domain",
+            "d02_analysis_config_mutex",
+            "d02_analysis_config_url",
+            "d02_analysis_config_crc32_hex",
+            "d02_analysis_xor_key_hex",
+            "d03_artifact_sha256_1",
+            "d03_artifact_sha256_2",
+            "d03_analysis_format",
+            "d03_analysis_machine",
+            "d03_analysis_metadata_version",
+            "d03_analysis_config_campaign",
+            "d03_analysis_config_domain",
+            "d03_analysis_config_mutex",
+            "d04_artifact_sha256_1",
+            "d04_analysis_architecture",
+            "d04_analysis_format",
+            "d04_analysis_config_campaign",
+            "d04_analysis_config_domain",
+            "d04_analysis_config_mutex",
+            "d04_analysis_config_url",
+            "d04_analysis_config_crc32_hex"
+          ],
+          "accepted_count": 32,
+          "artifact_sha256": "1cc4a7af78d759dc1b3ce7ae56694b6b20de5736cb252c7f91b9fd0ac9214d18",
+          "artifact_retained": false,
+          "solver": "04-Go_Fish/solve_time_trial.py",
+          "status": null
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "binary-reverse-engineering-day-04-go-runtime-fingerprints/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-07T14:35:05.580Z",
+        "attempt_id": "6d540443-6f37-4c20-9161-a60a238b5c38",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.d01_artifact_sha256_1",
+          "set1.d01_analysis_elf_class",
+          "set1.d01_analysis_machine",
+          "set1.d01_analysis_section_names",
+          "set1.d01_analysis_symbols",
+          "set1.d01_analysis_disassembly",
+          "set1.d01_analysis_elf_type",
+          "set1.d01_analysis_endianness",
+          "set1.d02_artifact_sha256_1",
+          "set1.d02_analysis_format",
+          "set1.d02_analysis_config_campaign",
+          "set1.d02_analysis_config_domain",
+          "set1.d02_analysis_config_mutex",
+          "set1.d02_analysis_config_url",
+          "set1.d02_analysis_config_crc32_hex",
+          "set1.d02_analysis_xor_key_hex",
+          "set1.d03_artifact_sha256_1",
+          "set1.d03_artifact_sha256_2",
+          "set1.d03_analysis_format",
+          "set1.d03_analysis_machine",
+          "set1.d03_analysis_metadata_version",
+          "set1.d03_analysis_config_campaign",
+          "set1.d03_analysis_config_domain",
+          "set1.d03_analysis_config_mutex",
+          "set1.d04_artifact_sha256_1",
+          "set1.d04_analysis_architecture",
+          "set1.d04_analysis_format",
+          "set1.d04_analysis_config_campaign",
+          "set1.d04_analysis_config_domain",
+          "set1.d04_analysis_config_mutex",
+          "set1.d04_analysis_config_url",
+          "set1.d04_analysis_config_crc32_hex",
+          "set2.d01_artifact_sha256_1",
+          "set2.d01_analysis_elf_class",
+          "set2.d01_analysis_machine",
+          "set2.d01_analysis_section_names",
+          "set2.d01_analysis_symbols",
+          "set2.d01_analysis_disassembly",
+          "set2.d01_analysis_elf_type",
+          "set2.d01_analysis_endianness",
+          "set2.d02_artifact_sha256_1",
+          "set2.d02_analysis_format",
+          "set2.d02_analysis_config_campaign",
+          "set2.d02_analysis_config_domain",
+          "set2.d02_analysis_config_mutex",
+          "set2.d02_analysis_config_url",
+          "set2.d02_analysis_config_crc32_hex",
+          "set2.d02_analysis_xor_key_hex",
+          "set2.d03_artifact_sha256_1",
+          "set2.d03_artifact_sha256_2",
+          "set2.d03_analysis_format",
+          "set2.d03_analysis_machine",
+          "set2.d03_analysis_metadata_version",
+          "set2.d03_analysis_config_campaign",
+          "set2.d03_analysis_config_domain",
+          "set2.d03_analysis_config_mutex",
+          "set2.d04_artifact_sha256_1",
+          "set2.d04_analysis_architecture",
+          "set2.d04_analysis_format",
+          "set2.d04_analysis_config_campaign",
+          "set2.d04_analysis_config_domain",
+          "set2.d04_analysis_config_mutex",
+          "set2.d04_analysis_config_url",
+          "set2.d04_analysis_config_crc32_hex"
+        ],
+        "questions": [
+          {
+            "id": "set1.d01_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d01_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d01_analysis_elf_class",
+            "question": "What is the exact analysis elf class value for field d01_analysis_elf_class in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d01_analysis_machine",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable-header machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal machine code is accepted.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "executable-header machine architecture label or its equivalent decimal or hexadecimal code; common file, readelf, and objdump labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d01_analysis_section_names",
+            "question": "For the bundled Day 1 ELF, submit the section names in section-header-table order as a JSON array of strings. The mandatory null section at index 0 has an empty name; including or omitting that one leading empty string is accepted. Do not substitute the section type NULL for its empty name.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of section-name strings in section-header-table order; an optional leading empty string represents section index 0"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d01_analysis_symbols",
+            "question": "What is the exact analysis symbols value for field d01_analysis_symbols in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d01_analysis_disassembly",
+            "question": "In the bundled Day 1 ELF, find the recover_code FUNC symbol in the symbol table and disassemble its bytes. Submit its decoded instructions in execution order as a JSON array of strings, without addresses or byte columns. If that symbol is absent, submit []. Unrelated format example: [\"nop\",\"ret\"].",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of instruction strings in execution order; an empty array if the recover_code symbol is absent. Intel or AT&T spelling of the same constant-return instructions is accepted."
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d01_analysis_elf_type",
+            "question": "For the bundled Day 1 ELF, report the ELF header e_type value. The standard ELF symbolic constant, the GNU readelf label, or the equivalent decimal or hexadecimal e_type code is accepted.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF e_type symbolic constant, readelf label, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d01_analysis_endianness",
+            "question": "For the bundled Day 1 ELF, report the byte order identified by the ELF EI_DATA field. A plain byte-order name, the GNU readelf description, the ELF symbolic constant, or the equivalent decimal or hexadecimal EI_DATA code is accepted.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF byte-order name, readelf description, EI_DATA symbolic constant, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d02_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_analysis_format",
+            "question": "For the Day 2 C++ specimen in the bundled archive, identify its executable container from the final bytes. Submit ELF for an Executable and Linkable Format specimen or PE for a Windows Portable Executable specimen; letter case and a more specific ELF32, ELF64, PE32, or PE32+ label are accepted.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE; letter case is ignored and ELF32, ELF64, PE32, PE32+, or Portable Executable are accepted when they identify the same container"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d02_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d02_analysis_config_domain in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d02_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d02_analysis_config_url in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d02_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d02_analysis_xor_key_hex",
+            "question": "What is the exact analysis xor key hex value for field d02_analysis_xor_key_hex in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d03_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_artifact_sha256_2",
+            "question": "What is the exact artifact sha256 2 value for field d03_artifact_sha256_2 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_analysis_format",
+            "question": "For the bundled Day 3 managed binary, identify its combined executable-container and managed-runtime format classification. Submit one compound token containing both parts, not just the generic container label. A tool-specific container label such as a bitness-qualified form is accepted when it identifies the same container. Unrelated syntax example: sample_vm.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "one container_runtime token; PE, PE32, or PE32+ may name the same container and CLI, CLR, or .NET may name the managed part; underscore, slash, hyphen, or space separators and letter case are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_analysis_machine",
+            "question": "For the bundled Day 3 managed PE binary, report the processor architecture identified by the PE/COFF Machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal Machine code is accepted.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "PE/COFF Machine architecture label or its equivalent decimal or hexadecimal code; common file, objdump, and IMAGE_FILE_MACHINE labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_analysis_metadata_version",
+            "question": "What is the exact analysis metadata version value for field d03_analysis_metadata_version in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d03_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d03_analysis_config_domain in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d03_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d03_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d04_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_analysis_architecture",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable header. A normalized architecture name, a standard tool or symbolic label, or an equivalent standard machine code is accepted.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "processor architecture name, standard tool or symbolic label, or equivalent executable-header machine code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_analysis_format",
+            "question": "For the requested specimen in the bundled archive, identify its executable container from the final bytes. Submit an ELF or PE container label; letter case and a more specific ELF32, ELF64, PE32, PE32+, or Portable Executable label are accepted when they identify the same container.",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE executable-container label; bitness-qualified standard labels and letter-case differences are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d04_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d04_analysis_config_domain in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d04_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d04_analysis_config_url in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.d04_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d04_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d01_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_analysis_elf_class",
+            "question": "What is the exact analysis elf class value for field d01_analysis_elf_class in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_analysis_machine",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable-header machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal machine code is accepted.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "executable-header machine architecture label or its equivalent decimal or hexadecimal code; common file, readelf, and objdump labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_analysis_section_names",
+            "question": "For the bundled Day 1 ELF, submit the section names in section-header-table order as a JSON array of strings. The mandatory null section at index 0 has an empty name; including or omitting that one leading empty string is accepted. Do not substitute the section type NULL for its empty name.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of section-name strings in section-header-table order; an optional leading empty string represents section index 0"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_analysis_symbols",
+            "question": "What is the exact analysis symbols value for field d01_analysis_symbols in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "compact valid JSON array with exact values and order; no Markdown or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_analysis_disassembly",
+            "question": "In the bundled Day 1 ELF, find the recover_code FUNC symbol in the symbol table and disassemble its bytes. Submit its decoded instructions in execution order as a JSON array of strings, without addresses or byte columns. If that symbol is absent, submit []. Unrelated format example: [\"nop\",\"ret\"].",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "json",
+              "syntax": "JSON array of instruction strings in execution order; an empty array if the recover_code symbol is absent. Intel or AT&T spelling of the same constant-return instructions is accepted."
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_analysis_elf_type",
+            "question": "For the bundled Day 1 ELF, report the ELF header e_type value. The standard ELF symbolic constant, the GNU readelf label, or the equivalent decimal or hexadecimal e_type code is accepted.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF e_type symbolic constant, readelf label, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d01_analysis_endianness",
+            "question": "For the bundled Day 1 ELF, report the byte order identified by the ELF EI_DATA field. A plain byte-order name, the GNU readelf description, the ELF symbolic constant, or the equivalent decimal or hexadecimal EI_DATA code is accepted.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF byte-order name, readelf description, EI_DATA symbolic constant, or equivalent decimal or hexadecimal code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d02_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_analysis_format",
+            "question": "For the Day 2 C++ specimen in the bundled archive, identify its executable container from the final bytes. Submit ELF for an Executable and Linkable Format specimen or PE for a Windows Portable Executable specimen; letter case and a more specific ELF32, ELF64, PE32, or PE32+ label are accepted.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE; letter case is ignored and ELF32, ELF64, PE32, PE32+, or Portable Executable are accepted when they identify the same container"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d02_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d02_analysis_config_domain in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d02_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d02_analysis_config_url in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d02_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d02_analysis_xor_key_hex",
+            "question": "What is the exact analysis xor key hex value for field d02_analysis_xor_key_hex in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d03_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_artifact_sha256_2",
+            "question": "What is the exact artifact sha256 2 value for field d03_artifact_sha256_2 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_analysis_format",
+            "question": "For the bundled Day 3 managed binary, identify its combined executable-container and managed-runtime format classification. Submit one compound token containing both parts, not just the generic container label. A tool-specific container label such as a bitness-qualified form is accepted when it identifies the same container. Unrelated syntax example: sample_vm.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "one container_runtime token; PE, PE32, or PE32+ may name the same container and CLI, CLR, or .NET may name the managed part; underscore, slash, hyphen, or space separators and letter case are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_analysis_machine",
+            "question": "For the bundled Day 3 managed PE binary, report the processor architecture identified by the PE/COFF Machine field. A normalized architecture name, a standard tool or symbolic label, or the equivalent decimal or hexadecimal Machine code is accepted.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "PE/COFF Machine architecture label or its equivalent decimal or hexadecimal code; common file, objdump, and IMAGE_FILE_MACHINE labels are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_analysis_metadata_version",
+            "question": "What is the exact analysis metadata version value for field d03_analysis_metadata_version in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d03_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d03_analysis_config_domain in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d03_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d03_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_artifact_sha256_1",
+            "question": "What is the exact artifact sha256 1 value for field d04_artifact_sha256_1 in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_analysis_architecture",
+            "question": "For the requested delivered binary, report the processor architecture identified by its executable header. A normalized architecture name, a standard tool or symbolic label, or an equivalent standard machine code is accepted.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "processor architecture name, standard tool or symbolic label, or equivalent executable-header machine code"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_analysis_format",
+            "question": "For the requested specimen in the bundled archive, identify its executable container from the final bytes. Submit an ELF or PE container label; letter case and a more specific ELF32, ELF64, PE32, PE32+, or Portable Executable label are accepted when they identify the same container.",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ELF or PE executable-container label; bitness-qualified standard labels and letter-case differences are accepted"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_analysis_config_campaign",
+            "question": "What is the exact analysis config campaign value for field d04_analysis_config_campaign in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_analysis_config_domain",
+            "question": "What is the exact analysis config domain value for field d04_analysis_config_domain in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_analysis_config_mutex",
+            "question": "What is the exact analysis config mutex value for field d04_analysis_config_mutex in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_analysis_config_url",
+            "question": "What is the exact analysis config url value for field d04_analysis_config_url in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.d04_analysis_config_crc32_hex",
+            "question": "What is the exact analysis config crc32 hex value for field d04_analysis_config_crc32_hex in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.d01_artifact_sha256_1",
+        "set1.d01_analysis_elf_class",
+        "set1.d01_analysis_machine",
+        "set1.d01_analysis_section_names",
+        "set1.d01_analysis_symbols",
+        "set1.d01_analysis_disassembly",
+        "set1.d01_analysis_elf_type",
+        "set1.d01_analysis_endianness",
+        "set1.d02_artifact_sha256_1",
+        "set1.d02_analysis_format",
+        "set1.d02_analysis_config_campaign",
+        "set1.d02_analysis_config_domain",
+        "set1.d02_analysis_config_mutex",
+        "set1.d02_analysis_config_url",
+        "set1.d02_analysis_config_crc32_hex",
+        "set1.d02_analysis_xor_key_hex",
+        "set1.d03_artifact_sha256_1",
+        "set1.d03_artifact_sha256_2",
+        "set1.d03_analysis_format",
+        "set1.d03_analysis_machine",
+        "set1.d03_analysis_metadata_version",
+        "set1.d03_analysis_config_campaign",
+        "set1.d03_analysis_config_domain",
+        "set1.d03_analysis_config_mutex",
+        "set1.d04_artifact_sha256_1",
+        "set1.d04_analysis_architecture",
+        "set1.d04_analysis_format",
+        "set1.d04_analysis_config_campaign",
+        "set1.d04_analysis_config_domain",
+        "set1.d04_analysis_config_mutex",
+        "set1.d04_analysis_config_url",
+        "set1.d04_analysis_config_crc32_hex",
+        "set2.d01_artifact_sha256_1",
+        "set2.d01_analysis_elf_class",
+        "set2.d01_analysis_machine",
+        "set2.d01_analysis_section_names",
+        "set2.d01_analysis_symbols",
+        "set2.d01_analysis_disassembly",
+        "set2.d01_analysis_elf_type",
+        "set2.d01_analysis_endianness",
+        "set2.d02_artifact_sha256_1",
+        "set2.d02_analysis_format",
+        "set2.d02_analysis_config_campaign",
+        "set2.d02_analysis_config_domain",
+        "set2.d02_analysis_config_mutex",
+        "set2.d02_analysis_config_url",
+        "set2.d02_analysis_config_crc32_hex",
+        "set2.d02_analysis_xor_key_hex",
+        "set2.d03_artifact_sha256_1",
+        "set2.d03_artifact_sha256_2",
+        "set2.d03_analysis_format",
+        "set2.d03_analysis_machine",
+        "set2.d03_analysis_metadata_version",
+        "set2.d03_analysis_config_campaign",
+        "set2.d03_analysis_config_domain",
+        "set2.d03_analysis_config_mutex",
+        "set2.d04_artifact_sha256_1",
+        "set2.d04_analysis_architecture",
+        "set2.d04_analysis_format",
+        "set2.d04_analysis_config_campaign",
+        "set2.d04_analysis_config_domain",
+        "set2.d04_analysis_config_mutex",
+        "set2.d04_analysis_config_url",
+        "set2.d04_analysis_config_crc32_hex"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "6d540443-6f37-4c20-9161-a60a238b5c38",
+          "deadline": "2026-10-07T14:35:05.580Z",
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.d01_artifact_sha256_1",
+            "set1.d01_analysis_elf_class",
+            "set1.d01_analysis_machine",
+            "set1.d01_analysis_section_names",
+            "set1.d01_analysis_symbols",
+            "set1.d01_analysis_disassembly",
+            "set1.d01_analysis_elf_type",
+            "set1.d01_analysis_endianness",
+            "set1.d02_artifact_sha256_1",
+            "set1.d02_analysis_format",
+            "set1.d02_analysis_config_campaign",
+            "set1.d02_analysis_config_domain",
+            "set1.d02_analysis_config_mutex",
+            "set1.d02_analysis_config_url",
+            "set1.d02_analysis_config_crc32_hex",
+            "set1.d02_analysis_xor_key_hex",
+            "set1.d03_artifact_sha256_1",
+            "set1.d03_artifact_sha256_2",
+            "set1.d03_analysis_format",
+            "set1.d03_analysis_machine",
+            "set1.d03_analysis_metadata_version",
+            "set1.d03_analysis_config_campaign",
+            "set1.d03_analysis_config_domain",
+            "set1.d03_analysis_config_mutex",
+            "set1.d04_artifact_sha256_1",
+            "set1.d04_analysis_architecture",
+            "set1.d04_analysis_format",
+            "set1.d04_analysis_config_campaign",
+            "set1.d04_analysis_config_domain",
+            "set1.d04_analysis_config_mutex",
+            "set1.d04_analysis_config_url",
+            "set1.d04_analysis_config_crc32_hex",
+            "set2.d01_artifact_sha256_1",
+            "set2.d01_analysis_elf_class",
+            "set2.d01_analysis_machine",
+            "set2.d01_analysis_section_names",
+            "set2.d01_analysis_symbols",
+            "set2.d01_analysis_disassembly",
+            "set2.d01_analysis_elf_type",
+            "set2.d01_analysis_endianness",
+            "set2.d02_artifact_sha256_1",
+            "set2.d02_analysis_format",
+            "set2.d02_analysis_config_campaign",
+            "set2.d02_analysis_config_domain",
+            "set2.d02_analysis_config_mutex",
+            "set2.d02_analysis_config_url",
+            "set2.d02_analysis_config_crc32_hex",
+            "set2.d02_analysis_xor_key_hex",
+            "set2.d03_artifact_sha256_1",
+            "set2.d03_artifact_sha256_2",
+            "set2.d03_analysis_format",
+            "set2.d03_analysis_machine",
+            "set2.d03_analysis_metadata_version",
+            "set2.d03_analysis_config_campaign",
+            "set2.d03_analysis_config_domain",
+            "set2.d03_analysis_config_mutex",
+            "set2.d04_artifact_sha256_1",
+            "set2.d04_analysis_architecture",
+            "set2.d04_analysis_format",
+            "set2.d04_analysis_config_campaign",
+            "set2.d04_analysis_config_domain",
+            "set2.d04_analysis_config_mutex",
+            "set2.d04_analysis_config_url",
+            "set2.d04_analysis_config_crc32_hex"
+          ],
+          "accepted_count": 64,
+          "artifacts": [
+            {
+              "set": 1,
+              "sha256": "63d3ab0da635aebf93f3acb73525e44f3cf9e179e1fb280e89d64eed45cf28ad",
+              "retained": false
+            },
+            {
+              "set": 2,
+              "sha256": "5437ff0e15e3cc173cc15275eb9d673284d48c70188a73b66ccdb18af77bc841",
+              "retained": false
+            }
+          ],
+          "solver": "04-Go_Fish/solve_mastery.py",
+          "status": null
+        }
+      ]
+    }
+  },
+  "title": "⚙️ Go Fish"
+}

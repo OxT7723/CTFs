@@ -1,0 +1,93 @@
+{
+  "team_name": "Seeking_Security_Job_And_Flags",
+  "official_certificate": {
+    "place": 45,
+    "teams": 1602,
+    "players": 2304,
+    "points": 1885,
+    "challenges_solved_label": "561/561",
+    "source": "huntress_ctf_certificate-1.pdf",
+    "interpretation": "The 561 count is scoring awards, including individual modes, not 561 distinct named tasks."
+  },
+  "saved_scoreboard": {
+    "place": 45,
+    "entries": 1596,
+    "entry_types": {
+      "team": 395,
+      "solo": 1201
+    },
+    "entries_marked_deleted": 16,
+    "positive_score_entries": 863,
+    "recorded_at": null,
+    "latest_scoring_event_utc": "2026-11-01T00:51:18.723Z",
+    "target_last_scored_at_utc": "2026-10-31T15:32:27.237Z",
+    "points": 1885,
+    "points_available_in_catalog": 1885,
+    "target_scoring_awards": 561,
+    "point_bearing_question_records": 561,
+    "all_question_records": 562,
+    "distinct_lessons": 190
+  },
+  "daily_completion": {
+    "daily_tasks": 186,
+    "single_solve_awards": 186,
+    "time_trial_awards": 186,
+    "mastery_awards": 186,
+    "daily_task_points": 1860,
+    "scored_extras": [
+      {
+        "title": "Read the Rules",
+        "points": 10
+      },
+      {
+        "title": "Welcome Robots",
+        "points": 10
+      },
+      {
+        "title": "SHA1-Hulud",
+        "points": 5
+      }
+    ],
+    "unscored_orientation": "Sanity Check"
+  },
+  "historical_reconstruction": {
+    "timezone": "UTC",
+    "days": 31,
+    "cutoff": "Strictly before 00:00:00 UTC of the next calendar day, including October 31.",
+    "rank_basis": "All 1,596 entries retained in the supplied scoreboard. Current deleted flags do not change the target series if those entries are excluded.",
+    "best_daily_rank": 3,
+    "best_daily_rank_dates": [
+      "2026-10-20"
+    ],
+    "final_daily_rank": 45,
+    "official_archived_daily_leaderboard": false,
+    "intraday_peak_rank": null
+  },
+  "partial_first_solve_notes": {
+    "listed_challenge_rows": 173,
+    "recorded_clock_values": 458,
+    "empty_mode_cells": 61,
+    "empty_cells_with_award_in_later_scoreboard": 59,
+    "days_covered": "1–29",
+    "elapsed_durations_available": false,
+    "major_clock_disagreement": "Welcome Robots: notes 19:41:58 versus scoreboard 2026-10-01T14:11:41.749Z. Different semantics or an error cannot be resolved from the files."
+  },
+  "validation": {
+    "scoring_events_checked": 106077,
+    "leaderboard_entries_checked": 1596
+  },
+  "source_sha256": {
+    "scoreboard.json": "76e2bbd7bf2a1c1015b79a541654f22787450e4c1c205dd3166e4e21bbe2312f",
+    "Solve times.md": "5ba7b859c6c1e3617a68e9e84b1ec9abcc40dfc72372f0fa8d0f0bd4fcb03bf8",
+    "huntress_ctf_historical_top_50.html": "71e34694d06f369beb0a31b9b99d2c747f164f1bff65b3126f15eb6c5eb969d8",
+    "huntress_ctf_certificate-1.pdf": "474980eadccb57ff36370b0ec32a22eb2db3872d9659804280f3da9718822088"
+  },
+  "limitations": [
+    "Official certificate, saved scoreboard, and original HTML have different participant denominators (1,602 / 1,596 / 1,590). Reason is not recorded.",
+    "A latest scoring-event timestamp is not an export timestamp; no exact snapshot capture time is recorded.",
+    "Daily placement is reconstructed from retained events, not a platform archive and not a claim about intraday peaks.",
+    "A successful score event proves an award, not that every solution artifact or explanatory walkthrough survived.",
+    "CourseStack release_day differs from lane_day in web question identifiers. Both are preserved.",
+    "Scoring timestamps and clock-only first-solve notes are not elapsed solve durations."
+  ]
+}

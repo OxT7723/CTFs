@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "challenge_id": "metadata-forensics-day-12-managed-expectations",
+  "day": 12,
+  "lane": "metadata-forensics",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "metadata-forensics-day-12-managed-expectations",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "91931a9e-4344-4386-8cd4-1ad33159b12f",
+        "mode": "single_solve",
+        "answer_ids": [
+          "d12-dotnet-001-dotnet-mvid-guid"
+        ],
+        "questions": [
+          {
+            "id": "d12-dotnet-001-dotnet-mvid-guid",
+            "question": "Determine dotnet.mvid_guid for managed-001.dll.",
+            "artifact": "metadata-day-12-evidence.zip -> managed-001.dll",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "canonical GUID text in 8-4-4-4-12 hexadecimal form, including hyphens"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d12-dotnet-001-dotnet-mvid-guid"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "91931a9e-4344-4386-8cd4-1ad33159b12f",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d12-dotnet-001-dotnet-mvid-guid"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "metadata-forensics-day-12-managed-expectations/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-12T13:02:50.063Z",
+        "attempt_id": "91ef21d8-0799-4e6f-ab5d-6f87ce43532c",
+        "mode": "time_trial",
+        "answer_ids": [
+          "d12-dotnet-002-dotnet-mvid-guid"
+        ],
+        "questions": [
+          {
+            "id": "d12-dotnet-002-dotnet-mvid-guid",
+            "question": "Determine dotnet.mvid_guid for managed-002.dll.",
+            "artifact": "metadata-day-12-evidence.zip -> managed-002.dll",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "canonical GUID text in 8-4-4-4-12 hexadecimal form, including hyphens"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "d12-dotnet-002-dotnet-mvid-guid"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "91ef21d8-0799-4e6f-ab5d-6f87ce43532c",
+          "deadline": "2026-10-12T13:02:50.063Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "d12-dotnet-002-dotnet-mvid-guid"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "metadata-forensics-day-12-managed-expectations/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-12T13:03:07.169Z",
+        "attempt_id": "3d5ad693-3399-49cf-9252-16e500b4da5c",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.d12-dotnet-003-dotnet-mvid-guid",
+          "set2.d12-dotnet-004-dotnet-mvid-guid"
+        ],
+        "questions": [
+          {
+            "id": "set1.d12-dotnet-003-dotnet-mvid-guid",
+            "question": "Determine dotnet.mvid_guid for managed-003.dll.",
+            "artifact": "metadata-day-12-evidence-01.zip -> managed-003.dll",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "canonical GUID text in 8-4-4-4-12 hexadecimal form, including hyphens"
+            },
+            "normalization": "trim"
+          },
+          {
+            "id": "set2.d12-dotnet-004-dotnet-mvid-guid",
+            "question": "Determine dotnet.mvid_guid for managed-004.dll.",
+            "artifact": "metadata-day-12-evidence-02.zip -> managed-004.dll",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "canonical GUID text in 8-4-4-4-12 hexadecimal form, including hyphens"
+            },
+            "normalization": "trim"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.d12-dotnet-003-dotnet-mvid-guid",
+        "set2.d12-dotnet-004-dotnet-mvid-guid"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "3d5ad693-3399-49cf-9252-16e500b4da5c",
+          "deadline": "2026-10-12T13:03:07.169Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.d12-dotnet-003-dotnet-mvid-guid",
+            "set2.d12-dotnet-004-dotnet-mvid-guid"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "🔎 Managed Expectations"
+}

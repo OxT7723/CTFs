@@ -1,0 +1,1663 @@
+{
+  "version": 1,
+  "challenge_id": "binary-reverse-engineering-day-01-c-elf-orientation",
+  "day": 1,
+  "lane": "binary-reverse-engineering",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "binary-reverse-engineering-day-01-c-elf-orientation",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "66e300ef-9c7a-41fd-8d32-690f94a3d41b",
+        "mode": "single_solve",
+        "answer_ids": [
+          "elf_class",
+          "endianness",
+          "machine",
+          "elf_type",
+          "marker",
+          "has_symtab",
+          "exported_symbol",
+          "recover_code",
+          "entry_point"
+        ],
+        "questions": [
+          {
+            "id": "elf_class",
+            "question": "What ELF class is the executable?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "endianness",
+            "question": "What byte order does the ELF header declare?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "machine",
+            "question": "What machine architecture does the ELF header declare?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "elf_type",
+            "question": "What ELF object type is this file?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "marker",
+            "question": "Recover the exact string stored in the custom .huntress section.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "has_symtab",
+            "question": "Does the final file retain a .symtab section? Answer true or false.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "exported_symbol",
+            "question": "Recover the designated analysis symbol",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "recover_code",
+            "question": "Recover the constant returned by recover_code",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "entry_point",
+            "question": "Give the ELF entry point as lowercase hexadecimal with a 0x prefix.",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "elf_class",
+        "endianness",
+        "machine",
+        "elf_type",
+        "marker",
+        "has_symtab",
+        "exported_symbol",
+        "recover_code",
+        "entry_point"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "66e300ef-9c7a-41fd-8d32-690f94a3d41b",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "elf_class",
+            "endianness",
+            "machine",
+            "elf_type",
+            "marker",
+            "has_symtab",
+            "exported_symbol",
+            "recover_code",
+            "entry_point"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "binary-reverse-engineering-day-01-c-elf-orientation/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T16:25:30.238Z",
+        "attempt_id": "8740805b-eb38-4656-a62f-58fcf2eee6ec",
+        "mode": "time_trial",
+        "answer_ids": [
+          "slot0_elf_class",
+          "slot0_endianness",
+          "slot0_machine",
+          "slot0_elf_type",
+          "slot0_marker",
+          "slot0_has_symtab",
+          "slot0_exported_symbol",
+          "slot0_recover_code",
+          "slot0_entry_point",
+          "slot1_elf_class",
+          "slot1_endianness",
+          "slot1_machine",
+          "slot1_elf_type",
+          "slot1_marker",
+          "slot1_has_symtab",
+          "slot1_exported_symbol",
+          "slot1_recover_code",
+          "slot1_entry_point",
+          "slot2_elf_class",
+          "slot2_endianness",
+          "slot2_machine",
+          "slot2_elf_type",
+          "slot2_marker",
+          "slot2_has_symtab",
+          "slot2_exported_symbol",
+          "slot2_recover_code",
+          "slot2_entry_point",
+          "slot3_elf_class",
+          "slot3_endianness",
+          "slot3_machine",
+          "slot3_elf_type",
+          "slot3_marker",
+          "slot3_has_symtab",
+          "slot3_exported_symbol",
+          "slot3_recover_code",
+          "slot3_entry_point"
+        ],
+        "questions": [
+          {
+            "id": "slot0_elf_class",
+            "question": "What is the exact slot0 elf class value for field slot0_elf_class in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_endianness",
+            "question": "What is the exact slot0 endianness value for field slot0_endianness in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_machine",
+            "question": "What is the exact slot0 machine value for field slot0_machine in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_elf_type",
+            "question": "What is the exact slot0 elf type value for field slot0_elf_type in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_marker",
+            "question": "What is the exact slot0 marker value for field slot0_marker in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_has_symtab",
+            "question": "What is the exact slot0 has symtab value for field slot0_has_symtab in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_exported_symbol",
+            "question": "What is the exact slot0 exported symbol value for field slot0_exported_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_recover_code",
+            "question": "What is the exact slot0 recover code value for field slot0_recover_code in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot0_entry_point",
+            "question": "What is the exact slot0 entry point value for field slot0_entry_point in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_elf_class",
+            "question": "What is the exact slot1 elf class value for field slot1_elf_class in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_endianness",
+            "question": "What is the exact slot1 endianness value for field slot1_endianness in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_machine",
+            "question": "What is the exact slot1 machine value for field slot1_machine in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_elf_type",
+            "question": "What is the exact slot1 elf type value for field slot1_elf_type in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_marker",
+            "question": "What is the exact slot1 marker value for field slot1_marker in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_has_symtab",
+            "question": "What is the exact slot1 has symtab value for field slot1_has_symtab in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_exported_symbol",
+            "question": "What is the exact slot1 exported symbol value for field slot1_exported_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_recover_code",
+            "question": "What is the exact slot1 recover code value for field slot1_recover_code in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot1_entry_point",
+            "question": "What is the exact slot1 entry point value for field slot1_entry_point in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_elf_class",
+            "question": "What is the exact slot2 elf class value for field slot2_elf_class in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_endianness",
+            "question": "What is the exact slot2 endianness value for field slot2_endianness in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_machine",
+            "question": "What is the exact slot2 machine value for field slot2_machine in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_elf_type",
+            "question": "What is the exact slot2 elf type value for field slot2_elf_type in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_marker",
+            "question": "What is the exact slot2 marker value for field slot2_marker in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_has_symtab",
+            "question": "What is the exact slot2 has symtab value for field slot2_has_symtab in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_exported_symbol",
+            "question": "What is the exact slot2 exported symbol value for field slot2_exported_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_recover_code",
+            "question": "What is the exact slot2 recover code value for field slot2_recover_code in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot2_entry_point",
+            "question": "What is the exact slot2 entry point value for field slot2_entry_point in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_elf_class",
+            "question": "What is the exact slot3 elf class value for field slot3_elf_class in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_endianness",
+            "question": "What is the exact slot3 endianness value for field slot3_endianness in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_machine",
+            "question": "What is the exact slot3 machine value for field slot3_machine in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_elf_type",
+            "question": "What is the exact slot3 elf type value for field slot3_elf_type in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_marker",
+            "question": "What is the exact slot3 marker value for field slot3_marker in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_has_symtab",
+            "question": "What is the exact slot3 has symtab value for field slot3_has_symtab in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_exported_symbol",
+            "question": "What is the exact slot3 exported symbol value for field slot3_exported_symbol in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_recover_code",
+            "question": "What is the exact slot3 recover code value for field slot3_recover_code in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "slot3_entry_point",
+            "question": "What is the exact slot3 entry point value for field slot3_entry_point in the delivered evidence set?",
+            "artifact": "evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "slot0_elf_class",
+        "slot0_endianness",
+        "slot0_machine",
+        "slot0_elf_type",
+        "slot0_marker",
+        "slot0_has_symtab",
+        "slot0_exported_symbol",
+        "slot0_recover_code",
+        "slot0_entry_point",
+        "slot1_elf_class",
+        "slot1_endianness",
+        "slot1_machine",
+        "slot1_elf_type",
+        "slot1_marker",
+        "slot1_has_symtab",
+        "slot1_exported_symbol",
+        "slot1_recover_code",
+        "slot1_entry_point",
+        "slot2_elf_class",
+        "slot2_endianness",
+        "slot2_machine",
+        "slot2_elf_type",
+        "slot2_marker",
+        "slot2_has_symtab",
+        "slot2_exported_symbol",
+        "slot2_recover_code",
+        "slot2_entry_point",
+        "slot3_elf_class",
+        "slot3_endianness",
+        "slot3_machine",
+        "slot3_elf_type",
+        "slot3_marker",
+        "slot3_has_symtab",
+        "slot3_exported_symbol",
+        "slot3_recover_code",
+        "slot3_entry_point"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "8740805b-eb38-4656-a62f-58fcf2eee6ec",
+          "deadline": "2026-10-03T16:25:30.238Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "slot0_elf_class",
+            "slot0_endianness",
+            "slot0_machine",
+            "slot0_elf_type",
+            "slot0_marker",
+            "slot0_has_symtab",
+            "slot0_exported_symbol",
+            "slot0_recover_code",
+            "slot0_entry_point",
+            "slot1_elf_class",
+            "slot1_endianness",
+            "slot1_machine",
+            "slot1_elf_type",
+            "slot1_marker",
+            "slot1_has_symtab",
+            "slot1_exported_symbol",
+            "slot1_recover_code",
+            "slot1_entry_point",
+            "slot2_elf_class",
+            "slot2_endianness",
+            "slot2_machine",
+            "slot2_elf_type",
+            "slot2_marker",
+            "slot2_has_symtab",
+            "slot2_exported_symbol",
+            "slot2_recover_code",
+            "slot2_entry_point",
+            "slot3_elf_class",
+            "slot3_endianness",
+            "slot3_machine",
+            "slot3_elf_type",
+            "slot3_marker",
+            "slot3_has_symtab",
+            "slot3_exported_symbol",
+            "slot3_recover_code",
+            "slot3_entry_point"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "binary-reverse-engineering-day-01-c-elf-orientation/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-03T16:35:12.416Z",
+        "attempt_id": "07214bb2-df1f-4ff1-afdf-ec7c094749fd",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.slot0_elf_class",
+          "set1.slot0_endianness",
+          "set1.slot0_machine",
+          "set1.slot0_elf_type",
+          "set1.slot0_marker",
+          "set1.slot0_has_symtab",
+          "set1.slot0_exported_symbol",
+          "set1.slot0_recover_code",
+          "set1.slot0_entry_point",
+          "set1.slot1_elf_class",
+          "set1.slot1_endianness",
+          "set1.slot1_machine",
+          "set1.slot1_elf_type",
+          "set1.slot1_marker",
+          "set1.slot1_has_symtab",
+          "set1.slot1_exported_symbol",
+          "set1.slot1_recover_code",
+          "set1.slot1_entry_point",
+          "set1.slot2_elf_class",
+          "set1.slot2_endianness",
+          "set1.slot2_machine",
+          "set1.slot2_elf_type",
+          "set1.slot2_marker",
+          "set1.slot2_has_symtab",
+          "set1.slot2_exported_symbol",
+          "set1.slot2_recover_code",
+          "set1.slot2_entry_point",
+          "set1.slot3_elf_class",
+          "set1.slot3_endianness",
+          "set1.slot3_machine",
+          "set1.slot3_elf_type",
+          "set1.slot3_marker",
+          "set1.slot3_has_symtab",
+          "set1.slot3_exported_symbol",
+          "set1.slot3_recover_code",
+          "set1.slot3_entry_point",
+          "set2.slot0_elf_class",
+          "set2.slot0_endianness",
+          "set2.slot0_machine",
+          "set2.slot0_elf_type",
+          "set2.slot0_marker",
+          "set2.slot0_has_symtab",
+          "set2.slot0_exported_symbol",
+          "set2.slot0_recover_code",
+          "set2.slot0_entry_point",
+          "set2.slot1_elf_class",
+          "set2.slot1_endianness",
+          "set2.slot1_machine",
+          "set2.slot1_elf_type",
+          "set2.slot1_marker",
+          "set2.slot1_has_symtab",
+          "set2.slot1_exported_symbol",
+          "set2.slot1_recover_code",
+          "set2.slot1_entry_point",
+          "set2.slot2_elf_class",
+          "set2.slot2_endianness",
+          "set2.slot2_machine",
+          "set2.slot2_elf_type",
+          "set2.slot2_marker",
+          "set2.slot2_has_symtab",
+          "set2.slot2_exported_symbol",
+          "set2.slot2_recover_code",
+          "set2.slot2_entry_point",
+          "set2.slot3_elf_class",
+          "set2.slot3_endianness",
+          "set2.slot3_machine",
+          "set2.slot3_elf_type",
+          "set2.slot3_marker",
+          "set2.slot3_has_symtab",
+          "set2.slot3_exported_symbol",
+          "set2.slot3_recover_code",
+          "set2.slot3_entry_point"
+        ],
+        "questions": [
+          {
+            "id": "set1.slot0_elf_class",
+            "question": "What is the exact slot0 elf class value for field slot0_elf_class in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_endianness",
+            "question": "What is the exact slot0 endianness value for field slot0_endianness in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_machine",
+            "question": "What is the exact slot0 machine value for field slot0_machine in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_elf_type",
+            "question": "What is the exact slot0 elf type value for field slot0_elf_type in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_marker",
+            "question": "What is the exact slot0 marker value for field slot0_marker in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_has_symtab",
+            "question": "What is the exact slot0 has symtab value for field slot0_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_exported_symbol",
+            "question": "What is the exact slot0 exported symbol value for field slot0_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_recover_code",
+            "question": "What is the exact slot0 recover code value for field slot0_recover_code in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot0_entry_point",
+            "question": "What is the exact slot0 entry point value for field slot0_entry_point in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_elf_class",
+            "question": "What is the exact slot1 elf class value for field slot1_elf_class in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_endianness",
+            "question": "What is the exact slot1 endianness value for field slot1_endianness in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_machine",
+            "question": "What is the exact slot1 machine value for field slot1_machine in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_elf_type",
+            "question": "What is the exact slot1 elf type value for field slot1_elf_type in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_marker",
+            "question": "What is the exact slot1 marker value for field slot1_marker in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_has_symtab",
+            "question": "What is the exact slot1 has symtab value for field slot1_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_exported_symbol",
+            "question": "What is the exact slot1 exported symbol value for field slot1_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_recover_code",
+            "question": "What is the exact slot1 recover code value for field slot1_recover_code in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot1_entry_point",
+            "question": "What is the exact slot1 entry point value for field slot1_entry_point in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_elf_class",
+            "question": "What is the exact slot2 elf class value for field slot2_elf_class in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_endianness",
+            "question": "What is the exact slot2 endianness value for field slot2_endianness in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_machine",
+            "question": "What is the exact slot2 machine value for field slot2_machine in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_elf_type",
+            "question": "What is the exact slot2 elf type value for field slot2_elf_type in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_marker",
+            "question": "What is the exact slot2 marker value for field slot2_marker in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_has_symtab",
+            "question": "What is the exact slot2 has symtab value for field slot2_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_exported_symbol",
+            "question": "What is the exact slot2 exported symbol value for field slot2_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_recover_code",
+            "question": "What is the exact slot2 recover code value for field slot2_recover_code in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot2_entry_point",
+            "question": "What is the exact slot2 entry point value for field slot2_entry_point in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_elf_class",
+            "question": "What is the exact slot3 elf class value for field slot3_elf_class in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_endianness",
+            "question": "What is the exact slot3 endianness value for field slot3_endianness in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_machine",
+            "question": "What is the exact slot3 machine value for field slot3_machine in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_elf_type",
+            "question": "What is the exact slot3 elf type value for field slot3_elf_type in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_marker",
+            "question": "What is the exact slot3 marker value for field slot3_marker in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_has_symtab",
+            "question": "What is the exact slot3 has symtab value for field slot3_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_exported_symbol",
+            "question": "What is the exact slot3 exported symbol value for field slot3_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_recover_code",
+            "question": "What is the exact slot3 recover code value for field slot3_recover_code in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set1.slot3_entry_point",
+            "question": "What is the exact slot3 entry point value for field slot3_entry_point in the delivered evidence set?",
+            "artifact": "delivery 1: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_elf_class",
+            "question": "What is the exact slot0 elf class value for field slot0_elf_class in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_endianness",
+            "question": "What is the exact slot0 endianness value for field slot0_endianness in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_machine",
+            "question": "What is the exact slot0 machine value for field slot0_machine in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_elf_type",
+            "question": "What is the exact slot0 elf type value for field slot0_elf_type in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_marker",
+            "question": "What is the exact slot0 marker value for field slot0_marker in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_has_symtab",
+            "question": "What is the exact slot0 has symtab value for field slot0_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_exported_symbol",
+            "question": "What is the exact slot0 exported symbol value for field slot0_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_recover_code",
+            "question": "What is the exact slot0 recover code value for field slot0_recover_code in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot0_entry_point",
+            "question": "What is the exact slot0 entry point value for field slot0_entry_point in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_elf_class",
+            "question": "What is the exact slot1 elf class value for field slot1_elf_class in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_endianness",
+            "question": "What is the exact slot1 endianness value for field slot1_endianness in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_machine",
+            "question": "What is the exact slot1 machine value for field slot1_machine in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_elf_type",
+            "question": "What is the exact slot1 elf type value for field slot1_elf_type in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_marker",
+            "question": "What is the exact slot1 marker value for field slot1_marker in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_has_symtab",
+            "question": "What is the exact slot1 has symtab value for field slot1_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_exported_symbol",
+            "question": "What is the exact slot1 exported symbol value for field slot1_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_recover_code",
+            "question": "What is the exact slot1 recover code value for field slot1_recover_code in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot1_entry_point",
+            "question": "What is the exact slot1 entry point value for field slot1_entry_point in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_elf_class",
+            "question": "What is the exact slot2 elf class value for field slot2_elf_class in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_endianness",
+            "question": "What is the exact slot2 endianness value for field slot2_endianness in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_machine",
+            "question": "What is the exact slot2 machine value for field slot2_machine in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_elf_type",
+            "question": "What is the exact slot2 elf type value for field slot2_elf_type in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_marker",
+            "question": "What is the exact slot2 marker value for field slot2_marker in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_has_symtab",
+            "question": "What is the exact slot2 has symtab value for field slot2_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_exported_symbol",
+            "question": "What is the exact slot2 exported symbol value for field slot2_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_recover_code",
+            "question": "What is the exact slot2 recover code value for field slot2_recover_code in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot2_entry_point",
+            "question": "What is the exact slot2 entry point value for field slot2_entry_point in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_elf_class",
+            "question": "What is the exact slot3 elf class value for field slot3_elf_class in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_endianness",
+            "question": "What is the exact slot3 endianness value for field slot3_endianness in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_machine",
+            "question": "What is the exact slot3 machine value for field slot3_machine in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_elf_type",
+            "question": "What is the exact slot3 elf type value for field slot3_elf_type in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_marker",
+            "question": "What is the exact slot3 marker value for field slot3_marker in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_has_symtab",
+            "question": "What is the exact slot3 has symtab value for field slot3_has_symtab in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "enum",
+              "accepted_values": [
+                "true",
+                "false"
+              ]
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_exported_symbol",
+            "question": "What is the exact slot3 exported symbol value for field slot3_exported_symbol in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "exact_text",
+              "syntax": "exact artifact-derived value only, without quotes or explanatory text unless quotes are part of the value; use the literal none only when the requested field is absent"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_recover_code",
+            "question": "What is the exact slot3 recover code value for field slot3_recover_code in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "integer",
+              "syntax": "base-10 integer with no units, separators, or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.slot3_entry_point",
+            "question": "What is the exact slot3 entry point value for field slot3_entry_point in the delivered evidence set?",
+            "artifact": "delivery 2: evidence.zip",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "lowercase hexadecimal with a 0x prefix and no explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.slot0_elf_class",
+        "set1.slot0_endianness",
+        "set1.slot0_machine",
+        "set1.slot0_elf_type",
+        "set1.slot0_marker",
+        "set1.slot0_has_symtab",
+        "set1.slot0_exported_symbol",
+        "set1.slot0_recover_code",
+        "set1.slot0_entry_point",
+        "set1.slot1_elf_class",
+        "set1.slot1_endianness",
+        "set1.slot1_machine",
+        "set1.slot1_elf_type",
+        "set1.slot1_marker",
+        "set1.slot1_has_symtab",
+        "set1.slot1_exported_symbol",
+        "set1.slot1_recover_code",
+        "set1.slot1_entry_point",
+        "set1.slot2_elf_class",
+        "set1.slot2_endianness",
+        "set1.slot2_machine",
+        "set1.slot2_elf_type",
+        "set1.slot2_marker",
+        "set1.slot2_has_symtab",
+        "set1.slot2_exported_symbol",
+        "set1.slot2_recover_code",
+        "set1.slot2_entry_point",
+        "set1.slot3_elf_class",
+        "set1.slot3_endianness",
+        "set1.slot3_machine",
+        "set1.slot3_elf_type",
+        "set1.slot3_marker",
+        "set1.slot3_has_symtab",
+        "set1.slot3_exported_symbol",
+        "set1.slot3_recover_code",
+        "set1.slot3_entry_point",
+        "set2.slot0_elf_class",
+        "set2.slot0_endianness",
+        "set2.slot0_machine",
+        "set2.slot0_elf_type",
+        "set2.slot0_marker",
+        "set2.slot0_has_symtab",
+        "set2.slot0_exported_symbol",
+        "set2.slot0_recover_code",
+        "set2.slot0_entry_point",
+        "set2.slot1_elf_class",
+        "set2.slot1_endianness",
+        "set2.slot1_machine",
+        "set2.slot1_elf_type",
+        "set2.slot1_marker",
+        "set2.slot1_has_symtab",
+        "set2.slot1_exported_symbol",
+        "set2.slot1_recover_code",
+        "set2.slot1_entry_point",
+        "set2.slot2_elf_class",
+        "set2.slot2_endianness",
+        "set2.slot2_machine",
+        "set2.slot2_elf_type",
+        "set2.slot2_marker",
+        "set2.slot2_has_symtab",
+        "set2.slot2_exported_symbol",
+        "set2.slot2_recover_code",
+        "set2.slot2_entry_point",
+        "set2.slot3_elf_class",
+        "set2.slot3_endianness",
+        "set2.slot3_machine",
+        "set2.slot3_elf_type",
+        "set2.slot3_marker",
+        "set2.slot3_has_symtab",
+        "set2.slot3_exported_symbol",
+        "set2.slot3_recover_code",
+        "set2.slot3_entry_point"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "07214bb2-df1f-4ff1-afdf-ec7c094749fd",
+          "deadline": "2026-10-03T16:35:12.416Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.slot0_elf_class",
+            "set1.slot0_endianness",
+            "set1.slot0_machine",
+            "set1.slot0_elf_type",
+            "set1.slot0_marker",
+            "set1.slot0_has_symtab",
+            "set1.slot0_exported_symbol",
+            "set1.slot0_recover_code",
+            "set1.slot0_entry_point",
+            "set1.slot1_elf_class",
+            "set1.slot1_endianness",
+            "set1.slot1_machine",
+            "set1.slot1_elf_type",
+            "set1.slot1_marker",
+            "set1.slot1_has_symtab",
+            "set1.slot1_exported_symbol",
+            "set1.slot1_recover_code",
+            "set1.slot1_entry_point",
+            "set1.slot2_elf_class",
+            "set1.slot2_endianness",
+            "set1.slot2_machine",
+            "set1.slot2_elf_type",
+            "set1.slot2_marker",
+            "set1.slot2_has_symtab",
+            "set1.slot2_exported_symbol",
+            "set1.slot2_recover_code",
+            "set1.slot2_entry_point",
+            "set1.slot3_elf_class",
+            "set1.slot3_endianness",
+            "set1.slot3_machine",
+            "set1.slot3_elf_type",
+            "set1.slot3_marker",
+            "set1.slot3_has_symtab",
+            "set1.slot3_exported_symbol",
+            "set1.slot3_recover_code",
+            "set1.slot3_entry_point",
+            "set2.slot0_elf_class",
+            "set2.slot0_endianness",
+            "set2.slot0_machine",
+            "set2.slot0_elf_type",
+            "set2.slot0_marker",
+            "set2.slot0_has_symtab",
+            "set2.slot0_exported_symbol",
+            "set2.slot0_recover_code",
+            "set2.slot0_entry_point",
+            "set2.slot1_elf_class",
+            "set2.slot1_endianness",
+            "set2.slot1_machine",
+            "set2.slot1_elf_type",
+            "set2.slot1_marker",
+            "set2.slot1_has_symtab",
+            "set2.slot1_exported_symbol",
+            "set2.slot1_recover_code",
+            "set2.slot1_entry_point",
+            "set2.slot2_elf_class",
+            "set2.slot2_endianness",
+            "set2.slot2_machine",
+            "set2.slot2_elf_type",
+            "set2.slot2_marker",
+            "set2.slot2_has_symtab",
+            "set2.slot2_exported_symbol",
+            "set2.slot2_recover_code",
+            "set2.slot2_entry_point",
+            "set2.slot3_elf_class",
+            "set2.slot3_endianness",
+            "set2.slot3_machine",
+            "set2.slot3_elf_type",
+            "set2.slot3_marker",
+            "set2.slot3_has_symtab",
+            "set2.slot3_exported_symbol",
+            "set2.slot3_recover_code",
+            "set2.slot3_entry_point"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "⚙️ ELF Aware",
+  "last_synced": "2026-10-04T21:45:48.477405+00:00",
+  "coursestack": {
+    "key": "83b2aa1f68b67c2dd2fd",
+    "identity": "768110b0-051d-4e92-855b-335f2219ddca",
+    "course_id": "a8be0848-ea22-4644-8dda-99af6ac82b7e"
+  }
+}

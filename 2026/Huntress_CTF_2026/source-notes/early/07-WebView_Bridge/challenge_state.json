@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "challenge_id": "mobile-android-day-07-webview-bridge",
+  "day": 7,
+  "lane": "mobile-android",
+  "knowledge": {},
+  "modes": {
+    "single_solve": {
+      "challenge_id": "mobile-android-day-07-webview-bridge",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": null,
+        "attempt_id": "63148c2d-4150-4692-8e6c-e9c297352603",
+        "mode": "single_solve",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-07-9F5C796C19 in package com.huntress.mobile.d07.v9f5c796c198b: Cross a challenge-owned WebView bridge through an untrusted origin. Submit only the exact backend answer code returned for this case.",
+            "artifact": "webview_bridge.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "single_solve",
+          "attempt_id": "63148c2d-4150-4692-8e6c-e9c297352603",
+          "deadline": null,
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "time_trial": {
+      "challenge_id": "mobile-android-day-07-webview-bridge/time_trial",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-07T13:11:56.150Z",
+        "attempt_id": "d28d25eb-bf51-4408-9522-d2de41407604",
+        "mode": "time_trial",
+        "answer_ids": [
+          "answer"
+        ],
+        "questions": [
+          {
+            "id": "answer",
+            "question": "For case MOB-07-22CA672318 in package com.huntress.mobile.d07.v22ca67231826: Cross a challenge-owned WebView bridge through an untrusted origin. Submit only the exact backend answer code returned for this case.",
+            "artifact": "webview_bridge_time_trial.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "answer"
+      ],
+      "attempts": [
+        {
+          "mode": "time_trial",
+          "attempt_id": "d28d25eb-bf51-4408-9522-d2de41407604",
+          "deadline": "2026-10-07T13:11:56.150Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "answer"
+          ]
+        }
+      ]
+    },
+    "mastery": {
+      "challenge_id": "mobile-android-day-07-webview-bridge/mastery",
+      "listed_solved": true,
+      "status": {
+        "http_status": 200,
+        "result": "CORRECT",
+        "deadline": "2026-10-07T13:13:35.919Z",
+        "attempt_id": "1c5992b0-add2-4344-a64e-564e4efac55f",
+        "mode": "mastery",
+        "answer_ids": [
+          "set1.answer",
+          "set2.answer",
+          "set3.answer"
+        ],
+        "questions": [
+          {
+            "id": "set1.answer",
+            "question": "For case MOB-07-FB60DDD62C in package com.huntress.mobile.d07.vfb60ddd62c2f: Cross a challenge-owned WebView bridge through an untrusted origin. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 1: webview_bridge_mastery_01.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set2.answer",
+            "question": "For case MOB-07-C35495085B in package com.huntress.mobile.d07.vc35495085b80: Cross a challenge-owned WebView bridge through an untrusted origin. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 2: webview_bridge_mastery_02.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          },
+          {
+            "id": "set3.answer",
+            "question": "For case MOB-07-85827EEFEF in package com.huntress.mobile.d07.v85827eefefd9: Cross a challenge-owned WebView bridge through an untrusted origin. Submit only the exact backend answer code returned for this case.",
+            "artifact": "delivery 3: webview_bridge_mastery_03.apk",
+            "answer_format": {
+              "kind": "pattern",
+              "syntax": "ANS- followed by exactly 16 uppercase hexadecimal characters; no spaces or explanatory text"
+            },
+            "normalization": "exact"
+          }
+        ]
+      },
+      "answer_ids": [
+        "set1.answer",
+        "set2.answer",
+        "set3.answer"
+      ],
+      "attempts": [
+        {
+          "mode": "mastery",
+          "attempt_id": "1c5992b0-add2-4344-a64e-564e4efac55f",
+          "deadline": "2026-10-07T13:13:35.919Z",
+          "status": null,
+          "result": "CORRECT",
+          "remaining": null,
+          "answer_ids": [
+            "set1.answer",
+            "set2.answer",
+            "set3.answer"
+          ]
+        }
+      ]
+    }
+  },
+  "title": "📱 WebView Bridge"
+}
