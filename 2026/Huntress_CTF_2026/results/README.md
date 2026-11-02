@@ -55,6 +55,14 @@ All **31 team rank/score pairs** in the original HTML match the independent reco
 
 Some captions were stale: it said 1,590 entries, described 49 teams above a team in 45th place, and elsewhere referred to 16 highlighted teams while embedding 50. Its cohort was the top 50: 44 entries above this team and five below. Other teams' final results also differ from the newer saved snapshot. The replacement chart uses only this team's verified series and separates the certificate's final totals from the snapshot's reconstruction denominator.
 
+## Hall of Fame ranked-attempt times
+
+A subsequently supplied Hall of Fame snapshot adds **90 entries across 49 challenges**, including **15 top-ten results across 11 challenges**. It contains explicit elapsed milliseconds and per-challenge/mode ranks. These measurements are separate from the point-award timestamps and partial first-solve clocks discussed below.
+
+The snapshot was shared via Discord and records a capture time of November 1, 2026, 23:38:35.650 UTC. Its calculations were validated against the supplied data. Rankings use that challenge/mode board's exported entries, and the source's completeness and live-platform authenticity are not independently established.
+
+See [Hall of Fame results](hall-of-fame.md) for selected results, all 90 team entries, board sizes, and a verification script. The certificate's overall result and the existing daily-placement chart retain their original meaning.
+
 ## Timestamps are not elapsed solve durations
 
 The full [scoring-event CSV](team-scoring-events.csv) records when CourseStack awarded points, including milliseconds and the complete UTC date. It has all 561 awards. These are not stopwatch durations or necessarily the exact moment an artifact was first solved.

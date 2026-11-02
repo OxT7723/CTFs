@@ -28,6 +28,22 @@ The certificate counts individual mode completions. It does **not** mean 561 dis
 
 The chart uses the end of each **UTC** day and reconstructs placement from the retained scoreboard. It is not a series of official daily leaderboard screenshots or a measurement of the best rank reached within each day. The final result above uses the certificate's 1,602-team count; the saved scoreboard has 1,596 entries. [Calculation, source differences, and downloadable data](results/README.md).
 
+## Hall of Fame
+
+The shared Hall of Fame snapshot captured on **November 1, 2026** lists **90 ranked entries across 49 challenges** for this team: **48 Time Trial** and **42 Mastery** entries, including **15 top-ten results across 11 challenges**.
+
+| Challenge | Mode | Rank / exported entries | Recorded elapsed time |
+| --- | --- | ---: | ---: |
+| [Seeing Double](writeups/day-30/metadata-forensics.md) | Time Trial | #3 / 41 | 0.610 s |
+| [No Artifact Left Behind](writeups/day-31/metadata-forensics.md) | Time Trial | #4 / 36 | 0.850 s |
+| [The Full Transform](writeups/day-31/script-analysis.md) | Time Trial | #6 / 39 | 1.299 s |
+| [Full Stack Incident](writeups/day-31/web-exploitation.md) | Mastery | #8 / 22 | 20.084 s |
+| [Go Fish](writeups/day-04/binary-reverse-engineering.md) | Mastery | #1 / 2 | 1.633 s |
+
+Ranks are specific to each challenge and mode. Board sizes count exported entries; the file does not establish complete participation. Go Fish's first-place result is specifically among two listed Mastery entries. These are recorded ranked-attempt times, separate from the time spent investigating challenges and developing solvers.
+
+[All 90 results, source qualifications, and reproducible data](results/hall-of-fame.md).
+
 ## Start here
 
 | Section | What it contains |
@@ -38,6 +54,7 @@ The chart uses the end of each **UTC** day and reconstructs placement from the r
 | [Final prompt snapshots](prompts/README.md) | The six category prompts and the separate review/training prompt used near the end of the event |
 | [Solver tools](tools/README.md) | Preserved early and later tooling, with historical platform dependencies explained |
 | [Results and placement](results/README.md) | Certificate-backed results, scoring timestamps, daily placement, and reproducible calculations |
+| [Hall of Fame](results/hall-of-fame.md) | Recorded ranked-attempt durations and challenge/mode placements from the shared snapshot |
 | [Source notes](source-notes/README.md) | Earlier notes and later session accounts behind the edited articles |
 | [Authorship and evidence](ABOUT.md) | AI attribution, editorial changes, and what was and was not verified |
 

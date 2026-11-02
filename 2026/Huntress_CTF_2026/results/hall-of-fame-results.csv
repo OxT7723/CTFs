@@ -1,0 +1,91 @@
+mode,challenge_id,challenge_title,lane,lane_day,release_day,rank,rank_is_tied,equal_elapsed_entries,board_exported_entries,elapsed_ms,elapsed_seconds,par_ms,par_seconds,under_par_ms,under_par_seconds,answer_count,fastest_exported_elapsed_ms,behind_fastest_exported_ms
+time_trial,metadata-forensics-day-30-seeing-double,Seeing Double,metadata-forensics,30,30,3,False,1,41,610,0.610,50000,50.000,49390,49.390,35,408,202
+time_trial,metadata-forensics-day-31-no-artifact-left-behind,No Artifact Left Behind,metadata-forensics,31,31,4,False,1,36,850,0.850,50000,50.000,49150,49.150,36,329,521
+time_trial,warmups-day-30,Percent Percent,warmups,30,30,5,False,1,57,372,0.372,30000,30.000,29628,29.628,1,177,195
+time_trial,script-analysis-day-31-xslt-final-gauntlet,The Full Transform,script-analysis,31,31,6,False,1,39,1299,1.299,50000,50.000,48701,48.701,1950,466,833
+time_trial,script-analysis-day-30-beanshell-jsp-graph,Spill the Beans,script-analysis,30,30,7,False,1,43,1215,1.215,50000,50.000,48785,48.785,1898,570,645
+time_trial,warmups-day-29,Rotten Base,warmups,29,29,8,False,1,63,614,0.614,30000,30.000,29386,29.386,1,214,400
+time_trial,warmups-day-31,One More Thing,warmups,31,31,9,False,1,56,567,0.567,30000,30.000,29433,29.433,1,188,379
+time_trial,metadata-forensics-day-29-trust-issues,Trust Issues,metadata-forensics,29,29,10,False,1,47,859,0.859,50000,50.000,49141,49.141,34,359,500
+time_trial,binary-reverse-engineering-day-30-multi-binary-campaign,Campaign Trail,binary-reverse-engineering,30,30,15,False,1,43,5085,5.085,80000,80.000,74915,74.915,420,1264,3821
+time_trial,web-exploitation-day-30-framework-roulette,Framework Roulette,web-exploitation,30,31,19,False,1,35,7527,7.527,120000,120.000,112473,112.473,1,896,6631
+time_trial,script-analysis-day-07-node-operation-graphs,Node by Node,script-analysis,7,7,20,False,1,56,1121,1.121,7000,7.000,5879,5.879,469,328,793
+time_trial,web-exploitation-day-29-queue-the-confusion,Queue the Confusion,web-exploitation,29,30,22,False,1,45,6071,6.071,120000,120.000,113929,113.929,1,1228,4843
+time_trial,web-exploitation-day-31-full-stack-incident,Full Stack Incident,web-exploitation,31,31,24,False,1,37,9081,9.081,120000,120.000,110919,110.919,1,828,8253
+time_trial,mobile-android-day-30-layered-protections,Layered Protections,mobile-android,30,30,25,True,2,58,1230,1.230,50000,50.000,48770,48.770,1,253,977
+time_trial,metadata-forensics-day-02-looks-can-be-deceiving,Looks Can Be Deceiving,metadata-forensics,2,2,30,False,1,167,556,0.556,50000,50.000,49444,49.444,6,181,375
+time_trial,metadata-forensics-day-09-built-different,Built Different,metadata-forensics,9,9,32,False,1,109,635,0.635,6000,6.000,5365,5.365,13,176,459
+time_trial,web-exploitation-day-28-pass-the-identity,Pass the Identity,web-exploitation,28,30,32,False,1,46,8365,8.365,120000,120.000,111635,111.635,1,1147,7218
+time_trial,binary-reverse-engineering-day-04-go-runtime-fingerprints,Go Fish,binary-reverse-engineering,4,4,38,False,1,157,814,0.814,7000,7.000,6186,6.186,32,314,500
+time_trial,script-analysis-day-02-encoded-intent,Host With the Most,script-analysis,2,2,41,False,1,159,681,0.681,50000,50.000,49319,49.319,87,248,433
+time_trial,script-analysis-day-10-wmi-persistence-reconstruction,Bind Over Matter,script-analysis,10,10,41,False,1,167,1310,1.310,13000,13.000,11690,11.690,753,292,1018
+time_trial,metadata-forensics-day-10-where-do-we-begin,Where Do We Begin?,metadata-forensics,10,10,43,False,1,189,611,0.611,8000,8.000,7389,7.389,1,253,358
+time_trial,warmups-day-01,A Little Based,warmups,1,1,46,False,1,264,668,0.668,30000,30.000,29332,29.332,1,206,462
+time_trial,metadata-forensics-day-11-whats-my-name-again,What’s My Name Again?,metadata-forensics,11,11,49,False,1,187,712,0.712,7000,7.000,6288,6.288,1,220,492
+time_trial,binary-reverse-engineering-day-03-managed-configuration,Table Manners,binary-reverse-engineering,3,3,49,False,1,163,751,0.751,50000,50.000,49249,49.249,24,170,581
+time_trial,mobile-android-day-10-network-config-split,Network Config Split,mobile-android,10,10,51,True,2,196,529,0.529,13000,13.000,12471,12.471,1,190,339
+time_trial,mobile-android-day-09-trust-everyone,Trust Everyone,mobile-android,9,9,51,False,1,103,670,0.670,8000,8.000,7330,7.330,1,149,521
+time_trial,warmups-day-11,Safe Travels,warmups,11,11,52,False,1,210,570,0.570,10000,10.000,9430,9.430,1,184,386
+time_trial,metadata-forensics-day-01-hash-to-ride,You Must Be This Hash to Ride,metadata-forensics,1,1,53,False,1,135,2464,2.464,50000,50.000,47536,47.536,5,222,2242
+time_trial,metadata-forensics-day-08-whats-in-the-box,What’s in the Box?,metadata-forensics,8,8,58,False,1,128,687,0.687,8000,8.000,7313,7.313,12,175,512
+time_trial,warmups-day-16,Dot Com,warmups,16,16,59,False,1,80,3361,3.361,30000,30.000,26639,26.639,1,199,3162
+time_trial,binary-reverse-engineering-day-01-c-elf-orientation,ELF Aware,binary-reverse-engineering,1,1,64,False,1,161,2080,2.080,50000,50.000,47920,47.920,36,225,1855
+time_trial,mobile-android-day-11-local-secrets,Local Secrets,mobile-android,11,11,69,False,1,193,653,0.653,7000,7.000,6347,6.347,1,156,497
+time_trial,warmups-day-02,Half a Turn,warmups,2,2,70,False,1,174,834,0.834,20000,20.000,19166,19.166,1,200,634
+time_trial,script-analysis-day-01-native-signals,Power Play,script-analysis,1,1,76,False,1,180,2377,2.377,50000,50.000,47623,47.623,15,194,2183
+time_trial,mobile-android-day-01-exported-trust,Exported Trust,mobile-android,1,1,77,False,1,158,2273,2.273,50000,50.000,47727,47.727,1,177,2096
+time_trial,metadata-forensics-day-07-seven-zip-no-relation,"Seven-Zip, No Relation",metadata-forensics,7,7,79,False,1,97,4882,4.882,14000,14.000,9118,9.118,1,231,4651
+time_trial,warmups-day-09,Escape Room,warmups,9,9,90,False,1,106,3417,3.417,7000,7.000,3583,3.583,1,193,3224
+time_trial,script-analysis-day-06-bash-behavior-graphs,Shell We Begin,script-analysis,6,6,91,False,1,140,3848,3.848,7000,7.000,3152,3.152,399,319,3529
+time_trial,mobile-android-day-02-deep-link-drift,Deep Link Drift,mobile-android,2,2,96,False,1,147,2432,2.432,50000,50.000,47568,47.568,1,154,2278
+time_trial,script-analysis-day-11-native-api-semantics,By Any Other Name,script-analysis,11,11,96,False,1,159,3658,3.658,9000,9.000,5342,5.342,811,287,3371
+time_trial,mobile-android-day-03-intent-injection,Intent Injection,mobile-android,3,3,101,False,1,147,2103,2.103,50000,50.000,47897,47.897,1,161,1942
+time_trial,mobile-android-day-08-cleartext-session,Cleartext Session,mobile-android,8,8,101,False,1,111,7070,7.070,8000,8.000,930,0.930,1,146,6924
+time_trial,warmups-day-08,Entity Relations,warmups,8,8,103,False,1,115,5935,5.935,8000,8.000,2065,2.065,1,179,5756
+time_trial,binary-reverse-engineering-day-02-cpp-and-pe-orientation,Mangled,binary-reverse-engineering,2,2,110,False,1,154,3267,3.267,50000,50.000,46733,46.733,17,191,3076
+time_trial,binary-reverse-engineering-day-06-java-bytecode-loader,Pool Party,binary-reverse-engineering,6,6,118,False,1,158,4158,4.158,7000,7.000,2842,2.842,48,317,3841
+time_trial,binary-reverse-engineering-day-10-zig-cross-platform-services,Zig Zag,binary-reverse-engineering,10,10,122,False,1,192,8808,8.808,16000,16.000,7192,7.192,100,503,8305
+time_trial,binary-reverse-engineering-day-08-swift-network-configuration,Swift Justice,binary-reverse-engineering,8,8,148,False,1,198,9612,9.612,10000,10.000,388,0.388,80,572,9040
+time_trial,warmups-day-10,Thirty-Two Below,warmups,10,10,209,False,1,216,10828,10.828,12000,12.000,1172,1.172,1,154,10674
+mastery,binary-reverse-engineering-day-04-go-runtime-fingerprints,Go Fish,binary-reverse-engineering,4,4,1,False,1,2,1633,1.633,7000,7.000,5367,5.367,64,1633,0
+mastery,warmups-day-29,Rotten Base,warmups,29,29,6,False,1,44,915,0.915,160000,160.000,159085,159.085,143,395,520
+mastery,warmups-day-30,Percent Percent,warmups,30,30,7,False,1,46,812,0.812,165000,165.000,164188,164.188,148,273,539
+mastery,metadata-forensics-day-30-seeing-double,Seeing Double,metadata-forensics,30,30,7,False,1,45,2405,2.405,445000,445.000,442595,442.595,490,790,1615
+mastery,web-exploitation-day-31-full-stack-incident,Full Stack Incident,web-exploitation,31,31,8,False,1,22,20084,20.084,120000,120.000,99916,99.916,8,2871,17213
+mastery,web-exploitation-day-29-queue-the-confusion,Queue the Confusion,web-exploitation,29,30,9,False,1,25,15891,15.891,120000,120.000,104109,104.109,6,2368,13523
+mastery,warmups-day-31,One More Thing,warmups,31,31,10,False,1,41,1255,1.255,170000,170.000,168745,168.745,153,298,957
+mastery,script-analysis-day-31-xslt-final-gauntlet,The Full Transform,script-analysis,31,31,11,False,1,38,11354,11.354,610000,610.000,598646,598.646,29250,1576,9778
+mastery,script-analysis-day-30-beanshell-jsp-graph,Spill the Beans,script-analysis,30,30,12,False,1,41,10913,10.913,580000,580.000,569087,569.087,26572,1560,9353
+mastery,script-analysis-day-07-node-operation-graphs,Node by Node,script-analysis,7,7,13,False,1,52,1263,1.263,8000,8.000,6737,6.737,938,359,904
+mastery,web-exploitation-day-30-framework-roulette,Framework Roulette,web-exploitation,30,31,14,False,1,22,19134,19.134,120000,120.000,100866,100.866,6,1997,17137
+mastery,metadata-forensics-day-31-no-artifact-left-behind,No Artifact Left Behind,metadata-forensics,31,31,15,False,1,33,7725,7.725,480000,480.000,472275,472.275,540,802,6923
+mastery,metadata-forensics-day-29-trust-issues,Trust Issues,metadata-forensics,29,29,17,False,1,51,4346,4.346,415000,415.000,410654,410.654,442,949,3397
+mastery,web-exploitation-day-28-pass-the-identity,Pass the Identity,web-exploitation,28,30,18,False,1,28,31688,31.688,120000,120.000,88312,88.312,5,2078,29610
+mastery,mobile-android-day-30-layered-protections,Layered Protections,mobile-android,30,30,25,False,1,49,125518,125.518,440000,440.000,314482,314.482,14,675,124843
+mastery,warmups-day-01,A Little Based,warmups,1,1,28,False,1,241,754,0.754,30000,30.000,29246,29.246,3,257,497
+mastery,mobile-android-day-09-trust-everyone,Trust Everyone,mobile-android,9,9,30,True,2,89,845,0.845,11000,11.000,10155,10.155,5,299,546
+mastery,script-analysis-day-02-encoded-intent,Host With the Most,script-analysis,2,2,31,False,1,156,943,0.943,80000,80.000,79057,79.057,174,307,636
+mastery,binary-reverse-engineering-day-30-multi-binary-campaign,Campaign Trail,binary-reverse-engineering,30,30,32,False,1,39,157918,157.918,665000,665.000,507082,507.082,5880,5131,152787
+mastery,warmups-day-09,Escape Room,warmups,9,9,33,False,1,90,641,0.641,9000,9.000,8359,8.359,43,161,480
+mastery,mobile-android-day-03-intent-injection,Intent Injection,mobile-android,3,3,37,False,1,137,842,0.842,110000,110.000,109158,109.158,3,255,587
+mastery,metadata-forensics-day-02-looks-can-be-deceiving,Looks Can Be Deceiving,metadata-forensics,2,2,42,False,1,161,657,0.657,80000,80.000,79343,79.343,12,196,461
+mastery,metadata-forensics-day-08-whats-in-the-box,What’s in the Box?,metadata-forensics,8,8,42,False,1,118,708,0.708,10000,10.000,9292,9.292,60,193,515
+mastery,metadata-forensics-day-01-hash-to-ride,You Must Be This Hash to Ride,metadata-forensics,1,1,45,False,1,120,2848,2.848,80000,80.000,77152,77.152,10,247,2601
+mastery,warmups-day-10,Thirty-Two Below,warmups,10,10,46,False,1,214,548,0.548,11000,11.000,10452,10.452,48,206,342
+mastery,metadata-forensics-day-10-where-do-we-begin,Where Do We Begin?,metadata-forensics,10,10,46,False,1,201,711,0.711,11000,11.000,10289,10.289,2,353,358
+mastery,binary-reverse-engineering-day-08-swift-network-configuration,Swift Justice,binary-reverse-engineering,8,8,51,True,2,188,12173,12.173,27000,27.000,14827,14.827,400,1876,10297
+mastery,warmups-day-08,Entity Relations,warmups,8,8,53,False,1,104,805,0.805,8000,8.000,7195,7.195,38,264,541
+mastery,mobile-android-day-06-provider-paths,Provider Paths,mobile-android,6,6,59,False,1,150,1112,1.112,6000,6.000,4888,4.888,3,268,844
+mastery,mobile-android-day-01-exported-trust,Exported Trust,mobile-android,1,1,60,False,1,156,2766,2.766,110000,110.000,107234,107.234,3,247,2519
+mastery,script-analysis-day-11-native-api-semantics,By Any Other Name,script-analysis,11,11,61,False,1,159,2940,2.940,11000,11.000,8060,8.060,1622,422,2518
+mastery,script-analysis-day-01-native-signals,Power Play,script-analysis,1,1,65,False,1,172,2882,2.882,80000,80.000,77118,77.118,30,314,2568
+mastery,metadata-forensics-day-09-built-different,Built Different,metadata-forensics,9,9,69,False,1,90,2690,2.690,7000,7.000,4310,4.310,65,379,2311
+mastery,mobile-android-day-10-network-config-split,Network Config Split,mobile-android,10,10,73,False,1,195,974,0.974,10000,10.000,9026,9.026,3,274,700
+mastery,warmups-day-11,Safe Travels,warmups,11,11,79,False,1,206,799,0.799,8000,8.000,7201,7.201,53,166,633
+mastery,metadata-forensics-day-07-seven-zip-no-relation,"Seven-Zip, No Relation",metadata-forensics,7,7,83,False,1,91,11692,11.692,14000,14.000,2308,2.308,2,229,11463
+mastery,mobile-android-day-02-deep-link-drift,Deep Link Drift,mobile-android,2,2,94,False,1,143,2603,2.603,110000,110.000,107397,107.397,3,272,2331
+mastery,mobile-android-day-11-local-secrets,Local Secrets,mobile-android,11,11,95,False,1,192,1358,1.358,8000,8.000,6642,6.642,3,302,1056
+mastery,warmups-day-02,Half a Turn,warmups,2,2,108,False,1,163,3250,3.250,25000,25.000,21750,21.750,8,304,2946
+mastery,script-analysis-day-10-wmi-persistence-reconstruction,Bind Over Matter,script-analysis,10,10,135,False,1,170,19259,19.259,32000,32.000,12741,12.741,1506,389,18870
+mastery,metadata-forensics-day-11-whats-my-name-again,What’s My Name Again?,metadata-forensics,11,11,139,False,1,188,3234,3.234,7000,7.000,3766,3.766,2,313,2921
+mastery,binary-reverse-engineering-day-10-zig-cross-platform-services,Zig Zag,binary-reverse-engineering,10,10,140,False,1,189,26400,26.400,28000,28.000,1600,1.600,300,113,26287

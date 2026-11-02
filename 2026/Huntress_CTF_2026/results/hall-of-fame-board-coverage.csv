@@ -1,0 +1,373 @@
+mode,challenge_id,challenge_title,lane,lane_day,release_day,board_present,exported_entries,min_rank,max_rank,competition_ranks_valid,distinct_elapsed_values,tied_elapsed_groups,entries_in_tied_elapsed_groups,source_repeated_display_names,par_min_ms,par_max_ms,distinct_par_values,answer_count_min,answer_count_max,distinct_answer_counts,target_present,target_rank,target_elapsed_ms
+time_trial,binary-reverse-engineering-day-01-c-elf-orientation,ELF Aware,binary-reverse-engineering,1,1,True,161,1,161,True,160,1,2,2,30000,50000,2,9,36,2,True,64,2080
+mastery,binary-reverse-engineering-day-01-c-elf-orientation,ELF Aware,binary-reverse-engineering,1,1,True,113,1,113,True,113,0,0,2,30000,80000,2,18,72,2,False,,
+time_trial,metadata-forensics-day-01-hash-to-ride,You Must Be This Hash to Ride,metadata-forensics,1,1,True,135,1,135,True,134,1,2,1,30000,50000,2,5,5,1,True,53,2464
+mastery,metadata-forensics-day-01-hash-to-ride,You Must Be This Hash to Ride,metadata-forensics,1,1,True,120,1,120,True,120,0,0,1,30000,80000,2,10,10,1,True,45,2848
+time_trial,mobile-android-day-01-exported-trust,Exported Trust,mobile-android,1,1,True,158,1,158,True,156,2,4,2,30000,50000,2,1,1,1,True,77,2273
+mastery,mobile-android-day-01-exported-trust,Exported Trust,mobile-android,1,1,True,156,1,156,True,156,0,0,2,30000,110000,2,3,3,1,True,60,2766
+time_trial,script-analysis-day-01-native-signals,Power Play,script-analysis,1,1,True,180,1,180,True,180,0,0,3,30000,50000,2,15,15,1,True,76,2377
+mastery,script-analysis-day-01-native-signals,Power Play,script-analysis,1,1,True,172,1,172,True,170,2,4,2,30000,80000,2,30,30,1,True,65,2882
+time_trial,warmups-day-01,A Little Based,warmups,1,1,True,264,1,264,True,262,2,4,4,30000,30000,1,1,1,1,True,46,668
+mastery,warmups-day-01,A Little Based,warmups,1,1,True,241,1,241,True,241,0,0,2,30000,30000,1,3,3,1,True,28,754
+time_trial,binary-reverse-engineering-day-02-cpp-and-pe-orientation,Mangled,binary-reverse-engineering,2,2,True,154,1,154,True,152,2,4,3,5000,50000,2,17,17,1,True,110,3267
+mastery,binary-reverse-engineering-day-02-cpp-and-pe-orientation,Mangled,binary-reverse-engineering,2,2,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,metadata-forensics-day-02-looks-can-be-deceiving,Looks Can Be Deceiving,metadata-forensics,2,2,True,167,1,167,True,166,1,2,4,5000,50000,3,1,6,2,True,30,556
+mastery,metadata-forensics-day-02-looks-can-be-deceiving,Looks Can Be Deceiving,metadata-forensics,2,2,True,161,1,161,True,156,5,10,3,5000,80000,3,2,12,2,True,42,657
+time_trial,mobile-android-day-02-deep-link-drift,Deep Link Drift,mobile-android,2,2,True,147,1,147,True,143,3,7,3,6000,50000,2,1,1,1,True,96,2432
+mastery,mobile-android-day-02-deep-link-drift,Deep Link Drift,mobile-android,2,2,True,143,1,143,True,141,2,4,3,6000,110000,2,3,3,1,True,94,2603
+time_trial,script-analysis-day-02-encoded-intent,Host With the Most,script-analysis,2,2,True,159,1,159,True,156,3,6,3,5000,50000,2,87,87,1,True,41,681
+mastery,script-analysis-day-02-encoded-intent,Host With the Most,script-analysis,2,2,True,156,1,156,True,156,0,0,3,6000,80000,2,174,174,1,True,31,943
+time_trial,warmups-day-02,Half a Turn,warmups,2,2,True,174,1,174,True,172,2,4,4,5000,20000,2,1,1,1,True,70,834
+mastery,warmups-day-02,Half a Turn,warmups,2,2,True,163,1,163,True,160,3,6,3,5000,25000,2,8,8,1,True,108,3250
+time_trial,binary-reverse-engineering-day-03-managed-configuration,Table Manners,binary-reverse-engineering,3,3,True,163,1,163,True,160,3,6,3,6000,50000,2,24,24,1,True,49,751
+mastery,binary-reverse-engineering-day-03-managed-configuration,Table Manners,binary-reverse-engineering,3,3,True,2,1,2,True,2,0,0,0,6000,6000,1,48,48,1,False,,
+time_trial,metadata-forensics-day-03-bom-voyage,BOM Voyage,metadata-forensics,3,3,True,158,1,158,True,156,2,4,4,6000,50000,3,1,7,2,False,,
+mastery,metadata-forensics-day-03-bom-voyage,BOM Voyage,metadata-forensics,3,3,True,150,1,150,True,150,0,0,3,11000,80000,2,2,14,2,False,,
+time_trial,mobile-android-day-03-intent-injection,Intent Injection,mobile-android,3,3,True,147,1,147,True,142,5,10,3,6000,50000,2,1,1,1,True,101,2103
+mastery,mobile-android-day-03-intent-injection,Intent Injection,mobile-android,3,3,True,137,1,137,True,134,3,6,3,6000,110000,2,3,3,1,True,37,842
+time_trial,script-analysis-day-03-batch-expansion,Expansion Pack,script-analysis,3,3,True,143,1,143,True,140,3,6,3,6000,50000,3,159,159,1,False,,
+mastery,script-analysis-day-03-batch-expansion,Expansion Pack,script-analysis,3,3,True,137,1,137,True,136,1,2,3,7000,80000,3,318,318,1,False,,
+time_trial,warmups-day-03,Hex Appeal,warmups,3,3,True,156,1,156,True,152,3,7,4,6000,20000,2,1,1,1,False,,
+mastery,warmups-day-03,Hex Appeal,warmups,3,3,True,150,1,150,True,148,2,4,3,7000,30000,2,13,13,1,False,,
+time_trial,binary-reverse-engineering-day-04-go-runtime-fingerprints,Go Fish,binary-reverse-engineering,4,4,True,157,1,157,True,154,2,5,3,7000,50000,2,32,32,1,True,38,814
+mastery,binary-reverse-engineering-day-04-go-runtime-fingerprints,Go Fish,binary-reverse-engineering,4,4,True,2,1,2,True,2,0,0,0,7000,7000,1,64,64,1,True,1,1633
+time_trial,metadata-forensics-day-04-picture-this,Picture This,metadata-forensics,4,4,True,153,1,153,True,151,2,4,4,6000,50000,3,1,8,2,False,,
+mastery,metadata-forensics-day-04-picture-this,Picture This,metadata-forensics,4,4,True,154,1,154,True,153,1,2,3,10000,80000,2,2,16,2,False,,
+time_trial,mobile-android-day-04-pending-intent-relay,Pending Intent Relay,mobile-android,4,4,True,140,1,140,True,133,7,14,3,6000,50000,2,1,1,1,False,,
+mastery,mobile-android-day-04-pending-intent-relay,Pending Intent Relay,mobile-android,4,4,True,135,1,135,True,134,1,2,3,6000,110000,2,3,3,1,False,,
+time_trial,script-analysis-day-04-shell-contrast,Dim and Dimmer,script-analysis,4,4,True,138,1,138,True,136,2,4,3,6000,50000,2,231,231,1,False,,
+mastery,script-analysis-day-04-shell-contrast,Dim and Dimmer,script-analysis,4,4,True,127,1,127,True,126,1,2,3,7000,80000,2,462,462,1,False,,
+time_trial,warmups-day-04,Two of a Kind,warmups,4,4,True,154,1,154,True,145,8,17,4,6000,20000,2,1,1,1,False,,
+mastery,warmups-day-04,Two of a Kind,warmups,4,4,True,153,1,153,True,148,5,10,3,7000,35000,2,18,18,1,False,,
+time_trial,binary-reverse-engineering-day-05-rust-runtime-shapes,Rust Belt,binary-reverse-engineering,5,5,True,155,1,155,True,154,1,2,3,7000,50000,2,40,40,1,False,,
+mastery,binary-reverse-engineering-day-05-rust-runtime-shapes,Rust Belt,binary-reverse-engineering,5,5,True,5,1,5,True,5,0,0,0,7000,7000,1,80,80,1,False,,
+time_trial,metadata-forensics-day-05-chunk-norris,Chunk Norris,metadata-forensics,5,5,True,152,1,152,True,147,5,10,4,6000,50000,3,1,9,2,False,,
+mastery,metadata-forensics-day-05-chunk-norris,Chunk Norris,metadata-forensics,5,5,True,152,1,152,True,150,2,4,3,6000,80000,3,2,18,2,False,,
+time_trial,mobile-android-day-05-backup-spill,Backup Spill,mobile-android,5,5,True,142,1,142,True,136,5,11,3,6000,50000,2,1,1,1,False,,
+mastery,mobile-android-day-05-backup-spill,Backup Spill,mobile-android,5,5,True,138,1,138,True,136,2,4,3,7000,110000,2,3,3,1,False,,
+time_trial,script-analysis-day-05-python-carrier-lab,Hatch Careful,script-analysis,5,5,True,134,1,134,True,134,0,0,3,7000,50000,2,357,357,1,False,,
+mastery,script-analysis-day-05-python-carrier-lab,Hatch Careful,script-analysis,5,5,True,130,1,130,True,129,1,2,3,7000,80000,2,714,714,1,False,,
+time_trial,warmups-day-05,By the Numbers,warmups,5,5,True,158,1,158,True,151,7,14,4,6000,20000,2,1,1,1,False,,
+mastery,warmups-day-05,By the Numbers,warmups,5,5,True,155,1,155,True,153,2,4,3,7000,40000,2,23,23,1,False,,
+time_trial,binary-reverse-engineering-day-06-java-bytecode-loader,Pool Party,binary-reverse-engineering,6,6,True,158,1,158,True,156,2,4,3,7000,50000,2,48,48,1,True,118,4158
+mastery,binary-reverse-engineering-day-06-java-bytecode-loader,Pool Party,binary-reverse-engineering,6,6,True,4,1,4,True,4,0,0,0,7000,7000,1,96,96,1,False,,
+time_trial,metadata-forensics-day-06-portable-deception,Portable Deception,metadata-forensics,6,6,True,161,1,161,True,159,2,4,4,6000,50000,3,1,10,2,False,,
+mastery,metadata-forensics-day-06-portable-deception,Portable Deception,metadata-forensics,6,6,True,157,1,157,True,157,0,0,3,6000,80000,3,2,20,2,False,,
+time_trial,mobile-android-day-06-provider-paths,Provider Paths,mobile-android,6,6,True,153,1,153,True,149,4,8,3,6000,50000,2,1,1,1,False,,
+mastery,mobile-android-day-06-provider-paths,Provider Paths,mobile-android,6,6,True,150,1,150,True,145,5,10,3,6000,110000,2,3,3,1,True,59,1112
+time_trial,script-analysis-day-06-bash-behavior-graphs,Shell We Begin,script-analysis,6,6,True,140,1,140,True,138,2,4,3,7000,50000,2,399,399,1,True,91,3848
+mastery,script-analysis-day-06-bash-behavior-graphs,Shell We Begin,script-analysis,6,6,True,133,1,133,True,133,0,0,3,7000,80000,2,798,798,1,False,,
+time_trial,warmups-day-06,Eight Is Enough,warmups,6,6,True,168,1,168,True,166,2,4,4,6000,20000,2,1,1,1,False,,
+mastery,warmups-day-06,Eight Is Enough,warmups,6,6,True,162,1,162,True,160,2,4,3,7000,45000,2,28,28,1,False,,
+time_trial,binary-reverse-engineering-day-07-kotlin-staging-logic,Routine Check,binary-reverse-engineering,7,7,True,159,1,159,True,157,2,4,3,11000,55000,2,56,56,1,False,,
+mastery,binary-reverse-engineering-day-07-kotlin-staging-logic,Routine Check,binary-reverse-engineering,7,7,True,11,1,11,True,11,0,0,0,12000,12000,1,112,112,1,False,,
+time_trial,metadata-forensics-day-07-seven-zip-no-relation,"Seven-Zip, No Relation",metadata-forensics,7,7,True,97,1,97,True,96,1,2,1,7000,50000,3,1,11,2,True,79,4882
+mastery,metadata-forensics-day-07-seven-zip-no-relation,"Seven-Zip, No Relation",metadata-forensics,7,7,True,91,1,91,True,89,2,4,1,7000,80000,3,2,22,2,True,83,11692
+time_trial,mobile-android-day-07-webview-bridge,WebView Bridge,mobile-android,7,7,True,93,1,93,True,91,2,4,1,9000,50000,2,1,1,1,False,,
+mastery,mobile-android-day-07-webview-bridge,WebView Bridge,mobile-android,7,7,True,84,1,84,True,84,0,0,1,10000,110000,2,3,3,1,False,,
+time_trial,script-analysis-day-07-node-operation-graphs,Node by Node,script-analysis,7,7,True,56,1,56,True,56,0,0,0,7000,50000,3,469,469,1,True,20,1121
+mastery,script-analysis-day-07-node-operation-graphs,Node by Node,script-analysis,7,7,True,52,1,52,True,52,0,0,0,8000,80000,3,938,938,1,True,13,1263
+time_trial,warmups-day-07,Percent Chance,warmups,7,7,True,184,1,184,True,180,4,8,4,7000,20000,2,1,1,1,False,,
+mastery,warmups-day-07,Percent Chance,warmups,7,7,True,167,1,167,True,163,3,7,3,9000,50000,2,33,33,1,False,,
+time_trial,binary-reverse-engineering-day-08-swift-network-configuration,Swift Justice,binary-reverse-engineering,8,8,True,198,1,198,True,196,2,4,2,10000,80000,2,80,80,1,True,148,9612
+mastery,binary-reverse-engineering-day-08-swift-network-configuration,Swift Justice,binary-reverse-engineering,8,8,True,188,1,188,True,185,3,6,1,27000,320000,2,400,400,1,True,51,12173
+time_trial,metadata-forensics-day-08-whats-in-the-box,What’s in the Box?,metadata-forensics,8,8,True,128,1,128,True,124,4,8,0,8000,50000,2,12,12,1,True,58,687
+mastery,metadata-forensics-day-08-whats-in-the-box,What’s in the Box?,metadata-forensics,8,8,True,118,1,118,True,116,2,4,0,10000,170000,2,60,60,1,True,42,708
+time_trial,mobile-android-day-08-cleartext-session,Cleartext Session,mobile-android,8,8,True,111,1,111,True,109,2,4,0,8000,50000,2,1,1,1,True,101,7070
+mastery,mobile-android-day-08-cleartext-session,Cleartext Session,mobile-android,8,8,True,102,1,102,True,101,1,2,0,8000,170000,2,5,5,1,False,,
+time_trial,script-analysis-day-08-cross-language-iocs,Lost in Translation,script-analysis,8,8,True,76,1,76,True,74,2,4,0,9000,50000,2,615,615,1,False,,
+mastery,script-analysis-day-08-cross-language-iocs,Lost in Translation,script-analysis,8,8,True,68,1,68,True,68,0,0,0,22000,170000,2,3075,3075,1,False,,
+time_trial,warmups-day-08,Entity Relations,warmups,8,8,True,115,1,115,True,111,4,8,0,8000,20000,2,1,1,1,True,103,5935
+mastery,warmups-day-08,Entity Relations,warmups,8,8,True,104,1,104,True,102,2,4,0,8000,55000,2,38,38,1,True,53,805
+time_trial,binary-reverse-engineering-day-09-nim-generated-runtime,Nimble,binary-reverse-engineering,9,9,True,86,1,86,True,86,0,0,0,10000,80000,2,90,90,1,False,,
+mastery,binary-reverse-engineering-day-09-nim-generated-runtime,Nimble,binary-reverse-engineering,9,9,True,74,1,74,True,74,0,0,0,20000,320000,2,450,450,1,False,,
+time_trial,metadata-forensics-day-09-built-different,Built Different,metadata-forensics,9,9,True,109,1,109,True,108,1,2,0,6000,50000,2,13,13,1,True,32,635
+mastery,metadata-forensics-day-09-built-different,Built Different,metadata-forensics,9,9,True,90,1,90,True,90,0,0,0,7000,170000,2,65,65,1,True,69,2690
+time_trial,mobile-android-day-09-trust-everyone,Trust Everyone,mobile-android,9,9,True,103,1,103,True,99,3,7,0,8000,50000,2,1,1,1,True,51,670
+mastery,mobile-android-day-09-trust-everyone,Trust Everyone,mobile-android,9,9,True,89,1,89,True,86,3,6,0,11000,170000,2,5,5,1,True,30,845
+time_trial,script-analysis-day-09-stager-relationships,All the World's a Stager,script-analysis,9,9,True,71,1,71,True,71,0,0,0,11000,50000,2,695,695,1,False,,
+mastery,script-analysis-day-09-stager-relationships,All the World's a Stager,script-analysis,9,9,True,59,1,59,True,59,0,0,0,30000,170000,2,3475,3475,1,False,,
+time_trial,warmups-day-09,Escape Room,warmups,9,9,True,106,1,106,True,102,4,8,0,7000,20000,2,1,1,1,True,90,3417
+mastery,warmups-day-09,Escape Room,warmups,9,9,True,90,1,90,True,87,3,6,0,9000,60000,2,43,43,1,True,33,641
+time_trial,binary-reverse-engineering-day-10-zig-cross-platform-services,Zig Zag,binary-reverse-engineering,10,10,True,192,1,192,True,191,1,2,2,16000,80000,2,100,100,1,True,122,8808
+mastery,binary-reverse-engineering-day-10-zig-cross-platform-services,Zig Zag,binary-reverse-engineering,10,10,True,189,1,189,True,188,1,2,2,28000,200000,2,300,300,1,True,140,26400
+time_trial,metadata-forensics-day-10-where-do-we-begin,Where Do We Begin?,metadata-forensics,10,10,True,189,1,189,True,182,7,14,3,8000,50000,2,1,1,1,True,43,611
+mastery,metadata-forensics-day-10-where-do-we-begin,Where Do We Begin?,metadata-forensics,10,10,True,201,1,201,True,197,4,8,2,11000,80000,2,2,2,1,True,46,711
+time_trial,mobile-android-day-10-network-config-split,Network Config Split,mobile-android,10,10,True,196,1,196,True,188,8,16,2,13000,50000,2,1,1,1,True,51,529
+mastery,mobile-android-day-10-network-config-split,Network Config Split,mobile-android,10,10,True,195,1,195,True,189,6,12,2,10000,110000,2,3,3,1,True,73,974
+time_trial,script-analysis-day-10-wmi-persistence-reconstruction,Bind Over Matter,script-analysis,10,10,True,167,1,167,True,166,1,2,2,13000,50000,2,753,753,1,True,41,1310
+mastery,script-analysis-day-10-wmi-persistence-reconstruction,Bind Over Matter,script-analysis,10,10,True,170,1,170,True,169,1,2,2,32000,80000,2,1506,1506,1,True,135,19259
+time_trial,warmups-day-10,Thirty-Two Below,warmups,10,10,True,216,1,216,True,211,5,10,3,12000,20000,2,1,1,1,True,209,10828
+mastery,warmups-day-10,Thirty-Two Below,warmups,10,10,True,214,1,214,True,209,5,10,2,11000,65000,2,48,48,1,True,46,548
+time_trial,binary-reverse-engineering-day-11-d-collection-planner,D-Day,binary-reverse-engineering,11,11,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,binary-reverse-engineering-day-11-d-collection-planner,D-Day,binary-reverse-engineering,11,11,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,metadata-forensics-day-11-whats-my-name-again,What’s My Name Again?,metadata-forensics,11,11,True,187,1,187,True,183,4,8,2,7000,50000,2,1,1,1,True,49,712
+mastery,metadata-forensics-day-11-whats-my-name-again,What’s My Name Again?,metadata-forensics,11,11,True,188,1,188,True,181,7,14,1,7000,80000,2,2,2,1,True,139,3234
+time_trial,mobile-android-day-11-local-secrets,Local Secrets,mobile-android,11,11,True,193,1,193,True,185,8,16,1,7000,50000,2,1,1,1,True,69,653
+mastery,mobile-android-day-11-local-secrets,Local Secrets,mobile-android,11,11,True,192,1,192,True,185,6,13,1,8000,110000,2,3,3,1,True,95,1358
+time_trial,script-analysis-day-11-native-api-semantics,By Any Other Name,script-analysis,11,11,True,159,1,159,True,159,0,0,1,9000,50000,2,811,811,1,True,96,3658
+mastery,script-analysis-day-11-native-api-semantics,By Any Other Name,script-analysis,11,11,True,159,1,159,True,159,0,0,1,11000,80000,2,1622,1622,1,True,61,2940
+time_trial,warmups-day-11,Safe Travels,warmups,11,11,True,210,1,210,True,202,8,16,2,10000,20000,2,1,1,1,True,52,570
+mastery,warmups-day-11,Safe Travels,warmups,11,11,True,206,1,206,True,198,8,16,1,8000,70000,2,53,53,1,True,79,799
+time_trial,binary-reverse-engineering-day-12-pascal-archive-stager,Pascal's Wager,binary-reverse-engineering,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,binary-reverse-engineering-day-12-pascal-archive-stager,Pascal's Wager,binary-reverse-engineering,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,metadata-forensics-day-12-managed-expectations,Managed Expectations,metadata-forensics,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,metadata-forensics-day-12-managed-expectations,Managed Expectations,metadata-forensics,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,mobile-android-day-12-sqlite-assumptions,SQLite Assumptions,mobile-android,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,mobile-android-day-12-sqlite-assumptions,SQLite Assumptions,mobile-android,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,script-analysis-day-12-autoit-workflow-pair,AutoIt Takes Two,script-analysis,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,script-analysis-day-12-autoit-workflow-pair,AutoIt Takes Two,script-analysis,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,warmups-day-12,Back at You,warmups,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,warmups-day-12,Back at You,warmups,12,12,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,binary-reverse-engineering-day-13-crystal-dns-configuration,Crystal Clear,binary-reverse-engineering,13,13,True,48,1,48,True,48,0,0,0,80000,80000,1,130,130,1,False,,
+mastery,binary-reverse-engineering-day-13-crystal-dns-configuration,Crystal Clear,binary-reverse-engineering,13,13,True,43,1,43,True,43,0,0,0,200000,320000,2,390,650,2,False,,
+time_trial,metadata-forensics-day-13-product-placement,Product Placement,metadata-forensics,13,13,True,64,1,64,True,64,0,0,0,50000,50000,1,1,18,2,False,,
+mastery,metadata-forensics-day-13-product-placement,Product Placement,metadata-forensics,13,13,True,59,1,59,True,59,0,0,0,80000,170000,2,2,90,2,False,,
+time_trial,mobile-android-day-13-keystore-misuse,Keystore Misuse,mobile-android,13,13,True,69,1,69,True,68,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-13-keystore-misuse,Keystore Misuse,mobile-android,13,13,True,61,1,61,True,61,0,0,0,110000,170000,2,3,5,2,False,,
+time_trial,script-analysis-day-13-archive-delivery-chain,Zip Code,script-analysis,13,13,True,32,1,32,True,32,0,0,0,50000,50000,1,913,913,1,False,,
+mastery,script-analysis-day-13-archive-delivery-chain,Zip Code,script-analysis,13,13,True,29,1,29,True,29,0,0,0,80000,170000,2,1826,4565,2,False,,
+time_trial,warmups-day-13,Opposite Day,warmups,13,13,True,96,1,96,True,95,1,2,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-13,Opposite Day,warmups,13,13,True,90,1,90,True,90,0,0,0,80000,80000,1,63,63,1,False,,
+time_trial,binary-reverse-engineering-day-14-objective-c-persistence-descriptor,Selective Memory,binary-reverse-engineering,14,14,True,37,1,37,True,37,0,0,0,80000,80000,1,140,140,1,False,,
+mastery,binary-reverse-engineering-day-14-objective-c-persistence-descriptor,Selective Memory,binary-reverse-engineering,14,14,True,38,1,38,True,37,1,2,0,200000,320000,2,420,700,2,False,,
+time_trial,metadata-forensics-day-14-shortcut-home,The Shortcut Home,metadata-forensics,14,14,True,49,1,49,True,48,1,2,0,50000,50000,1,1,19,2,False,,
+mastery,metadata-forensics-day-14-shortcut-home,The Shortcut Home,metadata-forensics,14,14,True,48,1,48,True,48,0,0,0,80000,170000,2,2,95,2,False,,
+time_trial,mobile-android-day-14-predictable-crypto,Predictable Crypto,mobile-android,14,14,True,46,1,46,True,45,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-14-predictable-crypto,Predictable Crypto,mobile-android,14,14,True,44,1,44,True,43,1,2,0,110000,170000,2,3,5,2,False,,
+time_trial,script-analysis-day-14-msbuild-trusted-project-abuse,Trust the Process,script-analysis,14,14,True,24,1,24,True,24,0,0,0,50000,50000,1,971,971,1,False,,
+mastery,script-analysis-day-14-msbuild-trusted-project-abuse,Trust the Process,script-analysis,14,14,True,23,1,23,True,23,0,0,0,80000,170000,2,1942,4855,2,False,,
+time_trial,warmups-day-14,Seven Steps,warmups,14,14,True,52,1,52,True,52,0,0,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-14,Seven Steps,warmups,14,14,True,47,1,47,True,47,0,0,0,85000,85000,1,68,68,1,False,,
+time_trial,binary-reverse-engineering-day-15-assembly-and-symbol-loss,Stripped,binary-reverse-engineering,15,15,True,73,1,73,True,73,0,0,0,80000,80000,1,150,150,1,False,,
+mastery,binary-reverse-engineering-day-15-assembly-and-symbol-loss,Stripped,binary-reverse-engineering,15,15,True,70,1,70,True,70,0,0,0,320000,320000,1,750,750,1,False,,
+time_trial,metadata-forensics-day-15-word-to-the-wise,A Word to the Wise,metadata-forensics,15,15,True,67,1,67,True,67,0,0,0,50000,50000,1,20,20,1,False,,
+mastery,metadata-forensics-day-15-word-to-the-wise,A Word to the Wise,metadata-forensics,15,15,True,74,1,74,True,74,0,0,0,170000,170000,1,100,100,1,False,,
+time_trial,mobile-android-day-15-native-library-secrets,Native Library Secrets,mobile-android,15,15,True,84,1,84,True,83,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-15-native-library-secrets,Native Library Secrets,mobile-android,15,15,True,78,1,78,True,77,1,2,0,170000,170000,1,5,5,1,False,,
+time_trial,script-analysis-day-15-credential-store-clues,Crumb Trail,script-analysis,15,15,True,61,1,61,True,61,0,0,0,50000,50000,1,1026,1026,1,False,,
+mastery,script-analysis-day-15-credential-store-clues,Crumb Trail,script-analysis,15,15,True,60,1,60,True,60,0,0,0,170000,170000,1,5130,5130,1,False,,
+time_trial,warmups-day-15,Room Forty-Seven,warmups,15,15,True,91,1,91,True,91,0,0,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-15,Room Forty-Seven,warmups,15,15,True,71,1,71,True,71,0,0,0,90000,90000,1,73,73,1,False,,
+time_trial,binary-reverse-engineering-day-16-webassembly-optimization-equivalence,Wasm Up,binary-reverse-engineering,16,16,True,72,1,72,True,72,0,0,0,80000,80000,1,160,160,1,False,,
+mastery,binary-reverse-engineering-day-16-webassembly-optimization-equivalence,Wasm Up,binary-reverse-engineering,16,16,True,73,1,73,True,73,0,0,0,320000,320000,1,800,800,1,False,,
+time_trial,metadata-forensics-day-16-return-to-sender,Return to Sender,metadata-forensics,16,16,True,69,1,69,True,68,1,2,0,50000,50000,1,21,21,1,False,,
+mastery,metadata-forensics-day-16-return-to-sender,Return to Sender,metadata-forensics,16,16,True,68,1,68,True,67,1,2,0,170000,170000,1,105,105,1,False,,
+time_trial,mobile-android-day-16-jni-boundary,JNI Boundary,mobile-android,16,16,True,81,1,81,True,78,3,6,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-16-jni-boundary,JNI Boundary,mobile-android,16,16,True,77,1,77,True,77,0,0,0,170000,170000,1,5,5,1,False,,
+time_trial,script-analysis-day-16-obfuscation-equivalence,"Same Same, But Different",script-analysis,16,16,True,58,1,58,True,57,1,2,0,50000,50000,1,1095,1095,1,False,,
+mastery,script-analysis-day-16-obfuscation-equivalence,"Same Same, But Different",script-analysis,16,16,True,53,1,53,True,53,0,0,0,170000,170000,1,5475,5475,1,False,,
+time_trial,warmups-day-16,Dot Com,warmups,16,16,True,80,1,80,True,80,0,0,0,30000,30000,1,1,1,1,True,59,3361
+mastery,warmups-day-16,Dot Com,warmups,16,16,True,67,1,67,True,66,1,2,0,95000,95000,1,78,78,1,False,,
+time_trial,binary-reverse-engineering-day-17-encoded-configuration-recovery,Decoder Ring,binary-reverse-engineering,17,17,True,63,1,63,True,63,0,0,0,80000,80000,1,204,204,1,False,,
+mastery,binary-reverse-engineering-day-17-encoded-configuration-recovery,Decoder Ring,binary-reverse-engineering,17,17,True,61,1,61,True,61,0,0,0,325000,325000,1,1020,1020,1,False,,
+time_trial,metadata-forensics-day-17-hear-me-out,Hear Me Out,metadata-forensics,17,17,True,74,1,74,True,73,1,2,0,50000,50000,1,22,22,1,False,,
+mastery,metadata-forensics-day-17-hear-me-out,Hear Me Out,metadata-forensics,17,17,True,77,1,77,True,77,0,0,0,170000,170000,1,110,110,1,False,,
+time_trial,mobile-android-day-17-name-collapse,Name Collapse,mobile-android,17,17,True,80,1,80,True,80,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-17-name-collapse,Name Collapse,mobile-android,17,17,True,77,1,77,True,77,0,0,0,170000,170000,1,5,5,1,False,,
+time_trial,script-analysis-day-17-download-graph,Fetch Quest,script-analysis,17,17,True,59,1,59,True,59,0,0,0,50000,50000,1,1139,1139,1,False,,
+mastery,script-analysis-day-17-download-graph,Fetch Quest,script-analysis,17,17,True,58,1,58,True,58,0,0,0,170000,170000,1,5695,5695,1,False,,
+time_trial,warmups-day-17,Bacon Bits,warmups,17,17,True,87,1,87,True,86,1,2,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-17,Bacon Bits,warmups,17,17,True,78,1,78,True,77,1,2,0,100000,100000,1,83,83,1,False,,
+time_trial,binary-reverse-engineering-day-18-control-flow-reconstruction,Flow State,binary-reverse-engineering,18,18,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,binary-reverse-engineering-day-18-control-flow-reconstruction,Flow State,binary-reverse-engineering,18,18,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,metadata-forensics-day-18-frame-of-reference,Frame of Reference,metadata-forensics,18,18,True,73,1,73,True,73,0,0,0,50000,50000,1,23,23,1,False,,
+mastery,metadata-forensics-day-18-frame-of-reference,Frame of Reference,metadata-forensics,18,18,True,70,1,70,True,69,1,2,0,170000,170000,1,115,115,1,False,,
+time_trial,mobile-android-day-18-encrypted-strings,Encrypted Strings,mobile-android,18,18,True,77,1,77,True,76,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-18-encrypted-strings,Encrypted Strings,mobile-android,18,18,True,74,1,74,True,74,0,0,0,170000,170000,1,5,5,1,False,,
+time_trial,script-analysis-day-18-process-story,Orphan Process,script-analysis,18,18,True,58,1,58,True,58,0,0,0,50000,50000,1,1194,1194,1,False,,
+mastery,script-analysis-day-18-process-story,Orphan Process,script-analysis,18,18,True,56,1,56,True,56,0,0,0,170000,170000,1,5970,5970,1,False,,
+time_trial,warmups-day-18,Off the Rails,warmups,18,18,False,0,,,,0,0,0,0,,,0,,,0,False,,
+mastery,warmups-day-18,Off the Rails,warmups,18,18,False,0,,,,0,0,0,0,,,0,,,0,False,,
+time_trial,binary-reverse-engineering-day-19-static-unpacking,Jack in the Box,binary-reverse-engineering,19,19,True,69,1,69,True,69,0,0,0,80000,80000,1,228,228,1,False,,
+mastery,binary-reverse-engineering-day-19-static-unpacking,Jack in the Box,binary-reverse-engineering,19,19,True,61,1,61,True,61,0,0,0,325000,325000,1,1140,1140,1,False,,
+time_trial,metadata-forensics-day-19-little-endian-on-the-prairie,Little Endian on the Prairie,metadata-forensics,19,19,True,64,1,64,True,63,1,2,0,50000,50000,1,24,24,1,False,,
+mastery,metadata-forensics-day-19-little-endian-on-the-prairie,Little Endian on the Prairie,metadata-forensics,19,19,True,67,1,67,True,67,0,0,0,170000,170000,1,120,120,1,False,,
+time_trial,mobile-android-day-19-reflection-maze,Reflection Maze,mobile-android,19,19,True,75,1,75,True,74,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-19-reflection-maze,Reflection Maze,mobile-android,19,19,True,70,1,70,True,69,1,2,0,170000,170000,1,5,5,1,False,,
+time_trial,script-analysis-day-19-managed-assembly-bridge,Sharp Practice,script-analysis,19,19,True,60,1,60,True,60,0,0,0,50000,50000,1,1249,1249,1,False,,
+mastery,script-analysis-day-19-managed-assembly-bridge,Sharp Practice,script-analysis,19,19,True,53,1,53,True,52,1,2,0,170000,170000,1,6245,6245,1,False,,
+time_trial,warmups-day-19,Little Things,warmups,19,19,True,77,1,77,True,76,1,2,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-19,Little Things,warmups,19,19,True,59,1,59,True,59,0,0,0,110000,110000,1,93,93,1,False,,
+time_trial,web-exploitation-day-01-backup-exposure,Back Up a Minute,web-exploitation,1,19,True,70,1,70,True,70,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-01-backup-exposure,Back Up a Minute,web-exploitation,1,19,True,57,1,57,True,57,0,0,0,120000,120000,1,2,2,1,False,,
+time_trial,web-exploitation-day-02-idor,Permission to Slip,web-exploitation,2,19,True,67,1,67,True,67,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-02-idor,Permission to Slip,web-exploitation,2,19,True,58,1,58,True,58,0,0,0,120000,120000,1,2,2,1,False,,
+time_trial,web-exploitation-day-03-sqli,Query Me This,web-exploitation,3,19,True,65,1,65,True,65,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-03-sqli,Query Me This,web-exploitation,3,19,True,56,1,56,True,56,0,0,0,120000,120000,1,2,2,1,False,,
+time_trial,binary-reverse-engineering-day-20-resources-and-overlays,Resourceful,binary-reverse-engineering,20,20,True,73,1,73,True,73,0,0,0,80000,80000,1,240,240,1,False,,
+mastery,binary-reverse-engineering-day-20-resources-and-overlays,Resourceful,binary-reverse-engineering,20,20,True,67,1,67,True,66,1,2,0,325000,325000,1,1200,1200,1,False,,
+time_trial,metadata-forensics-day-20-universal-appeal,Universal Appeal,metadata-forensics,20,20,True,68,1,68,True,66,2,4,0,50000,50000,1,25,25,1,False,,
+mastery,metadata-forensics-day-20-universal-appeal,Universal Appeal,metadata-forensics,20,20,True,67,1,67,True,67,0,0,0,170000,170000,1,125,125,1,False,,
+time_trial,mobile-android-day-20-loaded-later,Loaded Later,mobile-android,20,20,True,77,1,77,True,77,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-20-loaded-later,Loaded Later,mobile-android,20,20,True,69,1,69,True,69,0,0,0,170000,170000,1,5,5,1,False,,
+time_trial,script-analysis-day-20-jenkins-pipeline-intrusion,The Butler Did It,script-analysis,20,20,True,62,1,62,True,62,0,0,0,50000,50000,1,1329,1329,1,False,,
+mastery,script-analysis-day-20-jenkins-pipeline-intrusion,The Butler Did It,script-analysis,20,20,True,55,1,55,True,55,0,0,0,170000,170000,1,6645,6645,1,False,,
+time_trial,warmups-day-20,Big Entrance,warmups,20,20,True,81,1,81,True,80,1,2,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-20,Big Entrance,warmups,20,20,True,66,1,66,True,66,0,0,0,115000,115000,1,98,98,1,False,,
+time_trial,web-exploitation-day-04-lfi,Stay in Your Directory,web-exploitation,4,20,True,65,1,65,True,65,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-04-lfi,Stay in Your Directory,web-exploitation,4,20,True,49,1,49,True,49,0,0,0,120000,120000,1,2,2,1,False,,
+time_trial,web-exploitation-day-05-administratively-speaking,Administratively Speaking,web-exploitation,5,20,True,61,1,61,True,61,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-05-administratively-speaking,Administratively Speaking,web-exploitation,5,20,True,50,1,50,True,50,0,0,0,120000,120000,1,2,2,1,False,,
+time_trial,binary-reverse-engineering-day-21-shared-library-boundaries,Shared Custody,binary-reverse-engineering,21,21,True,63,1,63,True,63,0,0,0,80000,80000,1,252,252,1,False,,
+mastery,binary-reverse-engineering-day-21-shared-library-boundaries,Shared Custody,binary-reverse-engineering,21,21,True,57,1,57,True,57,0,0,0,325000,325000,1,1260,1260,1,False,,
+time_trial,metadata-forensics-day-21-package-deal,Package Deal,metadata-forensics,21,21,True,65,1,65,True,65,0,0,0,50000,50000,1,26,26,1,False,,
+mastery,metadata-forensics-day-21-package-deal,Package Deal,metadata-forensics,21,21,True,60,1,60,True,60,0,0,0,170000,170000,1,130,130,1,False,,
+time_trial,mobile-android-day-21-debug-me-if-you-can,Debug Me If You Can,mobile-android,21,21,True,69,1,69,True,68,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-21-debug-me-if-you-can,Debug Me If You Can,mobile-android,21,21,True,64,1,64,True,64,0,0,0,170000,170000,1,5,5,1,False,,
+time_trial,script-analysis-day-21-github-actions-persistence,Actions Speak Louder,script-analysis,21,21,True,58,1,58,True,58,0,0,0,90000,90000,1,1373,1373,1,False,,
+mastery,script-analysis-day-21-github-actions-persistence,Actions Speak Louder,script-analysis,21,21,True,53,1,53,True,53,0,0,0,170000,170000,1,6865,6865,1,False,,
+time_trial,warmups-day-21,Under Pressure,warmups,21,21,True,72,1,72,True,71,1,2,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-21,Under Pressure,warmups,21,21,True,56,1,56,True,56,0,0,0,120000,120000,1,103,103,1,False,,
+time_trial,web-exploitation-day-06-reflect-upon-this,Reflect Upon This,web-exploitation,6,21,True,57,1,57,True,57,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-06-reflect-upon-this,Reflect Upon This,web-exploitation,6,21,True,51,1,51,True,51,0,0,0,120000,120000,1,2,2,1,False,,
+time_trial,web-exploitation-day-07-stored-xss,Stored for Later,web-exploitation,7,21,True,60,1,60,True,60,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-07-stored-xss,Stored for Later,web-exploitation,7,21,True,49,1,49,True,49,0,0,0,120000,120000,1,2,2,1,False,,
+time_trial,web-exploitation-day-08-session-impression,Session Impression,web-exploitation,8,21,True,65,1,65,True,65,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-08-session-impression,Session Impression,web-exploitation,8,21,True,57,1,57,True,57,0,0,0,120000,120000,1,3,3,1,False,,
+time_trial,binary-reverse-engineering-day-22-managed-native-bridge,Bridge Troll,binary-reverse-engineering,22,22,True,65,1,65,True,65,0,0,0,80000,80000,1,264,264,1,False,,
+mastery,binary-reverse-engineering-day-22-managed-native-bridge,Bridge Troll,binary-reverse-engineering,22,22,True,59,1,59,True,59,0,0,0,400000,400000,1,1584,1584,1,False,,
+time_trial,metadata-forensics-day-22-main-character-energy,Main Character Energy,metadata-forensics,22,22,True,60,1,60,True,60,0,0,0,50000,50000,1,27,27,1,False,,
+mastery,metadata-forensics-day-22-main-character-energy,Main Character Energy,metadata-forensics,22,22,True,60,1,60,True,60,0,0,0,200000,200000,1,162,162,1,False,,
+time_trial,mobile-android-day-22-root-of-trust,Root of Trust,mobile-android,22,22,True,72,1,72,True,72,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-22-root-of-trust,Root of Trust,mobile-android,22,22,True,69,1,69,True,69,0,0,0,200000,200000,1,6,6,1,False,,
+time_trial,script-analysis-day-22-installer-script-chain,"Next, Next, Finish",script-analysis,22,22,True,60,1,60,True,59,1,2,0,95000,95000,1,1417,1417,1,False,,
+mastery,script-analysis-day-22-installer-script-chain,"Next, Next, Finish",script-analysis,22,22,True,56,1,56,True,56,0,0,0,200000,200000,1,8502,8502,1,False,,
+time_trial,warmups-day-22,Deflated Ego,warmups,22,22,True,71,1,71,True,70,1,2,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-22,Deflated Ego,warmups,22,22,True,54,1,54,True,54,0,0,0,125000,125000,1,108,108,1,False,,
+time_trial,web-exploitation-day-09-forged-with-care,Forged With Care,web-exploitation,9,22,True,58,1,58,True,58,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-09-forged-with-care,Forged With Care,web-exploitation,9,22,True,48,1,48,True,48,0,0,0,120000,120000,1,3,3,1,False,,
+time_trial,web-exploitation-day-10-uploading-expectations,Uploading Expectations,web-exploitation,10,22,True,59,1,59,True,59,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-10-uploading-expectations,Uploading Expectations,web-exploitation,10,22,True,53,1,53,True,53,0,0,0,120000,120000,1,3,3,1,False,,
+time_trial,binary-reverse-engineering-day-23-anti-analysis-recognition,Trust Issues,binary-reverse-engineering,23,23,True,54,1,54,True,54,0,0,0,80000,80000,1,276,276,1,False,,
+mastery,binary-reverse-engineering-day-23-anti-analysis-recognition,Trust Issues,binary-reverse-engineering,23,23,True,49,1,49,True,49,0,0,0,465000,465000,1,1932,1932,1,False,,
+time_trial,metadata-forensics-day-23-page-me-maybe,Page Me Maybe,metadata-forensics,23,23,True,49,1,49,True,49,0,0,0,50000,50000,1,28,28,1,False,,
+mastery,metadata-forensics-day-23-page-me-maybe,Page Me Maybe,metadata-forensics,23,23,True,52,1,52,True,51,1,2,0,230000,230000,1,196,196,1,False,,
+time_trial,mobile-android-day-23-hook-line-and-signal,Hook Line and Signal,mobile-android,23,23,True,59,1,59,True,58,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-23-hook-line-and-signal,Hook Line and Signal,mobile-android,23,23,True,51,1,51,True,51,0,0,0,230000,230000,1,7,7,1,False,,
+time_trial,script-analysis-day-23-game-resource-loader,Press Start to Decode,script-analysis,23,23,True,47,1,47,True,47,0,0,0,50000,50000,1,1495,1495,1,False,,
+mastery,script-analysis-day-23-game-resource-loader,Press Start to Decode,script-analysis,23,23,True,46,1,46,True,46,0,0,0,230000,230000,1,10465,10465,1,False,,
+time_trial,warmups-day-23,Eighty-Five Alive,warmups,23,23,True,69,1,69,True,67,2,4,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-23,Eighty-Five Alive,warmups,23,23,True,59,1,59,True,59,0,0,0,130000,130000,1,113,113,1,False,,
+time_trial,web-exploitation-day-11-template-temper,Template Temper,web-exploitation,11,23,True,50,1,50,True,49,1,2,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-11-template-temper,Template Temper,web-exploitation,11,23,True,48,1,48,True,48,0,0,0,120000,120000,1,3,3,1,False,,
+time_trial,web-exploitation-day-12-ask-again-later,Ask Again Later,web-exploitation,12,23,True,57,1,57,True,57,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-12-ask-again-later,Ask Again Later,web-exploitation,12,23,True,50,1,50,True,50,0,0,0,120000,120000,1,3,3,1,False,,
+time_trial,web-exploitation-day-13-posted-too-much,Posted Too Much,web-exploitation,13,23,True,51,1,51,True,51,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-13-posted-too-much,Posted Too Much,web-exploitation,13,23,True,44,1,44,True,44,0,0,0,120000,120000,1,3,3,1,False,,
+time_trial,binary-reverse-engineering-day-24-patch-diffing,Spot the Difference,binary-reverse-engineering,24,24,True,49,1,49,True,49,0,0,0,80000,80000,1,288,288,1,False,,
+mastery,binary-reverse-engineering-day-24-patch-diffing,Spot the Difference,binary-reverse-engineering,24,24,True,48,1,48,True,48,0,0,0,530000,530000,1,2304,2304,1,False,,
+time_trial,metadata-forensics-day-24-event-horizon,Event Horizon,metadata-forensics,24,24,True,56,1,56,True,56,0,0,0,50000,50000,1,29,29,1,False,,
+mastery,metadata-forensics-day-24-event-horizon,Event Horizon,metadata-forensics,24,24,True,56,1,56,True,56,0,0,0,265000,265000,1,232,232,1,False,,
+time_trial,mobile-android-day-24-emulator-alibi,Emulator Alibi,mobile-android,24,24,True,61,1,61,True,60,1,2,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-24-emulator-alibi,Emulator Alibi,mobile-android,24,24,True,49,1,49,True,49,0,0,0,260000,260000,1,8,8,1,False,,
+time_trial,script-analysis-day-24-jsp-webshell-source,Web of Lies,script-analysis,24,24,True,48,1,48,True,47,1,2,0,50000,50000,1,1560,1560,1,False,,
+mastery,script-analysis-day-24-jsp-webshell-source,Web of Lies,script-analysis,24,24,True,43,1,43,True,43,0,0,0,260000,260000,1,12480,12480,1,False,,
+time_trial,warmups-day-24,String Theory,warmups,24,24,True,64,1,64,True,63,1,2,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-24,String Theory,warmups,24,24,True,55,1,55,True,54,1,2,0,135000,135000,1,118,118,1,False,,
+time_trial,web-exploitation-day-14-the-api-has-opinions,The API Has Opinions,web-exploitation,14,24,True,55,1,55,True,55,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-14-the-api-has-opinions,The API Has Opinions,web-exploitation,14,24,True,47,1,47,True,47,0,0,0,120000,120000,1,3,3,1,False,,
+time_trial,web-exploitation-day-15-fetch-quest,Fetch Quest,web-exploitation,15,24,True,57,1,57,True,56,1,2,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-15-fetch-quest,Fetch Quest,web-exploitation,15,24,True,47,1,47,True,47,0,0,0,120000,120000,1,4,4,1,False,,
+time_trial,binary-reverse-engineering-day-25-synthetic-vulnerability-root-cause,Out of Bounds,binary-reverse-engineering,25,25,True,51,1,51,True,51,0,0,0,80000,80000,1,300,300,1,False,,
+mastery,binary-reverse-engineering-day-25-synthetic-vulnerability-root-cause,Out of Bounds,binary-reverse-engineering,25,25,True,47,1,47,True,47,0,0,0,595000,595000,1,2700,2700,1,False,,
+time_trial,metadata-forensics-day-25-hive-mind,Hive Mind,metadata-forensics,25,25,True,48,1,48,True,48,0,0,0,50000,50000,1,30,30,1,False,,
+mastery,metadata-forensics-day-25-hive-mind,Hive Mind,metadata-forensics,25,25,True,52,1,52,True,52,0,0,0,295000,295000,1,270,270,1,False,,
+time_trial,mobile-android-day-25-integrity-signals,Integrity Signals,mobile-android,25,25,True,49,1,49,True,49,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-25-integrity-signals,Integrity Signals,mobile-android,25,25,True,46,1,46,True,46,0,0,0,290000,290000,1,9,9,1,False,,
+time_trial,script-analysis-day-25-phoenix-stage-chain,Ashes to Assets,script-analysis,25,25,True,45,1,45,True,44,1,2,0,50000,50000,1,1625,1625,1,False,,
+mastery,script-analysis-day-25-phoenix-stage-chain,Ashes to Assets,script-analysis,25,25,True,47,1,47,True,47,0,0,0,290000,290000,1,14625,14625,1,False,,
+time_trial,warmups-day-25,You Have a Point,warmups,25,25,True,62,1,62,True,62,0,0,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-25,You Have a Point,warmups,25,25,True,54,1,54,True,54,0,0,0,140000,140000,1,123,123,1,False,,
+time_trial,web-exploitation-day-16-shell-company,Shell Company,web-exploitation,16,25,True,60,1,60,True,59,1,2,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-16-shell-company,Shell Company,web-exploitation,16,25,True,36,1,36,True,36,0,0,0,120000,120000,1,4,4,1,False,,
+time_trial,web-exploitation-day-17-reset-expectations,Reset Expectations,web-exploitation,17,25,True,57,1,57,True,57,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-17-reset-expectations,Reset Expectations,web-exploitation,17,25,True,40,1,40,True,40,0,0,0,120000,120000,1,4,4,1,False,,
+time_trial,web-exploitation-day-18-resolver-revolt,Resolver Revolt,web-exploitation,18,25,True,53,1,53,True,53,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-18-resolver-revolt,Resolver Revolt,web-exploitation,18,25,True,40,1,40,True,40,0,0,0,120000,120000,1,4,4,1,False,,
+time_trial,binary-reverse-engineering-day-26-crash-triage,Crash Course,binary-reverse-engineering,26,26,True,52,1,52,True,52,0,0,0,80000,80000,1,312,312,1,False,,
+mastery,binary-reverse-engineering-day-26-crash-triage,Crash Course,binary-reverse-engineering,26,26,True,48,1,48,True,48,0,0,0,660000,660000,1,3120,3120,1,False,,
+time_trial,metadata-forensics-day-26-before-you-go,Before You Go,metadata-forensics,26,26,True,50,1,50,True,50,0,0,0,50000,50000,1,31,31,1,False,,
+mastery,metadata-forensics-day-26-before-you-go,Before You Go,metadata-forensics,26,26,True,47,1,47,True,47,0,0,0,325000,325000,1,310,310,1,False,,
+time_trial,mobile-android-day-26-split-decision,Split Decision,mobile-android,26,26,True,48,1,48,True,48,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-26-split-decision,Split Decision,mobile-android,26,26,True,47,1,47,True,47,0,0,0,320000,320000,1,10,10,1,False,,
+time_trial,script-analysis-day-26-beam-message-flow,Mixed Signals,script-analysis,26,26,True,48,1,48,True,48,0,0,0,50000,50000,1,1677,1677,1,False,,
+mastery,script-analysis-day-26-beam-message-flow,Mixed Signals,script-analysis,26,26,True,44,1,44,True,44,0,0,0,320000,320000,1,16770,16770,1,False,,
+time_trial,warmups-day-26,Food for Thought,warmups,26,26,True,65,1,65,True,65,0,0,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-26,Food for Thought,warmups,26,26,True,59,1,59,True,59,0,0,0,145000,145000,1,128,128,1,False,,
+time_trial,web-exploitation-day-19-trust-the-webhook,Trust the Webhook,web-exploitation,19,26,True,56,1,56,True,56,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-19-trust-the-webhook,Trust the Webhook,web-exploitation,19,26,True,36,1,36,True,36,0,0,0,120000,120000,1,4,4,1,False,,
+time_trial,web-exploitation-day-20-serialized-offender,Serialized Offender,web-exploitation,20,26,True,58,1,58,True,58,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-20-serialized-offender,Serialized Offender,web-exploitation,20,26,True,39,1,39,True,39,0,0,0,120000,120000,1,4,4,1,False,,
+time_trial,binary-reverse-engineering-day-27-compiler-attribution,Compiler Says What,binary-reverse-engineering,27,27,True,49,1,49,True,49,0,0,0,80000,80000,1,324,324,1,False,,
+mastery,binary-reverse-engineering-day-27-compiler-attribution,Compiler Says What,binary-reverse-engineering,27,27,True,47,1,47,True,47,0,0,0,725000,725000,1,3564,3564,1,False,,
+time_trial,metadata-forensics-day-27-packet-loss-prevention,Packet Loss Prevention,metadata-forensics,27,27,True,45,1,45,True,45,0,0,0,50000,50000,1,32,32,1,False,,
+mastery,metadata-forensics-day-27-packet-loss-prevention,Packet Loss Prevention,metadata-forensics,27,27,True,47,1,47,True,47,0,0,0,355000,355000,1,352,352,1,False,,
+time_trial,mobile-android-day-27-dependency-surface,Dependency Surface,mobile-android,27,27,True,58,1,58,True,58,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-27-dependency-surface,Dependency Surface,mobile-android,27,27,True,55,1,55,True,55,0,0,0,350000,350000,1,11,11,1,False,,
+time_trial,script-analysis-day-27-docker-build-attribution,FROM Whence It Came,script-analysis,27,27,True,50,1,50,True,49,1,2,0,50000,50000,1,1659,1659,1,False,,
+mastery,script-analysis-day-27-docker-build-attribution,FROM Whence It Came,script-analysis,27,27,True,47,1,47,True,47,0,0,0,350000,350000,1,18249,18249,1,False,,
+time_trial,warmups-day-27,Monkey Business,warmups,27,27,True,63,1,63,True,63,0,0,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-27,Monkey Business,warmups,27,27,True,52,1,52,True,52,0,0,0,150000,150000,1,133,133,1,False,,
+time_trial,web-exploitation-day-21-double-spent,Double Spent,web-exploitation,21,27,True,55,1,55,True,55,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-21-double-spent,Double Spent,web-exploitation,21,27,True,35,1,35,True,35,0,0,0,120000,120000,1,4,4,1,False,,
+time_trial,web-exploitation-day-22-socket-to-me,Socket to Me,web-exploitation,22,27,True,50,1,50,True,50,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-22-socket-to-me,Socket to Me,web-exploitation,22,27,True,33,1,33,True,33,0,0,0,120000,120000,1,5,5,1,False,,
+time_trial,web-exploitation-day-23-forwarded-misgivings,Forwarded Misgivings,web-exploitation,23,27,True,52,1,52,True,52,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-23-forwarded-misgivings,Forwarded Misgivings,web-exploitation,23,27,True,34,1,34,True,34,0,0,0,120000,120000,1,5,5,1,False,,
+time_trial,binary-reverse-engineering-day-28-family-clustering,Family Resemblance,binary-reverse-engineering,28,28,True,47,1,47,True,47,0,0,0,80000,80000,1,392,392,1,False,,
+mastery,binary-reverse-engineering-day-28-family-clustering,Family Resemblance,binary-reverse-engineering,28,28,True,45,1,45,True,45,0,0,0,570000,570000,1,4704,4704,1,False,,
+time_trial,metadata-forensics-day-28-where-it-all-began,Where It All Began,metadata-forensics,28,28,True,50,1,50,True,50,0,0,0,50000,50000,1,33,33,1,False,,
+mastery,metadata-forensics-day-28-where-it-all-began,Where It All Began,metadata-forensics,28,28,True,48,1,48,True,48,0,0,0,385000,385000,1,396,396,1,False,,
+time_trial,mobile-android-day-28-protocol-reconstruction,Protocol Reconstruction,mobile-android,28,28,True,50,1,50,True,50,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-28-protocol-reconstruction,Protocol Reconstruction,mobile-android,28,28,True,50,1,50,True,49,1,2,0,380000,380000,1,12,12,1,False,,
+time_trial,script-analysis-day-28-terraform-cloud-timeline,Out of Order,script-analysis,28,28,True,44,1,44,True,44,0,0,0,50000,50000,1,1781,1781,1,False,,
+mastery,script-analysis-day-28-terraform-cloud-timeline,Out of Order,script-analysis,28,28,True,44,1,44,True,44,0,0,0,380000,380000,1,21372,21372,1,False,,
+time_trial,warmups-day-28,Back in Sixteen,warmups,28,28,True,53,1,53,True,53,0,0,0,30000,30000,1,1,1,1,False,,
+mastery,warmups-day-28,Back in Sixteen,warmups,28,28,True,46,1,46,True,45,1,2,0,155000,155000,1,138,138,1,False,,
+time_trial,web-exploitation-day-24-fail-open-friday,Fail Open Friday,web-exploitation,24,28,True,45,1,45,True,45,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-24-fail-open-friday,Fail Open Friday,web-exploitation,24,28,True,30,1,30,True,30,0,0,0,120000,120000,1,5,5,1,False,,
+time_trial,web-exploitation-day-25-if-a-breach-falls-in-a-log,If a Breach Falls in a Log,web-exploitation,25,28,True,45,1,45,True,45,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-25-if-a-breach-falls-in-a-log,If a Breach Falls in a Log,web-exploitation,25,28,True,27,1,27,True,27,0,0,0,120000,120000,1,5,5,1,False,,
+time_trial,binary-reverse-engineering-day-29-variant-diffing,Fraternal Twins,binary-reverse-engineering,29,29,True,50,1,50,True,50,0,0,0,80000,80000,1,406,406,1,False,,
+mastery,binary-reverse-engineering-day-29-variant-diffing,Fraternal Twins,binary-reverse-engineering,29,29,True,47,1,47,True,47,0,0,0,620000,620000,1,5278,5278,1,False,,
+time_trial,metadata-forensics-day-29-trust-issues,Trust Issues,metadata-forensics,29,29,True,47,1,47,True,47,0,0,0,50000,50000,1,34,34,1,True,10,859
+mastery,metadata-forensics-day-29-trust-issues,Trust Issues,metadata-forensics,29,29,True,51,1,51,True,51,0,0,0,415000,415000,1,442,442,1,True,17,4346
+time_trial,mobile-android-day-29-white-box-key-recovery,White Box Key Recovery,mobile-android,29,29,True,55,1,55,True,55,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-29-white-box-key-recovery,White Box Key Recovery,mobile-android,29,29,True,51,1,51,True,51,0,0,0,410000,410000,1,13,13,1,False,,
+time_trial,script-analysis-day-29-makefile-variant-diff,Make It Make Sense,script-analysis,29,29,True,42,1,42,True,42,0,0,0,50000,50000,1,1833,1833,1,False,,
+mastery,script-analysis-day-29-makefile-variant-diff,Make It Make Sense,script-analysis,29,29,True,39,1,39,True,39,0,0,0,410000,410000,1,23829,23829,1,False,,
+time_trial,warmups-day-29,Rotten Base,warmups,29,29,True,63,1,63,True,61,2,4,0,30000,30000,1,1,1,1,True,8,614
+mastery,warmups-day-29,Rotten Base,warmups,29,29,True,44,1,44,True,44,0,0,0,160000,160000,1,143,143,1,True,6,915
+time_trial,web-exploitation-day-26-trust-the-build,Trust the Build,web-exploitation,26,29,True,41,1,41,True,41,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-26-trust-the-build,Trust the Build,web-exploitation,26,29,True,25,1,25,True,25,0,0,0,120000,120000,1,5,5,1,False,,
+time_trial,web-exploitation-day-27-internal-affairs,Internal Affairs,web-exploitation,27,29,True,46,1,46,True,46,0,0,0,120000,120000,1,1,1,1,False,,
+mastery,web-exploitation-day-27-internal-affairs,Internal Affairs,web-exploitation,27,29,True,26,1,26,True,26,0,0,0,120000,120000,1,5,5,1,False,,
+time_trial,binary-reverse-engineering-day-30-multi-binary-campaign,Campaign Trail,binary-reverse-engineering,30,30,True,43,1,43,True,43,0,0,0,80000,80000,1,420,420,1,True,15,5085
+mastery,binary-reverse-engineering-day-30-multi-binary-campaign,Campaign Trail,binary-reverse-engineering,30,30,True,39,1,39,True,39,0,0,0,665000,665000,1,5880,5880,1,True,32,157918
+time_trial,metadata-forensics-day-30-seeing-double,Seeing Double,metadata-forensics,30,30,True,41,1,41,True,41,0,0,0,50000,50000,1,35,35,1,True,3,610
+mastery,metadata-forensics-day-30-seeing-double,Seeing Double,metadata-forensics,30,30,True,45,1,45,True,45,0,0,0,445000,445000,1,490,490,1,True,7,2405
+time_trial,mobile-android-day-30-layered-protections,Layered Protections,mobile-android,30,30,True,58,1,58,True,57,1,2,0,50000,50000,1,1,1,1,True,25,1230
+mastery,mobile-android-day-30-layered-protections,Layered Protections,mobile-android,30,30,True,49,1,49,True,49,0,0,0,440000,440000,1,14,14,1,True,25,125518
+time_trial,script-analysis-day-30-beanshell-jsp-graph,Spill the Beans,script-analysis,30,30,True,43,1,43,True,43,0,0,0,50000,50000,1,1898,1898,1,True,7,1215
+mastery,script-analysis-day-30-beanshell-jsp-graph,Spill the Beans,script-analysis,30,30,True,41,1,41,True,41,0,0,0,580000,580000,1,26572,26572,1,True,12,10913
+time_trial,warmups-day-30,Percent Percent,warmups,30,30,True,57,1,57,True,56,1,2,1,30000,30000,1,1,1,1,True,5,372
+mastery,warmups-day-30,Percent Percent,warmups,30,30,True,46,1,46,True,46,0,0,0,165000,165000,1,148,148,1,True,7,812
+time_trial,web-exploitation-day-28-pass-the-identity,Pass the Identity,web-exploitation,28,30,True,46,1,46,True,46,0,0,0,120000,120000,1,1,1,1,True,32,8365
+mastery,web-exploitation-day-28-pass-the-identity,Pass the Identity,web-exploitation,28,30,True,28,1,28,True,28,0,0,0,120000,120000,1,5,5,1,True,18,31688
+time_trial,web-exploitation-day-29-queue-the-confusion,Queue the Confusion,web-exploitation,29,30,True,45,1,45,True,45,0,0,0,120000,120000,1,1,1,1,True,22,6071
+mastery,web-exploitation-day-29-queue-the-confusion,Queue the Confusion,web-exploitation,29,30,True,25,1,25,True,25,0,0,0,120000,120000,1,6,6,1,True,9,15891
+time_trial,binary-reverse-engineering-day-31-reversing-gauntlet,Final Boss,binary-reverse-engineering,31,31,True,42,1,42,True,42,0,0,0,80000,80000,1,434,434,1,False,,
+mastery,binary-reverse-engineering-day-31-reversing-gauntlet,Final Boss,binary-reverse-engineering,31,31,True,39,1,39,True,39,0,0,0,715000,715000,1,6510,6510,1,False,,
+time_trial,metadata-forensics-day-31-no-artifact-left-behind,No Artifact Left Behind,metadata-forensics,31,31,True,36,1,36,True,36,0,0,0,50000,50000,1,36,36,1,True,4,850
+mastery,metadata-forensics-day-31-no-artifact-left-behind,No Artifact Left Behind,metadata-forensics,31,31,True,33,1,33,True,33,0,0,0,480000,480000,1,540,540,1,True,15,7725
+time_trial,mobile-android-day-31-mobile-arena-gauntlet,Mobile Arena Gauntlet,mobile-android,31,31,True,51,1,51,True,51,0,0,0,50000,50000,1,1,1,1,False,,
+mastery,mobile-android-day-31-mobile-arena-gauntlet,Mobile Arena Gauntlet,mobile-android,31,31,True,43,1,43,True,43,0,0,0,470000,470000,1,15,15,1,False,,
+time_trial,script-analysis-day-31-xslt-final-gauntlet,The Full Transform,script-analysis,31,31,True,39,1,39,True,39,0,0,0,50000,50000,1,1950,1950,1,True,6,1299
+mastery,script-analysis-day-31-xslt-final-gauntlet,The Full Transform,script-analysis,31,31,True,38,1,38,True,38,0,0,0,610000,610000,1,29250,29250,1,True,11,11354
+time_trial,warmups-day-31,One More Thing,warmups,31,31,True,56,1,56,True,56,0,0,0,30000,30000,1,1,1,1,True,9,567
+mastery,warmups-day-31,One More Thing,warmups,31,31,True,41,1,41,True,41,0,0,0,170000,170000,1,153,153,1,True,10,1255
+time_trial,web-exploitation-day-30-framework-roulette,Framework Roulette,web-exploitation,30,31,True,35,1,35,True,35,0,0,0,120000,120000,1,1,1,1,True,19,7527
+mastery,web-exploitation-day-30-framework-roulette,Framework Roulette,web-exploitation,30,31,True,22,1,22,True,22,0,0,0,120000,120000,1,6,6,1,True,14,19134
+time_trial,web-exploitation-day-31-full-stack-incident,Full Stack Incident,web-exploitation,31,31,True,37,1,37,True,37,0,0,0,120000,120000,1,1,1,1,True,24,9081
+mastery,web-exploitation-day-31-full-stack-incident,Full Stack Incident,web-exploitation,31,31,True,22,1,22,True,22,0,0,0,120000,120000,1,8,8,1,True,8,20084
